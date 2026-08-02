@@ -1,0 +1,917 @@
+[
+  {
+    "id": "clinical-engineer",
+    "name": "Clinical Engineer",
+    "category": "Hospital",
+    "icon": "Stethoscope",
+    "salary": "₹4–12 LPA",
+    "salaryAbroad": "$60–110K USD",
+    "futureScopeRating": 4.5,
+    "shortDescription": "Manage and maintain medical equipment in hospitals, ensuring they are safe, effective, and operational.",
+    "overview": "Clinical Engineers act as the bridge between modern medicine and engineering in a clinical setting. They are primarily responsible for the management, maintenance, and deployment of medical devices in hospitals. Unlike biomedical engineers who might focus on research and design, clinical engineers work directly in healthcare facilities, ensuring that life-saving equipment like ventilators, MRI machines, and patient monitors function flawlessly.",
+    "responsibilities": [
+      "Evaluate and acquire new medical technologies for hospital use",
+      "Train medical staff on the safe operation of complex equipment",
+      "Perform regular preventive maintenance and calibration of devices",
+      "Troubleshoot and repair malfunctioning equipment promptly",
+      "Ensure compliance with healthcare safety and regulatory standards"
+    ],
+    "skillsRequired": [
+      "Medical Equipment Troubleshooting",
+      "Regulatory Compliance (FDA, NABH)",
+      "Project Management",
+      "Technical Communication",
+      "Risk Management"
+    ],
+    "toolsUsed": [
+      "CMMS (Computerized Maintenance Management Systems)",
+      "Electrical Safety Analyzers",
+      "Oscilloscopes",
+      "Patient Simulators"
+    ],
+    "industries": [
+      "Hospitals and Clinics",
+      "Diagnostic Centers",
+      "Third-party Service Providers",
+      "Healthcare Consultancies"
+    ],
+    "topRecruiters": [
+      "AIIMS",
+      "Apollo Hospitals",
+      "Fortis Healthcare",
+      "Siemens Healthineers",
+      "GE Healthcare"
+    ],
+    "higherStudies": [
+      "M.Tech Clinical Engineering",
+      "MBA Healthcare Management",
+      "MS Clinical Engineering (USA/Europe)"
+    ],
+    "certifications": [
+      "CBET – Certified Biomedical Equipment Technician",
+      "CCE – Certified Clinical Engineer"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Junior Clinical Engineer",
+        "years": "0–2 years",
+        "salary": "₹3–5 LPA"
+      },
+      {
+        "stage": "Clinical Engineer",
+        "years": "2–5 years",
+        "salary": "₹5–8 LPA"
+      },
+      {
+        "stage": "Senior Clinical Engineer",
+        "years": "5–10 years",
+        "salary": "₹8–15 LPA"
+      },
+      {
+        "stage": "Department Head / Director",
+        "years": "10+ years",
+        "salary": "₹15–30 LPA"
+      }
+    ],
+    "futureScope": "The future of clinical engineering is rapidly evolving with the integration of IoT and AI in medical devices. As hospitals become 'smarter' and more digitized, the role of a clinical engineer expands to encompass cybersecurity of medical networks, management of robotic surgical systems, and implementation of predictive maintenance using big data. The demand is expected to surge by over 15% in the next decade.",
+    "whoShouldChoose": [
+      "Students who enjoy hands-on technical work and problem-solving",
+      "Individuals who want to work in a dynamic hospital environment",
+      "Those who excel in high-pressure, critical situations"
+    ],
+    "dayInLife": "Your day starts with a briefing from the night shift about any critical equipment failures. You might spend the morning troubleshooting a malfunctioning anesthesia machine in the OR, ensuring it's safe for the next surgery. Afternoons often involve training nurses on a new fleet of infusion pumps, followed by updating the hospital's asset management database to schedule upcoming preventive maintenance for the MRI suite.",
+    "faqs": [
+      {
+        "question": "Do Clinical Engineers treat patients?",
+        "answer": "No, they do not provide direct patient care. They manage the technology that doctors and nurses use to treat patients."
+      },
+      {
+        "question": "Is an M.Tech mandatory for this role?",
+        "answer": "No, a B.Tech in Biomedical Engineering is sufficient to start, but an M.Tech or MBA can accelerate your path to management roles."
+      }
+    ],
+    "relatedCareers": [
+      "biomedical-engineer",
+      "medical-device-service-engineer"
+    ]
+  },
+  {
+    "id": "biomedical-engineer",
+    "name": "Biomedical Engineer",
+    "category": "Hospital",
+    "icon": "Activity",
+    "salary": "₹3.5–10 LPA",
+    "salaryAbroad": "$65–120K USD",
+    "futureScopeRating": 4.5,
+    "shortDescription": "Apply engineering principles to medicine and biology for healthcare purposes.",
+    "overview": "Biomedical Engineers combine engineering principles with medical biological sciences to design and create equipment, devices, computer systems, and software. In a hospital setting, they often overlap with clinical engineers but may have a broader focus on implementing new technological solutions, optimizing clinical workflows, and collaborating with doctors to develop custom solutions for specific medical challenges.",
+    "responsibilities": [
+      "Design systems and products, such as artificial internal organs",
+      "Install, adjust, maintain, repair, or provide technical support for biomedical equipment",
+      "Evaluate the safety, efficiency, and effectiveness of biomedical equipment",
+      "Train clinicians and other personnel on the proper use of equipment",
+      "Work with life scientists, chemists, and medical scientists to conduct research"
+    ],
+    "skillsRequired": [
+      "Biomechanics",
+      "Biomaterials",
+      "Medical Imaging",
+      "Systems Physiology",
+      "Data Analysis"
+    ],
+    "toolsUsed": [
+      "CAD Software (AutoCAD, SolidWorks)",
+      "MATLAB",
+      "LabVIEW",
+      "3D Printers"
+    ],
+    "industries": [
+      "Hospitals",
+      "Medical Device Manufacturing",
+      "Research Institutes",
+      "Pharmaceuticals"
+    ],
+    "topRecruiters": [
+      "Medtronic",
+      "Johnson & Johnson",
+      "Philips Healthcare",
+      "Boston Scientific",
+      "Stryker"
+    ],
+    "higherStudies": [
+      "MS/M.Tech Biomedical Engineering",
+      "PhD in Biomedical Sciences",
+      "MD (Doctor of Medicine)"
+    ],
+    "certifications": [
+      "Certified Biomedical Auditor (CBA)",
+      "Six Sigma in Healthcare"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Entry-Level Biomedical Engineer",
+        "years": "0–3 years",
+        "salary": "₹3.5–6 LPA"
+      },
+      {
+        "stage": "Mid-Level Engineer",
+        "years": "3–7 years",
+        "salary": "₹6–10 LPA"
+      },
+      {
+        "stage": "Senior Biomedical Engineer",
+        "years": "7–12 years",
+        "salary": "₹10–18 LPA"
+      },
+      {
+        "stage": "Principal Engineer / R&D Manager",
+        "years": "12+ years",
+        "salary": "₹18–35 LPA"
+      }
+    ],
+    "futureScope": "The future is incredibly bright, especially with advancements in tissue engineering, neuro-engineering, and personalized medicine. As the aging population grows, the demand for advanced prosthetics, implantable devices, and home healthcare technologies will drive significant job growth in this sector.",
+    "whoShouldChoose": [
+      "Innovators who want to invent tangible products that save lives",
+      "Students with a strong aptitude for both biology and mechanical/electrical engineering",
+      "Those interested in applied research and development"
+    ],
+    "dayInLife": "A typical day might involve collaborating with orthopedic surgeons to design a custom titanium implant for a complex fracture. You'll spend hours in CAD software iterating the design, running stress simulations, and then perhaps moving to the lab to oversee the 3D printing of a prototype. Later, you might present your findings to the regulatory team to ensure the new design meets all safety standards.",
+    "faqs": [
+      {
+        "question": "What is the difference between a biomedical engineer and a clinical engineer?",
+        "answer": "Biomedical engineers typically focus on the research, design, and manufacturing of medical devices, while clinical engineers focus on managing, maintaining, and deploying those devices within a hospital or clinical setting."
+      }
+    ],
+    "relatedCareers": [
+      "medical-device-design-engineer",
+      "biomedical-research-scientist"
+    ]
+  },
+  {
+    "id": "medical-device-design-engineer",
+    "name": "Medical Device Design Engineer",
+    "category": "Medical Devices",
+    "icon": "PenTool",
+    "salary": "₹5–15 LPA",
+    "salaryAbroad": "$75–130K USD",
+    "futureScopeRating": 4.8,
+    "shortDescription": "Design and develop next-generation medical devices, from pacemakers to surgical robots.",
+    "overview": "Medical Device Design Engineers are the creative force behind the healthcare industry's physical tools. They apply mechanical, electrical, and materials engineering principles to conceptualize, prototype, and manufacture devices ranging from simple surgical instruments to complex life-support systems. This role requires a deep understanding of human anatomy, biocompatibility, and strict regulatory standards.",
+    "responsibilities": [
+      "Translate clinical needs into technical engineering specifications",
+      "Create detailed 2D/3D CAD models of device components and assemblies",
+      "Develop physical prototypes using 3D printing and rapid manufacturing",
+      "Conduct rigorous mechanical and environmental testing on prototypes",
+      "Collaborate with regulatory teams to ensure FDA/CE compliance"
+    ],
+    "skillsRequired": [
+      "3D CAD Modeling",
+      "Finite Element Analysis (FEA)",
+      "Biomaterials Selection",
+      "Design for Manufacturing (DFM)",
+      "Prototyping"
+    ],
+    "toolsUsed": [
+      "SolidWorks",
+      "AutoCAD",
+      "ANSYS",
+      "3D Printers",
+      "CNC Machines"
+    ],
+    "industries": [
+      "Medical Device Manufacturing",
+      "Healthcare R&D",
+      "Surgical Robotics",
+      "Orthopedics"
+    ],
+    "topRecruiters": [
+      "Medtronic",
+      "Stryker",
+      "Abbott",
+      "Zimmer Biomet",
+      "Intuitive Surgical"
+    ],
+    "higherStudies": [
+      "MS Mechanical/Biomedical Engineering",
+      "M.Des (Master of Design) in Product Design",
+      "Certificate in Medical Device Development"
+    ],
+    "certifications": [
+      "Certified SolidWorks Professional (CSWP)",
+      "ISO 13485 Internal Auditor"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Junior Design Engineer",
+        "years": "0–3 years",
+        "salary": "₹5–8 LPA"
+      },
+      {
+        "stage": "Design Engineer",
+        "years": "3–6 years",
+        "salary": "₹8–12 LPA"
+      },
+      {
+        "stage": "Senior/Lead Design Engineer",
+        "years": "6–10 years",
+        "salary": "₹12–20 LPA"
+      },
+      {
+        "stage": "R&D Director",
+        "years": "10+ years",
+        "salary": "₹20–40 LPA"
+      }
+    ],
+    "futureScope": "The shift towards minimally invasive surgeries, wearable diagnostics, and personalized prosthetics ensures robust growth. Design engineers who can integrate smart sensors and IoT capabilities into traditional devices are in particularly high demand.",
+    "whoShouldChoose": [
+      "Highly creative individuals with strong spatial visualization skills",
+      "Those who love tinkering, building, and perfecting physical products",
+      "Students with a strong grasp of mechanics and materials science"
+    ],
+    "dayInLife": "You start the day reviewing finite element analysis (FEA) results to see if a new stent design can withstand the required arterial pressure. You tweak the CAD model, send it to the rapid prototyping lab, and then join a cross-functional meeting with surgeons to get feedback on the ergonomic feel of a new surgical drill. The afternoon is spent documenting design changes for the FDA submission.",
+    "faqs": [
+      {
+        "question": "Do I need to be a biomedical engineering major for this?",
+        "answer": "While BME is great, many design engineers have backgrounds in Mechanical or Plastics Engineering, augmented with medical domain knowledge."
+      }
+    ],
+    "relatedCareers": [
+      "biomedical-engineer",
+      "quality-assurance-engineer"
+    ]
+  },
+  {
+    "id": "medical-device-service-engineer",
+    "name": "Service Engineer",
+    "category": "Medical Devices",
+    "icon": "Wrench",
+    "salary": "₹3–8 LPA",
+    "salaryAbroad": "$50–90K USD",
+    "futureScopeRating": 4.0,
+    "shortDescription": "Install, service, and repair complex medical equipment directly for manufacturers.",
+    "overview": "Medical Device Service Engineers (or Field Service Engineers) are the face of medical equipment manufacturers. They travel to hospitals and clinics to install, maintain, and repair high-end medical systems like MRI scanners, CT machines, and robotic surgery consoles. They combine deep technical troubleshooting skills with excellent customer service to ensure maximum uptime for critical clinical tools.",
+    "responsibilities": [
+      "Perform on-site installation and commissioning of complex medical equipment",
+      "Execute scheduled preventive maintenance and calibration",
+      "Respond to emergency breakdown calls and troubleshoot technical faults",
+      "Train clinical staff and local biomedical technicians on equipment usage",
+      "Maintain detailed service reports and inventory of spare parts"
+    ],
+    "skillsRequired": [
+      "Advanced Troubleshooting",
+      "Electronics and Circuitry",
+      "Customer Communication",
+      "Time Management",
+      "Adaptability to Travel"
+    ],
+    "toolsUsed": [
+      "Multimeters and Oscilloscopes",
+      "Diagnostic Software Tools",
+      "Calibration Phantoms",
+      "Service Manuals"
+    ],
+    "industries": [
+      "Medical Device Manufacturers",
+      "Specialized Service Organizations",
+      "Healthcare IT"
+    ],
+    "topRecruiters": [
+      "GE Healthcare",
+      "Philips Healthcare",
+      "Siemens Healthineers",
+      "Canon Medical Systems",
+      "Karl Storz"
+    ],
+    "higherStudies": [
+      "MBA in Operations/Marketing",
+      "Specialized OEM Training Programs"
+    ],
+    "certifications": [
+      "OEM Specific Certifications (e.g., GE MRI Service)",
+      "CBET"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Trainee/Junior Service Engineer",
+        "years": "0–2 years",
+        "salary": "₹3–5 LPA"
+      },
+      {
+        "stage": "Field Service Engineer",
+        "years": "2–5 years",
+        "salary": "₹5–8 LPA"
+      },
+      {
+        "stage": "Senior/Regional Service Engineer",
+        "years": "5–8 years",
+        "salary": "₹8–12 LPA"
+      },
+      {
+        "stage": "Service Manager / Operations Head",
+        "years": "8+ years",
+        "salary": "₹12–25 LPA"
+      }
+    ],
+    "futureScope": "As medical equipment becomes more sophisticated and reliant on software, the service engineer role is shifting from pure mechanical/electrical repair to IT and network troubleshooting. Remote diagnostics and predictive maintenance (using AI) will change how service is delivered, making it more proactive.",
+    "whoShouldChoose": [
+      "Individuals who love travel and out-of-office environments",
+      "Excellent problem-solvers who can work well under pressure",
+      "People with strong interpersonal skills who enjoy client interaction"
+    ],
+    "dayInLife": "You might fly to a different city in the morning to urgently repair an offline CT scanner at a major trauma center. Upon arrival, you run diagnostic software, identify a blown high-voltage component, replace it from your trunk stock, and recalibrate the system. Before leaving, you explain the issue to the radiology head, complete the digital service report, and head to your hotel.",
+    "faqs": [
+      {
+        "question": "Does this job involve a lot of travel?",
+        "answer": "Yes, Field Service Engineers can expect to travel anywhere from 30% to 80% of the time, depending on their assigned territory."
+      }
+    ],
+    "relatedCareers": [
+      "clinical-engineer"
+    ]
+  },
+  {
+    "id": "quality-assurance-engineer",
+    "name": "Quality Assurance Engineer",
+    "category": "Medical Devices",
+    "icon": "ShieldCheck",
+    "salary": "₹4–12 LPA",
+    "salaryAbroad": "$70–115K USD",
+    "futureScopeRating": 4.3,
+    "shortDescription": "Ensure medical products meet rigorous safety and quality standards before reaching patients.",
+    "overview": "In the medical device industry, failure is not an option. Quality Assurance (QA) Engineers are the gatekeepers of patient safety. They develop, implement, and maintain quality management systems to ensure that every product manufactured meets strict internal specifications and external regulatory standards (like ISO 13485 and FDA 21 CFR Part 820).",
+    "responsibilities": [
+      "Develop and implement Quality Management Systems (QMS)",
+      "Conduct internal and supplier audits to ensure compliance",
+      "Investigate product non-conformances and implement Corrective and Preventive Actions (CAPA)",
+      "Review and approve manufacturing processes, testing protocols, and design changes",
+      "Ensure all documentation adheres to FDA, CE, and other regulatory standards"
+    ],
+    "skillsRequired": [
+      "Knowledge of ISO 13485 and FDA Regulations",
+      "Statistical Process Control (SPC)",
+      "Root Cause Analysis (RCA)",
+      "Attention to Detail",
+      "Technical Writing"
+    ],
+    "toolsUsed": [
+      "eQMS Software (Veeva, MasterControl)",
+      "Minitab (for statistical analysis)",
+      "Inspection Tools (Calipers, CMMs)"
+    ],
+    "industries": [
+      "Medical Device Manufacturing",
+      "Pharmaceuticals",
+      "Biotechnology",
+      "Contract Manufacturing Organizations (CMOs)"
+    ],
+    "topRecruiters": [
+      "Becton Dickinson (BD)",
+      "Baxter International",
+      "Abbott",
+      "Medtronic",
+      "TCS (Life Sciences Division)"
+    ],
+    "higherStudies": [
+      "MS Quality Management",
+      "Regulatory Affairs Specialization",
+      "MBA"
+    ],
+    "certifications": [
+      "ASQ Certified Quality Engineer (CQE)",
+      "ASQ Certified Biomedical Auditor (CBA)",
+      "Six Sigma Green/Black Belt"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "QA Engineer",
+        "years": "0–3 years",
+        "salary": "₹4–7 LPA"
+      },
+      {
+        "stage": "Senior QA Engineer",
+        "years": "3–6 years",
+        "salary": "₹7–12 LPA"
+      },
+      {
+        "stage": "QA Manager",
+        "years": "6–10 years",
+        "salary": "₹12–20 LPA"
+      },
+      {
+        "stage": "Director of Quality / VP",
+        "years": "10+ years",
+        "salary": "₹20–45 LPA"
+      }
+    ],
+    "futureScope": "With regulations tightening globally, the demand for QA professionals is very stable. The integration of AI into quality control (like automated visual inspection systems) will change the nature of the work, requiring QA engineers to validate complex software and machine learning models.",
+    "whoShouldChoose": [
+      "Highly organized individuals with meticulous attention to detail",
+      "Those who prefer process-oriented, structured work environments",
+      "Individuals with strong analytical and statistical skills"
+    ],
+    "dayInLife": "You start by reviewing a CAPA (Corrective and Preventive Action) report regarding a slightly out-of-tolerance batch of surgical screws. You use statistical software to analyze the manufacturing data to find the root cause—a dulling CNC tool. You draft an updated standard operating procedure (SOP) for tool replacement, approve it through the eQMS, and then lead an afternoon internal audit of the cleanroom facility.",
+    "faqs": [
+      {
+        "question": "Is QA a desk job?",
+        "answer": "It is a mix. You will spend significant time at a desk reviewing data and documents, but you will also spend time on the manufacturing floor conducting audits and inspections."
+      }
+    ],
+    "relatedCareers": [
+      "regulatory-affairs-specialist",
+      "medical-device-design-engineer"
+    ]
+  },
+  {
+    "id": "regulatory-affairs-specialist",
+    "name": "Regulatory Affairs Specialist",
+    "category": "Government",
+    "icon": "Scale",
+    "salary": "₹5–14 LPA",
+    "salaryAbroad": "$80–135K USD",
+    "futureScopeRating": 4.6,
+    "shortDescription": "Navigate complex global healthcare laws to get new medical products approved for market.",
+    "overview": "Regulatory Affairs (RA) Specialists are the crucial link between companies that create medical products and the government agencies (like the FDA in the US, EMA in Europe, or CDSCO in India) that regulate them. They ensure that products are developed, tested, and manufactured legally and safely. It is a highly strategic role that requires interpreting complex laws and communicating technical data effectively.",
+    "responsibilities": [
+      "Prepare and submit regulatory filings (510(k), PMA, CE Mark dossiers)",
+      "Advise engineering teams on regulatory requirements during product development",
+      "Maintain regulatory documentation and ensure compliance post-market",
+      "Act as the primary liaison between the company and regulatory agencies",
+      "Monitor changing global regulations and update company strategies accordingly"
+    ],
+    "skillsRequired": [
+      "Deep Knowledge of Medical Device Regulations (FDA, MDR)",
+      "Strategic Thinking",
+      "Excellent Technical Writing",
+      "Negotiation and Communication",
+      "Project Management"
+    ],
+    "toolsUsed": [
+      "Regulatory Information Management (RIM) Systems",
+      "eCTD Software",
+      "Government Submission Portals"
+    ],
+    "industries": [
+      "Medical Device Manufacturers",
+      "Regulatory Consulting Firms",
+      "Government Health Agencies",
+      "Pharmaceuticals"
+    ],
+    "topRecruiters": [
+      "Regulatory Consultancies (e.g., Emergo)",
+      "Johnson & Johnson",
+      "Medtronic",
+      "TCS (Regulatory Services)",
+      "Parexel"
+    ],
+    "higherStudies": [
+      "MS Regulatory Affairs",
+      "Master of Public Health (MPH)",
+      "Law Degree (JD / LLB)"
+    ],
+    "certifications": [
+      "Regulatory Affairs Certification (RAC)"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Regulatory Affairs Associate",
+        "years": "0–2 years",
+        "salary": "₹4–7 LPA"
+      },
+      {
+        "stage": "Regulatory Affairs Specialist",
+        "years": "2–5 years",
+        "salary": "₹7–12 LPA"
+      },
+      {
+        "stage": "Regulatory Affairs Manager",
+        "years": "5–9 years",
+        "salary": "₹12–22 LPA"
+      },
+      {
+        "stage": "VP of Regulatory Affairs",
+        "years": "10+ years",
+        "salary": "₹25–50+ LPA"
+      }
+    ],
+    "futureScope": "The regulatory landscape for medical devices, especially software as a medical device (SaMD) and AI, is evolving rapidly. RA professionals who understand software and cybersecurity regulations are currently facing massive demand and commanding premium salaries.",
+    "whoShouldChoose": [
+      "Strong writers who can synthesize complex technical data into clear arguments",
+      "Those who enjoy strategy, law, and compliance",
+      "Professionals seeking a high-paying desk job with significant strategic impact"
+    ],
+    "dayInLife": "You spend the morning reviewing the clinical trial data for a new cardiac implant, ensuring the data points align with the requirements for European MDR submission. Later, you have a teleconference with engineers to inform them that a proposed design change will require a new FDA 510(k) submission. You spend the rest of the day drafting the technical file for the submission.",
+    "faqs": [
+      {
+        "question": "Do I need a law degree for this?",
+        "answer": "No, a technical background (like BME) is highly preferred because you must understand the science behind the device. You learn the law on the job or through specialized MS programs."
+      }
+    ],
+    "relatedCareers": [
+      "quality-assurance-engineer",
+      "clinical-research-associate"
+    ]
+  },
+  {
+    "id": "clinical-research-associate",
+    "name": "Clinical Research Associate",
+    "category": "Research",
+    "icon": "Microscope",
+    "salary": "₹4–10 LPA",
+    "salaryAbroad": "$65–100K USD",
+    "futureScopeRating": 4.2,
+    "shortDescription": "Monitor clinical trials to ensure human testing of new medical devices is safe and ethical.",
+    "overview": "Before a new medical device or drug can be sold, it must be tested on humans. Clinical Research Associates (CRAs) oversee these clinical trials. They travel to hospitals and clinics where trials are being conducted to ensure that doctors and nurses are following the exact trial protocol, that patient data is recorded accurately, and most importantly, that patients are safe and their rights are protected.",
+    "responsibilities": [
+      "Select and initiate clinical trial sites (hospitals/clinics)",
+      "Monitor trial progress and ensure adherence to Good Clinical Practice (GCP)",
+      "Verify that clinical data entered matches the patient's actual medical records",
+      "Ensure all adverse events (side effects) are reported immediately",
+      "Close out trial sites and collect all final documentation"
+    ],
+    "skillsRequired": [
+      "Knowledge of Good Clinical Practice (GCP)",
+      "Attention to Detail",
+      "Strong Communication and Diplomacy",
+      "Organization and Multitasking",
+      "Data Verification"
+    ],
+    "toolsUsed": [
+      "Electronic Data Capture (EDC) Systems",
+      "Clinical Trial Management Systems (CTMS)"
+    ],
+    "industries": [
+      "Contract Research Organizations (CROs)",
+      "Pharmaceuticals",
+      "Medical Device Manufacturers",
+      "Academic Medical Centers"
+    ],
+    "topRecruiters": [
+      "IQVIA",
+      "Syneos Health",
+      "Parexel",
+      "PPD",
+      "ICON plc"
+    ],
+    "higherStudies": [
+      "MS Clinical Research",
+      "Master of Public Health (MPH)",
+      "MBA"
+    ],
+    "certifications": [
+      "Certified Clinical Research Associate (CCRA)",
+      "ACRP Certification"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Clinical Trial Assistant / CRA I",
+        "years": "0–2 years",
+        "salary": "₹3.5–6 LPA"
+      },
+      {
+        "stage": "CRA II / Senior CRA",
+        "years": "2–5 years",
+        "salary": "₹6–10 LPA"
+      },
+      {
+        "stage": "Clinical Trial Manager (CTM)",
+        "years": "5–8 years",
+        "salary": "₹10–18 LPA"
+      },
+      {
+        "stage": "Clinical Operations Director",
+        "years": "8+ years",
+        "salary": "₹18–35 LPA"
+      }
+    ],
+    "futureScope": "The push for decentralized (virtual) clinical trials and the use of wearable devices to collect patient data at home is transforming this field. CRAs will increasingly monitor trials remotely, requiring stronger data analytics and software skills.",
+    "whoShouldChoose": [
+      "Detail-oriented individuals who enjoy auditing and verifying data",
+      "People willing to travel frequently (often 50%+ of the time)",
+      "Those who want to be closely involved in the validation of cutting-edge therapies"
+    ],
+    "dayInLife": "You arrive at a major hospital conducting a trial for a new robotic surgical tool. You meet with the lead surgeon (Principal Investigator) to discuss progress. You spend hours reviewing patient medical files and cross-referencing them with the data entered into the electronic database to ensure accuracy. You identify a protocol deviation, document it, and retrain the study coordinator before flying home.",
+    "faqs": [
+      {
+        "question": "Is travel mandatory for CRAs?",
+        "answer": "Traditionally, yes, it involves heavy travel. However, 'Remote CRAs' or 'In-house CRAs' who monitor data digitally are becoming much more common."
+      }
+    ],
+    "relatedCareers": [
+      "regulatory-affairs-specialist",
+      "biomedical-research-scientist"
+    ]
+  },
+  {
+    "id": "ai-healthcare-engineer",
+    "name": "AI Healthcare Engineer",
+    "category": "AI",
+    "icon": "Brain",
+    "salary": "₹8–25 LPA",
+    "salaryAbroad": "$100–180K USD",
+    "futureScopeRating": 5.0,
+    "shortDescription": "Develop machine learning models to analyze medical data, improve diagnostics, and personalize care.",
+    "overview": "AI Healthcare Engineers represent the cutting edge of biomedical engineering. They bridge the gap between computer science and medicine by building algorithms that can analyze complex medical data—such as MRI scans, genomic sequences, or electronic health records (EHR). They create tools that help doctors detect diseases earlier, predict patient outcomes, and discover new drugs faster.",
+    "responsibilities": [
+      "Develop and train machine learning and deep learning models on medical datasets",
+      "Process and clean large-scale healthcare data (images, text, time-series)",
+      "Deploy AI models into clinical software or medical devices",
+      "Ensure AI algorithms are unbiased, explainable, and compliant with privacy laws (HIPAA)",
+      "Collaborate with clinicians to understand diagnostic challenges"
+    ],
+    "skillsRequired": [
+      "Machine Learning / Deep Learning",
+      "Python, R",
+      "Computer Vision (for medical imaging)",
+      "Data Structures and Algorithms",
+      "Understanding of Clinical Workflows"
+    ],
+    "toolsUsed": [
+      "TensorFlow, PyTorch",
+      "OpenCV, scikit-image",
+      "SQL, Pandas",
+      "Cloud Platforms (AWS, GCP Healthcare API)"
+    ],
+    "industries": [
+      "HealthTech Startups",
+      "Big Tech (Google Health, Microsoft, Apple)",
+      "Medical Device R&D",
+      "Bioinformatics"
+    ],
+    "topRecruiters": [
+      "Google Health",
+      "Siemens Healthineers",
+      "Philips (AI Labs)",
+      "Qure.ai",
+      "SigTuple"
+    ],
+    "higherStudies": [
+      "MS/PhD in Computer Science, AI, or Computational Biology",
+      "Specialized courses in Deep Learning for Healthcare"
+    ],
+    "certifications": [
+      "AWS Certified Machine Learning",
+      "DeepLearning.AI Healthcare Specialization"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Data Scientist / Junior AI Engineer",
+        "years": "0–2 years",
+        "salary": "₹8–12 LPA"
+      },
+      {
+        "stage": "Machine Learning Engineer",
+        "years": "2–5 years",
+        "salary": "₹12–20 LPA"
+      },
+      {
+        "stage": "Senior AI Researcher/Engineer",
+        "years": "5–8 years",
+        "salary": "₹20–35 LPA"
+      },
+      {
+        "stage": "Head of AI / Chief Data Scientist",
+        "years": "8+ years",
+        "salary": "₹35–60+ LPA"
+      }
+    ],
+    "futureScope": "This is arguably the fastest-growing and highest-paying domain within biomedical engineering. Generative AI, predictive analytics, and automated image analysis are fundamentally transforming healthcare. The demand for engineers who understand both AI and human biology is massive and unmet.",
+    "whoShouldChoose": [
+      "Students with a strong passion for coding, math, and data",
+      "Those who want to work in fast-paced tech environments or startups",
+      "Individuals looking for the highest salary potential in the biomedical field"
+    ],
+    "dayInLife": "You spend the morning refining a convolutional neural network (CNN) designed to detect early-stage lung cancer from CT scans. You run training iterations on a GPU cluster using a newly acquired dataset of 10,000 scans. In the afternoon, you meet with radiologists to discuss the model's 'false positive' rate and brainstorm ways to adjust the algorithm to reduce unnecessary biopsies.",
+    "faqs": [
+      {
+        "question": "I am a Biomedical student, not Computer Science. Can I do this?",
+        "answer": "Absolutely. You must self-teach or take courses in Python and Machine Learning, but your domain knowledge of anatomy, physiology, and medical imaging gives you a massive advantage over pure CS grads."
+      }
+    ],
+    "relatedCareers": [
+      "healthcare-data-analyst",
+      "biomedical-research-scientist"
+    ]
+  },
+  {
+    "id": "biomedical-research-scientist",
+    "name": "Research Scientist",
+    "category": "Research",
+    "icon": "FlaskConical",
+    "salary": "₹5–12 LPA",
+    "salaryAbroad": "$70–120K USD",
+    "futureScopeRating": 4.1,
+    "shortDescription": "Conduct fundamental and applied research to invent the healthcare technologies of tomorrow.",
+    "overview": "Biomedical Research Scientists operate at the frontier of human knowledge. They work in academic labs, government research institutes, or corporate R&D departments to discover new materials, develop novel therapies (like tissue engineering or gene therapy), or create entirely new diagnostic paradigms. Their work is long-term, highly experimental, and driven by curiosity.",
+    "responsibilities": [
+      "Design and execute complex laboratory experiments",
+      "Analyze biological data and interpret research findings",
+      "Write research papers, publish in scientific journals, and present at conferences",
+      "Write grant proposals to secure funding for future research projects",
+      "Supervise lab technicians and mentor graduate students"
+    ],
+    "skillsRequired": [
+      "Experimental Design",
+      "In-vitro / In-vivo Testing",
+      "Data Analysis and Statistics",
+      "Scientific Writing",
+      "Patience and Perseverance"
+    ],
+    "toolsUsed": [
+      "Microscopes (Electron, Confocal)",
+      "Spectrometers, Chromatographs",
+      "Cell Culture Equipment",
+      "Statistical Software (SPSS, R)"
+    ],
+    "industries": [
+      "Academia / Universities",
+      "Government Research (NIH, CSIR, ICMR)",
+      "Biotechnology Firms",
+      "Pharmaceuticals R&D"
+    ],
+    "topRecruiters": [
+      "IITs / IISc (Academia)",
+      "CSIR Labs",
+      "Biocon",
+      "Dr. Reddy's Laboratories",
+      "National Institutes of Health (NIH - USA)"
+    ],
+    "higherStudies": [
+      "PhD is virtually mandatory for senior roles",
+      "Post-Doctoral Fellowships"
+    ],
+    "certifications": [
+      "Usually driven by publications and patents rather than certifications"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Research Assistant / PhD Scholar",
+        "years": "0–4 years",
+        "salary": "Stipend (₹30–40k/month)"
+      },
+      {
+        "stage": "Post-Doctoral Researcher",
+        "years": "4–7 years",
+        "salary": "₹6–10 LPA (or $50-60k USD)"
+      },
+      {
+        "stage": "Scientist / Assistant Professor",
+        "years": "7–12 years",
+        "salary": "₹10–18 LPA"
+      },
+      {
+        "stage": "Principal Investigator / R&D Head",
+        "years": "12+ years",
+        "salary": "₹18–30+ LPA"
+      }
+    ],
+    "futureScope": "The convergence of biology and engineering—especially in areas like synthetic biology, CRISPR gene editing, and 3D bioprinting—ensures that research scientists will remain the drivers of medical breakthroughs. However, funding can be competitive.",
+    "whoShouldChoose": [
+      "Deeply curious individuals who want to discover the 'why' and 'how'",
+      "Those who enjoy academic environments and writing",
+      "People willing to invest the time in a PhD and accept delayed financial gratification for intellectual freedom"
+    ],
+    "dayInLife": "Your day is primarily lab-based. You might spend the morning carefully cultivating stem cells in a bioreactor for a tissue engineering project. In the afternoon, you analyze the cellular response to a new biomaterial scaffold using a scanning electron microscope. The late afternoon is spent writing a section of a grant proposal to secure funding for the next phase of your project.",
+    "faqs": [
+      {
+        "question": "Can I be a research scientist with just a B.Tech?",
+        "answer": "You can work as a Research Assistant, but leading projects or becoming a Principal Scientist requires a PhD."
+      }
+    ],
+    "relatedCareers": [
+      "biomedical-engineer",
+      "ai-healthcare-engineer"
+    ]
+  },
+  {
+    "id": "healthcare-data-analyst",
+    "name": "Healthcare Data Analyst",
+    "category": "Healthcare IT",
+    "icon": "BarChart3",
+    "salary": "₹6–15 LPA",
+    "salaryAbroad": "$80–120K USD",
+    "futureScopeRating": 4.7,
+    "shortDescription": "Analyze complex medical and operational data to improve hospital efficiency and patient care.",
+    "overview": "Hospitals and healthcare systems generate massive amounts of data daily. Healthcare Data Analysts turn this raw data into actionable insights. They analyze patient outcomes, clinical trial data, hospital operational efficiency, and financial records to help administrators and doctors make evidence-based decisions that improve care quality and reduce costs.",
+    "responsibilities": [
+      "Extract and clean data from Electronic Health Records (EHR) systems",
+      "Create dashboards and reports for hospital administrators",
+      "Analyze patient readmission rates, treatment efficacy, and operational bottlenecks",
+      "Identify trends in public health data or insurance claims",
+      "Ensure all data handling complies with healthcare privacy laws (HIPAA/GDPR)"
+    ],
+    "skillsRequired": [
+      "Data Visualization",
+      "SQL Database Querying",
+      "Statistical Analysis",
+      "Healthcare Domain Knowledge (ICD Codes, EHR)",
+      "Communication of Data"
+    ],
+    "toolsUsed": [
+      "SQL",
+      "Tableau, PowerBI",
+      "Excel, Python (Pandas)",
+      "EHR Systems (Epic, Cerner)"
+    ],
+    "industries": [
+      "Hospitals and Healthcare Networks",
+      "Health Insurance Providers",
+      "Healthcare Consultancies",
+      "Public Health Organizations"
+    ],
+    "topRecruiters": [
+      "Optum (UnitedHealth Group)",
+      "Cerner / Oracle Health",
+      "Epic Systems",
+      "Deloitte (Healthcare Consulting)",
+      "Apollo Hospitals Enterprise"
+    ],
+    "higherStudies": [
+      "MS Health Informatics",
+      "MS Data Analytics",
+      "MBA Healthcare IT"
+    ],
+    "certifications": [
+      "Certified Health Data Analyst (CHDA)",
+      "Google Data Analytics Certificate"
+    ],
+    "careerGrowth": [
+      {
+        "stage": "Junior Data Analyst",
+        "years": "0–2 years",
+        "salary": "₹5–8 LPA"
+      },
+      {
+        "stage": "Healthcare Data Analyst",
+        "years": "2–5 years",
+        "salary": "₹8–12 LPA"
+      },
+      {
+        "stage": "Senior Analyst / Data Scientist",
+        "years": "5–8 years",
+        "salary": "₹12–18 LPA"
+      },
+      {
+        "stage": "Director of Healthcare Analytics",
+        "years": "8+ years",
+        "salary": "₹18–35 LPA"
+      }
+    ],
+    "futureScope": "As the healthcare industry shifts towards 'value-based care' (getting paid for positive patient outcomes rather than just services rendered), analytics becomes central to survival. The demand for professionals who can interpret healthcare data is skyrocketing globally.",
+    "whoShouldChoose": [
+      "Analytical thinkers who enjoy working with numbers and finding patterns",
+      "Students interested in IT and software but want to stay in the healthcare domain",
+      "Those looking for roles with excellent work-life balance and remote work opportunities"
+    ],
+    "dayInLife": "You start by writing SQL queries to extract patient readmission data from the hospital's EHR system. You import this data into Tableau to create a visual dashboard showing which departments have the highest readmission rates. You present this dashboard to the hospital board in the afternoon, highlighting a correlation between early discharge times and readmissions in the cardiac ward.",
+    "faqs": [
+      {
+        "question": "Is this a pure coding job?",
+        "answer": "No, it's a mix of data querying (SQL), visualization (Tableau), and business/clinical strategy. It's less about software engineering and more about interpreting data to solve problems."
+      }
+    ],
+    "relatedCareers": [
+      "ai-healthcare-engineer",
+      "clinical-research-associate"
+    ]
+  }
+]

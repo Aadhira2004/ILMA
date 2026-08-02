@@ -1,0 +1,192 @@
+[
+  {
+    "id": "biomedical-instrumentation",
+    "name": "Biomedical Instrumentation",
+    "icon": "Activity",
+    "color": "#0F4C81",
+    "tagline": "Designing instruments that save lives",
+    "overview": "Biomedical Instrumentation is the core of biomedical engineering. It involves the application of electronics and measurement principles and techniques to develop devices used in diagnosis and treatment of diseases. This domain bridges the gap between engineering and medicine, enabling the creation of devices like ECG machines, pacemakers, and patient monitors.",
+    "coreSubjects": ["Bio-sensors", "Analog/Digital Electronics", "Microprocessors", "Signal Processing", "Control Systems"],
+    "applications": ["Patient Monitoring Systems", "Diagnostic Equipment (ECG, EEG, EMG)", "Therapeutic Devices (Defibrillators, Pacemakers)", "Surgical Instruments", "Laboratory Equipment"],
+    "industries": ["Medical Device Manufacturing", "Hospitals", "Research & Development", "Healthcare IT"],
+    "skillsRequired": ["Circuit Design", "Sensor Integration", "Embedded Systems", "Troubleshooting", "Regulatory Knowledge"],
+    "careerOpportunities": ["biomedical-engineer", "medical-device-design-engineer", "clinical-engineer", "medical-device-service-engineer"],
+    "futureScope": "The future of instrumentation lies in miniaturization, wearable technology, and IoT integration. Devices are becoming smaller, smarter, and wirelessly connected, enabling continuous remote patient monitoring and point-of-care diagnostics.",
+    "recommendedBooks": [
+      {"title": "Medical Instrumentation: Application and Design", "author": "John G. Webster", "description": "The definitive text on the subject, covering principles, applications, and design of medical instruments."}
+    ],
+    "certifications": ["Certified Biomedical Equipment Technician (CBET)", "Certified Clinical Engineer (CCE)"],
+    "relatedDomains": ["medical-imaging", "medical-robotics", "iot-in-healthcare"]
+  },
+  {
+    "id": "medical-imaging",
+    "name": "Medical Imaging",
+    "icon": "Scan",
+    "color": "#1AB7B0",
+    "tagline": "Seeing the unseen inside the human body",
+    "overview": "Medical Imaging focuses on creating visual representations of the interior of a body for clinical analysis and medical intervention. It encompasses various modalities like X-rays, MRI, CT scans, and Ultrasound, playing a crucial role in non-invasive diagnosis.",
+    "coreSubjects": ["Physics of Medical Imaging", "Image Processing", "Radiation Safety", "Anatomy and Physiology"],
+    "applications": ["Diagnostic Radiology", "Oncology", "Cardiology", "Neurology", "Image-Guided Surgery"],
+    "industries": ["Imaging Equipment Manufacturers", "Hospitals & Diagnostic Centers", "AI Healthcare Startups", "Research Institutes"],
+    "skillsRequired": ["Image Processing Algorithms", "MATLAB/Python", "Understanding of Imaging Modalities", "Physics"],
+    "careerOpportunities": ["ai-healthcare-engineer", "medical-device-service-engineer", "biomedical-research-scientist"],
+    "futureScope": "AI is revolutionizing medical imaging. Machine learning models are being developed to automatically detect anomalies, segment organs, and improve image quality while reducing radiation doses. 3D and 4D imaging are also becoming standard.",
+    "recommendedBooks": [
+      {"title": "Medical Imaging Signals and Systems", "author": "Jerry L. Prince, Jonathan Links", "description": "A comprehensive guide to the physics, mathematics, and engineering principles of medical imaging."}
+    ],
+    "certifications": ["Certified Imaging Informatics Professional (CIIP)"],
+    "relatedDomains": ["biomedical-instrumentation", "ai-in-healthcare", "bioinformatics"]
+  },
+  {
+    "id": "biomaterials",
+    "name": "Biomaterials",
+    "icon": "Hexagon",
+    "color": "#8B5CF6",
+    "tagline": "Engineering materials for biological environments",
+    "overview": "Biomaterials involves the study and development of materials that interact with biological systems. It covers a wide range of materials (metals, ceramics, polymers, composites) used in medical devices, implants, and tissue engineering scaffolds.",
+    "coreSubjects": ["Materials Science", "Organic Chemistry", "Cell Biology", "Biomechanics", "Polymer Science"],
+    "applications": ["Joint Replacements (Hip, Knee)", "Dental Implants", "Vascular Grafts", "Contact Lenses", "Drug Delivery Systems"],
+    "industries": ["Orthopedic Implants Manufacturing", "Pharmaceuticals", "Tissue Engineering Startups", "Dental Material Manufacturers"],
+    "skillsRequired": ["Material Characterization", "Biocompatibility Testing", "Chemistry", "CAD/CAM", "Regulatory Compliance (FDA/ISO)"],
+    "careerOpportunities": ["medical-device-design-engineer", "quality-assurance-engineer", "biomedical-research-scientist"],
+    "futureScope": "The development of 'smart' biomaterials that respond to environmental stimuli (pH, temperature) and biodegradable materials that safely dissolve after serving their purpose are key areas of growth. 3D bioprinting of complex tissues is a major frontier.",
+    "recommendedBooks": [
+      {"title": "Biomaterials Science: An Introduction to Materials in Medicine", "author": "Buddy D. Ratner, et al.", "description": "The standard textbook covering the broad field of biomaterials science and engineering."}
+    ],
+    "certifications": ["Certifications from Society for Biomaterials (SFB)"],
+    "relatedDomains": ["biomechanics", "tissue-engineering", "medical-robotics"]
+  },
+  {
+    "id": "biomechanics",
+    "name": "Biomechanics",
+    "icon": "ActivitySquare",
+    "color": "#F59E0B",
+    "tagline": "Applying mechanics to biological systems",
+    "overview": "Biomechanics is the study of the structure, function, and motion of the mechanical aspects of biological systems, at any level from whole organisms to organs, cells, and cell organelles, using the methods of mechanics.",
+    "coreSubjects": ["Statics and Dynamics", "Fluid Mechanics", "Solid Mechanics", "Anatomy and Kinesiology", "Finite Element Analysis (FEA)"],
+    "applications": ["Prosthetics and Orthotics", "Sports Medicine", "Ergonomics", "Cardiovascular Dynamics (Blood Flow)", "Orthopedic Implant Design"],
+    "industries": ["Orthopedics", "Sports Equipment Manufacturing", "Rehabilitation Centers", "Automotive (Crash Testing)"],
+    "skillsRequired": ["FEA Software (ANSYS, Abaqus)", "Motion Analysis", "Mechanical Design", "CAD", "Data Analysis"],
+    "careerOpportunities": ["medical-device-design-engineer", "biomedical-research-scientist", "rehabilitation-engineer"],
+    "futureScope": "Computational biomechanics is growing, allowing for personalized modeling of patient-specific interventions. Wearable sensors for continuous gait analysis and the development of advanced robotic prosthetics are exciting trends.",
+    "recommendedBooks": [
+      {"title": "Fundamentals of Biomechanics", "author": "Duane Knudson", "description": "A great introductory text focusing on the mechanical principles of human movement."}
+    ],
+    "certifications": ["Certified SolidWorks Professional (CSWP) - for mechanical design aspects"],
+    "relatedDomains": ["biomaterials", "rehabilitation-engineering", "medical-robotics"]
+  },
+  {
+    "id": "tissue-engineering",
+    "name": "Tissue Engineering",
+    "icon": "Dna",
+    "color": "#EC4899",
+    "tagline": "Creating living functional tissues to repair organs",
+    "overview": "Tissue engineering is an interdisciplinary field that applies the principles of engineering and life sciences toward the development of biological substitutes that restore, maintain, or improve tissue function or a whole organ.",
+    "coreSubjects": ["Cell Biology", "Biomaterials", "Stem Cell Technology", "Bioreactor Design", "Molecular Biology"],
+    "applications": ["Skin Grafts for Burns", "Cartilage Repair", "Artificial Organs (Livers, Kidneys)", "In-vitro Drug Testing Models"],
+    "industries": ["Regenerative Medicine Startups", "Pharmaceuticals", "Academic Research Labs", "Biotechnology"],
+    "skillsRequired": ["Cell Culture Techniques", "Scaffold Design", "Microscopy", "Assay Development", "Good Laboratory Practice (GLP)"],
+    "careerOpportunities": ["biomedical-research-scientist", "clinical-research-associate"],
+    "futureScope": "The holy grail is the ability to fully 3D print functional solid organs (like a heart or kidney) for transplant, eliminating the need for organ donors. Organ-on-a-chip technologies are also revolutionizing drug discovery by replacing animal testing.",
+    "recommendedBooks": [
+      {"title": "Principles of Tissue Engineering", "author": "Robert Lanza, Robert Langer, Joseph Vacanti", "description": "The foundational reference work for the field of tissue engineering and regenerative medicine."}
+    ],
+    "certifications": ["Good Laboratory Practice (GLP) Certification"],
+    "relatedDomains": ["biomaterials", "bioinformatics", "biomedical-instrumentation"]
+  },
+  {
+    "id": "neural-engineering",
+    "name": "Neural Engineering",
+    "icon": "BrainCircuit",
+    "color": "#3B82F6",
+    "tagline": "Interfacing engineering with the nervous system",
+    "overview": "Neural engineering (or neuroengineering) uses engineering techniques to understand, repair, replace, or enhance neural systems. It's the science behind Brain-Computer Interfaces (BCIs) and neuroprosthetics.",
+    "coreSubjects": ["Neuroscience", "Signal Processing", "Electromagnetics", "Machine Learning", "Microfabrication"],
+    "applications": ["Brain-Computer Interfaces (BCIs)", "Cochlear Implants", "Deep Brain Stimulation (Parkinson's)", "Neuroprosthetics (Controlling robotic limbs with thought)"],
+    "industries": ["Neurotech Startups (e.g., Neuralink)", "Medical Device Companies (Neuromodulation)", "Academic Research", "Defense/DARPA"],
+    "skillsRequired": ["EEG/ECoG Signal Processing", "Machine Learning (Decoding neural signals)", "Embedded Systems", "Neuroanatomy"],
+    "careerOpportunities": ["biomedical-research-scientist", "ai-healthcare-engineer", "medical-device-design-engineer"],
+    "futureScope": "BCIs are moving from research labs to clinical reality, offering hope for patients with paralysis or locked-in syndrome. Non-invasive neuromodulation for treating mental health disorders (depression, PTSD) is a rapidly expanding area.",
+    "recommendedBooks": [
+      {"title": "Neural Engineering", "author": "Bin He", "description": "A comprehensive overview of the fundamental principles and applications of neural engineering."}
+    ],
+    "certifications": ["Certifications in Machine Learning and Deep Learning"],
+    "relatedDomains": ["biomechanics", "biomedical-instrumentation", "ai-in-healthcare"]
+  },
+  {
+    "id": "medical-robotics",
+    "name": "Medical Robotics",
+    "icon": "Bot",
+    "color": "#10B981",
+    "tagline": "Precision machines for surgery and rehabilitation",
+    "overview": "Medical Robotics involves the design and use of robots in healthcare settings. It includes surgical robots that allow for minimally invasive, highly precise procedures, as well as rehabilitation and assistive robots.",
+    "coreSubjects": ["Robotics and Kinematics", "Control Systems", "Mechatronics", "Computer Vision", "Haptics"],
+    "applications": ["Robot-Assisted Surgery (e.g., Da Vinci System)", "Exoskeletons for Rehabilitation", "Pharmacy Dispensing Robots", "Telepresence Robots in Hospitals"],
+    "industries": ["Surgical Robotics Companies", "Rehabilitation Tech", "Hospital Automation", "R&D Labs"],
+    "skillsRequired": ["C++/Python Programming", "Kinematics & Dynamics Modeling", "ROS (Robot Operating System)", "Sensor Integration", "Control Theory"],
+    "careerOpportunities": ["medical-device-design-engineer", "medical-device-service-engineer", "ai-healthcare-engineer"],
+    "futureScope": "The integration of AI with surgical robots will enable semi-autonomous procedures, where the robot can suggest optimal incisions or automatically suture wounds. Micro-robots navigating the bloodstream for targeted drug delivery are currently in research phases.",
+    "recommendedBooks": [
+      {"title": "Medical Robotics", "author": "Achim Schweikard, Floris Ernst", "description": "Covers kinematics, medical imaging, image-guided surgery, and specific robotic systems."}
+    ],
+    "certifications": ["ROS Certifications", "Machine Learning Specializations"],
+    "relatedDomains": ["biomechanics", "neural-engineering", "ai-in-healthcare"]
+  },
+  {
+    "id": "bioinformatics",
+    "name": "Bioinformatics",
+    "icon": "Dna",
+    "color": "#6366F1",
+    "tagline": "Decoding the data of life",
+    "overview": "Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, especially when the data sets are large and complex. It combines biology, computer science, information engineering, mathematics, and statistics.",
+    "coreSubjects": ["Genomics and Proteomics", "Algorithms", "Data Structures", "Statistics", "Database Management"],
+    "applications": ["Sequence Analysis (DNA/RNA)", "Drug Discovery and Design", "Personalized Medicine", "Evolutionary Biology", "Protein Structure Prediction"],
+    "industries": ["Pharmaceuticals", "Genomics Companies (e.g., Illumina, 23andMe)", "Research Institutes", "Agri-Tech"],
+    "skillsRequired": ["Python/R/Perl", "SQL/Database Management", "Statistical Analysis", "Knowledge of Genomic Databases (NCBI, BLAST)"],
+    "careerOpportunities": ["healthcare-data-analyst", "ai-healthcare-engineer", "biomedical-research-scientist"],
+    "futureScope": "With the cost of genomic sequencing dropping rapidly, the bottleneck is now data analysis. Bioinformatics is crucial for personalized medicine—tailoring treatments based on a patient's genetic profile. AI tools like AlphaFold have revolutionized protein structure prediction.",
+    "recommendedBooks": [
+      {"title": "Bioinformatics Data Skills", "author": "Vince Buffalo", "description": "A practical guide to handling large biological datasets using robust computational tools."}
+    ],
+    "certifications": ["Bioinformatics Specializations (Coursera/edX)", "AWS/GCP Data Analytics"],
+    "relatedDomains": ["ai-in-healthcare", "tissue-engineering"]
+  },
+  {
+    "id": "rehabilitation-engineering",
+    "name": "Rehabilitation Engineering",
+    "icon": "Accessibility",
+    "color": "#14B8A6",
+    "tagline": "Restoring function and improving quality of life",
+    "overview": "Rehabilitation Engineering is the systematic application of engineering sciences to design, develop, adapt, test, evaluate, apply, and distribute technological solutions to problems confronted by individuals with disabilities.",
+    "coreSubjects": ["Biomechanics", "Ergonomics", "Prosthetics and Orthotics", "Human-Computer Interaction", "Sensorimotor Systems"],
+    "applications": ["Advanced Prosthetic Limbs", "Wheelchair Design", "Assistive Communication Devices (Augmentative and Alternative Communication - AAC)", "Exoskeletons"],
+    "industries": ["Prosthetics/Orthotics Clinics", "Assistive Technology Manufacturers", "Veterans Affairs / Rehabilitation Hospitals", "NGOs"],
+    "skillsRequired": ["Patient Interaction/Empathy", "CAD/3D Printing", "Mechanical Design", "Biomechanics Analysis", "Custom Fabrication"],
+    "careerOpportunities": ["medical-device-design-engineer", "clinical-engineer", "biomedical-research-scientist"],
+    "futureScope": "The integration of neural engineering (BCIs) with rehabilitation engineering is creating mind-controlled prosthetics. Soft robotics and smart textiles are making wearable assistive devices more comfortable and effective.",
+    "recommendedBooks": [
+      {"title": "Introduction to Rehabilitation Engineering", "author": "Rory A. Cooper, Hisaichi Ohnabe, Douglas A. Hobson", "description": "Covers the fundamental concepts and practical applications of engineering in rehabilitation."}
+    ],
+    "certifications": ["Assistive Technology Professional (ATP)", "Certified Prosthetist Orthotist (CPO) - requires specific clinical training"],
+    "relatedDomains": ["biomechanics", "medical-robotics", "neural-engineering"]
+  },
+  {
+    "id": "ai-in-healthcare",
+    "name": "AI in Healthcare",
+    "icon": "Cpu",
+    "color": "#F43F5E",
+    "tagline": "Intelligent algorithms transforming medicine",
+    "overview": "Artificial Intelligence (AI) and Machine Learning (ML) are rapidly becoming a domain of their own within biomedical engineering. This field involves training algorithms on massive healthcare datasets to perform tasks that typically require human intelligence, from diagnosing diseases to predicting patient outcomes.",
+    "coreSubjects": ["Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing (NLP)", "Data Ethics & Privacy"],
+    "applications": ["Automated Medical Image Diagnosis", "Predictive Analytics for Patient Risk", "Drug Discovery and Repurposing", "Virtual Health Assistants / Chatbots", "EHR Data Mining"],
+    "industries": ["HealthTech Startups", "Big Tech (Google, Microsoft, Amazon Healthcare)", "Hospitals (Clinical Informatics)", "Pharmaceuticals"],
+    "skillsRequired": ["Python (TensorFlow, PyTorch)", "Data Science & Statistics", "Cloud Computing (AWS/GCP)", "Understanding of Clinical Workflows", "Regulatory Knowledge (SaMD)"],
+    "careerOpportunities": ["ai-healthcare-engineer", "healthcare-data-analyst", "biomedical-research-scientist"],
+    "futureScope": "Generative AI is the current frontier, capable of summarizing patient histories, drafting medical reports, and even designing novel molecular structures for drugs. AI will not replace doctors, but doctors using AI will replace those who don't.",
+    "recommendedBooks": [
+      {"title": "Deep Medicine", "author": "Eric Topol", "description": "Explores how AI can make healthcare more human by freeing up doctors' time to focus on patient care."}
+    ],
+    "certifications": ["DeepLearning.AI Healthcare Specialization", "Cloud Provider Machine Learning Certifications (AWS/GCP/Azure)"],
+    "relatedDomains": ["medical-imaging", "bioinformatics", "biomedical-instrumentation"]
+  }
+]

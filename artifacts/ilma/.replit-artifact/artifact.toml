@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "ILMA – Biomedical Future"
+description = "A premium educational platform for Biomedical Engineering students, providing structured career guidance, biomedical domains, learning roadmaps, and government exam preparation. Built with React, TypeScript, Tailwind CSS, Framer Motion, and shadcn/ui."
+version = "1.0.0"
+id = "artifacts/ilma"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19172
+
+[services.development]
+run = "pnpm --filter @workspace/ilma run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ilma", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ilma/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19172"
+BASE_PATH = "/"

@@ -1,0 +1,448 @@
+[
+  {
+    "id": "gate-biomedical",
+    "name": "GATE Biomedical Engineering (BM)",
+    "icon": "Award",
+    "category": "National",
+    "conductedBy": "IISc Bangalore and Seven IITs on a rotational basis",
+    "officialWebsite": "https://gate.iitkgp.ac.in/",
+    "overview": "The Graduate Aptitude Test in Engineering (GATE) in Biomedical Engineering (BM) is a national-level examination that primarily tests the comprehensive understanding of various undergraduate subjects in engineering and science. It is the most crucial exam for biomedical graduates seeking higher education (M.Tech/Ph.D.) in premier institutes or direct recruitment in Public Sector Undertakings (PSUs).",
+    "eligibility": "Candidates who have completed or are in their final year of Bachelor's degree in Engineering / Technology (B.E./B.Tech) in Biomedical Engineering, Electronics, Instrumentation, or related fields. Graduates in relevant science disciplines (M.Sc) are also eligible.",
+    "ageLimit": "No age limit",
+    "examPattern": {
+      "duration": "3 hours",
+      "totalMarks": 100,
+      "sections": [
+        {"name": "General Aptitude", "marks": 15},
+        {"name": "Engineering Mathematics", "marks": 13},
+        {"name": "Biomedical Engineering Core Subjects", "marks": 72}
+      ],
+      "questionTypes": ["Multiple Choice Questions (MCQ)", "Multiple Select Questions (MSQ)", "Numerical Answer Type (NAT)"]
+    },
+    "syllabus": [
+      {
+        "section": "Engineering Mathematics",
+        "topics": ["Linear Algebra", "Calculus", "Differential Equations", "Analysis of Complex Variables", "Probability and Statistics", "Numerical Methods"]
+      },
+      {
+        "section": "Electrical Circuits",
+        "topics": ["Voltage and current sources", "Kirchhoff's laws", "Mesh and nodal analysis", "Thevenin's, Norton's, and Superposition Theorems", "AC circuits"]
+      },
+      {
+        "section": "Signals and Systems",
+        "topics": ["Continuous and Discrete Signal and Systems", "Periodic, aperiodic and impulse signals", "Laplace, Fourier and z-transforms", "LTI Systems"]
+      },
+      {
+        "section": "Analog and Digital Electronics",
+        "topics": ["Diodes, BJT, FET, Op-Amps", "Combinational and Sequential Logic Circuits", "A/D and D/A converters", "Microprocessors and Microcontrollers basics"]
+      },
+      {
+        "section": "Measurements and Control Systems",
+        "topics": ["SI units", "Error analysis", "Bridges", "Feedback principles", "Transfer function", "Block diagram reduction", "Bode plots", "Root Loci"]
+      },
+      {
+        "section": "Sensors and Bioinstrumentation",
+        "topics": ["Sensors: resistive, capacitive, inductive, piezoelectric", "Biopotentials (ECG, EEG, EMG)", "Amplifiers", "Blood pressure measurement", "Pulse Oximetry"]
+      },
+      {
+        "section": "Human Anatomy and Physiology",
+        "topics": ["Cell structure", "Cardiovascular system", "Respiratory system", "Nervous system", "Musculoskeletal system", "Excretory system"]
+      },
+      {
+        "section": "Medical Imaging Systems",
+        "topics": ["Physics of X-ray", "CT", "MRI", "Ultrasound", "PET and SPECT"]
+      },
+      {
+        "section": "Biomechanics",
+        "topics": ["Kinematics of joints", "Statics and dynamics of the musculoskeletal system", "Mechanics of hard and soft tissues", "Biofluid mechanics"]
+      },
+      {
+        "section": "Biomaterials",
+        "topics": ["Properties of biomaterials", "Metals, Polymers, Ceramics", "Biocompatibility", "Tissue engineering concepts"]
+      }
+    ],
+    "preparationTips": [
+      "Start early (at least 8-10 months in advance) and build a strong foundation in Engineering Mathematics and Core Biomedical Subjects.",
+      "Solve previous 10 years' GATE question papers to understand the pattern and difficulty level.",
+      "Practice NAT (Numerical Answer Type) questions rigorously without options.",
+      "Use virtual calculators during practice, as physical calculators are not allowed.",
+      "Join a reliable test series for time management and accuracy improvement."
+    ],
+    "recommendedBooks": [
+      {"title": "Higher Engineering Mathematics", "author": "B.S. Grewal", "subject": "Mathematics"},
+      {"title": "Medical Instrumentation Application and Design", "author": "John G. Webster", "subject": "Bioinstrumentation"},
+      {"title": "Fundamentals of Anatomy & Physiology", "author": "Frederic H. Martini", "subject": "Anatomy and Physiology"},
+      {"title": "Digital Image Processing", "author": "Rafael C. Gonzalez", "subject": "Medical Imaging (Concepts)"},
+      {"title": "Biomaterials Science", "author": "Buddy D. Ratner", "subject": "Biomaterials"}
+    ],
+    "careerOpportunities": [
+      "M.Tech / MS / Ph.D. in IITs, IISc, NITs",
+      "Recruitment in PSUs like BARC, DRDO (subject to specific notifications)",
+      "Research Fellowship (JRF/SRF) in government institutes",
+      "Direct recruitment in government healthcare projects"
+    ]
+  },
+  {
+    "id": "upsc-engineering-services",
+    "name": "UPSC Engineering Services Examination (ESE)",
+    "icon": "Building",
+    "category": "National",
+    "conductedBy": "Union Public Service Commission (UPSC)",
+    "officialWebsite": "https://www.upsc.gov.in/",
+    "overview": "While there isn't a dedicated 'Biomedical' stream in ESE, Biomedical Engineers are eligible to appear under the Electronics and Telecommunication Engineering (ECE) or Electrical Engineering (EE) streams depending on their coursework. Clearing ESE leads to Group A/B officer posts in organizations like Indian Railways, Central Public Works Department, and Defense Service of Engineers.",
+    "eligibility": "Degree in Engineering from a recognized university. Biomedical graduates must check stream equivalence before applying (usually ECE is closest).",
+    "ageLimit": "21 to 30 years (Age relaxation applicable for reserved categories)",
+    "examPattern": {
+      "duration": "Multi-stage exam",
+      "totalMarks": 1300,
+      "sections": [
+        {"name": "Stage I (Prelims)", "marks": 500},
+        {"name": "Stage II (Mains - Subjective)", "marks": 600},
+        {"name": "Stage III (Personality Test / Interview)", "marks": 200}
+      ],
+      "questionTypes": ["Objective (Prelims)", "Conventional/Subjective (Mains)", "Interview"]
+    },
+    "syllabus": [
+      {
+        "section": "Electronics and Telecom (Most relevant for BME)",
+        "topics": ["Basic Electronics Engineering", "Basic Electrical Engineering", "Materials Science", "Electronic Measurements and Instrumentation", "Network Theory", "Analog and Digital Circuits", "Control Systems", "Computer Organization and Architecture", "Electro Magnetics", "Advanced Electronics Topics"]
+      }
+    ],
+    "preparationTips": [
+      "As a BME student, you will need to learn subjects outside your core curriculum (like Advanced Electromagnetics or Power Systems depending on the chosen stream).",
+      "Focus heavily on the General Studies and Engineering Aptitude paper in Prelims to boost your score.",
+      "Practice answer writing for the Mains examination.",
+      "Thoroughly revise the common subjects: Control Systems, Networks, Analog/Digital Electronics, and Instrumentation."
+    ],
+    "recommendedBooks": [
+      {"title": "General Studies & Engineering Aptitude", "author": "Made Easy Publications", "subject": "Prelims Paper 1"},
+      {"title": "Electronic Devices and Circuit Theory", "author": "Boylestad", "subject": "Electronics"}
+    ],
+    "careerOpportunities": [
+      "Indian Railway Service of Signal Engineers (IRSSE)",
+      "Indian Naval Armament Service",
+      "Defense Aeronautical Quality Assurance Service",
+      "Central Power Engineering Service"
+    ]
+  },
+  {
+    "id": "isro-scientist",
+    "name": "ISRO Scientist/Engineer (SC) Exam",
+    "icon": "Rocket",
+    "category": "National / Defense",
+    "conductedBy": "Indian Space Research Organisation (ISRO)",
+    "officialWebsite": "https://www.isro.gov.in/",
+    "overview": "ISRO conducts its own centralized recruitment (ICRB) for the post of Scientist/Engineer 'SC'. While direct recruitment for Biomedical is rare, they often recruit Electronics or Computer Science engineers. Biomedical engineers with strong electronics backgrounds can apply under the Electronics stream, or occasionally under specific requirements for aerospace medicine/bioengineering projects.",
+    "eligibility": "B.E/B.Tech or equivalent qualification in First Class with an aggregate minimum of 65% marks or CGPA 6.84/10.",
+    "ageLimit": "Maximum 28 years",
+    "examPattern": {
+      "duration": "120 minutes (Written Test)",
+      "totalMarks": 240,
+      "sections": [
+        {"name": "Core Subject (Electronics/Relevant Stream)", "marks": 240}
+      ],
+      "questionTypes": ["Objective Type (80 Questions, +3 for correct, -1 for wrong)"]
+    },
+    "syllabus": [
+      {
+        "section": "Electronics Engineering (Typical Stream)",
+        "topics": ["Networks, Signals and Systems", "Electronic Devices", "Analog Circuits", "Digital Circuits", "Control Systems", "Communications", "Electromagnetics"]
+      }
+    ],
+    "preparationTips": [
+      "The written test is highly conceptual. Speed and accuracy are vital as there are 80 questions in 120 minutes.",
+      "The syllabus heavily overlaps with the GATE syllabus for the respective stream.",
+      "The written test is only for shortlisting; final selection is based entirely on the interview performance.",
+      "Prepare your B.Tech project thoroughly, as ISRO interviews focus heavily on practical understanding and projects."
+    ],
+    "recommendedBooks": [
+      {"title": "Previous Years ISRO Question Papers", "author": "Various", "subject": "All Subjects"},
+      {"title": "GATE preparation material for Electronics", "author": "Various", "subject": "Electronics Core"}
+    ],
+    "careerOpportunities": [
+      "Scientist/Engineer 'SC' at various ISRO centers (VSSC, SAC, URSC, etc.)",
+      "Involvement in space medicine, life support systems, or bio-instrumentation for astronauts (Gaganyaan mission)"
+    ]
+  },
+  {
+    "id": "drdo-scientist",
+    "name": "DRDO Scientist Entry Test (SET) / RAC",
+    "icon": "ShieldAlert",
+    "category": "Defense / Research",
+    "conductedBy": "Recruitment and Assessment Centre (RAC) - DRDO",
+    "officialWebsite": "https://rac.gov.in/",
+    "overview": "DRDO recruits Scientists ('B' level) through the Recruitment and Assessment Centre (RAC). Recruitment is often done based on valid GATE scores followed by a descriptive written test or direct interview. DRDO has specialized labs like INMAS (Institute of Nuclear Medicine & Allied Sciences) and DIPAS (Defence Institute of Physiology and Allied Sciences) where Biomedical Engineers are highly relevant.",
+    "eligibility": "At least First Class Bachelor's Degree in Engineering or Technology in relevant disciplines. Valid GATE score is often a primary prerequisite.",
+    "ageLimit": "Maximum 28 years (relaxable for reserved categories)",
+    "examPattern": {
+      "duration": "Varies (Written Test + Interview)",
+      "totalMarks": "Weightage based",
+      "sections": [
+        {"name": "GATE Score", "marks": "Used for shortlisting"},
+        {"name": "Descriptive Exam (if applicable)", "marks": "Subjective"},
+        {"name": "Personal Interview", "marks": "80% weightage (often)"}
+      ],
+      "questionTypes": ["Descriptive (Subjective) and Interview"]
+    },
+    "syllabus": [
+      {
+        "section": "Biomedical Engineering (When specifically notified)",
+        "topics": ["Bioinstrumentation", "Medical Imaging", "Biomechanics", "Biomaterials", "Physiology", "Signal and Image Processing"]
+      },
+      {
+        "section": "Electronics (Alternative Entry)",
+        "topics": ["Standard ECE syllabus"]
+      }
+    ],
+    "preparationTips": [
+      "A high GATE score in Biomedical Engineering (BM) is the most reliable way to get shortlisted.",
+      "For the interview, have an in-depth understanding of your core subjects and final-year project.",
+      "Stay updated on DRDO's recent technological developments, especially in defense healthcare, life support systems, and exoskeletons."
+    ],
+    "recommendedBooks": [
+      {"title": "GATE Biomedical preparation material", "author": "Various", "subject": "Core Subjects"}
+    ],
+    "careerOpportunities": [
+      "Scientist 'B' at INMAS, DIPAS, DEBEL (Defence Bioengineering and Electromedical Laboratory).",
+      "Work on high-altitude physiology, protective gear, combat casualty care devices, and nuclear medicine."
+    ]
+  },
+  {
+    "id": "barc-scientific-officer",
+    "name": "BARC OCES/DGFS (Scientific Officer)",
+    "icon": "Atom",
+    "category": "Nuclear / Research",
+    "conductedBy": "Bhabha Atomic Research Centre (BARC)",
+    "officialWebsite": "https://www.barconlineexam.in/",
+    "overview": "BARC offers a one-year Orientation Course for Engineering Graduates and Science Postgraduates (OCES) and a two-year DGFS program. Successful completion leads to appointment as a Scientific Officer 'C'. While they don't have a specific Biomedical paper, BME graduates can apply under Electronics, Instrumentation, or occasionally Biosciences if they hold a relevant M.Sc.",
+    "eligibility": "B.E/B.Tech with minimum 60% aggregate. Valid GATE score or clearing the BARC online exam.",
+    "ageLimit": "Maximum 26 years",
+    "examPattern": {
+      "duration": "2 hours (Online Exam)",
+      "totalMarks": 300,
+      "sections": [
+        {"name": "Core Engineering Subject", "marks": 300}
+      ],
+      "questionTypes": ["Objective (100 questions, +3 correct, -1 wrong)"]
+    },
+    "syllabus": [
+      {
+        "section": "Instrumentation / Electronics",
+        "topics": ["Analog and Digital Electronics", "Measurements", "Control Systems", "Signals and Systems", "Microprocessors"]
+      }
+    ],
+    "preparationTips": [
+      "The exam tests speed and accuracy, similar to ISRO but often conceptually deeper.",
+      "You can apply via GATE score OR the online exam; applying through both increases your chances of shortlisting.",
+      "The BARC interview is notorious for being extremely rigorous and purely technical, often lasting 1-2 hours. Prepare to derive formulas and explain concepts on a whiteboard."
+    ],
+    "recommendedBooks": [
+      {"title": "Standard textbooks for Electronics/Instrumentation", "author": "Various", "subject": "Core"}
+    ],
+    "careerOpportunities": [
+      "Scientific Officer 'C' in Department of Atomic Energy (DAE) units.",
+      "Research in radiation therapy equipment, nuclear medicine, and radioisotopes."
+    ]
+  },
+  {
+    "id": "csir-net",
+    "name": "CSIR-UGC NET",
+    "icon": "Microscope",
+    "category": "Academia / Research",
+    "conductedBy": "National Testing Agency (NTA)",
+    "officialWebsite": "https://csirnet.nta.nic.in/",
+    "overview": "The Council of Scientific and Industrial Research (CSIR) National Eligibility Test (NET) determines eligibility for Junior Research Fellowship (JRF) and Lectureship/Assistant Professor in Indian universities and colleges. Biomedical Engineers typically appear under the 'Life Sciences' or 'Physical Sciences' subject categories.",
+    "eligibility": "M.Sc. or equivalent degree/ Integrated BS-MS/BS-4 years/BE/B.Tech/B.Pharma/MBBS with at least 55% marks.",
+    "ageLimit": "Maximum 28 years for JRF. No upper age limit for Lectureship.",
+    "examPattern": {
+      "duration": "3 hours",
+      "totalMarks": 200,
+      "sections": [
+        {"name": "Part A (General Aptitude)", "marks": 30},
+        {"name": "Part B (Subject-related Conventional)", "marks": 70},
+        {"name": "Part C (Higher Value Questions/Application)", "marks": 100}
+      ],
+      "questionTypes": ["Multiple Choice Questions (Negative marking applies)"]
+    },
+    "syllabus": [
+      {
+        "section": "Life Sciences (Common choice for BME)",
+        "topics": ["Molecules and their Interaction Relevant to Biology", "Cellular Organization", "Fundamental Processes", "Cell Communication and Cell Signaling", "Developmental Biology", "System Physiology - Animal", "Inheritance Biology", "Applied Biology", "Methods in Biology"]
+      }
+    ],
+    "preparationTips": [
+      "BME students must significantly strengthen their pure biology/life science fundamentals to compete in the Life Sciences paper.",
+      "Focus heavily on Part C, which tests analytical skills and application of scientific concepts.",
+      "Review standard biology textbooks alongside your engineering background."
+    ],
+    "recommendedBooks": [
+      {"title": "Principles of Biochemistry", "author": "Lehninger", "subject": "Biochemistry"},
+      {"title": "Molecular Biology of the Cell", "author": "Bruce Alberts", "subject": "Cell Biology"}
+    ],
+    "careerOpportunities": [
+      "Junior Research Fellow (JRF) in CSIR labs (like CCMB, IGIB, CDRI).",
+      "Assistant Professor in universities.",
+      "Ph.D. funding (UGC/CSIR Fellowship)."
+    ]
+  },
+  {
+    "id": "aiims-recruitment",
+    "name": "AIIMS/PGIMER Technical Recruitment",
+    "icon": "Hospital",
+    "category": "Healthcare Institutions",
+    "conductedBy": "All India Institute of Medical Sciences / PGIMER",
+    "officialWebsite": "https://www.aiimsexams.ac.in/",
+    "overview": "Premier government medical institutes like AIIMS and PGIMER regularly recruit Biomedical Engineers, Clinical Engineers, and Technical Officers for managing their massive inventory of medical equipment, setting up new facilities, and assisting in clinical research.",
+    "eligibility": "B.E/B.Tech in Biomedical Engineering. Experience of 2-5 years in hospital equipment management is often required for Officer level posts.",
+    "ageLimit": "Usually up to 30 or 35 years depending on the post.",
+    "examPattern": {
+      "duration": "Varies (Written Test + Interview/Skill Test)",
+      "totalMarks": "Varies",
+      "sections": [
+        {"name": "Domain Knowledge (Biomedical Engineering)", "marks": "Major"},
+        {"name": "General Intelligence & Reasoning", "marks": "Minor"},
+        {"name": "Hospital Safety and Regulations", "marks": "Minor"}
+      ],
+      "questionTypes": ["Objective + Skill/Practical Test"]
+    },
+    "syllabus": [
+      {
+        "section": "Biomedical Engineering",
+        "topics": ["Medical Imaging Equipment", "Life Support Systems", "Surgical Instruments", "Hospital Electrical Systems", "NABH/JCI Regulations", "Preventive Maintenance Protocols", "Calibration techniques"]
+      }
+    ],
+    "preparationTips": [
+      "Focus on practical, hospital-based knowledge rather than theoretical R&D.",
+      "Familiarize yourself with troubleshooting common medical equipment.",
+      "Understand hospital procurement processes, tendering, and AMC/CMC contracts."
+    ],
+    "recommendedBooks": [
+      {"title": "Handbook of Biomedical Instrumentation", "author": "R.S. Khandpur", "subject": "Instrumentation"}
+    ],
+    "careerOpportunities": [
+      "Biomedical Engineer",
+      "Technical Officer (Biomedical)",
+      "Assistant Engineer (Biomedical)"
+    ]
+  },
+  {
+    "id": "ssc-je",
+    "name": "SSC Junior Engineer (JE)",
+    "icon": "Briefcase",
+    "category": "Central Government",
+    "conductedBy": "Staff Selection Commission (SSC)",
+    "officialWebsite": "https://ssc.nic.in/",
+    "overview": "SSC JE recruits Junior Engineers for various Group 'B' posts in central government departments. Biomedical Engineering is not a separate stream. BME candidates often apply under Electrical or Mechanical streams depending on their university degree nomenclature and equivalence certificates.",
+    "eligibility": "Degree or Diploma in Electrical or Mechanical Engineering. (BME candidates must check equivalence status).",
+    "ageLimit": "Up to 30/32 years depending on the department.",
+    "examPattern": {
+      "duration": "Paper 1 (2 Hrs), Paper 2 (2 Hrs)",
+      "totalMarks": 500,
+      "sections": [
+        {"name": "Paper 1: General Intelligence, Awareness, General Engineering", "marks": 200},
+        {"name": "Paper 2: General Engineering (Descriptive)", "marks": 300}
+      ],
+      "questionTypes": ["Objective (Paper 1)", "Conventional/Descriptive (Paper 2)"]
+    },
+    "syllabus": [
+      {
+        "section": "General Engineering (Electrical)",
+        "topics": ["Basic concepts", "Circuit law", "Magnetic Circuit", "AC Fundamentals", "Measurement and measuring instruments", "Electrical Machines", "Fractional Kilowatt Motors"]
+      }
+    ],
+    "preparationTips": [
+      "Requires studying core Electrical or Mechanical subjects that were only briefly covered in BME.",
+      "Strong focus required on General Intelligence and General Awareness for Paper 1.",
+      "Practice previous years' SSC JE papers."
+    ],
+    "recommendedBooks": [
+      {"title": "SSC JE Electrical Engineering", "author": "Made Easy Publications", "subject": "Core"}
+    ],
+    "careerOpportunities": [
+      "Junior Engineer in CPWD, MES, Border Roads Organization (BRO)."
+    ]
+  },
+  {
+    "id": "rrb-je",
+    "name": "RRB Junior Engineer (JE)",
+    "icon": "Train",
+    "category": "Railways",
+    "conductedBy": "Railway Recruitment Board (RRB)",
+    "officialWebsite": "https://indianrailways.gov.in/",
+    "overview": "RRB recruits Junior Engineers for the Indian Railways. Similar to SSC JE, Biomedical Engineers apply under allied streams (usually Electronics or Electrical). The railways have their own hospitals where biomedical engineers might be posted, though typical JE postings are in railway technical departments.",
+    "eligibility": "Diploma/Degree in Engineering in relevant disciplines.",
+    "ageLimit": "18 to 33 years",
+    "examPattern": {
+      "duration": "CBT 1 (90 mins), CBT 2 (120 mins)",
+      "totalMarks": "CBT 1: 100, CBT 2: 150",
+      "sections": [
+        {"name": "CBT 1: Math, General Intelligence, General Science", "marks": 100},
+        {"name": "CBT 2: General Awareness, Physics/Chemistry, Technical Abilities", "marks": 150}
+      ],
+      "questionTypes": ["Multiple Choice Questions (Objective)"]
+    },
+    "syllabus": [
+      {
+        "section": "Technical Abilities (Electronics/Allied)",
+        "topics": ["Electronic Devices", "Energy bands", "Signal and Systems", "Wireless Communication", "Multiplexing", "Modulation"]
+      }
+    ],
+    "preparationTips": [
+      "CBT 1 is entirely non-technical (Aptitude, Reasoning, General Science). Solidify your 10th/12th level Physics and Chemistry.",
+      "For CBT 2, focus on the technical syllabus of your chosen allied stream.",
+      "Speed is crucial; practice mock tests regularly."
+    ],
+    "recommendedBooks": [
+      {"title": "Lucent's General Knowledge", "author": "Lucent", "subject": "General Awareness"},
+      {"title": "Quantitative Aptitude", "author": "R.S. Aggarwal", "subject": "Maths"}
+    ],
+    "careerOpportunities": [
+      "Junior Engineer (Signal & Telecom)",
+      "Junior Engineer (Electrical)",
+      "Postings in Railway Hospitals (rare but possible)"
+    ]
+  },
+  {
+    "id": "state-psc",
+    "name": "State Public Service Commissions (PSC)",
+    "icon": "Map",
+    "category": "State Government",
+    "conductedBy": "Respective State PSCs (e.g., MPSC, TNPSC, UPPSC)",
+    "officialWebsite": "Varies by State",
+    "overview": "Various State Public Service Commissions periodically release notifications for Assistant Engineer (AE) or Biomedical Engineer posts, specifically for state government hospitals, health departments, and medical colleges.",
+    "eligibility": "B.E/B.Tech in Biomedical Engineering. Domicile of the respective state is often preferred or required.",
+    "ageLimit": "Usually 21 to 35/40 years (varies significantly by state).",
+    "examPattern": {
+      "duration": "Varies",
+      "totalMarks": "Varies",
+      "sections": [
+        {"name": "General Knowledge (State Specific)", "marks": "Varies"},
+        {"name": "Technical Subject (Biomedical)", "marks": "Varies"}
+      ],
+      "questionTypes": ["Objective + Interview"]
+    },
+    "syllabus": [
+      {
+        "section": "State General Knowledge",
+        "topics": ["History, Geography, Economy, and Polity of the specific state"]
+      },
+      {
+        "section": "Technical",
+        "topics": ["Core Biomedical Engineering syllabus (similar to GATE)"]
+      }
+    ],
+    "preparationTips": [
+      "Keep a close watch on state government recruitment portals.",
+      "A significant portion of the exam tests state-specific general knowledge, which requires dedicated preparation.",
+      "Brush up on local language skills if required by the state."
+    ],
+    "recommendedBooks": [
+      {"title": "State specific GK books (e.g., Arihant Publications)", "author": "Various", "subject": "General Knowledge"}
+    ],
+    "careerOpportunities": [
+      "Biomedical Engineer in District Hospitals",
+      "Assistant Engineer in State Health Departments",
+      "Technical Officer in State Medical Supplies Corporations"
+    ]
+  }
+]
