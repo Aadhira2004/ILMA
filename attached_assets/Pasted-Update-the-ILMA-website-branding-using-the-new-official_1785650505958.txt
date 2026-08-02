@@ -1,0 +1,71 @@
+Update the ILMA website branding using the new official ILMA logo.
+
+IMPORTANT:
+• Replace the existing logo everywhere in the application with the uploaded ILMA logo.
+• Use the uploaded logo as the primary brand identity.
+• Do not redesign or recreate the logo.
+• Preserve the logo's original colors, proportions, gradients, and transparency.
+• Optimize the logo for both light mode and dark mode.
+
+Apply the logo consistently in the following locations:
+
+1. Navigation Bar
+- Display the logo on the left side.
+- Height: 48–56px on desktop.
+- Height: 40–44px on mobile.
+- Add appropriate spacing between the logo and navigation links.
+- Clicking the logo should navigate to the Home page.
+
+2. Browser Favicon
+- Generate favicon versions from the uploaded logo.
+- Support:
+  - favicon.ico
+  - 32×32
+  - 16×16
+  - Apple Touch Icon
+
+3. Loading Screen
+- Replace the loading spinner with the ILMA logo.
+- Add a subtle pulse/glow animation.
+- Use the text:
+  "Loading ILMA..."
+
+4. Footer
+Display:
+
+ILMA – Biomedical Future
+
+Innovation • Learning • Medical Technology • Advancement
+
+Founded by Aadhira Suleim A. R.
+
+5. Login Page
+Show the logo centered above the login form.
+
+6. Mobile Navigation
+Display the logo at the top of the mobile drawer.
+
+7. Open Graph / SEO
+Use the uploaded logo as the Open Graph preview image.
+
+8. Manifest
+Use the logo for the PWA icon.
+
+Design Requirements:
+• Keep the current website layout unchanged.
+• Maintain the existing blue and teal branding.
+• Ensure the logo appears crisp on Retina displays.
+• Enable lazy loading where appropriate.
+• Use responsive sizing for desktop, tablet, and mobile.
+• Maintain sufficient whitespace around the logo.
+• Do not stretch, crop, distort, or recolor the logo.
+
+Technical Requirements:
+• Store the logo in the assets/images folder.
+• Create reusable Logo.tsx and LogoIcon.tsx components.
+• Use the same logo component across the entire application.
+• Optimize the image for web performance.
+• Add descriptive alt text:
+  "ILMA – Biomedical Future Logo"
+
+The logo should become the official branding element across the entire ILMA website while preserving the current premium Apple-inspired design.
