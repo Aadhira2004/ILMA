@@ -1,36 +1,68 @@
 import React from 'react';
 import { Link } from 'wouter';
-import { ActivitySquare, Mail, Linkedin, Instagram, ArrowRight } from 'lucide-react';
+import { Mail, Linkedin, Instagram, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import ilmaLogo from '@/assets/images/ilma-logo.png';
 
 export function Footer() {
   return (
     <footer className="bg-card border-t border-border mt-auto">
       <div className="container mx-auto px-4 md:px-6 py-12 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
-          
+
           {/* Brand Column */}
           <div className="flex flex-col gap-4">
-            <Link href="/" className="flex items-center gap-2 group w-fit">
-              <div className="bg-primary text-primary-foreground p-1.5 rounded-lg">
-                <ActivitySquare className="h-6 w-6" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-heading font-bold text-xl leading-none tracking-tight">ILMA</span>
-              </div>
+            <Link href="/" aria-label="ILMA – Biomedical Future Home" className="w-fit">
+              <img
+                src={ilmaLogo}
+                alt="ILMA – Biomedical Future Logo"
+                className="h-12 w-auto object-contain rounded-md"
+                loading="lazy"
+              />
             </Link>
-            <p className="text-muted-foreground text-sm leading-relaxed mt-2 max-w-xs">
-              Empowering Biomedical Engineering students with structured learning, career guidance, skill roadmaps, and exam preparation.
+
+            <div className="mt-1 flex flex-col gap-1">
+              <p className="font-heading font-semibold text-foreground text-sm tracking-wide">
+                ILMA – Biomedical Future
+              </p>
+              <p className="text-xs text-muted-foreground tracking-wider">
+                Innovation • Learning • Medical Technology • Advancement
+              </p>
+              <p className="text-xs text-muted-foreground mt-1">
+                Founded by <span className="text-primary font-medium">Aadhira Suleim A. R.</span>
+              </p>
+            </div>
+
+            <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
+              Empowering Biomedical Engineering students with structured learning,
+              career guidance, skill roadmaps, and exam preparation.
             </p>
-            <div className="flex items-center gap-3 mt-2">
-              <a href="#" className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
+
+            <div className="flex items-center gap-3 mt-1">
+              <a
+                href="mailto:contact@ilma.edu.in"
+                aria-label="Email ILMA"
+                className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
                 <Mail className="h-4 w-4" />
               </a>
-              <a href="#" className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ILMA on LinkedIn"
+                className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
                 <Linkedin className="h-4 w-4" />
               </a>
-              <a href="#" className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors">
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="ILMA on Instagram"
+                className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
                 <Instagram className="h-4 w-4" />
               </a>
             </div>
@@ -66,9 +98,9 @@ export function Footer() {
               Subscribe to our newsletter for the latest biomedical trends and career opportunities.
             </p>
             <div className="flex flex-col gap-2 mt-1">
-              <Input 
-                type="email" 
-                placeholder="Enter your email" 
+              <Input
+                type="email"
+                placeholder="Enter your email"
                 className="bg-background border-input"
               />
               <Button className="w-full group">
@@ -79,7 +111,7 @@ export function Footer() {
           </div>
 
         </div>
-        
+
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} ILMA – Biomedical Future. All rights reserved.</p>
           <p>Designed for Biomedical Engineers, by Biomedical Engineers.</p>
