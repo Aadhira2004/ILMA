@@ -110,7 +110,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground font-medium">Email Us</p>
-                      <a href="mailto:hello@ilmafuture.com" className="text-lg font-semibold hover:text-primary transition-colors">hello@ilmafuture.com</a>
+                      <a href="mailto:ilmabiomedical@gmail.com" className="text-lg font-semibold hover:text-primary transition-colors">ilmabiomedical@gmail.com</a>
                     </div>
                   </div>
                   

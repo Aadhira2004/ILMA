@@ -39,14 +39,18 @@ export function Footer() {
               career guidance, skill roadmaps, and exam preparation.
             </p>
 
+            {/* Email with visible address */}
+            <a
+              href="mailto:ilmabiomedical@gmail.com"
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors group w-fit mt-1"
+              aria-label="Email ILMA at ilmabiomedical@gmail.com"
+            >
+              <Mail className="h-4 w-4 text-primary shrink-0" />
+              <span className="group-hover:underline underline-offset-2">ilmabiomedical@gmail.com</span>
+            </a>
+
+            {/* Social icons */}
             <div className="flex items-center gap-3 mt-1">
-              <a
-                href="mailto:contact@ilma.edu.in"
-                aria-label="Email ILMA"
-                className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <Mail className="h-4 w-4" />
-              </a>
               <a
                 href="https://linkedin.com"
                 target="_blank"
