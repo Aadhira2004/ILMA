@@ -197,10 +197,10 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <h4 className="font-bold text-foreground">Resources</h4>
             <ul className="flex flex-col gap-2.5">
-              <li><Link href="/contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">Contact Us</Link></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">Terms of Service</a></li>
-              <li><a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">FAQ</a></li>
+              <li><Link href="/contact"        className="text-sm text-muted-foreground hover:text-primary transition-colors">Contact Us</Link></li>
+              <li><Link href="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms"          className="text-sm text-muted-foreground hover:text-primary transition-colors">Terms of Service</Link></li>
+              <li><Link href="/faq"            className="text-sm text-muted-foreground hover:text-primary transition-colors">FAQ</Link></li>
             </ul>
           </div>
 

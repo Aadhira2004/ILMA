@@ -18,6 +18,9 @@ import GovernmentExamsPage from '@/pages/GovernmentExamsPage';
 import ExamDetailPage from '@/pages/ExamDetailPage';
 import ContactPage from '@/pages/ContactPage';
 import FounderPage from '@/pages/FounderPage';
+import PrivacyPolicyPage from '@/pages/PrivacyPolicyPage';
+import TermsOfServicePage from '@/pages/TermsOfServicePage';
+import FAQPage from '@/pages/FAQPage';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -42,6 +45,9 @@ function Router() {
       <Route path="/exams/:id" component={ExamDetailPage} />
       <Route path="/contact" component={ContactPage} />
       <Route path="/founder" component={FounderPage} />
+      <Route path="/privacy-policy" component={PrivacyPolicyPage} />
+      <Route path="/terms" component={TermsOfServicePage} />
+      <Route path="/faq" component={FAQPage} />
       <Route component={NotFound} />
     </Switch>
   );
