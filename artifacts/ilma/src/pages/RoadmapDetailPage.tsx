@@ -90,7 +90,7 @@ export default function RoadmapDetailPage() {
             </h3>
             <div className="flex flex-col gap-3">
               {phase.resources.map((res, i) => (
-                <a key={i} href={res.url || '#'} className={`flex items-center gap-3 p-3 rounded-xl border ${res.url ? 'border-border hover:border-primary/50 hover:bg-accent transition-colors' : 'border-dashed border-border opacity-70 cursor-default'}`}>
+                <a key={i} href={res.url || '#'} {...(res.url ? { target: "_blank", rel: "noopener noreferrer" } : {})} className={`flex items-center gap-3 p-3 rounded-xl border ${res.url ? 'border-border hover:border-primary/50 hover:bg-accent transition-colors' : 'border-dashed border-border opacity-70 cursor-default'}`}>
                   {res.type === 'free' ? <MonitorPlay className="w-4 h-4 text-primary" /> : <BookOpen className="w-4 h-4 text-amber-500" />}
                   <span className="font-medium text-sm flex-1">{res.name}</span>
                   {res.url && <LinkIcon className="w-3.5 h-3.5 text-muted-foreground" />}

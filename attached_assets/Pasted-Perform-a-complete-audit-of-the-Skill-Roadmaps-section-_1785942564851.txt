@@ -1,0 +1,142 @@
+Perform a complete audit of the Skill Roadmaps section and automatically repair every missing, broken, placeholder, or non-clickable resource link.
+
+Roadmaps to audit:
+
+• Python for Biomedical Engineering
+• MATLAB for Signal & Image Processing
+• Embedded Systems for Medical Devices
+• Medical Image Processing
+• IoT in Healthcare
+• Machine Learning in Healthcare
+• AI & Generative AI in Medicine
+• PCB Design for Medical Devices
+• SolidWorks & 3D Modeling
+• Research & Scientific Writing
+
+For EVERY roadmap:
+
+1. Check every Learning Resource.
+2. If it is plain text, convert it into a clickable hyperlink.
+3. If the link is missing, replace it with the official website.
+4. Verify every URL is valid.
+5. Replace broken, outdated, or unofficial links with the official source.
+6. Ensure all external links open in a new tab using:
+   target="_blank"
+   rel="noopener noreferrer"
+
+Verify and repair links for (use official websites only):
+
+PYTHON
+• Python Official Documentation
+• Automate the Boring Stuff with Python
+• NumPy Documentation
+• Pandas Documentation
+• Matplotlib Documentation
+• Seaborn Documentation
+• Plotly Documentation
+• SciPy Documentation
+• Scikit-Learn Documentation
+• OpenCV Documentation
+• scikit-image Documentation
+• PyTorch Documentation
+• TensorFlow Documentation
+• pydicom Documentation
+• Fast.ai
+• Coursera Deep Learning for Healthcare
+• IBM Data Science Professional Certificate
+• TensorFlow Developer Certificate
+
+MATLAB
+• MATLAB Documentation
+• Simulink Documentation
+• MathWorks Onramp
+• Signal Processing Toolbox
+• Image Processing Toolbox
+
+EMBEDDED SYSTEMS
+• Arduino Documentation
+• ESP32 Documentation
+• STM32 Documentation
+• PlatformIO
+• FreeRTOS Documentation
+
+MEDICAL IMAGE PROCESSING
+• OpenCV
+• MONAI
+• ITK
+• 3D Slicer
+• pydicom
+
+IoT
+• MQTT
+• ThingsBoard
+• Node-RED
+• Arduino IoT Cloud
+• ESP32 Documentation
+
+MACHINE LEARNING
+• Scikit-Learn
+• TensorFlow
+• PyTorch
+• Kaggle Learn
+• Google Machine Learning Crash Course
+
+AI & GENERATIVE AI
+• Hugging Face
+• OpenAI API Documentation
+• LangChain Documentation
+• Ollama
+• Google AI
+
+PCB DESIGN
+• KiCad
+• EasyEDA
+• Altium Academy
+• Autodesk Fusion Electronics
+
+SOLIDWORKS
+• SolidWorks
+• Autodesk Fusion
+• Onshape
+
+RESEARCH
+• Overleaf
+• Zotero
+• Mendeley
+• IEEE Author Center
+• Springer Author Academy
+• Elsevier Researcher Academy
+• Google Scholar
+• PubMed
+
+CERTIFICATIONS
+
+Verify and repair links for:
+
+• IBM Data Science Professional Certificate
+• TensorFlow Developer Certificate
+• MATLAB Onramp Certificate
+• Google AI Courses
+• Coursera Courses
+• edX Courses
+
+CAPSTONE PROJECTS
+
+Ensure every Capstone Project includes:
+• GitHub icon linking to GitHub
+• Dataset link (if applicable)
+• Documentation link
+• Research paper/reference link (if applicable)
+
+After completing the audit, generate a report:
+
+✓ Total Roadmaps Checked
+✓ Total Learning Resources
+✓ Links Already Working
+✓ Missing Links Added
+✓ Broken Links Fixed
+✓ Invalid Links Replaced
+✓ Certification Links Verified
+✓ External Links Opening in New Tab
+
+Do not change the UI, colors, layout, typography, animations, spacing, responsiveness, or content. Only improve the functionality and correctness of external resource links.

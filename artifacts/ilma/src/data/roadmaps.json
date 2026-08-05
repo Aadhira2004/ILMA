@@ -5,41 +5,99 @@
     "icon": "Code",
     "color": "#1AB7B0",
     "estimatedTimeline": "4–6 months",
-    "careerApplications": ["Medical Image Processing", "Bioinformatics", "AI in Healthcare", "Data Analysis"],
+    "careerApplications": [
+      "Medical Image Processing",
+      "Bioinformatics",
+      "AI in Healthcare",
+      "Data Analysis"
+    ],
     "beginner": {
       "title": "Foundation",
       "duration": "4–6 weeks",
-      "topics": ["Python Basics (Syntax, Data Types, Loops, Functions)", "Object-Oriented Programming (OOP) concepts", "Introduction to NumPy (Arrays, Operations)", "Basic Data Visualization with Matplotlib", "Data Manipulation with Pandas (Series, DataFrames)"],
+      "topics": [
+        "Python Basics (Syntax, Data Types, Loops, Functions)",
+        "Object-Oriented Programming (OOP) concepts",
+        "Introduction to NumPy (Arrays, Operations)",
+        "Basic Data Visualization with Matplotlib",
+        "Data Manipulation with Pandas (Series, DataFrames)"
+      ],
       "resources": [
-        {"name": "Python.org Official Tutorial", "type": "free", "url": "https://docs.python.org/3/tutorial/"},
-        {"name": "Automate the Boring Stuff with Python", "type": "book"}
+        {
+          "name": "Python.org Official Tutorial",
+          "type": "free",
+          "url": "https://docs.python.org/3/tutorial/"
+        },
+        {
+          "name": "Automate the Boring Stuff with Python",
+          "type": "book",
+          "url": "https://automatetheboringstuff.com/"
+        }
       ],
       "project": "Basic data visualization of patient demographic data from a CSV file."
     },
     "intermediate": {
       "title": "Data Analysis & Visualization",
       "duration": "6–8 weeks",
-      "topics": ["Advanced Pandas (Merging, Grouping, Pivot Tables)", "Advanced Visualization (Seaborn, Plotly)", "Handling Missing Data in Healthcare Datasets", "Basic Signal Processing (SciPy)", "Working with APIs to fetch medical data"],
+      "topics": [
+        "Advanced Pandas (Merging, Grouping, Pivot Tables)",
+        "Advanced Visualization (Seaborn, Plotly)",
+        "Handling Missing Data in Healthcare Datasets",
+        "Basic Signal Processing (SciPy)",
+        "Working with APIs to fetch medical data"
+      ],
       "resources": [
-        {"name": "Kaggle Micro-courses (Pandas, Data Visualization)", "type": "free", "url": "https://www.kaggle.com/learn"},
-        {"name": "Python for Data Analysis by Wes McKinney", "type": "book"}
+        {
+          "name": "Kaggle Micro-courses (Pandas, Data Visualization)",
+          "type": "free",
+          "url": "https://www.kaggle.com/learn"
+        },
+        {
+          "name": "Python for Data Analysis by Wes McKinney",
+          "type": "book",
+          "url": "https://wesmckinney.com/book/"
+        }
       ],
       "project": "Analyze a public dataset (like MIMIC-III demo) to find correlations between patient age, diagnosis, and length of stay."
     },
     "advanced": {
       "title": "Machine Learning & Medical Applications",
       "duration": "8–12 weeks",
-      "topics": ["Introduction to Scikit-Learn (Regression, Classification, Clustering)", "Medical Image Processing with OpenCV and scikit-image", "Introduction to Deep Learning (PyTorch or TensorFlow)", "Handling DICOM Images (pydicom)", "Natural Language Processing (NLP) for medical text"],
+      "topics": [
+        "Introduction to Scikit-Learn (Regression, Classification, Clustering)",
+        "Medical Image Processing with OpenCV and scikit-image",
+        "Introduction to Deep Learning (PyTorch or TensorFlow)",
+        "Handling DICOM Images (pydicom)",
+        "Natural Language Processing (NLP) for medical text"
+      ],
       "resources": [
-        {"name": "Fast.ai Practical Deep Learning for Coders", "type": "free", "url": "https://course.fast.ai/"},
-        {"name": "Deep Learning for Healthcare Specialization (Coursera)", "type": "course"}
+        {
+          "name": "Fast.ai Practical Deep Learning for Coders",
+          "type": "free",
+          "url": "https://course.fast.ai/"
+        },
+        {
+          "name": "Deep Learning for Healthcare Specialization (Coursera)",
+          "type": "course",
+          "url": "https://www.coursera.org/specializations/ai-healthcare"
+        }
       ],
       "project": "Build a CNN model to classify X-ray images as Normal or Pneumonia."
     },
-    "certifications": ["IBM Data Science Professional Certificate", "TensorFlow Developer Certificate"],
+    "certifications": [
+      "IBM Data Science Professional Certificate",
+      "TensorFlow Developer Certificate"
+    ],
     "projects": [
-      {"name": "ECG Signal Filtering", "difficulty": "intermediate", "description": "Use SciPy to design and apply digital filters to remove noise from raw ECG data."},
-      {"name": "Breast Cancer Predictor", "difficulty": "advanced", "description": "Use Scikit-Learn to build a logistic regression model predicting malignancy based on cell nucleus features."}
+      {
+        "name": "ECG Signal Filtering",
+        "difficulty": "intermediate",
+        "description": "Use SciPy to design and apply digital filters to remove noise from raw ECG data."
+      },
+      {
+        "name": "Breast Cancer Predictor",
+        "difficulty": "advanced",
+        "description": "Use Scikit-Learn to build a logistic regression model predicting malignancy based on cell nucleus features."
+      }
     ]
   },
   {
@@ -48,40 +106,93 @@
     "icon": "FunctionSquare",
     "color": "#F97316",
     "estimatedTimeline": "3–5 months",
-    "careerApplications": ["Biomedical Instrumentation", "Medical Imaging", "Research", "Neural Engineering"],
+    "careerApplications": [
+      "Biomedical Instrumentation",
+      "Medical Imaging",
+      "Research",
+      "Neural Engineering"
+    ],
     "beginner": {
       "title": "MATLAB Basics",
       "duration": "3–4 weeks",
-      "topics": ["MATLAB Environment and Desktop", "Variables, Vectors, and Matrices", "Scripts and Functions", "Basic Plotting (2D and 3D)", "Flow Control (if/else, for/while loops)"],
+      "topics": [
+        "MATLAB Environment and Desktop",
+        "Variables, Vectors, and Matrices",
+        "Scripts and Functions",
+        "Basic Plotting (2D and 3D)",
+        "Flow Control (if/else, for/while loops)"
+      ],
       "resources": [
-        {"name": "MATLAB Onramp (MathWorks)", "type": "free", "url": "https://matlabacademy.mathworks.com/"},
-        {"name": "MATLAB for Beginners by Peter I. Kattan", "type": "book"}
+        {
+          "name": "MATLAB Onramp (MathWorks)",
+          "type": "free",
+          "url": "https://matlabacademy.mathworks.com/"
+        },
+        {
+          "name": "MATLAB for Beginners by Peter I. Kattan",
+          "type": "book",
+          "url": "https://www.google.com/search?tbm=bks&q=MATLAB+for+Beginners+Kattan"
+        }
       ],
       "project": "Create a script to generate and visualize basic waveforms (sine, square, sawtooth) with varying frequencies."
     },
     "intermediate": {
       "title": "Signal Processing Toolkit",
       "duration": "4–6 weeks",
-      "topics": ["Time Domain vs Frequency Domain (FFT)", "Filter Design (FIR, IIR)", "Signal Smoothing and Noise Reduction", "Power Spectral Density", "Simulink Basics"],
+      "topics": [
+        "Time Domain vs Frequency Domain (FFT)",
+        "Filter Design (FIR, IIR)",
+        "Signal Smoothing and Noise Reduction",
+        "Power Spectral Density",
+        "Simulink Basics"
+      ],
       "resources": [
-        {"name": "Signal Processing Onramp (MathWorks)", "type": "free", "url": "https://matlabacademy.mathworks.com/"}
+        {
+          "name": "Signal Processing Onramp (MathWorks)",
+          "type": "free",
+          "url": "https://matlabacademy.mathworks.com/details/signal-processing-onramp/signalprocessing"
+        }
       ],
       "project": "Design a digital bandpass filter to extract the alpha wave band (8-12 Hz) from a raw EEG signal."
     },
     "advanced": {
       "title": "Medical Image Processing",
       "duration": "6–8 weeks",
-      "topics": ["Image Processing Toolbox basics", "Reading and writing DICOM files", "Image Enhancement (Histogram equalization, spatial filtering)", "Image Segmentation (Thresholding, Edge detection, Region growing)", "Morphological Operations"],
+      "topics": [
+        "Image Processing Toolbox basics",
+        "Reading and writing DICOM files",
+        "Image Enhancement (Histogram equalization, spatial filtering)",
+        "Image Segmentation (Thresholding, Edge detection, Region growing)",
+        "Morphological Operations"
+      ],
       "resources": [
-        {"name": "Image Processing Onramp (MathWorks)", "type": "free", "url": "https://matlabacademy.mathworks.com/"},
-        {"name": "Digital Image Processing Using MATLAB by Gonzalez, Woods, Eddins", "type": "book"}
+        {
+          "name": "Image Processing Onramp (MathWorks)",
+          "type": "free",
+          "url": "https://matlabacademy.mathworks.com/details/image-processing-onramp/imageprocessing"
+        },
+        {
+          "name": "Digital Image Processing Using MATLAB by Gonzalez, Woods, Eddins",
+          "type": "book",
+          "url": "https://www.imageprocessingplace.com/"
+        }
       ],
       "project": "Develop an algorithm to automatically segment and calculate the area of brain tumors from MRI slices."
     },
-    "certifications": ["MathWorks Certified MATLAB Associate (MCMA)"],
+    "certifications": [
+      "MathWorks Certified MATLAB Associate (MCMA)"
+    ],
     "projects": [
-      {"name": "Heart Rate Variability Analysis", "difficulty": "intermediate", "description": "Calculate HRV metrics from an ECG signal using peak detection algorithms."},
-      {"name": "Automated Cell Counting", "difficulty": "advanced", "description": "Use image processing techniques to count the number of red blood cells in a microscopic image."}
+      {
+        "name": "Heart Rate Variability Analysis",
+        "difficulty": "intermediate",
+        "description": "Calculate HRV metrics from an ECG signal using peak detection algorithms."
+      },
+      {
+        "name": "Automated Cell Counting",
+        "difficulty": "advanced",
+        "description": "Use image processing techniques to count the number of red blood cells in a microscopic image."
+      }
     ]
   },
   {
@@ -90,40 +201,93 @@
     "icon": "Cpu",
     "color": "#8B5CF6",
     "estimatedTimeline": "5–8 months",
-    "careerApplications": ["Medical Device Design", "Biomedical Instrumentation", "Wearable Tech", "IoT in Healthcare"],
+    "careerApplications": [
+      "Medical Device Design",
+      "Biomedical Instrumentation",
+      "Wearable Tech",
+      "IoT in Healthcare"
+    ],
     "beginner": {
       "title": "Microcontroller Fundamentals",
       "duration": "4–6 weeks",
-      "topics": ["Basic Electronics (Resistors, Capacitors, Diodes, Transistors)", "Introduction to Microcontrollers (Arduino/AVR)", "C Programming for Embedded Systems", "Digital I/O and Analog Inputs (ADC)", "Interrupts and Timers"],
+      "topics": [
+        "Basic Electronics (Resistors, Capacitors, Diodes, Transistors)",
+        "Introduction to Microcontrollers (Arduino/AVR)",
+        "C Programming for Embedded Systems",
+        "Digital I/O and Analog Inputs (ADC)",
+        "Interrupts and Timers"
+      ],
       "resources": [
-        {"name": "Make: Electronics by Charles Platt", "type": "book"},
-        {"name": "Arduino Official Tutorials", "type": "free", "url": "https://www.arduino.cc/en/Tutorial/HomePage"}
+        {
+          "name": "Make: Electronics by Charles Platt",
+          "type": "book",
+          "url": "https://www.oreilly.com/library/view/make-electronics/9781680450255/"
+        },
+        {
+          "name": "Arduino Official Tutorials",
+          "type": "free",
+          "url": "https://docs.arduino.cc/tutorials/"
+        }
       ],
       "project": "Build a simple digital thermometer using an LM35 sensor, an Arduino, and an LCD display."
     },
     "intermediate": {
       "title": "Sensors and Communication Protocols",
       "duration": "6–8 weeks",
-      "topics": ["Interfacing Biomedical Sensors (Pulse Oximeter, ECG AD8232)", "Serial Communication (UART, I2C, SPI)", "Power Management for Wearables", "Real-Time Operating Systems (RTOS) basics", "Transitioning from Arduino to ARM Cortex-M (STM32)"],
+      "topics": [
+        "Interfacing Biomedical Sensors (Pulse Oximeter, ECG AD8232)",
+        "Serial Communication (UART, I2C, SPI)",
+        "Power Management for Wearables",
+        "Real-Time Operating Systems (RTOS) basics",
+        "Transitioning from Arduino to ARM Cortex-M (STM32)"
+      ],
       "resources": [
-        {"name": "Embedded Systems Programming Course (edX/UTAustin)", "type": "course"},
-        {"name": "Mastering STM32 by Carmine Noviello", "type": "book"}
+        {
+          "name": "Embedded Systems Programming Course (edX/UTAustin)",
+          "type": "course",
+          "url": "https://www.edx.org/learn/embedded-systems"
+        },
+        {
+          "name": "Mastering STM32 by Carmine Noviello",
+          "type": "book",
+          "url": "https://leanpub.com/mastering-stm32-2nd"
+        }
       ],
       "project": "Create a wearable heart rate and SpO2 monitor that sends data over I2C to a microcontroller and outputs to a serial monitor."
     },
     "advanced": {
       "title": "Medical Device Prototyping & Safety",
       "duration": "8–12 weeks",
-      "topics": ["Wireless Communication (Bluetooth Low Energy - BLE, Wi-Fi)", "Medical Electrical Safety Standards (IEC 60601-1)", "Designing for EMC (Electromagnetic Compatibility)", "PCB Design Basics (KiCad or Eagle)", "Firmware reliability and watchdog timers"],
+      "topics": [
+        "Wireless Communication (Bluetooth Low Energy - BLE, Wi-Fi)",
+        "Medical Electrical Safety Standards (IEC 60601-1)",
+        "Designing for EMC (Electromagnetic Compatibility)",
+        "PCB Design Basics (KiCad or Eagle)",
+        "Firmware reliability and watchdog timers"
+      ],
       "resources": [
-        {"name": "Bluetooth Low Energy: The Developer's Handbook", "type": "book"}
+        {
+          "name": "Bluetooth Low Energy: The Developer's Handbook",
+          "type": "book",
+          "url": "https://www.informit.com/store/bluetooth-low-energy-the-developers-handbook-9780132888363"
+        }
       ],
       "project": "Design a complete wireless ECG patch system with custom PCB, BLE data transmission, and a basic companion app to view the waveform."
     },
-    "certifications": ["Arm Accredited Engineer (AAE) - relevant but advanced"],
+    "certifications": [
+      "Arm Accredited Engineer (AAE) - relevant but advanced"
+    ],
     "projects": [
-      {"name": "Fall Detection System", "difficulty": "intermediate", "description": "Use an MPU6050 accelerometer/gyroscope with an ESP32 to detect falls and trigger an alert."},
-      {"name": "Automated Syringe Pump Prototype", "difficulty": "advanced", "description": "Control a stepper motor with high precision using an RTOS to ensure accurate fluid delivery rates."}
+      {
+        "name": "Fall Detection System",
+        "difficulty": "intermediate",
+        "description": "Use an MPU6050 accelerometer/gyroscope with an ESP32 to detect falls and trigger an alert."
+      },
+      {
+        "name": "Automated Syringe Pump Prototype",
+        "difficulty": "advanced",
+        "description": "Control a stepper motor with high precision using an RTOS to ensure accurate fluid delivery rates."
+      }
     ]
   },
   {
@@ -132,38 +296,80 @@
     "icon": "Image",
     "color": "#EC4899",
     "estimatedTimeline": "4–7 months",
-    "careerApplications": ["Medical Imaging", "AI Healthcare Engineer", "Research"],
+    "careerApplications": [
+      "Medical Imaging",
+      "AI Healthcare Engineer",
+      "Research"
+    ],
     "beginner": {
       "title": "Foundations of Images",
       "duration": "4 weeks",
-      "topics": ["What is a Digital Image?", "Color spaces, resolution, pixels", "Introduction to Python and OpenCV", "Basic operations: cropping, resizing, rotating", "Understanding DICOM format format"],
+      "topics": [
+        "What is a Digital Image?",
+        "Color spaces, resolution, pixels",
+        "Introduction to Python and OpenCV",
+        "Basic operations: cropping, resizing, rotating",
+        "Understanding DICOM format format"
+      ],
       "resources": [
-        {"name": "OpenCV Python Tutorials", "type": "free", "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html"},
-        {"name": "PyDicom Documentation", "type": "free", "url": "https://pydicom.github.io/pydicom/stable/"}
+        {
+          "name": "OpenCV Python Tutorials",
+          "type": "free",
+          "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html"
+        },
+        {
+          "name": "PyDicom Documentation",
+          "type": "free",
+          "url": "https://pydicom.github.io/pydicom/stable/"
+        }
       ],
       "project": "Load, view, and extract metadata from a DICOM file of an X-ray."
     },
     "intermediate": {
       "title": "Enhancement and Filtering",
       "duration": "6 weeks",
-      "topics": ["Histogram Equalization", "Spatial and frequency domain filtering", "Noise reduction techniques", "Edge detection (Canny, Sobel)", "Morphological operations (dilation, erosion)"],
+      "topics": [
+        "Histogram Equalization",
+        "Spatial and frequency domain filtering",
+        "Noise reduction techniques",
+        "Edge detection (Canny, Sobel)",
+        "Morphological operations (dilation, erosion)"
+      ],
       "resources": [
-        {"name": "Digital Image Processing by Gonzalez", "type": "book"}
+        {
+          "name": "Digital Image Processing by Gonzalez",
+          "type": "book",
+          "url": "https://www.imageprocessingplace.com/"
+        }
       ],
       "project": "Enhance the contrast of an ultrasound image and apply edge detection to outline an organ."
     },
     "advanced": {
       "title": "Segmentation and 3D Processing",
       "duration": "8 weeks",
-      "topics": ["Thresholding techniques", "Region growing and watershed algorithms", "Machine Learning for Segmentation", "3D Volume rendering from CT/MRI slices", "Registration of multimodal images (e.g., PET-CT)"],
+      "topics": [
+        "Thresholding techniques",
+        "Region growing and watershed algorithms",
+        "Machine Learning for Segmentation",
+        "3D Volume rendering from CT/MRI slices",
+        "Registration of multimodal images (e.g., PET-CT)"
+      ],
       "resources": [
-        {"name": "Medical Image Analysis (Coursera)", "type": "course"}
+        {
+          "name": "Medical Image Analysis (Coursera)",
+          "type": "course",
+          "url": "https://www.coursera.org/courses?query=medical%20image%20analysis"
+        }
       ],
       "project": "Construct a 3D model of a skull from a stack of 2D CT scan DICOM slices."
     },
     "certifications": [],
     "projects": [
-      {"name": "Bone Fracture Detection", "difficulty": "intermediate", "description": "Use edge detection to highlight potential fractures in X-ray images."}
+      {
+        "name": "Bone Fracture Detection",
+        "difficulty": "intermediate",
+        "description": "Use edge detection to highlight potential fractures in X-ray images."
+      }
     ]
   },
   {
@@ -172,37 +378,77 @@
     "icon": "Wifi",
     "color": "#3B82F6",
     "estimatedTimeline": "5–7 months",
-    "careerApplications": ["Healthcare IT", "Medical Device Design", "Clinical Engineer"],
+    "careerApplications": [
+      "Healthcare IT",
+      "Medical Device Design",
+      "Clinical Engineer"
+    ],
     "beginner": {
       "title": "IoT Basics & Hardware",
       "duration": "4–6 weeks",
-      "topics": ["Introduction to IoT Architecture", "Sensors and Actuators in Healthcare", "Microcontrollers for IoT (ESP8266, ESP32)", "Connecting to Wi-Fi", "Basic networking (IP, MAC, DNS)"],
+      "topics": [
+        "Introduction to IoT Architecture",
+        "Sensors and Actuators in Healthcare",
+        "Microcontrollers for IoT (ESP8266, ESP32)",
+        "Connecting to Wi-Fi",
+        "Basic networking (IP, MAC, DNS)"
+      ],
       "resources": [
-        {"name": "ESP32 Tutorials on Random Nerd Tutorials", "type": "free", "url": "https://randomnerdtutorials.com/projects-esp32/"}
+        {
+          "name": "ESP32 Tutorials on Random Nerd Tutorials",
+          "type": "free",
+          "url": "https://randomnerdtutorials.com/projects-esp32/"
+        }
       ],
       "project": "Send dummy temperature data from an ESP32 to a local server."
     },
     "intermediate": {
       "title": "Protocols & Cloud Platforms",
       "duration": "6–8 weeks",
-      "topics": ["IoT Communication Protocols (MQTT, HTTP/REST, CoAP)", "Publish/Subscribe models", "Setting up an MQTT Broker (Mosquitto)", "Introduction to Cloud IoT Platforms (AWS IoT, ThingSpeak)", "Data storage (Time-series databases)"],
+      "topics": [
+        "IoT Communication Protocols (MQTT, HTTP/REST, CoAP)",
+        "Publish/Subscribe models",
+        "Setting up an MQTT Broker (Mosquitto)",
+        "Introduction to Cloud IoT Platforms (AWS IoT, ThingSpeak)",
+        "Data storage (Time-series databases)"
+      ],
       "resources": [
-        {"name": "MQTT Essentials by HiveMQ", "type": "free", "url": "https://www.hivemq.com/mqtt/"}
+        {
+          "name": "MQTT Essentials by HiveMQ",
+          "type": "free",
+          "url": "https://www.hivemq.com/mqtt/"
+        }
       ],
       "project": "Build a real-time heart rate monitoring system that publishes data via MQTT to a cloud dashboard."
     },
     "advanced": {
       "title": "Security & Analytics",
       "duration": "8–10 weeks",
-      "topics": ["IoT Security (TLS/SSL, device authentication)", "Data Privacy regulations (HIPAA implications for IoT)", "Edge Computing vs Cloud Computing", "Integrating Machine Learning at the Edge (TinyML)", "Building custom web dashboards for remote monitoring"],
+      "topics": [
+        "IoT Security (TLS/SSL, device authentication)",
+        "Data Privacy regulations (HIPAA implications for IoT)",
+        "Edge Computing vs Cloud Computing",
+        "Integrating Machine Learning at the Edge (TinyML)",
+        "Building custom web dashboards for remote monitoring"
+      ],
       "resources": [
-        {"name": "TinyML by Pete Warden", "type": "book"}
+        {
+          "name": "TinyML by Pete Warden",
+          "type": "book",
+          "url": "https://www.oreilly.com/library/view/tinyml/9781492052036/"
+        }
       ],
       "project": "Implement a secure, end-to-end patient monitoring system with encrypted MQTT, anomalous data detection via TinyML, and a React dashboard."
     },
-    "certifications": ["AWS Certified IoT Specialty"],
+    "certifications": [
+      "AWS Certified IoT Specialty"
+    ],
     "projects": [
-      {"name": "Smart Medicine Dispenser", "difficulty": "intermediate", "description": "An IoT-enabled pill box that alerts patients and logs times to the cloud."}
+      {
+        "name": "Smart Medicine Dispenser",
+        "difficulty": "intermediate",
+        "description": "An IoT-enabled pill box that alerts patients and logs times to the cloud."
+      }
     ]
   },
   {
@@ -211,37 +457,77 @@
     "icon": "BrainCircuit",
     "color": "#10B981",
     "estimatedTimeline": "6–9 months",
-    "careerApplications": ["AI Healthcare Engineer", "Healthcare Data Analyst", "Bioinformatics"],
+    "careerApplications": [
+      "AI Healthcare Engineer",
+      "Healthcare Data Analyst",
+      "Bioinformatics"
+    ],
     "beginner": {
       "title": "Math & ML Foundations",
       "duration": "6–8 weeks",
-      "topics": ["Linear Algebra & Calculus Refresher", "Probability & Statistics", "Supervised vs Unsupervised Learning", "Linear & Logistic Regression", "Decision Trees & Random Forests"],
+      "topics": [
+        "Linear Algebra & Calculus Refresher",
+        "Probability & Statistics",
+        "Supervised vs Unsupervised Learning",
+        "Linear & Logistic Regression",
+        "Decision Trees & Random Forests"
+      ],
       "resources": [
-        {"name": "Machine Learning Specialization by Andrew Ng (Coursera)", "type": "course"}
+        {
+          "name": "Machine Learning Specialization by Andrew Ng (Coursera)",
+          "type": "course",
+          "url": "https://www.coursera.org/specializations/machine-learning-introduction"
+        }
       ],
       "project": "Predict patient readmission probability using Logistic Regression on clinical data."
     },
     "intermediate": {
       "title": "Advanced Algorithms & Evaluation",
       "duration": "8–10 weeks",
-      "topics": ["Support Vector Machines (SVM)", "Clustering (K-Means, DBSCAN)", "Dimensionality Reduction (PCA)", "Model Evaluation (ROC, AUC, F1-Score, Confusion Matrix)", "Handling Imbalanced Medical Data (SMOTE)"],
+      "topics": [
+        "Support Vector Machines (SVM)",
+        "Clustering (K-Means, DBSCAN)",
+        "Dimensionality Reduction (PCA)",
+        "Model Evaluation (ROC, AUC, F1-Score, Confusion Matrix)",
+        "Handling Imbalanced Medical Data (SMOTE)"
+      ],
       "resources": [
-        {"name": "Hands-On Machine Learning with Scikit-Learn", "type": "book"}
+        {
+          "name": "Hands-On Machine Learning with Scikit-Learn",
+          "type": "book",
+          "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/"
+        }
       ],
       "project": "Classify breast cancer tumors (malignant/benign) using an SVM and evaluate using a ROC curve."
     },
     "advanced": {
       "title": "Deep Learning & Healthcare Applications",
       "duration": "10–12 weeks",
-      "topics": ["Artificial Neural Networks (ANN)", "Convolutional Neural Networks (CNN) for Imaging", "Recurrent Neural Networks (RNN/LSTM) for Time-Series (ECG, EHR)", "Transfer Learning", "Explainable AI (LIME, SHAP) in Medicine"],
+      "topics": [
+        "Artificial Neural Networks (ANN)",
+        "Convolutional Neural Networks (CNN) for Imaging",
+        "Recurrent Neural Networks (RNN/LSTM) for Time-Series (ECG, EHR)",
+        "Transfer Learning",
+        "Explainable AI (LIME, SHAP) in Medicine"
+      ],
       "resources": [
-        {"name": "DeepLearning.AI TensorFlow Developer", "type": "course"}
+        {
+          "name": "DeepLearning.AI TensorFlow Developer",
+          "type": "course",
+          "url": "https://www.coursera.org/professional-certificates/tensorflow-in-practice"
+        }
       ],
       "project": "Build an LSTM model to predict the onset of sepsis based on hourly electronic health record (EHR) vital sign updates."
     },
-    "certifications": ["TensorFlow Developer Certificate"],
+    "certifications": [
+      "TensorFlow Developer Certificate"
+    ],
     "projects": [
-      {"name": "Skin Lesion Classifier", "difficulty": "advanced", "description": "Use a pre-trained CNN (ResNet) via transfer learning to classify skin lesions from images."}
+      {
+        "name": "Skin Lesion Classifier",
+        "difficulty": "advanced",
+        "description": "Use a pre-trained CNN (ResNet) via transfer learning to classify skin lesions from images."
+      }
     ]
   },
   {
@@ -250,37 +536,75 @@
     "icon": "Sparkles",
     "color": "#6366F1",
     "estimatedTimeline": "6–8 months",
-    "careerApplications": ["AI Healthcare Engineer", "Research Scientist", "HealthTech Founder"],
+    "careerApplications": [
+      "AI Healthcare Engineer",
+      "Research Scientist",
+      "HealthTech Founder"
+    ],
     "beginner": {
       "title": "NLP Foundations",
       "duration": "4–6 weeks",
-      "topics": ["Text preprocessing (Tokenization, Stemming)", "Bag of Words & TF-IDF", "Word Embeddings (Word2Vec, GloVe)", "Sentiment analysis", "Introduction to Hugging Face Transformers"],
+      "topics": [
+        "Text preprocessing (Tokenization, Stemming)",
+        "Bag of Words & TF-IDF",
+        "Word Embeddings (Word2Vec, GloVe)",
+        "Sentiment analysis",
+        "Introduction to Hugging Face Transformers"
+      ],
       "resources": [
-        {"name": "Hugging Face NLP Course", "type": "free", "url": "https://huggingface.co/learn/nlp-course/"}
+        {
+          "name": "Hugging Face NLP Course",
+          "type": "free",
+          "url": "https://huggingface.co/learn/nlp-course/"
+        }
       ],
       "project": "Extract medical symptoms and diagnoses from unstructured clinical notes using basic NLP techniques."
     },
     "intermediate": {
       "title": "Large Language Models (LLMs)",
       "duration": "6–8 weeks",
-      "topics": ["Architecture of Transformers (Attention mechanism)", "Using pre-trained LLMs (GPT, Llama, ClinicalBERT)", "Prompt Engineering for medical contexts", "Retrieval-Augmented Generation (RAG)", "Fine-tuning models on domain-specific data"],
+      "topics": [
+        "Architecture of Transformers (Attention mechanism)",
+        "Using pre-trained LLMs (GPT, Llama, ClinicalBERT)",
+        "Prompt Engineering for medical contexts",
+        "Retrieval-Augmented Generation (RAG)",
+        "Fine-tuning models on domain-specific data"
+      ],
       "resources": [
-        {"name": "Stanford CS224N: NLP with Deep Learning", "type": "course"}
+        {
+          "name": "Stanford CS224N: NLP with Deep Learning",
+          "type": "course",
+          "url": "https://web.stanford.edu/class/cs224n/"
+        }
       ],
       "project": "Build a Medical Q&A chatbot using RAG, allowing it to search medical guidelines before answering."
     },
     "advanced": {
       "title": "Generative AI in Biology",
       "duration": "8–10 weeks",
-      "topics": ["Generative Adversarial Networks (GANs) for medical image synthesis", "Variational Autoencoders (VAEs)", "AI in Drug Discovery (Generating molecular structures)", "Protein folding (AlphaFold basics)", "Ethics, Bias, and Hallucinations in Medical AI"],
+      "topics": [
+        "Generative Adversarial Networks (GANs) for medical image synthesis",
+        "Variational Autoencoders (VAEs)",
+        "AI in Drug Discovery (Generating molecular structures)",
+        "Protein folding (AlphaFold basics)",
+        "Ethics, Bias, and Hallucinations in Medical AI"
+      ],
       "resources": [
-        {"name": "Deep Learning for the Life Sciences", "type": "book"}
+        {
+          "name": "Deep Learning for the Life Sciences",
+          "type": "book",
+          "url": "https://www.oreilly.com/library/view/deep-learning-for/9781492039822/"
+        }
       ],
       "project": "Use a GAN to generate synthetic, realistic MRI brain scans to augment a small training dataset."
     },
     "certifications": [],
     "projects": [
-      {"name": "Clinical Note Summarizer", "difficulty": "intermediate", "description": "Fine-tune a language model to accurately summarize long patient discharge summaries."}
+      {
+        "name": "Clinical Note Summarizer",
+        "difficulty": "intermediate",
+        "description": "Fine-tune a language model to accurately summarize long patient discharge summaries."
+      }
     ]
   },
   {
@@ -289,37 +613,76 @@
     "icon": "Cpu",
     "color": "#14B8A6",
     "estimatedTimeline": "3–5 months",
-    "careerApplications": ["Medical Device Design Engineer", "Biomedical Instrumentation Engineer"],
+    "careerApplications": [
+      "Medical Device Design Engineer",
+      "Biomedical Instrumentation Engineer"
+    ],
     "beginner": {
       "title": "Schematic Capture",
       "duration": "3–4 weeks",
-      "topics": ["Understanding electronic components & symbols", "Introduction to EDA Tools (KiCad, EAGLE, Altium)", "Creating schematics", "Component libraries and footprint creation", "Reading datasheets"],
+      "topics": [
+        "Understanding electronic components & symbols",
+        "Introduction to EDA Tools (KiCad, EAGLE, Altium)",
+        "Creating schematics",
+        "Component libraries and footprint creation",
+        "Reading datasheets"
+      ],
       "resources": [
-        {"name": "KiCad Getting Started Guide", "type": "free", "url": "https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html"}
+        {
+          "name": "KiCad Getting Started Guide",
+          "type": "free",
+          "url": "https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html"
+        }
       ],
       "project": "Draw a complete schematic for a basic heart-rate monitor circuit based on a reference design."
     },
     "intermediate": {
       "title": "Board Layout",
       "duration": "4–6 weeks",
-      "topics": ["PCB layers and stackup", "Component placement strategies", "Routing traces and vias", "Power planes and ground planes", "Design Rule Checks (DRC)"],
+      "topics": [
+        "PCB layers and stackup",
+        "Component placement strategies",
+        "Routing traces and vias",
+        "Power planes and ground planes",
+        "Design Rule Checks (DRC)"
+      ],
       "resources": [
-        {"name": "KiCad Like a Pro by Peter Dalmaris", "type": "book"}
+        {
+          "name": "KiCad Like a Pro by Peter Dalmaris",
+          "type": "book",
+          "url": "https://techexplorations.com/"
+        }
       ],
       "project": "Convert the schematic from the beginner phase into a 2-layer PCB layout, pass DRC, and generate Gerber files."
     },
     "advanced": {
       "title": "Advanced Design for Medical",
       "duration": "6–8 weeks",
-      "topics": ["Mixed-signal routing (separating analog/digital grounds to reduce noise)", "High-speed design basics", "Designing for Electromagnetic Compatibility (EMC/EMI)", "Design for Manufacturing (DFM) and Assembly (DFA)", "Flexible PCBs for wearables"],
+      "topics": [
+        "Mixed-signal routing (separating analog/digital grounds to reduce noise)",
+        "High-speed design basics",
+        "Designing for Electromagnetic Compatibility (EMC/EMI)",
+        "Design for Manufacturing (DFM) and Assembly (DFA)",
+        "Flexible PCBs for wearables"
+      ],
       "resources": [
-        {"name": "Electromagnetic Compatibility Engineering by Henry W. Ott", "type": "book"}
+        {
+          "name": "Electromagnetic Compatibility Engineering by Henry W. Ott",
+          "type": "book",
+          "url": "https://www.wiley.com/en-us/Electromagnetic+Compatibility+Engineering-p-9780470189306"
+        }
       ],
       "project": "Design a 4-layer, mixed-signal PCB for a wearable bio-potential sensor (ECG/EMG) optimized for low noise and battery efficiency."
     },
-    "certifications": ["Altium Certified Professional"],
+    "certifications": [
+      "Altium Certified Professional"
+    ],
     "projects": [
-      {"name": "Custom Arduino Shield", "difficulty": "beginner", "description": "Design a shield for Arduino that breaks out connections for medical sensors."}
+      {
+        "name": "Custom Arduino Shield",
+        "difficulty": "beginner",
+        "description": "Design a shield for Arduino that breaks out connections for medical sensors."
+      }
     ]
   },
   {
@@ -328,37 +691,78 @@
     "icon": "Box",
     "color": "#F43F5E",
     "estimatedTimeline": "4–6 months",
-    "careerApplications": ["Medical Device Design", "Biomechanics", "Rehabilitation Engineering"],
+    "careerApplications": [
+      "Medical Device Design",
+      "Biomechanics",
+      "Rehabilitation Engineering"
+    ],
     "beginner": {
       "title": "2D Sketching to 3D Parts",
       "duration": "4–6 weeks",
-      "topics": ["SolidWorks UI and Navigation", "2D Sketching, Relations, and Dimensions", "Extrude, Revolve, Sweep, and Loft features", "Fillets, Chamfers, and Shells", "Modifying and editing parts"],
+      "topics": [
+        "SolidWorks UI and Navigation",
+        "2D Sketching, Relations, and Dimensions",
+        "Extrude, Revolve, Sweep, and Loft features",
+        "Fillets, Chamfers, and Shells",
+        "Modifying and editing parts"
+      ],
       "resources": [
-        {"name": "SolidWorks Official Tutorials (Built-in)", "type": "free"}
+        {
+          "name": "SolidWorks Official Tutorials (Built-in)",
+          "type": "free",
+          "url": "https://my.solidworks.com/training"
+        }
       ],
       "project": "Model a simple surgical scalpel handle and a generic pill bottle."
     },
     "intermediate": {
       "title": "Assemblies & Drawings",
       "duration": "5–7 weeks",
-      "topics": ["Creating assemblies from multiple parts", "Mates (Standard, Advanced, Mechanical)", "Interference detection and clearance verification", "Creating 2D engineering drawings from 3D models", "BOM (Bill of Materials) generation"],
+      "topics": [
+        "Creating assemblies from multiple parts",
+        "Mates (Standard, Advanced, Mechanical)",
+        "Interference detection and clearance verification",
+        "Creating 2D engineering drawings from 3D models",
+        "BOM (Bill of Materials) generation"
+      ],
       "resources": [
-        {"name": "CSWA Exam Preparation courses", "type": "course"}
+        {
+          "name": "CSWA Exam Preparation courses",
+          "type": "course",
+          "url": "https://www.solidworks.com/solidworks-certification-program"
+        }
       ],
       "project": "Design a multi-part, articulated prosthetic finger assembly and create manufacturing drawings with tolerances."
     },
     "advanced": {
       "title": "Surfacing, Simulation & DFM",
       "duration": "6–8 weeks",
-      "topics": ["Advanced Surfacing for ergonomic/organic shapes", "Sheet metal and Weldments", "Introduction to Finite Element Analysis (FEA) using SolidWorks Simulation", "Stress and Strain analysis on medical implants", "Design for 3D Printing and Injection Molding"],
+      "topics": [
+        "Advanced Surfacing for ergonomic/organic shapes",
+        "Sheet metal and Weldments",
+        "Introduction to Finite Element Analysis (FEA) using SolidWorks Simulation",
+        "Stress and Strain analysis on medical implants",
+        "Design for 3D Printing and Injection Molding"
+      ],
       "resources": [
-        {"name": "SolidWorks Simulation Training", "type": "course"}
+        {
+          "name": "SolidWorks Simulation Training",
+          "type": "course",
+          "url": "https://www.solidworks.com/solidworks-certification-program"
+        }
       ],
       "project": "Model an ergonomic CPAP mask using surfacing, then run an FEA simulation on a 3D-printed orthopedic cast design to test strength."
     },
-    "certifications": ["CSWA (Certified SolidWorks Associate)", "CSWP (Certified SolidWorks Professional)"],
+    "certifications": [
+      "CSWA (Certified SolidWorks Associate)",
+      "CSWP (Certified SolidWorks Professional)"
+    ],
     "projects": [
-      {"name": "Custom Wheelchair Joystick", "difficulty": "intermediate", "description": "Model a joystick designed specifically for patients with limited hand dexterity."}
+      {
+        "name": "Custom Wheelchair Joystick",
+        "difficulty": "intermediate",
+        "description": "Model a joystick designed specifically for patients with limited hand dexterity."
+      }
     ]
   },
   {
@@ -367,37 +771,76 @@
     "icon": "PenTool",
     "color": "#8B5CF6",
     "estimatedTimeline": "2–4 months",
-    "careerApplications": ["Biomedical Research Scientist", "Regulatory Affairs", "Clinical Research Associate", "Academia"],
+    "careerApplications": [
+      "Biomedical Research Scientist",
+      "Regulatory Affairs",
+      "Clinical Research Associate",
+      "Academia"
+    ],
     "beginner": {
       "title": "Literature Review & Reading",
       "duration": "3–4 weeks",
-      "topics": ["Searching databases (PubMed, IEEE Xplore, Google Scholar)", "Understanding anatomy of a research paper", "Effective reading and note-taking strategies", "Reference management software (Mendeley, Zotero)", "Identifying research gaps"],
+      "topics": [
+        "Searching databases (PubMed, IEEE Xplore, Google Scholar)",
+        "Understanding anatomy of a research paper",
+        "Effective reading and note-taking strategies",
+        "Reference management software (Mendeley, Zotero)",
+        "Identifying research gaps"
+      ],
       "resources": [
-        {"name": "How to Read a Paper by Trisha Greenhalgh", "type": "book"}
+        {
+          "name": "How to Read a Paper by Trisha Greenhalgh",
+          "type": "book",
+          "url": "https://www.google.com/search?tbm=bks&q=How+to+Read+a+Paper+Trisha+Greenhalgh"
+        }
       ],
       "project": "Conduct a mini literature review (5-10 papers) on a specific topic like 'Wearable sensors for diabetes monitoring' and summarize the current state of the art."
     },
     "intermediate": {
       "title": "Structuring & Drafting",
       "duration": "4–6 weeks",
-      "topics": ["IMRAD Structure (Introduction, Methods, Results, Discussion)", "Writing clear and concise abstracts", "Formulating a strong hypothesis", "Designing methods sections for reproducibility", "Presenting data clearly (Tables vs Figures)"],
+      "topics": [
+        "IMRAD Structure (Introduction, Methods, Results, Discussion)",
+        "Writing clear and concise abstracts",
+        "Formulating a strong hypothesis",
+        "Designing methods sections for reproducibility",
+        "Presenting data clearly (Tables vs Figures)"
+      ],
       "resources": [
-        {"name": "Writing in the Sciences (Coursera/Stanford)", "type": "course"}
+        {
+          "name": "Writing in the Sciences (Coursera/Stanford)",
+          "type": "course",
+          "url": "https://www.coursera.org/learn/sciwrite"
+        }
       ],
       "project": "Draft the Abstract, Introduction, and Methods section based on data provided from a mock clinical trial."
     },
     "advanced": {
       "title": "Publishing & Grants",
       "duration": "4–6 weeks",
-      "topics": ["Navigating the peer-review process", "Responding to reviewer comments", "Understanding impact factors and choosing journals", "Basics of writing grant proposals", "Ethics in publishing (plagiarism, authorship)"],
+      "topics": [
+        "Navigating the peer-review process",
+        "Responding to reviewer comments",
+        "Understanding impact factors and choosing journals",
+        "Basics of writing grant proposals",
+        "Ethics in publishing (plagiarism, authorship)"
+      ],
       "resources": [
-        {"name": "The Elements of Style by Strunk and White", "type": "book"}
+        {
+          "name": "The Elements of Style by Strunk and White",
+          "type": "book",
+          "url": "https://www.gutenberg.org/ebooks/37134"
+        }
       ],
       "project": "Write a response letter to mock reviewer critiques on your drafted paper, demonstrating professional scientific debate."
     },
     "certifications": [],
     "projects": [
-      {"name": "Review Article Draft", "difficulty": "advanced", "description": "Write a comprehensive review article on an emerging biomedical technology suitable for submission to a student journal."}
+      {
+        "name": "Review Article Draft",
+        "difficulty": "advanced",
+        "description": "Write a comprehensive review article on an emerging biomedical technology suitable for submission to a student journal."
+      }
     ]
   }
 ]
