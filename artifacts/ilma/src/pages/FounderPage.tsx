@@ -108,12 +108,10 @@ const stats = [
 ];
 
 const socials = [
-  { icon: Linkedin,     label: 'LinkedIn',      href: '#', ariaLabel: 'LinkedIn profile' },
-  { icon: Github,       label: 'GitHub',        href: '#', ariaLabel: 'GitHub profile' },
-  { icon: ExternalLink, label: 'Google Scholar',href: '#', ariaLabel: 'Google Scholar profile' },
-  { icon: ExternalLink, label: 'ResearchGate',  href: '#', ariaLabel: 'ResearchGate profile' },
-  { icon: ExternalLink, label: 'ORCID',         href: '#', ariaLabel: 'ORCID profile' },
-  { icon: Mail,         label: 'Email',         href: 'mailto:ilmabiomedical@gmail.com', ariaLabel: 'Email' },
+  { icon: Linkedin,     label: 'LinkedIn',      href: 'https://linkedin.com/in/aadhira-suleim',                                     ariaLabel: 'LinkedIn profile' },
+  { icon: Github,       label: 'GitHub',        href: 'https://github.com/Aadhira2004',                                             ariaLabel: 'GitHub profile' },
+  { icon: ExternalLink, label: 'Google Scholar',href: 'https://scholar.google.com/citations?hl=en&user=4x4DTWMAAAAJ',               ariaLabel: 'Google Scholar profile' },
+  { icon: Mail,         label: 'Email',         href: 'mailto:aadhirasuleim@gmail.com',                                             ariaLabel: 'Email Aadhira' },
 ];
 
 // ─── Animation variants ────────────────────────────────────────────────────────
