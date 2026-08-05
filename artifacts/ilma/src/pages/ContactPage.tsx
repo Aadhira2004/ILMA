@@ -276,14 +276,18 @@ export default function ContactPage() {
 
                   <div className="flex gap-4">
                     <a
-                      href="#"
+                      href="https://linkedin.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors flex-1"
                     >
                       <Linkedin className="w-6 h-6 text-[#0A66C2]" />
                       <span className="font-semibold">LinkedIn</span>
                     </a>
                     <a
-                      href="#"
+                      href="https://instagram.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors flex-1"
                     >
                       <Instagram className="w-6 h-6 text-[#E1306C]" />
