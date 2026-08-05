@@ -138,8 +138,8 @@
       "duration": "4 weeks",
       "topics": ["What is a Digital Image?", "Color spaces, resolution, pixels", "Introduction to Python and OpenCV", "Basic operations: cropping, resizing, rotating", "Understanding DICOM format format"],
       "resources": [
-        {"name": "OpenCV Python Tutorials", "type": "free", "url": "#"},
-        {"name": "PyDicom Documentation", "type": "free", "url": "#"}
+        {"name": "OpenCV Python Tutorials", "type": "free", "url": "https://docs.opencv.org/4.x/d6/d00/tutorial_py_root.html"},
+        {"name": "PyDicom Documentation", "type": "free", "url": "https://pydicom.github.io/pydicom/stable/"}
       ],
       "project": "Load, view, and extract metadata from a DICOM file of an X-ray."
     },
@@ -178,7 +178,7 @@
       "duration": "4–6 weeks",
       "topics": ["Introduction to IoT Architecture", "Sensors and Actuators in Healthcare", "Microcontrollers for IoT (ESP8266, ESP32)", "Connecting to Wi-Fi", "Basic networking (IP, MAC, DNS)"],
       "resources": [
-        {"name": "ESP32 Tutorials on Random Nerd Tutorials", "type": "free", "url": "#"}
+        {"name": "ESP32 Tutorials on Random Nerd Tutorials", "type": "free", "url": "https://randomnerdtutorials.com/projects-esp32/"}
       ],
       "project": "Send dummy temperature data from an ESP32 to a local server."
     },
@@ -187,7 +187,7 @@
       "duration": "6–8 weeks",
       "topics": ["IoT Communication Protocols (MQTT, HTTP/REST, CoAP)", "Publish/Subscribe models", "Setting up an MQTT Broker (Mosquitto)", "Introduction to Cloud IoT Platforms (AWS IoT, ThingSpeak)", "Data storage (Time-series databases)"],
       "resources": [
-        {"name": "MQTT Essentials by HiveMQ", "type": "free", "url": "#"}
+        {"name": "MQTT Essentials by HiveMQ", "type": "free", "url": "https://www.hivemq.com/mqtt/"}
       ],
       "project": "Build a real-time heart rate monitoring system that publishes data via MQTT to a cloud dashboard."
     },
@@ -256,7 +256,7 @@
       "duration": "4–6 weeks",
       "topics": ["Text preprocessing (Tokenization, Stemming)", "Bag of Words & TF-IDF", "Word Embeddings (Word2Vec, GloVe)", "Sentiment analysis", "Introduction to Hugging Face Transformers"],
       "resources": [
-        {"name": "Hugging Face NLP Course", "type": "free", "url": "#"}
+        {"name": "Hugging Face NLP Course", "type": "free", "url": "https://huggingface.co/learn/nlp-course/"}
       ],
       "project": "Extract medical symptoms and diagnoses from unstructured clinical notes using basic NLP techniques."
     },
@@ -295,7 +295,7 @@
       "duration": "3–4 weeks",
       "topics": ["Understanding electronic components & symbols", "Introduction to EDA Tools (KiCad, EAGLE, Altium)", "Creating schematics", "Component libraries and footprint creation", "Reading datasheets"],
       "resources": [
-        {"name": "Getting to Blinky (Contextual Electronics)", "type": "free", "url": "#"}
+        {"name": "KiCad Getting Started Guide", "type": "free", "url": "https://docs.kicad.org/8.0/en/getting_started_in_kicad/getting_started_in_kicad.html"}
       ],
       "project": "Draw a complete schematic for a basic heart-rate monitor circuit based on a reference design."
     },
@@ -334,7 +334,7 @@
       "duration": "4–6 weeks",
       "topics": ["SolidWorks UI and Navigation", "2D Sketching, Relations, and Dimensions", "Extrude, Revolve, Sweep, and Loft features", "Fillets, Chamfers, and Shells", "Modifying and editing parts"],
       "resources": [
-        {"name": "SolidWorks Official Tutorials (Built-in)", "type": "free", "url": "#"}
+        {"name": "SolidWorks Official Tutorials (Built-in)", "type": "free"}
       ],
       "project": "Model a simple surgical scalpel handle and a generic pill bottle."
     },
