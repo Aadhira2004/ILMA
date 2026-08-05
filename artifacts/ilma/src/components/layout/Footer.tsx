@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Link } from 'wouter';
-import { Mail, Linkedin, Instagram, ArrowRight, Loader2, CheckCircle } from 'lucide-react';
+import { Mail, Linkedin, Instagram, ArrowRight, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
 
 // ─── EmailJS config ────────────────────────────────────────────────────────────
-const EJS_SERVICE_ID      = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
-const EJS_NEWSLETTER_ID   = import.meta.env.VITE_EMAILJS_NEWSLETTER_TEMPLATE_ID as string;
-const EJS_PUBLIC_KEY      = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+const EJS_PUBLIC_KEY        = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+const EJS_SERVICE_ID        = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
+const EJS_NEWSLETTER_ID     = import.meta.env.VITE_EMAILJS_NEWSLETTER_TEMPLATE_ID as string;
 
 function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
@@ -17,7 +17,7 @@ function isValidEmail(email: string) {
 
 // ─── Newsletter sub-component ──────────────────────────────────────────────────
 function NewsletterSignup() {
-  const [email, setEmail]       = useState('');
+  const [email, setSub]         = useState('');
   const [error, setError]       = useState('');
   const [sending, setSending]   = useState(false);
   const [success, setSuccess]   = useState(false);
@@ -42,15 +42,23 @@ function NewsletterSignup() {
         EJS_NEWSLETTER_ID,
         {
           subscriber_email: email.trim(),
-          subject: 'New ILMA Newsletter Subscriber',
-          to_email: 'ilmabiomedical@gmail.com',
+          reply_to:         email.trim(),
+          to_email:         'ilmabiomedical@gmail.com',
+          subject:          'New ILMA Newsletter Subscriber',
         },
         { publicKey: EJS_PUBLIC_KEY },
       );
       setSuccess(true);
-      setEmail('');
-    } catch {
-      setError('Something went wrong. Please try again.');
+      setSub('');
+    } catch (err) {
+      console.error('[EmailJS] Newsletter send failed:', err);
+      const msg =
+        err instanceof Error
+          ? err.message
+          : typeof err === 'object' && err !== null && 'text' in err
+          ? String((err as { text: unknown }).text)
+          : 'Failed to subscribe. Please try again.';
+      setError(msg);
     } finally {
       setSending(false);
     }
@@ -70,13 +78,18 @@ function NewsletterSignup() {
       <Input
         type="email"
         value={email}
-        onChange={(e) => { setEmail(e.target.value); setError(''); }}
+        onChange={(e) => { setSub(e.target.value); setError(''); }}
         placeholder="Enter your email"
         className={`bg-background border-input ${error ? 'border-destructive' : ''}`}
         disabled={sending}
         aria-label="Newsletter email address"
       />
-      {error && <p className="text-xs text-destructive">{error}</p>}
+      {error && (
+        <div className="flex items-center gap-2 text-xs text-destructive">
+          <AlertCircle className="w-3.5 h-3.5 shrink-0" />
+          <span>{error}</span>
+        </div>
+      )}
       <Button type="submit" className="w-full group" disabled={sending}>
         {sending ? (
           <>
@@ -129,7 +142,6 @@ export function Footer() {
               career guidance, skill roadmaps, and exam preparation.
             </p>
 
-            {/* Clickable email with icon */}
             <a
               href="mailto:ilmabiomedical@gmail.com"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors group w-fit mt-1"
@@ -139,7 +151,6 @@ export function Footer() {
               <span className="group-hover:underline underline-offset-2">ilmabiomedical@gmail.com</span>
             </a>
 
-            {/* Social icons */}
             <div className="flex items-center gap-3 mt-1">
               <a
                 href="https://linkedin.com"
@@ -166,11 +177,12 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <h4 className="font-bold text-foreground">Explore</h4>
             <ul className="flex flex-col gap-2.5">
-              <li><Link href="/about"   className="text-sm text-muted-foreground hover:text-primary transition-colors">About ILMA</Link></li>
-              <li><Link href="/careers" className="text-sm text-muted-foreground hover:text-primary transition-colors">Career Explorer</Link></li>
-              <li><Link href="/domains" className="text-sm text-muted-foreground hover:text-primary transition-colors">Biomedical Domains</Link></li>
+              <li><Link href="/about"    className="text-sm text-muted-foreground hover:text-primary transition-colors">About ILMA</Link></li>
+              <li><Link href="/careers"  className="text-sm text-muted-foreground hover:text-primary transition-colors">Career Explorer</Link></li>
+              <li><Link href="/domains"  className="text-sm text-muted-foreground hover:text-primary transition-colors">Biomedical Domains</Link></li>
               <li><Link href="/roadmaps" className="text-sm text-muted-foreground hover:text-primary transition-colors">Skill Roadmaps</Link></li>
-              <li><Link href="/exams"   className="text-sm text-muted-foreground hover:text-primary transition-colors">Government Exams</Link></li>
+              <li><Link href="/exams"    className="text-sm text-muted-foreground hover:text-primary transition-colors">Government Exams</Link></li>
+              <li><Link href="/founder"  className="text-sm text-muted-foreground hover:text-primary transition-colors">Meet the Founder</Link></li>
             </ul>
           </div>
 
@@ -198,7 +210,7 @@ export function Footer() {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} ILMA – Biomedical Future. All rights reserved.</p>
-          <p className="text-muted-foreground/70 italic">
+          <p className="italic text-muted-foreground/70">
             Designed and Developed by{' '}
             <span className="not-italic font-medium text-primary">Aadhira Suleim A. R.</span>
           </p>

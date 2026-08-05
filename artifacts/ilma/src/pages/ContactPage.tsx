@@ -7,8 +7,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { useToast } from '@/hooks/use-toast';
-import { Mail, Linkedin, Instagram, Send, Loader2 } from 'lucide-react';
+import { Mail, Linkedin, Instagram, Send, Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
@@ -16,10 +15,10 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 
-// ─── EmailJS config (all values come from Vite env vars; never hardcoded) ─────
-const EJS_SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
-const EJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_CONTACT_TEMPLATE_ID as string;
-const EJS_PUBLIC_KEY  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+// ─── EmailJS config ────────────────────────────────────────────────────────────
+const EJS_PUBLIC_KEY      = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+const EJS_SERVICE_ID      = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
+const EJS_TEMPLATE_CONTACT = import.meta.env.VITE_EMAILJS_CONTACT_TEMPLATE_ID as string;
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 function isValidEmail(email: string) {
@@ -33,7 +32,6 @@ interface FormState {
   subject: string;
   message: string;
 }
-
 const EMPTY_FORM: FormState = { name: '', email: '', subject: '', message: '' };
 
 // ─── FAQs ─────────────────────────────────────────────────────────────────────
@@ -64,64 +62,66 @@ const faqs = [
 export default function ContactPage() {
   useDocumentMeta('Contact', 'Get in touch with ILMA.');
   useScrollTop();
-  const { toast } = useToast();
 
-  const [form, setForm] = useState<FormState>(EMPTY_FORM);
-  const [errors, setErrors] = useState<Partial<FormState>>({});
+  const [form, setForm]       = useState<FormState>(EMPTY_FORM);
+  const [errors, setErrors]   = useState<Partial<FormState>>({});
   const [sending, setSending] = useState(false);
+  const [success, setSuccess] = useState(false);
+  const [sendError, setSendError] = useState('');
 
-  // ── Field change handler ──
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     const { id, value } = e.target;
     setForm((prev) => ({ ...prev, [id]: value }));
-    if (errors[id as keyof FormState]) {
-      setErrors((prev) => ({ ...prev, [id]: '' }));
-    }
+    if (errors[id as keyof FormState]) setErrors((prev) => ({ ...prev, [id]: '' }));
+    if (sendError) setSendError('');
+    if (success)   setSuccess(false);
   }
 
-  // ── Validate ──
   function validate(): boolean {
     const next: Partial<FormState> = {};
-    if (!form.name.trim())            next.name    = 'Name is required.';
-    if (!form.email.trim())           next.email   = 'Email is required.';
-    else if (!isValidEmail(form.email)) next.email = 'Please enter a valid email address.';
-    if (!form.subject.trim())         next.subject = 'Subject is required.';
-    if (!form.message.trim())         next.message = 'Message is required.';
+    if (!form.name.trim())             next.name    = 'Name is required.';
+    if (!form.email.trim())            next.email   = 'Email is required.';
+    else if (!isValidEmail(form.email)) next.email  = 'Please enter a valid email address.';
+    if (!form.subject.trim())          next.subject = 'Subject is required.';
+    if (!form.message.trim())          next.message = 'Message is required.';
     setErrors(next);
     return Object.keys(next).length === 0;
   }
 
-  // ── Submit ──
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!validate()) return;
 
     setSending(true);
+    setSendError('');
+    setSuccess(false);
+
     try {
       await emailjs.send(
         EJS_SERVICE_ID,
-        EJS_TEMPLATE_ID,
+        EJS_TEMPLATE_CONTACT,
         {
           from_name:  form.name.trim(),
           from_email: form.email.trim(),
+          reply_to:   form.email.trim(),
           subject:    form.subject.trim(),
           message:    form.message.trim(),
           to_email:   'ilmabiomedical@gmail.com',
         },
         { publicKey: EJS_PUBLIC_KEY },
       );
-      toast({
-        title: 'Message sent!',
-        description: 'Thank you! Your message has been sent successfully.',
-      });
+      setSuccess(true);
       setForm(EMPTY_FORM);
       setErrors({});
-    } catch {
-      toast({
-        title: 'Something went wrong.',
-        description: 'Something went wrong. Please try again.',
-        variant: 'destructive',
-      });
+    } catch (error) {
+      console.error('[EmailJS] Contact send failed:', error);
+      const msg =
+        error instanceof Error
+          ? error.message
+          : typeof error === 'object' && error !== null && 'text' in error
+          ? String((error as { text: unknown }).text)
+          : 'Failed to send message. Please try again.';
+      setSendError(msg);
     } finally {
       setSending(false);
     }
@@ -148,8 +148,26 @@ export default function ContactPage() {
               className="bg-card p-8 rounded-3xl border border-border shadow-sm"
             >
               <h2 className="text-2xl font-bold mb-6">Send a Message</h2>
-              <form onSubmit={handleSubmit} className="space-y-6" noValidate>
 
+              {/* Success banner */}
+              {success && (
+                <div className="flex items-start gap-3 p-4 mb-6 rounded-xl bg-green-500/10 border border-green-500/30 text-green-700 dark:text-green-400">
+                  <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" />
+                  <p className="text-sm font-medium">
+                    Thank you! Your message has been sent successfully. We'll get back to you soon.
+                  </p>
+                </div>
+              )}
+
+              {/* Error banner */}
+              {sendError && (
+                <div className="flex items-start gap-3 p-4 mb-6 rounded-xl bg-destructive/10 border border-destructive/30 text-destructive">
+                  <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />
+                  <p className="text-sm font-medium">{sendError}</p>
+                </div>
+              )}
+
+              <form onSubmit={handleSubmit} className="space-y-6" noValidate>
                 <div className="grid sm:grid-cols-2 gap-6">
                   {/* Name */}
                   <div className="space-y-1.5">
