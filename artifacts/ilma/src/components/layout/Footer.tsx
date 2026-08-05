@@ -198,7 +198,10 @@ export function Footer() {
 
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} ILMA – Biomedical Future. All rights reserved.</p>
-          <p>Designed for Biomedical Engineers, by Biomedical Engineers.</p>
+          <p className="text-muted-foreground/70 italic">
+            Designed and Developed by{' '}
+            <span className="not-italic font-medium text-primary">Aadhira Suleim A. R.</span>
+          </p>
         </div>
       </div>
     </footer>
