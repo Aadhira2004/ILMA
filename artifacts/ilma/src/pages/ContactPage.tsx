@@ -16,9 +16,16 @@ import {
 } from '@/components/ui/accordion';
 
 // ─── EmailJS config ────────────────────────────────────────────────────────────
-const EJS_PUBLIC_KEY      = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
-const EJS_SERVICE_ID      = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
+const EJS_PUBLIC_KEY       = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+const EJS_SERVICE_ID       = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
 const EJS_TEMPLATE_CONTACT = import.meta.env.VITE_EMAILJS_CONTACT_TEMPLATE_ID as string;
+
+// Initialise once at module load so every send() call inherits the public key
+if (EJS_PUBLIC_KEY) {
+  emailjs.init({ publicKey: EJS_PUBLIC_KEY });
+} else if (import.meta.env.DEV) {
+  console.warn('[EmailJS] VITE_EMAILJS_PUBLIC_KEY is not set – emails will fail.');
+}
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
 function isValidEmail(email: string) {
@@ -108,7 +115,6 @@ export default function ContactPage() {
           message:    form.message.trim(),
           to_email:   'ilmabiomedical@gmail.com',
         },
-        { publicKey: EJS_PUBLIC_KEY },
       );
       setSuccess(true);
       setForm(EMPTY_FORM);

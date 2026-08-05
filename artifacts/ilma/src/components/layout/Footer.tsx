@@ -7,9 +7,16 @@ import { Input } from '@/components/ui/input';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
 
 // ─── EmailJS config ────────────────────────────────────────────────────────────
-const EJS_PUBLIC_KEY        = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
-const EJS_SERVICE_ID        = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
-const EJS_NEWSLETTER_ID     = import.meta.env.VITE_EMAILJS_NEWSLETTER_TEMPLATE_ID as string;
+const EJS_PUBLIC_KEY    = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+const EJS_SERVICE_ID    = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
+const EJS_NEWSLETTER_ID = import.meta.env.VITE_EMAILJS_NEWSLETTER_TEMPLATE_ID as string;
+
+// Initialise once at module load
+if (EJS_PUBLIC_KEY) {
+  emailjs.init({ publicKey: EJS_PUBLIC_KEY });
+} else if (import.meta.env.DEV) {
+  console.warn('[EmailJS] VITE_EMAILJS_PUBLIC_KEY is not set – emails will fail.');
+}
 
 function isValidEmail(email: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
