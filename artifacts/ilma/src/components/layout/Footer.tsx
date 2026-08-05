@@ -1,10 +1,100 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { Link } from 'wouter';
-import { Mail, Linkedin, Instagram, ArrowRight } from 'lucide-react';
+import { Mail, Linkedin, Instagram, ArrowRight, Loader2, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
 
+// ─── EmailJS config ────────────────────────────────────────────────────────────
+const EJS_SERVICE_ID      = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
+const EJS_NEWSLETTER_ID   = import.meta.env.VITE_EMAILJS_NEWSLETTER_TEMPLATE_ID as string;
+const EJS_PUBLIC_KEY      = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+
+function isValidEmail(email: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+}
+
+// ─── Newsletter sub-component ──────────────────────────────────────────────────
+function NewsletterSignup() {
+  const [email, setEmail]       = useState('');
+  const [error, setError]       = useState('');
+  const [sending, setSending]   = useState(false);
+  const [success, setSuccess]   = useState(false);
+
+  async function handleSubscribe(e: React.FormEvent) {
+    e.preventDefault();
+    setError('');
+
+    if (!email.trim()) {
+      setError('Please enter your email address.');
+      return;
+    }
+    if (!isValidEmail(email)) {
+      setError('Please enter a valid email address.');
+      return;
+    }
+
+    setSending(true);
+    try {
+      await emailjs.send(
+        EJS_SERVICE_ID,
+        EJS_NEWSLETTER_ID,
+        {
+          subscriber_email: email.trim(),
+          subject: 'New ILMA Newsletter Subscriber',
+          to_email: 'ilmabiomedical@gmail.com',
+        },
+        { publicKey: EJS_PUBLIC_KEY },
+      );
+      setSuccess(true);
+      setEmail('');
+    } catch {
+      setError('Something went wrong. Please try again.');
+    } finally {
+      setSending(false);
+    }
+  }
+
+  if (success) {
+    return (
+      <div className="flex items-center gap-3 p-4 rounded-xl bg-secondary/10 border border-secondary/30">
+        <CheckCircle className="w-5 h-5 text-secondary shrink-0" />
+        <p className="text-sm font-medium text-foreground">Thank you for subscribing!</p>
+      </div>
+    );
+  }
+
+  return (
+    <form onSubmit={handleSubscribe} className="flex flex-col gap-2 mt-1" noValidate>
+      <Input
+        type="email"
+        value={email}
+        onChange={(e) => { setEmail(e.target.value); setError(''); }}
+        placeholder="Enter your email"
+        className={`bg-background border-input ${error ? 'border-destructive' : ''}`}
+        disabled={sending}
+        aria-label="Newsletter email address"
+      />
+      {error && <p className="text-xs text-destructive">{error}</p>}
+      <Button type="submit" className="w-full group" disabled={sending}>
+        {sending ? (
+          <>
+            <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+            Subscribing…
+          </>
+        ) : (
+          <>
+            Subscribe
+            <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+          </>
+        )}
+      </Button>
+    </form>
+  );
+}
+
+// ─── Footer ───────────────────────────────────────────────────────────────────
 export function Footer() {
   return (
     <footer className="bg-card border-t border-border mt-auto">
@@ -39,7 +129,7 @@ export function Footer() {
               career guidance, skill roadmaps, and exam preparation.
             </p>
 
-            {/* Email with visible address */}
+            {/* Clickable email with icon */}
             <a
               href="mailto:ilmabiomedical@gmail.com"
               className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors group w-fit mt-1"
@@ -76,11 +166,11 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <h4 className="font-bold text-foreground">Explore</h4>
             <ul className="flex flex-col gap-2.5">
-              <li><Link href="/about" className="text-sm text-muted-foreground hover:text-primary transition-colors">About ILMA</Link></li>
+              <li><Link href="/about"   className="text-sm text-muted-foreground hover:text-primary transition-colors">About ILMA</Link></li>
               <li><Link href="/careers" className="text-sm text-muted-foreground hover:text-primary transition-colors">Career Explorer</Link></li>
               <li><Link href="/domains" className="text-sm text-muted-foreground hover:text-primary transition-colors">Biomedical Domains</Link></li>
               <li><Link href="/roadmaps" className="text-sm text-muted-foreground hover:text-primary transition-colors">Skill Roadmaps</Link></li>
-              <li><Link href="/exams" className="text-sm text-muted-foreground hover:text-primary transition-colors">Government Exams</Link></li>
+              <li><Link href="/exams"   className="text-sm text-muted-foreground hover:text-primary transition-colors">Government Exams</Link></li>
             </ul>
           </div>
 
@@ -101,17 +191,7 @@ export function Footer() {
             <p className="text-sm text-muted-foreground">
               Subscribe to our newsletter for the latest biomedical trends and career opportunities.
             </p>
-            <div className="flex flex-col gap-2 mt-1">
-              <Input
-                type="email"
-                placeholder="Enter your email"
-                className="bg-background border-input"
-              />
-              <Button className="w-full group">
-                Subscribe
-                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </div>
+            <NewsletterSignup />
           </div>
 
         </div>

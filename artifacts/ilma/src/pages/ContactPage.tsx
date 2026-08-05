@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import { Layout } from '@/components/layout/Layout';
 import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
@@ -7,46 +8,124 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useToast } from '@/hooks/use-toast';
-import { Mail, MapPin, Linkedin, Instagram, Send } from 'lucide-react';
+import { Mail, Linkedin, Instagram, Send, Loader2 } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from '@/components/ui/accordion';
 
+// ─── EmailJS config (all values come from Vite env vars; never hardcoded) ─────
+const EJS_SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID as string;
+const EJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_CONTACT_TEMPLATE_ID as string;
+const EJS_PUBLIC_KEY  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string;
+
+// ─── Helpers ──────────────────────────────────────────────────────────────────
+function isValidEmail(email: string) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+}
+
+// ─── Types ────────────────────────────────────────────────────────────────────
+interface FormState {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}
+
+const EMPTY_FORM: FormState = { name: '', email: '', subject: '', message: '' };
+
+// ─── FAQs ─────────────────────────────────────────────────────────────────────
+const faqs = [
+  {
+    q: 'Is ILMA free for students?',
+    a: 'Yes, all our core resources—career guides, domain overviews, and learning roadmaps—are completely free for students.',
+  },
+  {
+    q: 'Can I contribute an article or roadmap?',
+    a: 'Absolutely! We welcome contributions from industry professionals and experienced academics. Send us a message using the form.',
+  },
+  {
+    q: 'Do you offer direct placement services?',
+    a: 'Currently, we provide guidance and resources. We plan to launch a dedicated job board in our V4 release.',
+  },
+  {
+    q: 'How often is the data updated?',
+    a: 'We review and update our salary data, exam syllabi, and industry trends quarterly to ensure accuracy.',
+  },
+  {
+    q: 'How can I report incorrect information?',
+    a: 'Please use the contact form above or email us directly at ilmabiomedical@gmail.com and we will review it promptly.',
+  },
+];
+
+// ─── Component ────────────────────────────────────────────────────────────────
 export default function ContactPage() {
   useDocumentMeta('Contact', 'Get in touch with ILMA.');
   useScrollTop();
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Message Sent!",
-      description: "We've received your message and will get back to you soon.",
-    });
-    (e.target as HTMLFormElement).reset();
-  };
+  const [form, setForm] = useState<FormState>(EMPTY_FORM);
+  const [errors, setErrors] = useState<Partial<FormState>>({});
+  const [sending, setSending] = useState(false);
 
-  const faqs = [
-    {
-      q: "Is ILMA free for students?",
-      a: "Yes, all our core resources—career guides, domain overviews, and learning roadmaps—are completely free for students."
-    },
-    {
-      q: "Can I contribute an article or roadmap?",
-      a: "Absolutely! We welcome contributions from industry professionals and experienced academics. Send us a message using the form."
-    },
-    {
-      q: "Do you offer direct placement services?",
-      a: "Currently, we provide guidance and resources. We plan to launch a dedicated job board in our V4 release."
-    },
-    {
-      q: "How often is the data updated?",
-      a: "We review and update our salary data, exam syllabi, and industry trends quarterly to ensure accuracy."
+  // ── Field change handler ──
+  function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
+    const { id, value } = e.target;
+    setForm((prev) => ({ ...prev, [id]: value }));
+    if (errors[id as keyof FormState]) {
+      setErrors((prev) => ({ ...prev, [id]: '' }));
     }
-  ];
+  }
+
+  // ── Validate ──
+  function validate(): boolean {
+    const next: Partial<FormState> = {};
+    if (!form.name.trim())            next.name    = 'Name is required.';
+    if (!form.email.trim())           next.email   = 'Email is required.';
+    else if (!isValidEmail(form.email)) next.email = 'Please enter a valid email address.';
+    if (!form.subject.trim())         next.subject = 'Subject is required.';
+    if (!form.message.trim())         next.message = 'Message is required.';
+    setErrors(next);
+    return Object.keys(next).length === 0;
+  }
+
+  // ── Submit ──
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    if (!validate()) return;
+
+    setSending(true);
+    try {
+      await emailjs.send(
+        EJS_SERVICE_ID,
+        EJS_TEMPLATE_ID,
+        {
+          from_name:  form.name.trim(),
+          from_email: form.email.trim(),
+          subject:    form.subject.trim(),
+          message:    form.message.trim(),
+          to_email:   'ilmabiomedical@gmail.com',
+        },
+        { publicKey: EJS_PUBLIC_KEY },
+      );
+      toast({
+        title: 'Message sent!',
+        description: 'Thank you! Your message has been sent successfully.',
+      });
+      setForm(EMPTY_FORM);
+      setErrors({});
+    } catch {
+      toast({
+        title: 'Something went wrong.',
+        description: 'Something went wrong. Please try again.',
+        variant: 'destructive',
+      });
+    } finally {
+      setSending(false);
+    }
+  }
 
   return (
     <Layout>
@@ -60,7 +139,8 @@ export default function ContactPage() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 max-w-6xl mx-auto">
-            {/* Contact Form */}
+
+            {/* ── Contact Form ── */}
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -68,33 +148,84 @@ export default function ContactPage() {
               className="bg-card p-8 rounded-3xl border border-border shadow-sm"
             >
               <h2 className="text-2xl font-bold mb-6">Send a Message</h2>
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6" noValidate>
+
                 <div className="grid sm:grid-cols-2 gap-6">
-                  <div className="space-y-2">
+                  {/* Name */}
+                  <div className="space-y-1.5">
                     <label htmlFor="name" className="text-sm font-medium">Name</label>
-                    <Input id="name" required placeholder="John Doe" className="bg-background" />
+                    <Input
+                      id="name"
+                      value={form.name}
+                      onChange={handleChange}
+                      placeholder="John Doe"
+                      className={`bg-background ${errors.name ? 'border-destructive' : ''}`}
+                      disabled={sending}
+                    />
+                    {errors.name && <p className="text-xs text-destructive">{errors.name}</p>}
                   </div>
-                  <div className="space-y-2">
+
+                  {/* Email */}
+                  <div className="space-y-1.5">
                     <label htmlFor="email" className="text-sm font-medium">Email</label>
-                    <Input id="email" type="email" required placeholder="john@example.com" className="bg-background" />
+                    <Input
+                      id="email"
+                      type="email"
+                      value={form.email}
+                      onChange={handleChange}
+                      placeholder="john@example.com"
+                      className={`bg-background ${errors.email ? 'border-destructive' : ''}`}
+                      disabled={sending}
+                    />
+                    {errors.email && <p className="text-xs text-destructive">{errors.email}</p>}
                   </div>
                 </div>
-                <div className="space-y-2">
+
+                {/* Subject */}
+                <div className="space-y-1.5">
                   <label htmlFor="subject" className="text-sm font-medium">Subject</label>
-                  <Input id="subject" required placeholder="How can we help?" className="bg-background" />
+                  <Input
+                    id="subject"
+                    value={form.subject}
+                    onChange={handleChange}
+                    placeholder="How can we help?"
+                    className={`bg-background ${errors.subject ? 'border-destructive' : ''}`}
+                    disabled={sending}
+                  />
+                  {errors.subject && <p className="text-xs text-destructive">{errors.subject}</p>}
                 </div>
-                <div className="space-y-2">
+
+                {/* Message */}
+                <div className="space-y-1.5">
                   <label htmlFor="message" className="text-sm font-medium">Message</label>
-                  <Textarea id="message" required placeholder="Your message here..." className="min-h-[150px] bg-background" />
+                  <Textarea
+                    id="message"
+                    value={form.message}
+                    onChange={handleChange}
+                    placeholder="Your message here..."
+                    className={`min-h-[150px] bg-background ${errors.message ? 'border-destructive' : ''}`}
+                    disabled={sending}
+                  />
+                  {errors.message && <p className="text-xs text-destructive">{errors.message}</p>}
                 </div>
-                <Button type="submit" className="w-full">
-                  <Send className="w-4 h-4 mr-2" />
-                  Send Message
+
+                <Button type="submit" className="w-full" disabled={sending}>
+                  {sending ? (
+                    <>
+                      <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                      Sending…
+                    </>
+                  ) : (
+                    <>
+                      <Send className="w-4 h-4 mr-2" />
+                      Send Message
+                    </>
+                  )}
                 </Button>
               </form>
             </motion.div>
 
-            {/* Contact Info & FAQ */}
+            {/* ── Contact Info & FAQ ── */}
             <motion.div
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -105,21 +236,32 @@ export default function ContactPage() {
                 <h2 className="text-2xl font-bold mb-6">Connect with us</h2>
                 <div className="grid gap-6">
                   <div className="flex items-center gap-4 p-4 rounded-2xl bg-accent border border-primary/10">
-                    <div className="p-3 bg-primary text-primary-foreground rounded-xl">
+                    <div className="p-3 bg-primary text-primary-foreground rounded-xl shrink-0">
                       <Mail className="w-6 h-6" />
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground font-medium">Email Us</p>
-                      <a href="mailto:ilmabiomedical@gmail.com" className="text-lg font-semibold hover:text-primary transition-colors">ilmabiomedical@gmail.com</a>
+                      <a
+                        href="mailto:ilmabiomedical@gmail.com"
+                        className="text-lg font-semibold hover:text-primary transition-colors break-all"
+                      >
+                        ilmabiomedical@gmail.com
+                      </a>
                     </div>
                   </div>
-                  
+
                   <div className="flex gap-4">
-                    <a href="#" className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors flex-1">
+                    <a
+                      href="#"
+                      className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors flex-1"
+                    >
                       <Linkedin className="w-6 h-6 text-[#0A66C2]" />
                       <span className="font-semibold">LinkedIn</span>
                     </a>
-                    <a href="#" className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors flex-1">
+                    <a
+                      href="#"
+                      className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors flex-1"
+                    >
                       <Instagram className="w-6 h-6 text-[#E1306C]" />
                       <span className="font-semibold">Instagram</span>
                     </a>
@@ -141,6 +283,7 @@ export default function ContactPage() {
                 </Accordion>
               </div>
             </motion.div>
+
           </div>
         </div>
       </section>
