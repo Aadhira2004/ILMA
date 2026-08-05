@@ -101,7 +101,7 @@ const publications = [
 ];
 
 const stats = [
-  { value: '80+', label: 'Courses Completed' },
+  { value: '80+', label: 'Certificates Completed' },
   { value: '4+',  label: 'Publications' },
   { value: 'IEEE', label: 'Conference Author' },
   { value: 'M.E.', label: 'Pursuing PG' },
