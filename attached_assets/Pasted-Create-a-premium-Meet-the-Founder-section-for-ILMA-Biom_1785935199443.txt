@@ -1,0 +1,227 @@
+Create a premium "Meet the Founder" section for ILMA – Biomedical Future.
+
+====================================================
+SECTION TITLE
+====================================================
+
+Meet the Founder
+
+Subtitle:
+The vision behind ILMA – Biomedical Future.
+
+====================================================
+FOUNDER INFORMATION
+====================================================
+
+Name:
+Aadhira Suleim A. R.
+
+Role:
+Founder | Biomedical Engineer | Researcher | M.E. Biomedical Engineering Student
+
+Do NOT include a profile picture or image.
+
+Instead, create a premium founder information card with:
+• Founder Name
+• Role
+• Education
+• Research Interests
+• Professional Highlights
+
+Use ILMA's premium blue (#0F4C81) and teal (#1AB7B0) theme with glassmorphism styling, subtle animations, rounded corners, and soft shadows.
+
+====================================================
+FOUNDER BIOGRAPHY
+====================================================
+
+Aadhira Suleim A. R. is the Founder of ILMA – Biomedical Future, an educational platform dedicated exclusively to Biomedical Engineering students.
+
+She completed her Bachelor of Engineering (B.E.) in Biomedical Engineering from Rohini College of Engineering and Technology, Anna University, and is currently pursuing a Master of Engineering (M.E.) in Biomedical Engineering at Udaya School of Engineering, Anna University.
+
+She founded ILMA with the vision of making Biomedical Engineering education more structured, accessible, and career-focused by providing career guidance, biomedical domains, skill roadmaps, government exam preparation, and learning resources.
+
+Her interests include Artificial Intelligence in Healthcare, Medical Devices, Wearable Healthcare Technology, Biomedical Signal Processing, Medical Imaging, Embedded Systems, and Biomedical Research.
+
+====================================================
+MISSION
+====================================================
+
+Display inside a premium quote card.
+
+"I believe every Biomedical Engineering student deserves quality learning resources, practical guidance, and opportunities to innovate. ILMA was created to help students learn, grow, and build meaningful careers in healthcare technology."
+
+— Aadhira Suleim A. R.
+
+====================================================
+EDUCATION
+====================================================
+
+Display as a professional vertical timeline.
+
+Bachelor of Engineering (B.E.) – Biomedical Engineering
+
+Rohini College of Engineering and Technology
+
+Anna University
+
+October 2022 – June 2026
+
+----------------------------------------------------
+
+Master of Engineering (M.E.) – Biomedical Engineering
+
+Udaya School of Engineering
+
+Anna University
+
+July 2026 – May 2028
+
+Current Research:
+Smart Wearable Sensor System for Real-Time Biomechanical Analysis
+
+====================================================
+PROFESSIONAL HIGHLIGHTS
+====================================================
+
+Display as premium animated cards.
+
+🎓 Biomedical Engineering Graduate
+
+🎓 Pursuing M.E. Biomedical Engineering
+
+📚 80+ Professional Courses & Certifications Completed
+
+📄 4+ Research Publications
+
+📖 Published Amazon Kindle Author
+
+🔬 Biomedical Engineering Researcher
+
+🤖 Artificial Intelligence in Healthcare Enthusiast
+
+🚀 Founder of ILMA – Biomedical Future
+
+====================================================
+RESEARCH INTERESTS
+====================================================
+
+Display as modern tags.
+
+• Artificial Intelligence in Healthcare
+
+• Medical Devices
+
+• Biomedical Instrumentation
+
+• Medical Imaging
+
+• Wearable Healthcare Technology
+
+• Biomedical Signal Processing
+
+• Embedded Systems
+
+• Internet of Medical Things (IoMT)
+
+• Machine Learning
+
+• Clinical Engineering
+
+• Medical Robotics
+
+====================================================
+FEATURED PUBLICATIONS
+====================================================
+
+Create elegant publication cards.
+
+1. Smart Wearable Sensor System for Real-Time Biomechanical Analysis
+
+IEEE – 2025 International Conference on Biomedical Engineering and Sustainable Healthcare (ICBMESH)
+
+October 3, 2025
+
+An AI-integrated wearable sensor system enabling real-time biomechanical analysis, movement tracking, posture assessment, and intelligent healthcare monitoring.
+
+----------------------------------------------------
+
+2. Neuro-Ocular Parkinson's Disease Detection
+
+IJFMR
+
+September 29, 2025
+
+An AI-assisted approach for early Parkinson's Disease screening using neuro-ocular biomarkers including blink rate and pupillary response.
+
+----------------------------------------------------
+
+3. AI Parkinson's Screening System
+
+ICTRILS
+
+An intelligent screening system using Artificial Intelligence, Machine Learning, and Computer Vision for Parkinson's Disease detection.
+
+----------------------------------------------------
+
+4. Underrated but Highly Rated
+
+Amazon Kindle Direct Publishing
+
+September 4, 2025
+
+A motivational book encouraging students to embrace lifelong learning, confidence, and continuous self-improvement.
+
+====================================================
+ACHIEVEMENTS
+====================================================
+
+Display as modern statistic cards.
+
+• 80+ Professional Courses Completed
+
+• 4+ Publications
+
+• IEEE Conference Publication
+
+• Published Amazon Kindle Author
+
+• Biomedical Engineering Graduate
+
+• M.E. Biomedical Engineering Student
+
+• Founder of ILMA – Biomedical Future
+
+====================================================
+SOCIAL LINKS
+====================================================
+
+Display icon buttons only (no profile photo).
+
+LinkedIn
+
+GitHub
+
+Google Scholar
+
+ResearchGate
+
+ORCID
+
+Email
+
+Use placeholder links that can be updated later.
+
+====================================================
+DESIGN REQUIREMENTS
+====================================================
+
+• Do NOT display any founder profile image.
+• Use a clean information-card layout.
+• Premium glassmorphism design.
+• ILMA blue and teal color palette.
+• Poppins headings and Inter body font.
+• Responsive on desktop, tablet, and mobile.
+• Dark mode compatible.
+• Smooth Framer Motion animations.
+• Modern icons and timelines.
+• Keep the design elegant, minimal, and consistent with the ILMA website.

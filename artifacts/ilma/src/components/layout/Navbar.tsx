@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { name: 'Biomedical Domains', href: '/domains' },
   { name: 'Skill Roadmaps', href: '/roadmaps' },
   { name: 'Government Exams', href: '/exams' },
+  { name: 'Meet the Founder', href: '/founder' },
   { name: 'Contact', href: '/contact' },
 ];
 

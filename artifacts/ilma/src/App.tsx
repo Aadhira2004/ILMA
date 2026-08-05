@@ -17,6 +17,7 @@ import RoadmapDetailPage from '@/pages/RoadmapDetailPage';
 import GovernmentExamsPage from '@/pages/GovernmentExamsPage';
 import ExamDetailPage from '@/pages/ExamDetailPage';
 import ContactPage from '@/pages/ContactPage';
+import FounderPage from '@/pages/FounderPage';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -40,6 +41,7 @@ function Router() {
       <Route path="/exams" component={GovernmentExamsPage} />
       <Route path="/exams/:id" component={ExamDetailPage} />
       <Route path="/contact" component={ContactPage} />
+      <Route path="/founder" component={FounderPage} />
       <Route component={NotFound} />
     </Switch>
   );
