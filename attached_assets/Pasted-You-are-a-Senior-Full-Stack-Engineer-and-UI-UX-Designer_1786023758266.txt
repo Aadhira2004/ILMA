@@ -1,0 +1,419 @@
+You are a Senior Full Stack Engineer and UI/UX Designer.
+
+Upgrade my existing website "ILMA – Biomedical Future".
+
+IMPORTANT:
+Do NOT redesign or rebuild the website.
+Keep the existing UI, color palette, typography, logo, pages, animations, responsiveness, branding, and layout exactly as they are.
+
+Only add the following premium features while maintaining the current design.
+
+====================================================
+1. ADVANCED GLOBAL SEARCH
+====================================================
+
+Create a smart search that searches across:
+
+• Career Explorer
+• Biomedical Domains
+• Skill Roadmaps
+• Government Exams
+• Jobs
+• Resources
+
+Features:
+- Instant search suggestions
+- Search highlighting
+- Recent searches
+- No results state
+- Keyboard shortcut (Ctrl + K / Cmd + K)
+
+====================================================
+2. STUDENT DASHBOARD
+====================================================
+
+After login create a dashboard containing:
+
+• Welcome Card
+• Continue Learning
+• Saved Careers
+• Saved Domains
+• Saved Roadmaps
+• Saved Exams
+• Recently Viewed
+• Learning Progress
+• Recommended Content
+
+====================================================
+3. BOOKMARK SYSTEM
+====================================================
+
+Allow users to bookmark:
+
+• Careers
+• Biomedical Domains
+• Skill Roadmaps
+• Government Exams
+• Resources
+
+Bookmarks should persist using the database.
+
+====================================================
+4. LEARNING PROGRESS
+====================================================
+
+Track learning progress.
+
+Display:
+
+Progress bars
+
+Completed sections
+
+Roadmap completion percentage
+
+Recently completed lessons
+
+Estimated completion date
+
+====================================================
+5. RESOURCE LIBRARY
+====================================================
+
+Create categories:
+
+Books
+
+Research Papers
+
+Datasets
+
+Software
+
+YouTube Channels
+
+Websites
+
+MOOCs
+
+Tools
+
+Filters:
+
+Category
+
+Difficulty
+
+Topic
+
+Search
+
+====================================================
+6. COMPANY EXPLORER
+====================================================
+
+Create dedicated company pages.
+
+Include:
+
+GE HealthCare
+
+Siemens Healthineers
+
+Philips Healthcare
+
+Medtronic
+
+Abbott
+
+Boston Scientific
+
+Johnson & Johnson MedTech
+
+Stryker
+
+Each page contains:
+
+Overview
+
+Products
+
+Biomedical Roles
+
+Required Skills
+
+Internships
+
+Graduate Programs
+
+Career Opportunities
+
+Official Website
+
+====================================================
+7. BIOMEDICAL NEWS
+====================================================
+
+Create a news section.
+
+Categories:
+
+AI Healthcare
+
+Medical Devices
+
+Biomedical Research
+
+FDA
+
+WHO
+
+Healthcare Technology
+
+Trending
+
+Bookmark news.
+
+====================================================
+8. RESEARCH HUB
+====================================================
+
+Create Research Hub.
+
+Sections:
+
+IEEE
+
+PubMed
+
+Springer
+
+Nature
+
+ScienceDirect
+
+Google Scholar
+
+Research Guides
+
+Writing Tips
+
+Citation Tools
+
+====================================================
+9. ADMIN DASHBOARD
+====================================================
+
+Create Admin Panel.
+
+Manage:
+
+Careers
+
+Domains
+
+Roadmaps
+
+Jobs
+
+Resources
+
+Government Exams
+
+News
+
+Newsletter Subscribers
+
+Contact Messages
+
+Statistics
+
+No coding required for updates.
+
+====================================================
+10. USER PROFILE
+====================================================
+
+Profile page.
+
+Include:
+
+Profile Information
+
+Saved Content
+
+Learning Progress
+
+Certificates
+
+Bookmarks
+
+Account Settings
+
+====================================================
+11. NOTIFICATIONS
+====================================================
+
+Notification Center.
+
+Notify users about:
+
+New Roadmaps
+
+New Jobs
+
+Exam Updates
+
+Latest News
+
+====================================================
+12. PREMIUM UI
+====================================================
+
+Add:
+
+Skeleton Loading
+
+Animated Counters
+
+Scroll Progress Bar
+
+Floating Search
+
+Back To Top
+
+Page Transitions
+
+Smooth Animations
+
+Beautiful Empty States
+
+Loading Spinners
+
+====================================================
+13. ANALYTICS
+====================================================
+
+Admin Analytics.
+
+Display:
+
+Visitors
+
+Popular Careers
+
+Popular Domains
+
+Popular Roadmaps
+
+Popular Exams
+
+Newsletter Count
+
+Jobs Viewed
+
+====================================================
+14. PERFORMANCE
+====================================================
+
+Lazy Loading
+
+Code Splitting
+
+Image Optimization
+
+SEO
+
+Meta Tags
+
+Open Graph
+
+Structured Data
+
+Sitemap
+
+robots.txt
+
+====================================================
+15. SECURITY
+====================================================
+
+Secure Forms
+
+Rate Limiting
+
+Input Validation
+
+Sanitization
+
+Secure Authentication
+
+====================================================
+16. RESPONSIVENESS
+====================================================
+
+Optimize for:
+
+Desktop
+
+Laptop
+
+Tablet
+
+Mobile
+
+====================================================
+17. ACCESSIBILITY
+====================================================
+
+Improve:
+
+Keyboard Navigation
+
+ARIA Labels
+
+Contrast
+
+Screen Reader Support
+
+====================================================
+18. KEEP EVERYTHING ELSE
+====================================================
+
+Do NOT change:
+
+Logo
+
+Branding
+
+Founder Page
+
+Career Explorer Content
+
+Government Exam Content
+
+Skill Roadmaps
+
+Biomedical Domains
+
+Footer
+
+Contact
+
+Newsletter
+
+Existing UI
+
+Existing Colors
+
+Existing Typography
+
+Animations
+
+====================================================
+FINAL
+====================================================
+
+The website should feel like a premium educational platform comparable to Coursera, LinkedIn Learning, and Roadmap.sh while keeping the existing ILMA identity.
+
+Maintain clean code, reusable components, TypeScript best practices, and production-ready architecture.
