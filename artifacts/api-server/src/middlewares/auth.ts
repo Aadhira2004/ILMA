@@ -40,10 +40,13 @@ export async function ensureLocalUser(
 export function sessionClaimsFromReq(req: Request): SessionClaims {
   const auth = getAuth(req);
   const claims = (auth?.sessionClaims ?? {}) as Record<string, unknown>;
+  const str = (v: unknown) => (typeof v === "string" && v.length > 0 ? v : undefined);
+  const composedName =
+    [str(claims.firstName), str(claims.lastName)].filter(Boolean).join(" ") || undefined;
   return {
-    email: typeof claims.email === "string" ? claims.email : undefined,
-    fullName: typeof claims.fullName === "string" ? claims.fullName : undefined,
-    imageUrl: typeof claims.imageUrl === "string" ? claims.imageUrl : undefined,
+    email: str(claims.email),
+    fullName: str(claims.fullName) ?? composedName,
+    imageUrl: str(claims.imageUrl) ?? str(claims.image_url),
   };
 }
 
