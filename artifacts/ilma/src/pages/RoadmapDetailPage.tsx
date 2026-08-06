@@ -5,6 +5,12 @@ import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import roadmapsData from '@/data/roadmaps.json';
 import { Roadmap, RoadmapPhase } from '@/types';
+import { useEffect, useRef } from 'react';
+import { useAuth } from '@clerk/react';
+import { useQueryClient } from '@tanstack/react-query';
+import { useRecordView, useListProgress, useToggleProgress, getListProgressQueryKey } from '@workspace/api-client-react';
+import { BookmarkButton } from '@/components/shared/BookmarkButton';
+import { Checkbox } from '@/components/ui/checkbox';
 import * as Icons from 'lucide-react';
 import { ArrowLeft, Clock, Code2, Link as LinkIcon, BookOpen, MonitorPlay, Award, ArrowDown } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
@@ -13,12 +19,51 @@ import { Button } from '@/components/ui/button';
 export default function RoadmapDetailPage() {
   const params = useParams();
   const roadmapId = params.id;
+  const { isSignedIn } = useAuth();
+  const queryClient = useQueryClient();
   
   useScrollTop();
 
   const roadmap = (roadmapsData as Roadmap[]).find(r => r.id === roadmapId);
 
   useDocumentMeta(roadmap ? `${roadmap.title} Roadmap` : 'Roadmap Not Found');
+
+  const recordViewMutation = useRecordView();
+  const hasRecorded = useRef(false);
+
+  useEffect(() => {
+    if (isSignedIn && roadmap && !hasRecorded.current) {
+      hasRecorded.current = true;
+      recordViewMutation.mutate({
+        data: {
+          itemType: 'roadmap',
+          itemId: roadmap.id,
+          title: roadmap.title
+        }
+      });
+    }
+  }, [isSignedIn, roadmap, recordViewMutation]);
+
+  const { data: progress } = useListProgress({
+    query: {
+      enabled: !!isSignedIn,
+      queryKey: getListProgressQueryKey()
+    }
+  });
+
+  const toggleProgress = useToggleProgress({
+    mutation: {
+      onSuccess: () => {
+        queryClient.invalidateQueries({ queryKey: getListProgressQueryKey() });
+      }
+    }
+  });
+
+  const getPhaseProgress = (phaseName: string, topicsLength: number) => {
+    if (!progress || topicsLength === 0) return 0;
+    const completedInPhase = progress.filter(p => p.roadmapId === roadmapId && p.phase === phaseName).length;
+    return Math.round((completedInPhase / topicsLength) * 100);
+  };
 
   if (!roadmap) {
     return (
@@ -36,7 +81,10 @@ export default function RoadmapDetailPage() {
 
   const Icon = (Icons as any)[roadmap.icon] || Icons.Map;
 
-  const renderPhase = (phase: RoadmapPhase, phaseNumber: number, phaseName: string) => (
+  const renderPhase = (phase: RoadmapPhase, phaseNumber: number, phaseName: string) => {
+    const phaseProgress = getPhaseProgress(phaseName, phase.topics.length);
+    
+    return (
     <div className="relative pl-8 md:pl-0">
       {/* Mobile timeline line */}
       <div className="md:hidden absolute left-[11px] top-10 bottom-[-4rem] w-[2px] bg-border z-0" />
@@ -50,9 +98,16 @@ export default function RoadmapDetailPage() {
           
           <h2 className="text-2xl font-bold text-foreground capitalize mb-1">{phaseName}</h2>
           <p className="text-lg font-medium text-primary mb-2">{phase.title}</p>
-          <div className="inline-flex items-center text-sm font-medium text-muted-foreground bg-accent px-3 py-1 rounded-full">
-            <Clock className="w-3.5 h-3.5 mr-1.5" />
-            {phase.duration}
+          <div className="flex flex-col gap-2 md:items-end">
+            <div className="inline-flex items-center text-sm font-medium text-muted-foreground bg-accent px-3 py-1 rounded-full w-fit">
+              <Clock className="w-3.5 h-3.5 mr-1.5" />
+              {phase.duration}
+            </div>
+            {isSignedIn && (
+              <div className="text-sm font-medium text-primary mt-1" data-testid={`text-progress-${phaseName}`}>
+                {phaseProgress}% Complete
+              </div>
+            )}
           </div>
         </div>
 
@@ -74,13 +129,38 @@ export default function RoadmapDetailPage() {
               Topics to Master
             </h3>
             <ul className="space-y-3">
-              {phase.topics.map((topic, i) => (
-                <li key={i} className="flex items-start gap-3">
-                  <div className="w-1.5 h-1.5 rounded-full bg-foreground/40 mt-2 shrink-0" />
-                  <span className="text-foreground/90 font-medium">{topic}</span>
-                </li>
-              ))}
+              {phase.topics.map((topic, i) => {
+                const isCompleted = progress?.some(p => p.roadmapId === roadmapId && p.phase === phaseName && p.topicIndex === i) ?? false;
+                
+                return (
+                  <li key={i} className="flex items-start gap-3">
+                    {isSignedIn ? (
+                      <Checkbox 
+                        className="mt-1 shrink-0"
+                        checked={isCompleted}
+                        disabled={toggleProgress.isPending}
+                        onCheckedChange={() => {
+                          toggleProgress.mutate({
+                            data: {
+                              roadmapId: roadmapId as string,
+                              phase: phaseName as any,
+                              topicIndex: i
+                            }
+                          });
+                        }}
+                        data-testid={`checkbox-topic-${phaseName}-${i}`}
+                      />
+                    ) : (
+                      <div className="w-1.5 h-1.5 rounded-full bg-foreground/40 mt-2 shrink-0" />
+                    )}
+                    <span className={`text-foreground/90 font-medium ${isCompleted ? 'line-through text-muted-foreground' : ''}`}>{topic}</span>
+                  </li>
+                );
+              })}
             </ul>
+            {!isSignedIn && (
+              <p className="text-xs text-muted-foreground mt-4 italic">Sign in to track your progress.</p>
+            )}
           </div>
 
           <div className="mb-8">
@@ -111,6 +191,7 @@ export default function RoadmapDetailPage() {
       </div>
     </div>
   );
+  };
 
   return (
     <Layout>
@@ -128,12 +209,15 @@ export default function RoadmapDetailPage() {
             <div>
               <div className="flex items-center gap-4 mb-4">
                 <div 
-                  className="p-4 rounded-2xl"
+                  className="p-4 rounded-2xl shrink-0"
                   style={{ backgroundColor: `${roadmap.color}15`, color: roadmap.color }}
                 >
                   <Icon className="w-8 h-8" />
                 </div>
-                <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground">{roadmap.title}</h1>
+                <div className="flex items-center gap-4 flex-wrap">
+                  <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground" data-testid={`text-title-${roadmap.id}`}>{roadmap.title}</h1>
+                  <BookmarkButton itemType="roadmap" itemId={roadmap.id} title={roadmap.title} />
+                </div>
               </div>
               <div className="flex flex-wrap gap-2 mt-6">
                 {roadmap.careerApplications.map((app, i) => (

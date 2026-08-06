@@ -6,6 +6,10 @@ import { useScrollTop } from '@/hooks/use-scroll-top';
 import domainsData from '@/data/domains.json';
 import careersData from '@/data/careers.json';
 import { Domain, Career } from '@/types';
+import { useEffect, useRef } from 'react';
+import { useAuth } from '@clerk/react';
+import { useRecordView } from '@workspace/api-client-react';
+import { BookmarkButton } from '@/components/shared/BookmarkButton';
 import * as Icons from 'lucide-react';
 import { ArrowLeft, BookOpen, Layers, Lightbulb, Target, BookMarked, Award, Network } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
@@ -14,6 +18,7 @@ import { Button } from '@/components/ui/button';
 export default function DomainDetailPage() {
   const params = useParams();
   const domainId = params.id;
+  const { isSignedIn } = useAuth();
   
   useScrollTop();
 
@@ -21,6 +26,22 @@ export default function DomainDetailPage() {
   const careers = careersData as Career[];
 
   useDocumentMeta(domain ? domain.name : 'Domain Not Found');
+
+  const recordViewMutation = useRecordView();
+  const hasRecorded = useRef(false);
+
+  useEffect(() => {
+    if (isSignedIn && domain && !hasRecorded.current) {
+      hasRecorded.current = true;
+      recordViewMutation.mutate({
+        data: {
+          itemType: 'domain',
+          itemId: domain.id,
+          title: domain.name
+        }
+      });
+    }
+  }, [isSignedIn, domain, recordViewMutation]);
 
   if (!domain) {
     return (
@@ -61,7 +82,10 @@ export default function DomainDetailPage() {
             <div className="inline-flex items-center justify-center p-4 bg-white/20 backdrop-blur-sm rounded-2xl mb-6">
               <Icon className="w-10 h-10 text-white" />
             </div>
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-4">{domain.name}</h1>
+            <div className="flex items-center gap-4 mb-4">
+              <h1 className="text-4xl md:text-6xl font-bold tracking-tight" data-testid={`text-title-${domain.id}`}>{domain.name}</h1>
+              <BookmarkButton itemType="domain" itemId={domain.id} title={domain.name} />
+            </div>
             <p className="text-xl md:text-2xl font-medium text-white/90 mb-8">{domain.tagline}</p>
             <p className="text-lg text-white/80 leading-relaxed max-w-3xl">
               {domain.overview}

@@ -2,13 +2,21 @@ import React, { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
 
+const SPLASH_KEY = 'ilma-splash-shown';
+
 export function LoadingScreen() {
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(
+    () => sessionStorage.getItem(SPLASH_KEY) !== '1'
+  );
 
   useEffect(() => {
-    const timer = setTimeout(() => setVisible(false), 1800);
+    if (!visible) return;
+    const timer = setTimeout(() => {
+      sessionStorage.setItem(SPLASH_KEY, '1');
+      setVisible(false);
+    }, 1800);
     return () => clearTimeout(timer);
-  }, []);
+  }, [visible]);
 
   return (
     <AnimatePresence>

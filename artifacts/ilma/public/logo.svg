@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
+  <g fill="none">
+    <path d="M14 30c6-14 12-14 18 0s12 14 18 0" stroke="#1AB7B0" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="32" cy="30" r="4" fill="#0F4C81"/>
+    <text x="62" y="40" font-family="Poppins, Inter, sans-serif" font-size="28" font-weight="800" fill="#0F4C81">ILMA</text>
+  </g>
+</svg>

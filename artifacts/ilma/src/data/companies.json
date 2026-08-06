@@ -1,0 +1,102 @@
+[
+  {
+    "id": "medtronic",
+    "name": "Medtronic",
+    "headquarters": "Dublin, Ireland",
+    "focusAreas": ["Cardiac Rhythm", "Neuromodulation", "Diabetes", "Surgical Technologies"],
+    "whatTheyBuild": "Pacemakers, insulin pumps, surgical robotics, deep brain stimulators.",
+    "whyItMatters": "The largest standalone medical technology company in the world. Their devices are implanted in millions of patients annually.",
+    "typicalRoles": ["R&D Engineer", "Quality Engineer", "Clinical Specialist", "Regulatory Affairs"],
+    "careersUrl": "https://jobs.medtronic.com"
+  },
+  {
+    "id": "ge-healthcare",
+    "name": "GE HealthCare",
+    "headquarters": "Chicago, IL, USA",
+    "focusAreas": ["Imaging", "Ultrasound", "Patient Care Solutions", "Pharmaceutical Diagnostics"],
+    "whatTheyBuild": "MRI machines, CT scanners, ultrasound systems, patient monitors.",
+    "whyItMatters": "A pioneer in medical imaging. If you've ever had a scan in a hospital, it was likely on their equipment.",
+    "typicalRoles": ["Software Engineer", "Systems Engineer", "Imaging Scientist", "Field Service Engineer"],
+    "careersUrl": "https://careers.gehealthcare.com"
+  },
+  {
+    "id": "siemens-healthineers",
+    "name": "Siemens Healthineers",
+    "headquarters": "Erlangen, Germany",
+    "focusAreas": ["Imaging", "Diagnostics", "Advanced Therapies"],
+    "whatTheyBuild": "Lab diagnostics, imaging systems, advanced robotics for minimally invasive procedures.",
+    "whyItMatters": "They dominate the global market for in-vitro diagnostics and medical imaging systems.",
+    "typicalRoles": ["Algorithm Developer", "Hardware Engineer", "Data Scientist", "Product Manager"],
+    "careersUrl": "https://jobs.siemens-healthineers.com"
+  },
+  {
+    "id": "philips",
+    "name": "Philips",
+    "headquarters": "Amsterdam, Netherlands",
+    "focusAreas": ["Connected Care", "Diagnosis & Treatment", "Personal Health"],
+    "whatTheyBuild": "Defibrillators, respiratory care systems, imaging solutions.",
+    "whyItMatters": "Transitioned from a general electronics conglomerate to a laser-focused health technology leader.",
+    "typicalRoles": ["Clinical Engineer", "UX/UI Designer", "Mechatronics Engineer", "Quality Assurance"],
+    "careersUrl": "https://www.careers.philips.com"
+  },
+  {
+    "id": "abbott",
+    "name": "Abbott",
+    "headquarters": "Chicago, IL, USA",
+    "focusAreas": ["Cardiovascular", "Diagnostics", "Neuromodulation", "Nutrition"],
+    "whatTheyBuild": "Continuous glucose monitors (FreeStyle Libre), diagnostic tests, stents.",
+    "whyItMatters": "Their rapid diagnostic testing changed the landscape of point-of-care testing during the pandemic.",
+    "typicalRoles": ["Biomedical Engineer", "Manufacturing Engineer", "Process Engineer", "R&D Scientist"],
+    "careersUrl": "https://www.jobs.abbott"
+  },
+  {
+    "id": "jnj-medtech",
+    "name": "Johnson & Johnson MedTech",
+    "headquarters": "New Brunswick, NJ, USA",
+    "focusAreas": ["Orthopaedics", "Surgery", "Interventional Solutions", "Vision"],
+    "whatTheyBuild": "Joint replacements, surgical staplers, contact lenses, electrophysiology catheters.",
+    "whyItMatters": "One of the most comprehensive surgical and orthopaedic product lines in the world.",
+    "typicalRoles": ["Mechanical Engineer", "Materials Scientist", "Robotics Engineer", "Regulatory Engineer"],
+    "careersUrl": "https://jobs.jnj.com"
+  },
+  {
+    "id": "stryker",
+    "name": "Stryker",
+    "headquarters": "Kalamazoo, MI, USA",
+    "focusAreas": ["Orthopaedics", "Medical and Surgical", "Neurotechnology"],
+    "whatTheyBuild": "Robotic-arm assisted surgery (Mako), hospital beds, neurovascular devices.",
+    "whyItMatters": "Incredibly innovative in orthopaedics and surgical robotics, leading the shift toward personalized joint replacements.",
+    "typicalRoles": ["Design Engineer", "Test Engineer", "Project Engineer", "Clinical Researcher"],
+    "careersUrl": "https://careers.stryker.com"
+  },
+  {
+    "id": "boston-scientific",
+    "name": "Boston Scientific",
+    "headquarters": "Marlborough, MA, USA",
+    "focusAreas": ["Endoscopy", "Interventional Cardiology", "Neuromodulation", "Urology"],
+    "whatTheyBuild": "Stents, pacemakers, deep brain stimulation systems, endoscopic instruments.",
+    "whyItMatters": "A massive focus on minimally invasive medical technologies that reduce recovery times and surgical risks.",
+    "typicalRoles": ["R&D Engineer", "Quality Engineer", "Manufacturing Engineer", "Regulatory Specialist"],
+    "careersUrl": "https://careers.bostonscientific.com"
+  },
+  {
+    "id": "bd",
+    "name": "BD (Becton, Dickinson)",
+    "headquarters": "Franklin Lakes, NJ, USA",
+    "focusAreas": ["Medical Delivery", "Life Sciences", "Interventional"],
+    "whatTheyBuild": "Syringes, infusion pumps, biosciences instruments, diagnostic systems.",
+    "whyItMatters": "The backbone of clinical care delivery; billions of their devices are used daily worldwide.",
+    "typicalRoles": ["Process Engineer", "R&D Scientist", "Quality Engineer", "Regulatory Affairs"],
+    "careersUrl": "https://jobs.bd.com"
+  },
+  {
+    "id": "baxter",
+    "name": "Baxter International",
+    "headquarters": "Deerfield, IL, USA",
+    "focusAreas": ["Renal Care", "Medication Delivery", "Pharmaceuticals", "Clinical Nutrition"],
+    "whatTheyBuild": "Dialysis systems, IV solutions, smart infusion pumps, advanced surgery tools.",
+    "whyItMatters": "Pioneered commercial kidney dialysis and continues to lead in critical and renal care.",
+    "typicalRoles": ["Biomedical Engineer", "Systems Engineer", "Clinical Data Manager", "Operations Engineer"],
+    "careersUrl": "https://jobs.baxter.com"
+  }
+]

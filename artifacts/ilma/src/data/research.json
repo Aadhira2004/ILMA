@@ -1,0 +1,136 @@
+{
+  "howToReadAPaper": [
+    {
+      "step": 1,
+      "title": "The First Pass (The Bird's-Eye View)",
+      "description": "Read the title, abstract, and introduction carefully. Then, skip to the conclusion. Glance at the section headings. Do not read the math or methodology yet. Goal: Understand what they did and why."
+    },
+    {
+      "step": 2,
+      "title": "The Second Pass (The Deep Dive into Figures)",
+      "description": "Look at the figures, diagrams, and tables. In biomedical engineering, the core of the story is almost always in the visual data. Read the captions. Can you understand their results just from the charts?"
+    },
+    {
+      "step": 3,
+      "title": "The Third Pass (The Details)",
+      "description": "Now read the methods section to understand exactly how they did it. If you need to reproduce their work, this is where you'll find the recipe. Look up references you don't understand."
+    },
+    {
+      "step": 4,
+      "title": "The Fourth Pass (The Critique)",
+      "description": "Evaluate the paper critically. Are there flaws in their statistical analysis? Did they test their device in a realistic environment? What are the limitations they didn't mention?"
+    }
+  ],
+  "topJournals": [
+    {
+      "name": "Nature Biomedical Engineering",
+      "focus": "High-impact, broad biomedical engineering innovations.",
+      "url": "https://www.nature.com/natbiomedeng"
+    },
+    {
+      "name": "IEEE Transactions on Biomedical Engineering",
+      "focus": "Rigorous technical and mathematical models in BME.",
+      "url": "https://tbme.embs.org/"
+    },
+    {
+      "name": "Annals of Biomedical Engineering",
+      "focus": "General biomedical engineering, biomechanics, and tissue engineering.",
+      "url": "https://www.springer.com/journal/10439"
+    },
+    {
+      "name": "Lab on a Chip",
+      "focus": "Microfluidics and miniaturized medical devices.",
+      "url": "https://pubs.rsc.org/en/journals/journalissues/lc"
+    },
+    {
+      "name": "Biomaterials",
+      "focus": "Science and application of biomaterials in clinical settings.",
+      "url": "https://www.journals.elsevier.com/biomaterials"
+    }
+  ],
+  "preprintServers": [
+    {
+      "name": "bioRxiv",
+      "description": "The premier preprint server for biology. Great for reading cutting-edge papers before peer review.",
+      "url": "https://www.biorxiv.org/"
+    },
+    {
+      "name": "medRxiv",
+      "description": "Focused specifically on health sciences and clinical research.",
+      "url": "https://www.medrxiv.org/"
+    },
+    {
+      "name": "arXiv (Quantitative Biology)",
+      "description": "Often contains computational biology, bioinformatics, and machine learning papers.",
+      "url": "https://arxiv.org/archive/q-bio"
+    }
+  ],
+  "projectIdeas": [
+    {
+      "title": "Low-Cost ECG Monitor",
+      "domain": "Bioinstrumentation",
+      "difficulty": "Beginner",
+      "description": "Build a simple single-lead ECG using an AD8232 module and an Arduino. Write a Python script to filter the noise and calculate heart rate."
+    },
+    {
+      "title": "3D Printed Prosthetic Hand",
+      "domain": "Biomechanics / 3D Printing",
+      "difficulty": "Intermediate",
+      "description": "Design and print a mechanically operated prosthetic hand driven by wrist flexion using open-source models like e-NABLE."
+    },
+    {
+      "title": "Skin Lesion Classification",
+      "domain": "Medical AI",
+      "difficulty": "Beginner",
+      "description": "Use the HAM10000 dataset to train a basic Convolutional Neural Network (CNN) in PyTorch to classify benign vs malignant skin lesions."
+    },
+    {
+      "title": "Microfluidic Mixer",
+      "domain": "Biomaterials",
+      "difficulty": "Intermediate",
+      "description": "Design a simple Y-channel microfluidic mixer using AutoCAD. Try fabricating it using PDMS casting if your lab allows."
+    },
+    {
+      "title": "Gait Analysis App",
+      "domain": "Biomechanics",
+      "difficulty": "Advanced",
+      "description": "Use a smartphone's IMU sensors (accelerometer/gyroscope) to record walking data and analyze stride length and cadence."
+    },
+    {
+      "title": "Pulse Oximeter (SpO2)",
+      "domain": "Bioinstrumentation",
+      "difficulty": "Intermediate",
+      "description": "Build a pulse oximeter using a MAX30102 sensor and an ESP32. Send the data to a web dashboard via Wi-Fi."
+    },
+    {
+      "title": "Automated Pill Dispenser",
+      "domain": "Medical Devices",
+      "difficulty": "Advanced",
+      "description": "Design a mechatronic system with stepper motors to dispense specific pill dosages at scheduled times, integrated with a mobile app alert."
+    },
+    {
+      "title": "Brainwave Controlled Game",
+      "domain": "Neuroengineering",
+      "difficulty": "Advanced",
+      "description": "Use a low-cost EEG headset (like a MindWave or OpenBCI) to extract alpha/beta waves and use them to control a simple Python game (e.g., Flappy Bird)."
+    }
+  ],
+  "professorOutreach": [
+    {
+      "title": "Do Your Homework",
+      "description": "Read at least two recent papers from the professor's lab. Do not send a generic email. Show genuine interest in a specific project."
+    },
+    {
+      "title": "Keep It Short",
+      "description": "Professors get hundreds of emails. Introduce yourself, state your major/year, mention what part of their research fascinated you, and ask for a 15-minute chat."
+    },
+    {
+      "title": "Show Don't Tell",
+      "description": "Attach a one-page resume. If you have a portfolio, GitHub, or previous project photos, link them. Prove you can actually build things."
+    },
+    {
+      "title": "Ask for Advice, Not Just a Job",
+      "description": "Sometimes labs are full. Asking 'Can I get your advice on how to prepare for this field?' often opens doors later when funding appears."
+    }
+  ]
+}

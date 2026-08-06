@@ -1,22 +1,113 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'wouter';
 import { useTheme } from 'next-themes';
-import { Menu, X, Sun, Moon } from 'lucide-react';
+import { Menu, X, Sun, Moon, ChevronDown, LayoutDashboard, UserCircle, LogOut, ShieldCheck, LogIn } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { cn } from '@/lib/utils';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useUser, useClerk } from '@clerk/react';
+import { useGetMe, getGetMeQueryKey } from '@workspace/api-client-react';
+import { GlobalSearchTrigger } from '@/components/shared/GlobalSearch';
+import { NotificationsBell } from '@/components/shared/NotificationsBell';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
 
 const NAV_LINKS = [
   { name: 'Home', href: '/' },
+  { name: 'Careers', href: '/careers' },
+  { name: 'Domains', href: '/domains' },
+  { name: 'Roadmaps', href: '/roadmaps' },
+  { name: 'Exams', href: '/exams' },
+];
+
+const EXPLORE_LINKS = [
+  { name: 'Resource Library', href: '/resources' },
+  { name: 'Biomedical News', href: '/news' },
+  { name: 'Company Explorer', href: '/companies' },
+  { name: 'Research Hub', href: '/research' },
+];
+
+const MORE_LINKS = [
   { name: 'About ILMA', href: '/about' },
-  { name: 'Career Explorer', href: '/careers' },
-  { name: 'Biomedical Domains', href: '/domains' },
-  { name: 'Skill Roadmaps', href: '/roadmaps' },
-  { name: 'Government Exams', href: '/exams' },
   { name: 'Meet the Founder', href: '/founder' },
+  { name: 'FAQ', href: '/faq' },
   { name: 'Contact', href: '/contact' },
 ];
+
+function UserMenu() {
+  const { isSignedIn, user } = useUser();
+  const { signOut } = useClerk();
+  const [location, navigate] = useLocation();
+  const { data: me } = useGetMe({
+    query: { enabled: !!isSignedIn, queryKey: getGetMeQueryKey() },
+  });
+  void location;
+
+  if (!isSignedIn) {
+    return (
+      <Button
+        size="sm"
+        onClick={() => navigate('/sign-in')}
+        className="gap-1.5"
+        data-testid="button-nav-sign-in"
+      >
+        <LogIn className="h-4 w-4" />
+        <span className="hidden sm:inline">Sign in</span>
+      </Button>
+    );
+  }
+
+  const initials =
+    (user?.firstName?.[0] ?? '') + (user?.lastName?.[0] ?? '') ||
+    user?.primaryEmailAddress?.emailAddress?.[0]?.toUpperCase() ||
+    'U';
+
+  return (
+    <DropdownMenu>
+      <DropdownMenuTrigger asChild>
+        <button
+          className="rounded-full outline-none ring-primary/40 focus-visible:ring-2"
+          aria-label="Account menu"
+          data-testid="button-user-menu"
+        >
+          <Avatar className="h-8 w-8 border border-border">
+            <AvatarImage src={user?.imageUrl} alt={user?.fullName ?? 'User'} />
+            <AvatarFallback className="bg-primary/10 text-primary text-xs font-semibold">
+              {initials}
+            </AvatarFallback>
+          </Avatar>
+        </button>
+      </DropdownMenuTrigger>
+      <DropdownMenuContent align="end" className="w-52">
+        <DropdownMenuItem onClick={() => navigate('/dashboard')} data-testid="link-menu-dashboard">
+          <LayoutDashboard className="h-4 w-4 mr-2" /> Dashboard
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => navigate('/profile')} data-testid="link-menu-profile">
+          <UserCircle className="h-4 w-4 mr-2" /> Profile
+        </DropdownMenuItem>
+        {me?.isAdmin && (
+          <DropdownMenuItem onClick={() => navigate('/admin')} data-testid="link-menu-admin">
+            <ShieldCheck className="h-4 w-4 mr-2" /> Admin
+          </DropdownMenuItem>
+        )}
+        <DropdownMenuSeparator />
+        <DropdownMenuItem
+          onClick={() => signOut({ redirectUrl: import.meta.env.BASE_URL })}
+          data-testid="button-menu-sign-out"
+        >
+          <LogOut className="h-4 w-4 mr-2" /> Sign out
+        </DropdownMenuItem>
+      </DropdownMenuContent>
+    </DropdownMenu>
+  );
+}
 
 export function Navbar() {
   const [location] = useLocation();
@@ -93,10 +184,47 @@ export function Navbar() {
               </Link>
             );
           })}
+
+          {[{ label: 'Explore', links: EXPLORE_LINKS }, { label: 'More', links: MORE_LINKS }].map(
+            (group) => {
+              const groupActive = group.links.some((l) => location.startsWith(l.href));
+              return (
+                <DropdownMenu key={group.label}>
+                  <DropdownMenuTrigger asChild>
+                    <button
+                      className={cn(
+                        'flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-colors outline-none',
+                        groupActive
+                          ? 'text-primary'
+                          : 'text-foreground/70 hover:text-foreground hover:bg-accent'
+                      )}
+                      data-testid={`button-nav-${group.label.toLowerCase()}`}
+                    >
+                      {group.label}
+                      <ChevronDown className="h-3.5 w-3.5" />
+                    </button>
+                  </DropdownMenuTrigger>
+                  <DropdownMenuContent align="start" className="w-52">
+                    {group.links.map((link) => (
+                      <DropdownMenuItem key={link.href} asChild>
+                        <Link href={link.href} data-testid={`link-nav-${link.href.slice(1)}`}>
+                          {link.name}
+                        </Link>
+                      </DropdownMenuItem>
+                    ))}
+                  </DropdownMenuContent>
+                </DropdownMenu>
+              );
+            }
+          )}
         </nav>
 
         {/* Actions */}
         <div className="flex items-center gap-2 z-50 relative">
+          <div className="hidden md:block">
+            <GlobalSearchTrigger />
+          </div>
+          <NotificationsBell />
           {mounted && (
             <Button
               variant="ghost"
@@ -112,6 +240,8 @@ export function Navbar() {
               )}
             </Button>
           )}
+
+          <UserMenu />
 
           <Button
             variant="ghost"
@@ -149,7 +279,7 @@ export function Navbar() {
             </div>
 
             <nav className="flex flex-col py-4 px-4 gap-1 container mx-auto">
-              {NAV_LINKS.map((link) => {
+              {[...NAV_LINKS, ...EXPLORE_LINKS, ...MORE_LINKS].map((link) => {
                 const isActive =
                   location === link.href ||
                   (link.href !== '/' && location.startsWith(link.href));

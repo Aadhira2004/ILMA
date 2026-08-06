@@ -5,6 +5,10 @@ import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import careersData from '@/data/careers.json';
 import { Career } from '@/types';
+import { useEffect, useRef } from 'react';
+import { useAuth } from '@clerk/react';
+import { useRecordView } from '@workspace/api-client-react';
+import { BookmarkButton } from '@/components/shared/BookmarkButton';
 import * as Icons from 'lucide-react';
 import { ArrowLeft, CheckCircle2, ChevronRight, Briefcase, Building2, GraduationCap, Award, ExternalLink, CalendarDays, TrendingUp, BookOpen } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
@@ -19,12 +23,29 @@ import {
 export default function CareerDetailPage() {
   const params = useParams();
   const careerId = params.id;
+  const { isSignedIn } = useAuth();
   
   useScrollTop();
 
   const career = (careersData as Career[]).find(c => c.id === careerId);
 
   useDocumentMeta(career ? career.name : 'Career Not Found');
+
+  const recordViewMutation = useRecordView();
+  const hasRecorded = useRef(false);
+
+  useEffect(() => {
+    if (isSignedIn && career && !hasRecorded.current) {
+      hasRecorded.current = true;
+      recordViewMutation.mutate({
+        data: {
+          itemType: 'career',
+          itemId: career.id,
+          title: career.name
+        }
+      });
+    }
+  }, [isSignedIn, career, recordViewMutation]);
 
   if (!career) {
     return (
@@ -61,7 +82,10 @@ export default function CareerDetailPage() {
                   <Icon className="w-8 h-8" />
                 </div>
                 <div>
-                  <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-2 text-foreground">{career.name}</h1>
+                  <div className="flex items-center gap-4 mb-2">
+                    <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground" data-testid={`text-title-${career.id}`}>{career.name}</h1>
+                    <BookmarkButton itemType="career" itemId={career.id} title={career.name} />
+                  </div>
                   <div className="flex flex-wrap gap-2">
                     <Badge variant="secondary" className="bg-primary/10 text-primary font-medium text-sm">
                       {career.category}

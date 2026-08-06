@@ -3,20 +3,27 @@ info:
   # Do not change the title, if the title changes, the import paths will be broken
   title: Api
   version: 0.1.0
-  description: API specification
+  description: ILMA API specification
 servers:
   - url: /api
     description: Base API path
 tags:
   - name: health
-    description: Health operations
+  - name: me
+  - name: bookmarks
+  - name: progress
+  - name: recent
+  - name: notifications
+  - name: resources
+  - name: news
+  - name: community
+  - name: admin
 paths:
   /healthz:
     get:
       operationId: healthCheck
       tags: [health]
       summary: Health check
-      description: Returns server health status
       responses:
         "200":
           description: Healthy
@@ -24,6 +31,469 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+
+  /me:
+    get:
+      operationId: getMe
+      tags: [me]
+      summary: Get (and JIT-provision) the current user
+      responses:
+        "200":
+          description: Current user
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CurrentUser"
+        "401":
+          description: Not signed in
+
+  /bookmarks:
+    get:
+      operationId: listBookmarks
+      tags: [bookmarks]
+      responses:
+        "200":
+          description: All bookmarks for the current user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Bookmark"
+        "401":
+          description: Not signed in
+    post:
+      operationId: toggleBookmark
+      tags: [bookmarks]
+      summary: Toggle a bookmark (adds if missing, removes if present)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/BookmarkInput"
+      responses:
+        "200":
+          description: Toggle result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BookmarkToggleResult"
+        "401":
+          description: Not signed in
+
+  /progress:
+    get:
+      operationId: listProgress
+      tags: [progress]
+      responses:
+        "200":
+          description: All completed topics for the current user
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ProgressEntry"
+        "401":
+          description: Not signed in
+    post:
+      operationId: toggleProgress
+      tags: [progress]
+      summary: Toggle a topic's completion state
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ProgressInput"
+      responses:
+        "200":
+          description: Toggle result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ProgressToggleResult"
+        "401":
+          description: Not signed in
+
+  /recent:
+    get:
+      operationId: listRecent
+      tags: [recent]
+      responses:
+        "200":
+          description: Recently viewed items (most recent first, max 20)
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/RecentItem"
+        "401":
+          description: Not signed in
+    post:
+      operationId: recordView
+      tags: [recent]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RecentItemInput"
+      responses:
+        "204":
+          description: Recorded
+        "401":
+          description: Not signed in
+
+  /notifications:
+    get:
+      operationId: listNotifications
+      tags: [notifications]
+      summary: List notifications with read state for current user
+      responses:
+        "200":
+          description: Notifications
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/NotificationItem"
+        "401":
+          description: Not signed in
+
+  /notifications/{id}/read:
+    post:
+      operationId: markNotificationRead
+      tags: [notifications]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Marked read
+        "401":
+          description: Not signed in
+
+  /notifications/read-all:
+    post:
+      operationId: markAllNotificationsRead
+      tags: [notifications]
+      responses:
+        "204":
+          description: All marked read
+        "401":
+          description: Not signed in
+
+  /resources:
+    get:
+      operationId: listResources
+      tags: [resources]
+      parameters:
+        - name: category
+          in: query
+          schema:
+            type: string
+        - name: difficulty
+          in: query
+          schema:
+            type: string
+        - name: topic
+          in: query
+          schema:
+            type: string
+        - name: search
+          in: query
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Resources
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ResourceItem"
+
+  /news:
+    get:
+      operationId: listNews
+      tags: [news]
+      parameters:
+        - name: category
+          in: query
+          schema:
+            type: string
+        - name: trending
+          in: query
+          schema:
+            type: boolean
+      responses:
+        "200":
+          description: News items (most recent first)
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/NewsArticle"
+
+  /newsletter:
+    post:
+      operationId: subscribeNewsletter
+      tags: [community]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NewsletterInput"
+      responses:
+        "201":
+          description: Subscribed
+        "409":
+          description: Already subscribed
+
+  /contact:
+    post:
+      operationId: submitContact
+      tags: [community]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ContactInput"
+      responses:
+        "201":
+          description: Message stored
+
+  /track:
+    post:
+      operationId: trackEvent
+      tags: [community]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/TrackInput"
+      responses:
+        "204":
+          description: Tracked
+
+  /admin/stats:
+    get:
+      operationId: getAdminStats
+      tags: [admin]
+      responses:
+        "200":
+          description: Aggregate stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AdminStats"
+        "403":
+          description: Not an admin
+
+  /admin/resources:
+    post:
+      operationId: createResource
+      tags: [admin]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ResourceInput"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResourceItem"
+        "403":
+          description: Not an admin
+
+  /admin/resources/{id}:
+    patch:
+      operationId: updateResource
+      tags: [admin]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ResourceUpdate"
+      responses:
+        "200":
+          description: Updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ResourceItem"
+        "403":
+          description: Not an admin
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteResource
+      tags: [admin]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+        "403":
+          description: Not an admin
+
+  /admin/news:
+    post:
+      operationId: createNews
+      tags: [admin]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NewsInput"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NewsArticle"
+        "403":
+          description: Not an admin
+
+  /admin/news/{id}:
+    patch:
+      operationId: updateNews
+      tags: [admin]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NewsUpdate"
+      responses:
+        "200":
+          description: Updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NewsArticle"
+        "403":
+          description: Not an admin
+        "404":
+          description: Not found
+    delete:
+      operationId: deleteNews
+      tags: [admin]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Deleted
+        "403":
+          description: Not an admin
+
+  /admin/notifications:
+    post:
+      operationId: createNotification
+      tags: [admin]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NotificationInput"
+      responses:
+        "201":
+          description: Created
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/NotificationItem"
+        "403":
+          description: Not an admin
+
+  /admin/subscribers:
+    get:
+      operationId: listSubscribers
+      tags: [admin]
+      responses:
+        "200":
+          description: Newsletter subscribers
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Subscriber"
+        "403":
+          description: Not an admin
+
+  /admin/messages:
+    get:
+      operationId: listMessages
+      tags: [admin]
+      responses:
+        "200":
+          description: Contact messages
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/ContactMessage"
+        "403":
+          description: Not an admin
+
+  /admin/messages/{id}/read:
+    post:
+      operationId: markMessageRead
+      tags: [admin]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "204":
+          description: Marked read
+        "403":
+          description: Not an admin
+
 components:
   schemas:
     HealthStatus:
@@ -31,6 +501,250 @@ components:
       properties:
         status:
           type: string
-      required:
-        - status
+      required: [status]
 
+    CurrentUser:
+      type: object
+      required: [id, email, isAdmin]
+      properties:
+        id: { type: string }
+        email: { type: string }
+        name: { type: ["string", "null"] }
+        imageUrl: { type: ["string", "null"] }
+        isAdmin: { type: boolean }
+
+    Bookmark:
+      type: object
+      required: [id, itemType, itemId, title, createdAt]
+      properties:
+        id: { type: integer }
+        itemType: { type: string }
+        itemId: { type: string }
+        title: { type: string }
+        createdAt: { type: string, format: date-time }
+
+    BookmarkInput:
+      type: object
+      required: [itemType, itemId, title]
+      properties:
+        itemType:
+          type: string
+          enum: [career, domain, roadmap, exam, resource, news, company]
+        itemId: { type: string }
+        title: { type: string }
+
+    BookmarkToggleResult:
+      type: object
+      required: [bookmarked]
+      properties:
+        bookmarked: { type: boolean }
+
+    ProgressEntry:
+      type: object
+      required: [roadmapId, phase, topicIndex, completedAt]
+      properties:
+        roadmapId: { type: string }
+        phase: { type: string }
+        topicIndex: { type: integer }
+        completedAt: { type: string, format: date-time }
+
+    ProgressInput:
+      type: object
+      required: [roadmapId, phase, topicIndex]
+      properties:
+        roadmapId: { type: string }
+        phase:
+          type: string
+          enum: [beginner, intermediate, advanced]
+        topicIndex: { type: integer, minimum: 0 }
+
+    ProgressToggleResult:
+      type: object
+      required: [completed]
+      properties:
+        completed: { type: boolean }
+
+    RecentItem:
+      type: object
+      required: [itemType, itemId, title, viewedAt]
+      properties:
+        itemType: { type: string }
+        itemId: { type: string }
+        title: { type: string }
+        viewedAt: { type: string, format: date-time }
+
+    RecentItemInput:
+      type: object
+      required: [itemType, itemId, title]
+      properties:
+        itemType: { type: string }
+        itemId: { type: string }
+        title: { type: string }
+
+    NotificationItem:
+      type: object
+      required: [id, title, body, category, createdAt, read]
+      properties:
+        id: { type: integer }
+        title: { type: string }
+        body: { type: string }
+        category: { type: string }
+        link: { type: ["string", "null"] }
+        createdAt: { type: string, format: date-time }
+        read: { type: boolean }
+
+    NotificationInput:
+      type: object
+      required: [title, body, category]
+      properties:
+        title: { type: string, minLength: 1 }
+        body: { type: string, minLength: 1 }
+        category:
+          type: string
+          enum: [roadmap, job, exam, news, general]
+        link: { type: string }
+
+    ResourceItem:
+      type: object
+      required: [id, title, description, category, difficulty, topic, url, featured]
+      properties:
+        id: { type: integer }
+        title: { type: string }
+        description: { type: string }
+        category: { type: string }
+        difficulty: { type: string }
+        topic: { type: string }
+        url: { type: string }
+        featured: { type: boolean }
+
+    ResourceInput:
+      type: object
+      required: [title, description, category, topic, url]
+      properties:
+        title: { type: string, minLength: 1 }
+        description: { type: string }
+        category:
+          type: string
+          enum: [book, paper, dataset, software, youtube, website, mooc, tool]
+        difficulty:
+          type: string
+          enum: [beginner, intermediate, advanced, all]
+        topic: { type: string }
+        url: { type: string }
+        featured: { type: boolean }
+
+    ResourceUpdate:
+      type: object
+      properties:
+        title: { type: string, minLength: 1 }
+        description: { type: string }
+        category: { type: string }
+        difficulty: { type: string }
+        topic: { type: string }
+        url: { type: string }
+        featured: { type: boolean }
+
+    NewsArticle:
+      type: object
+      required: [id, title, summary, category, trending, publishedAt]
+      properties:
+        id: { type: integer }
+        title: { type: string }
+        summary: { type: string }
+        category: { type: string }
+        sourceUrl: { type: ["string", "null"] }
+        sourceName: { type: ["string", "null"] }
+        trending: { type: boolean }
+        publishedAt: { type: string, format: date-time }
+
+    NewsInput:
+      type: object
+      required: [title, summary, category]
+      properties:
+        title: { type: string, minLength: 1 }
+        summary: { type: string, minLength: 1 }
+        category:
+          type: string
+          enum: [ai-healthcare, medical-devices, research, fda, who, healthtech]
+        sourceUrl: { type: string }
+        sourceName: { type: string }
+        trending: { type: boolean }
+        publishedAt: { type: string, format: date-time }
+
+    NewsUpdate:
+      type: object
+      properties:
+        title: { type: string, minLength: 1 }
+        summary: { type: string }
+        category: { type: string }
+        sourceUrl: { type: string }
+        sourceName: { type: string }
+        trending: { type: boolean }
+
+    NewsletterInput:
+      type: object
+      required: [email]
+      properties:
+        email: { type: string, format: email }
+
+    ContactInput:
+      type: object
+      required: [name, email, subject, message]
+      properties:
+        name: { type: string, minLength: 1 }
+        email: { type: string, format: email }
+        subject: { type: string, minLength: 1 }
+        message: { type: string, minLength: 1 }
+
+    TrackInput:
+      type: object
+      required: [eventType]
+      properties:
+        eventType:
+          type: string
+          enum: [page_view, item_view]
+        itemType: { type: string }
+        itemId: { type: string }
+        path: { type: string }
+
+    Subscriber:
+      type: object
+      required: [id, email, createdAt]
+      properties:
+        id: { type: integer }
+        email: { type: string }
+        createdAt: { type: string, format: date-time }
+
+    ContactMessage:
+      type: object
+      required: [id, name, email, subject, message, read, createdAt]
+      properties:
+        id: { type: integer }
+        name: { type: string }
+        email: { type: string }
+        subject: { type: string }
+        message: { type: string }
+        read: { type: boolean }
+        createdAt: { type: string, format: date-time }
+
+    AdminStats:
+      type: object
+      required: [totalUsers, totalBookmarks, subscriberCount, unreadMessages, pageViews, popularItems]
+      properties:
+        totalUsers: { type: integer }
+        totalBookmarks: { type: integer }
+        subscriberCount: { type: integer }
+        unreadMessages: { type: integer }
+        pageViews: { type: integer }
+        popularItems:
+          type: array
+          items:
+            $ref: "#/components/schemas/PopularItem"
+
+    PopularItem:
+      type: object
+      required: [itemType, itemId, views]
+      properties:
+        itemType: { type: string }
+        itemId: { type: string }
+        views: { type: integer }

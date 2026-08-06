@@ -1,0 +1,76 @@
+import type { Request, Response, NextFunction } from "express";
+import { getAuth } from "@clerk/express";
+import { eq } from "drizzle-orm";
+import { db, usersTable } from "@workspace/db";
+
+type SessionClaims = {
+  email?: string;
+  fullName?: string;
+  imageUrl?: string;
+};
+
+/** Ensures the Clerk user exists in our local users table (JIT provisioning). First user becomes admin. */
+export async function ensureLocalUser(
+  userId: string,
+  claims: SessionClaims,
+): Promise<{ id: string; isAdmin: boolean }> {
+  const [existing] = await db.select().from(usersTable).where(eq(usersTable.id, userId));
+  if (existing) return { id: existing.id, isAdmin: existing.isAdmin };
+
+  const existingUsers = await db.select({ id: usersTable.id }).from(usersTable).limit(1);
+  const isFirstUser = existingUsers.length === 0;
+
+  const [created] = await db
+    .insert(usersTable)
+    .values({
+      id: userId,
+      email: claims.email ?? "",
+      name: claims.fullName ?? null,
+      imageUrl: claims.imageUrl ?? null,
+      isAdmin: isFirstUser,
+    })
+    .onConflictDoNothing()
+    .returning();
+
+  if (created) return { id: created.id, isAdmin: created.isAdmin };
+  const [row] = await db.select().from(usersTable).where(eq(usersTable.id, userId));
+  return { id: row.id, isAdmin: row.isAdmin };
+}
+
+export function sessionClaimsFromReq(req: Request): SessionClaims {
+  const auth = getAuth(req);
+  const claims = (auth?.sessionClaims ?? {}) as Record<string, unknown>;
+  return {
+    email: typeof claims.email === "string" ? claims.email : undefined,
+    fullName: typeof claims.fullName === "string" ? claims.fullName : undefined,
+    imageUrl: typeof claims.imageUrl === "string" ? claims.imageUrl : undefined,
+  };
+}
+
+export function requireAuth(req: Request, res: Response, next: NextFunction): void {
+  const auth = getAuth(req);
+  const userId = auth?.userId;
+  if (!userId) {
+    res.status(401).json({ error: "Unauthorized" });
+    return;
+  }
+  req.userId = userId;
+  next();
+}
+
+export async function requireAdmin(req: Request, res: Response, next: NextFunction): Promise<void> {
+  const auth = getAuth(req);
+  const userId = auth?.userId;
+  if (!userId) {
+    res.status(401).json({ error: "Unauthorized" });
+    return;
+  }
+  const user = await ensureLocalUser(userId, sessionClaimsFromReq(req));
+  if (!user.isAdmin) {
+    res.status(403).json({ error: "Forbidden" });
+    return;
+  }
+  req.userId = userId;
+  req.isAdmin = true;
+  next();
+}

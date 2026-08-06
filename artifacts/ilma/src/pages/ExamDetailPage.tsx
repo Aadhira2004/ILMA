@@ -5,6 +5,10 @@ import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import examsData from '@/data/exams.json';
 import { Exam } from '@/types';
+import { useEffect, useRef } from 'react';
+import { useAuth } from '@clerk/react';
+import { useRecordView } from '@workspace/api-client-react';
+import { BookmarkButton } from '@/components/shared/BookmarkButton';
 import * as Icons from 'lucide-react';
 import { ArrowLeft, Building2, Globe, FileText, Clock, Target, AlertCircle, BookOpen, ExternalLink, GraduationCap, Briefcase } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
@@ -19,12 +23,29 @@ import {
 export default function ExamDetailPage() {
   const params = useParams();
   const examId = params.id;
+  const { isSignedIn } = useAuth();
   
   useScrollTop();
 
   const exam = (examsData as Exam[]).find(e => e.id === examId);
 
   useDocumentMeta(exam ? exam.name : 'Exam Not Found');
+
+  const recordViewMutation = useRecordView();
+  const hasRecorded = useRef(false);
+
+  useEffect(() => {
+    if (isSignedIn && exam && !hasRecorded.current) {
+      hasRecorded.current = true;
+      recordViewMutation.mutate({
+        data: {
+          itemType: 'exam',
+          itemId: exam.id,
+          title: exam.name
+        }
+      });
+    }
+  }, [isSignedIn, exam, recordViewMutation]);
 
   if (!exam) {
     return (
@@ -61,7 +82,10 @@ export default function ExamDetailPage() {
                   <Icon className="w-8 h-8" />
                 </div>
                 <div>
-                  <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-2 text-foreground">{exam.name}</h1>
+                  <div className="flex items-center gap-4 mb-2">
+                    <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground" data-testid={`text-title-${exam.id}`}>{exam.name}</h1>
+                    <BookmarkButton itemType="exam" itemId={exam.id} title={exam.name} />
+                  </div>
                   <Badge variant="outline" className={
                     exam.category === 'National' ? 'border-blue-500/30 text-blue-600 bg-blue-50 dark:bg-blue-900/20 dark:text-blue-400' :
                     exam.category === 'Defense / Research' ? 'border-green-500/30 text-green-600 bg-green-50 dark:bg-green-900/20 dark:text-green-400' :
