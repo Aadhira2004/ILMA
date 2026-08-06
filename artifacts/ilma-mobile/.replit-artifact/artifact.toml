@@ -1,0 +1,24 @@
+kind = "mobile"
+previewPath = "/ilma-mobile/"
+title = "ILMA Mobile"
+description = "A native mobile companion app for ILMA – the biomedical engineering career guide. Students can browse careers with filters, explore biomedical domains, follow learning roadmaps, and prepare for government exams like GATE, DRDO, and ISRO – all on the go."
+version = "1.0.0"
+id = "artifacts/ilma-mobile"
+router = "expo-domain"
+
+[[services]]
+name = "expo"
+ensurePreviewReachable = "/status"
+paths = [ "/ilma-mobile/" ]
+localPort = 25168
+
+[services.development]
+run = "pnpm --filter @workspace/ilma-mobile run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ilma-mobile", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/ilma-mobile", "run", "serve" ]
+
+[services.env]
+PORT = "25168"
+BASE_PATH = "/ilma-mobile/"
