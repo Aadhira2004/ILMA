@@ -1,5 +1,5 @@
 import type { Request, Response, NextFunction } from "express";
-import { getAuth } from "@clerk/express";
+import { getAuth, clerkClient } from "@clerk/express";
 import { eq } from "drizzle-orm";
 import { db, usersTable } from "@workspace/db";
 
@@ -20,15 +20,36 @@ export async function ensureLocalUser(
   const [existing] = await db.select().from(usersTable).where(eq(usersTable.id, userId));
   if (existing) return { id: existing.id, isAdmin: existing.isAdmin };
 
-  const isAdmin = (claims.email ?? "").toLowerCase() === ADMIN_EMAIL;
+  // Session claims may lack the email; fall back to a one-time Clerk API
+  // lookup during first-time provisioning only (never in the hot path).
+  let email = claims.email;
+  let fullName = claims.fullName;
+  let imageUrl = claims.imageUrl;
+  if (!email) {
+    try {
+      const clerkUser = await clerkClient.users.getUser(userId);
+      email =
+        clerkUser.primaryEmailAddress?.emailAddress ??
+        clerkUser.emailAddresses[0]?.emailAddress ??
+        undefined;
+      fullName =
+        fullName ??
+        ([clerkUser.firstName, clerkUser.lastName].filter(Boolean).join(" ") || undefined);
+      imageUrl = imageUrl ?? clerkUser.imageUrl ?? undefined;
+    } catch {
+      // Clerk lookup failed; proceed with whatever the claims had.
+    }
+  }
+
+  const isAdmin = (email ?? "").toLowerCase() === ADMIN_EMAIL;
 
   const [created] = await db
     .insert(usersTable)
     .values({
       id: userId,
-      email: claims.email ?? "",
-      name: claims.fullName ?? null,
-      imageUrl: claims.imageUrl ?? null,
+      email: email ?? "",
+      name: fullName ?? null,
+      imageUrl: imageUrl ?? null,
       isAdmin,
     })
     .onConflictDoNothing()
