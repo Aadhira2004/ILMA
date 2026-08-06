@@ -9,7 +9,10 @@ type SessionClaims = {
   imageUrl?: string;
 };
 
-/** Ensures the Clerk user exists in our local users table (JIT provisioning). First user becomes admin. */
+/** The only email that is granted the Admin role on first login. */
+const ADMIN_EMAIL = "ilmabiomedical@gmail.com";
+
+/** Ensures the Clerk user exists in our local users table (JIT provisioning). Only ADMIN_EMAIL becomes admin. */
 export async function ensureLocalUser(
   userId: string,
   claims: SessionClaims,
@@ -17,8 +20,7 @@ export async function ensureLocalUser(
   const [existing] = await db.select().from(usersTable).where(eq(usersTable.id, userId));
   if (existing) return { id: existing.id, isAdmin: existing.isAdmin };
 
-  const existingUsers = await db.select({ id: usersTable.id }).from(usersTable).limit(1);
-  const isFirstUser = existingUsers.length === 0;
+  const isAdmin = (claims.email ?? "").toLowerCase() === ADMIN_EMAIL;
 
   const [created] = await db
     .insert(usersTable)
@@ -27,7 +29,7 @@ export async function ensureLocalUser(
       email: claims.email ?? "",
       name: claims.fullName ?? null,
       imageUrl: claims.imageUrl ?? null,
-      isAdmin: isFirstUser,
+      isAdmin,
     })
     .onConflictDoNothing()
     .returning();
