@@ -23,7 +23,7 @@ export function Logo({ showTagline = false, height = 48, asLink = true, classNam
         alt="ILMA – Biomedical Future Logo"
         height={height}
         style={{ height: `${height}px`, width: 'auto' }}
-        className="object-contain rounded-md"
+        className="object-contain rounded-md dark:bg-white/95 dark:p-1"
         loading="lazy"
       />
       {showTagline && (

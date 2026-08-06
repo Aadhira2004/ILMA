@@ -127,7 +127,7 @@ export function Footer() {
               <img
                 src={ilmaLogo}
                 alt="ILMA – Biomedical Future Logo"
-                className="h-12 w-auto object-contain rounded-md"
+                className="h-12 w-auto object-contain rounded-md dark:bg-white/95 dark:p-1"
                 loading="lazy"
               />
             </Link>

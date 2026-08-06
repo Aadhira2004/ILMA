@@ -19,7 +19,7 @@ export function LogoIcon({ size = 40, className = '' }: LogoIconProps) {
       width={size}
       height={size}
       style={{ width: `${size}px`, height: `${size}px` }}
-      className={`object-contain rounded-md ${className}`}
+      className={`object-contain rounded-md dark:bg-white/95 dark:p-1 ${className}`}
       loading="lazy"
     />
   );

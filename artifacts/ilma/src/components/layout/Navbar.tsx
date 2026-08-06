@@ -148,7 +148,7 @@ export function Navbar() {
             src={ilmaLogo}
             alt="ILMA – Biomedical Future Logo"
             className={cn(
-              'object-contain rounded-md transition-all duration-300 group-hover:scale-105',
+              'object-contain rounded-md dark:bg-white/95 dark:p-1 transition-all duration-300 group-hover:scale-105',
               /* desktop: 52px tall; mobile: 40px */
               'h-10 sm:h-[52px] w-auto'
             )}
@@ -273,7 +273,7 @@ export function Navbar() {
               <img
                 src={ilmaLogo}
                 alt="ILMA – Biomedical Future Logo"
-                className="h-10 w-auto object-contain rounded-md"
+                className="h-10 w-auto object-contain rounded-md dark:bg-white/95 dark:p-1"
                 loading="lazy"
               />
             </div>
