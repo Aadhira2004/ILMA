@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Linkedin, Instagram, Send, Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Mail, Send, Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
@@ -274,26 +274,6 @@ export default function ContactPage() {
                     </div>
                   </div>
 
-                  <div className="flex gap-4">
-                    <a
-                      href="https://linkedin.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors flex-1"
-                    >
-                      <Linkedin className="w-6 h-6 text-[#0A66C2]" />
-                      <span className="font-semibold">LinkedIn</span>
-                    </a>
-                    <a
-                      href="https://instagram.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-3 px-6 py-4 rounded-2xl bg-card border border-border hover:border-primary/50 transition-colors flex-1"
-                    >
-                      <Instagram className="w-6 h-6 text-[#E1306C]" />
-                      <span className="font-semibold">Instagram</span>
-                    </a>
-                  </div>
                 </div>
               </div>
 
