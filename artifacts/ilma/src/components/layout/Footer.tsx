@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Link } from 'wouter';
-import { Mail, Linkedin, Instagram, ArrowRight, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, ArrowRight, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
@@ -158,26 +158,6 @@ export function Footer() {
               <span className="group-hover:underline underline-offset-2">ilmabiomedical@gmail.com</span>
             </a>
 
-            <div className="flex items-center gap-3 mt-1">
-              <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="ILMA on LinkedIn"
-                className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <Linkedin className="h-4 w-4" />
-              </a>
-              <a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="ILMA on Instagram"
-                className="p-2 bg-accent text-accent-foreground rounded-full hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <Instagram className="h-4 w-4" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
