@@ -28,6 +28,8 @@ import FAQPage from '@/pages/FAQPage';
 import DashboardPage from '@/pages/DashboardPage';
 import ProfilePage from '@/pages/ProfilePage';
 import ResourceLibraryPage from '@/pages/ResourceLibraryPage';
+import BlogPage from '@/pages/BlogPage';
+import BlogDetailPage from '@/pages/BlogDetailPage';
 import NewsPage from '@/pages/NewsPage';
 import CompaniesPage from '@/pages/CompaniesPage';
 import ResearchHubPage from '@/pages/ResearchHubPage';
@@ -173,6 +175,8 @@ function Router() {
       <Route path="/dashboard" component={DashboardPage} />
       <Route path="/profile" component={ProfilePage} />
       <Route path="/resources" component={ResourceLibraryPage} />
+      <Route path="/blog" component={BlogPage} />
+      <Route path="/blog/:slug" component={BlogDetailPage} />
       <Route path="/news" component={NewsPage} />
       <Route path="/companies" component={CompaniesPage} />
       <Route path="/research" component={ResearchHubPage} />

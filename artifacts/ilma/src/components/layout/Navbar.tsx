@@ -28,6 +28,7 @@ const NAV_LINKS = [
 ];
 
 const EXPLORE_LINKS = [
+  { name: 'Blog', href: '/blog' },
   { name: 'Resource Library', href: '/resources' },
   { name: 'Biomedical News', href: '/news' },
   { name: 'Company Explorer', href: '/companies' },
