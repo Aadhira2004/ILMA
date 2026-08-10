@@ -291,8 +291,8 @@ export default function CareerDetailPage() {
                 </h3>
                 <ul className="space-y-3">
                   {career.certifications.map((cert, i) => (
-                    <li key={i} className="text-sm font-medium flex items-center gap-2 text-primary hover:underline cursor-pointer">
-                      <ExternalLink className="w-3.5 h-3.5 shrink-0" />
+                    <li key={i} className="text-sm font-medium flex items-center gap-2 text-foreground/80">
+                      <Icons.Check className="w-4 h-4 shrink-0 text-green-500" />
                       {cert}
                     </li>
                   ))}

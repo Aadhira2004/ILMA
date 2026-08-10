@@ -3,7 +3,7 @@ import { Link } from 'wouter';
 import { motion } from 'framer-motion';
 import { Domain } from '@/types';
 import * as Icons from 'lucide-react';
-import { ArrowRight } from 'lucide-react';
+import { BookmarkButton } from '@/components/shared/BookmarkButton';
 
 interface DomainCardProps {
   domain: Domain;
@@ -19,8 +19,16 @@ export function DomainCard({ domain, index }: DomainCardProps) {
       whileInView={{ opacity: 1, scale: 1 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.4, delay: index * 0.1 }}
-      className="group h-full"
+      className="group relative h-full"
     >
+      {/* Bookmark button – outside Link so clicks don't navigate */}
+      <div
+        className="absolute top-3 right-3 z-20"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <BookmarkButton itemType="domain" itemId={domain.id} title={domain.name} />
+      </div>
+
       <Link href={`/domains/${domain.id}`} className="block h-full outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-xl">
         <div className="flex flex-col h-full p-6 bg-card rounded-xl border border-border/50 shadow-sm hover:shadow-lg transition-all duration-300 group-hover:-translate-y-1 relative overflow-hidden">
           
@@ -38,7 +46,7 @@ export function DomainCard({ domain, index }: DomainCardProps) {
               <Icon className="w-6 h-6" />
             </div>
             
-            <h3 className="text-xl font-bold mb-1 text-foreground">
+            <h3 className="text-xl font-bold mb-1 text-foreground pr-8">
               {domain.name}
             </h3>
             
@@ -50,9 +58,8 @@ export function DomainCard({ domain, index }: DomainCardProps) {
               {domain.overview}
             </p>
             
-            <div className="mt-auto pt-4 border-t border-border flex items-center justify-between text-sm font-semibold group-hover:text-primary transition-colors">
+            <div className="mt-auto pt-4 border-t border-border text-sm font-semibold group-hover:text-primary transition-colors">
               <span style={{ color: domain.color }}>Explore Domain</span>
-              <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform" style={{ color: domain.color }} />
             </div>
           </div>
         </div>
