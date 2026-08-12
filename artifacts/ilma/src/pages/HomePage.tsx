@@ -1,7 +1,26 @@
 import React from 'react';
 import { Link } from 'wouter';
 import { motion } from 'framer-motion';
-import { ArrowRight, Compass, Map, BookOpen, Award, CheckCircle2 } from 'lucide-react';
+import {
+  ArrowRight,
+  Compass,
+  Map,
+  BookOpen,
+  Award,
+  CheckCircle2,
+  Microscope,
+  Cog,
+  Bot,
+  Cpu,
+  Dna,
+  BrainCircuit,
+  HeartPulse,
+  Scan,
+  Binary,
+  Wrench,
+  Smartphone,
+  FlaskConical,
+} from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { AnimatedCounter } from '@/components/shared/AnimatedCounter';
@@ -11,10 +30,26 @@ export default function HomePage() {
   useDocumentMeta('Home', 'The Future of Biomedical Engineering Starts Here');
 
   const stats = [
-    { label: "Careers Explained", value: 10, suffix: "+", icon: Compass },
-    { label: "Biomedical Domains", value: 10, suffix: "", icon: BookOpen },
+    { label: "Careers Explained", value: 65, suffix: "+", icon: Compass },
+    { label: "Biomedical Domains", value: 50, suffix: "", icon: BookOpen },
     { label: "Skill Roadmaps", value: 10, suffix: "", icon: Map },
     { label: "Government Exams", value: 10, suffix: "", icon: Award },
+  ];
+
+  // Titles must exactly match the "category" values in domains.json
+  const exploreCategories = [
+    { title: "Biomedical Engineering", icon: Cog },
+    { title: "Biomedical Science", icon: Microscope },
+    { title: "Medical Devices", icon: Scan },
+    { title: "Biotechnology", icon: Dna },
+    { title: "AI & Computing", icon: Cpu },
+    { title: "Healthcare", icon: HeartPulse },
+    { title: "Robotics", icon: Bot },
+    { title: "Clinical", icon: Wrench },
+    { title: "Research", icon: FlaskConical },
+    { title: "Emerging Technologies", icon: BrainCircuit },
+    { title: "Digital Health", icon: Smartphone },
+    { title: "All Domains", icon: Binary, all: true },
   ];
 
   const features = [
@@ -139,6 +174,56 @@ export default function HomePage() {
                   <AnimatedCounter end={stat.value} suffix={stat.suffix} />
                 </div>
                 <p className="text-sm font-medium text-muted-foreground uppercase tracking-wider">{stat.label}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Explore the Biomedical World */}
+      <section className="py-24 bg-background relative overflow-hidden">
+        {/* Subtle decorative glows */}
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl -translate-y-1/3 translate-x-1/4 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-secondary/5 rounded-full blur-3xl translate-y-1/3 -translate-x-1/4 pointer-events-none" />
+
+        <div className="container px-4 md:px-6 relative z-10">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent text-primary font-medium text-sm mb-6 border border-primary/10 shadow-sm">
+              <Compass className="h-4 w-4" />
+              Discover Your Path
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">Explore the Biomedical World</h2>
+            <p className="text-lg text-muted-foreground">
+              From cells to circuits, dive into the interconnected fields shaping the future of medicine and healthcare technology.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+            {exploreCategories.map((category, i) => (
+              <motion.div
+                key={category.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.4, delay: (i % 4) * 0.08 }}
+              >
+                <Link
+                  href={category.all ? "/domains" : `/domains?category=${encodeURIComponent(category.title)}`}
+                  className="group block h-full outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-2xl"
+                >
+                  <div className="relative h-full flex flex-col items-center text-center gap-4 p-6 rounded-2xl border border-border bg-card shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                    {/* Hover gradient accent */}
+                    <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-primary to-secondary transform origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out" />
+
+                    <div className="p-4 rounded-2xl bg-accent text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors duration-300">
+                      <category.icon className="h-7 w-7" />
+                    </div>
+
+                    <h3 className="text-sm md:text-base font-semibold leading-snug text-foreground">
+                      {category.title}
+                    </h3>
+                  </div>
+                </Link>
               </motion.div>
             ))}
           </div>

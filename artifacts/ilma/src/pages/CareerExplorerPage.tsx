@@ -1,4 +1,6 @@
 import React, { useState, useMemo } from 'react';
+import { Link } from 'wouter';
+import { Sparkles, ArrowRight } from 'lucide-react';
 import { Layout } from '@/components/layout/Layout';
 import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
@@ -8,8 +10,6 @@ import { motion } from 'framer-motion';
 import careersData from '@/data/careers.json';
 import { Career } from '@/types';
 
-const CATEGORIES = ['All', 'Hospital', 'Medical Devices', 'Research', 'Healthcare IT', 'AI', 'Government'];
-
 export default function CareerExplorerPage() {
   useDocumentMeta('Career Explorer', 'Explore detailed career paths in Biomedical Engineering.');
   useScrollTop();
@@ -18,6 +18,11 @@ export default function CareerExplorerPage() {
   const [activeCategory, setActiveCategory] = useState('All');
 
   const careers = careersData as Career[];
+
+  const categories = useMemo(() => {
+    const unique = Array.from(new Set(careers.map((career) => career.category))).sort();
+    return ['All', ...unique];
+  }, [careers]);
 
   const filteredCareers = useMemo(() => {
     return careers.filter((career) => {
@@ -51,7 +56,7 @@ export default function CareerExplorerPage() {
 
             {/* Filter Pills */}
             <div className="flex flex-wrap justify-center gap-2">
-              {CATEGORIES.map((category) => (
+              {categories.map((category) => (
                 <button
                   key={category}
                   onClick={() => setActiveCategory(category)}
@@ -65,6 +70,17 @@ export default function CareerExplorerPage() {
                 </button>
               ))}
             </div>
+
+            {/* Career Match CTA */}
+            <Link
+              href="/career-match"
+              className="group mt-8 inline-flex items-center gap-3 px-5 py-3 rounded-full bg-primary/5 border border-primary/20 text-sm font-medium text-primary hover:bg-primary/10 hover:border-primary/40 transition-all"
+              data-testid="link-career-match-cta"
+            >
+              <Sparkles className="w-4 h-4" />
+              <span>Not sure which career fits you? Find Your Career</span>
+              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
+            </Link>
           </div>
         </div>
       </section>

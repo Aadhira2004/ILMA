@@ -6,17 +6,62 @@
     "color": "#0F4C81",
     "tagline": "Designing instruments that save lives",
     "overview": "Biomedical Instrumentation is the core of biomedical engineering. It involves the application of electronics and measurement principles and techniques to develop devices used in diagnosis and treatment of diseases. This domain bridges the gap between engineering and medicine, enabling the creation of devices like ECG machines, pacemakers, and patient monitors.",
-    "coreSubjects": ["Bio-sensors", "Analog/Digital Electronics", "Microprocessors", "Signal Processing", "Control Systems"],
-    "applications": ["Patient Monitoring Systems", "Diagnostic Equipment (ECG, EEG, EMG)", "Therapeutic Devices (Defibrillators, Pacemakers)", "Surgical Instruments", "Laboratory Equipment"],
-    "industries": ["Medical Device Manufacturing", "Hospitals", "Research & Development", "Healthcare IT"],
-    "skillsRequired": ["Circuit Design", "Sensor Integration", "Embedded Systems", "Troubleshooting", "Regulatory Knowledge"],
-    "careerOpportunities": ["biomedical-engineer", "medical-device-design-engineer", "clinical-engineer", "medical-device-service-engineer"],
+    "coreSubjects": [
+      "Bio-sensors",
+      "Analog/Digital Electronics",
+      "Microprocessors",
+      "Signal Processing",
+      "Control Systems"
+    ],
+    "applications": [
+      "Patient Monitoring Systems",
+      "Diagnostic Equipment (ECG, EEG, EMG)",
+      "Therapeutic Devices (Defibrillators, Pacemakers)",
+      "Surgical Instruments",
+      "Laboratory Equipment"
+    ],
+    "industries": [
+      "Medical Device Manufacturing",
+      "Hospitals",
+      "Research & Development",
+      "Healthcare IT"
+    ],
+    "skillsRequired": [
+      "Circuit Design",
+      "Sensor Integration",
+      "Embedded Systems",
+      "Troubleshooting",
+      "Regulatory Knowledge"
+    ],
+    "careerOpportunities": [
+      "biomedical-engineer",
+      "medical-device-design-engineer",
+      "clinical-engineer",
+      "medical-device-service-engineer"
+    ],
     "futureScope": "The future of instrumentation lies in miniaturization, wearable technology, and IoT integration. Devices are becoming smaller, smarter, and wirelessly connected, enabling continuous remote patient monitoring and point-of-care diagnostics.",
     "recommendedBooks": [
-      {"title": "Medical Instrumentation: Application and Design", "author": "John G. Webster", "description": "The definitive text on the subject, covering principles, applications, and design of medical instruments."}
+      {
+        "title": "Medical Instrumentation: Application and Design",
+        "author": "John G. Webster",
+        "description": "The definitive text on the subject, covering principles, applications, and design of medical instruments."
+      }
     ],
-    "certifications": ["Certified Biomedical Equipment Technician (CBET)", "Certified Clinical Engineer (CCE)"],
-    "relatedDomains": ["medical-imaging", "medical-robotics", "iot-in-healthcare"]
+    "certifications": [
+      "Certified Biomedical Equipment Technician (CBET)",
+      "Certified Clinical Engineer (CCE)"
+    ],
+    "relatedDomains": [
+      "medical-imaging",
+      "medical-robotics",
+      "healthcare-iot"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "embedded-systems",
+      "pcb-design",
+      "matlab"
+    ]
   },
   {
     "id": "medical-imaging",
@@ -25,17 +70,58 @@
     "color": "#1AB7B0",
     "tagline": "Seeing the unseen inside the human body",
     "overview": "Medical Imaging focuses on creating visual representations of the interior of a body for clinical analysis and medical intervention. It encompasses various modalities like X-rays, MRI, CT scans, and Ultrasound, playing a crucial role in non-invasive diagnosis.",
-    "coreSubjects": ["Physics of Medical Imaging", "Image Processing", "Radiation Safety", "Anatomy and Physiology"],
-    "applications": ["Diagnostic Radiology", "Oncology", "Cardiology", "Neurology", "Image-Guided Surgery"],
-    "industries": ["Imaging Equipment Manufacturers", "Hospitals & Diagnostic Centers", "AI Healthcare Startups", "Research Institutes"],
-    "skillsRequired": ["Image Processing Algorithms", "MATLAB/Python", "Understanding of Imaging Modalities", "Physics"],
-    "careerOpportunities": ["ai-healthcare-engineer", "medical-device-service-engineer", "biomedical-research-scientist"],
+    "coreSubjects": [
+      "Physics of Medical Imaging",
+      "Image Processing",
+      "Radiation Safety",
+      "Anatomy and Physiology"
+    ],
+    "applications": [
+      "Diagnostic Radiology",
+      "Oncology",
+      "Cardiology",
+      "Neurology",
+      "Image-Guided Surgery"
+    ],
+    "industries": [
+      "Imaging Equipment Manufacturers",
+      "Hospitals & Diagnostic Centers",
+      "AI Healthcare Startups",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Image Processing Algorithms",
+      "MATLAB/Python",
+      "Understanding of Imaging Modalities",
+      "Physics"
+    ],
+    "careerOpportunities": [
+      "ai-healthcare-engineer",
+      "medical-device-service-engineer",
+      "biomedical-research-scientist"
+    ],
     "futureScope": "AI is revolutionizing medical imaging. Machine learning models are being developed to automatically detect anomalies, segment organs, and improve image quality while reducing radiation doses. 3D and 4D imaging are also becoming standard.",
     "recommendedBooks": [
-      {"title": "Medical Imaging Signals and Systems", "author": "Jerry L. Prince, Jonathan Links", "description": "A comprehensive guide to the physics, mathematics, and engineering principles of medical imaging."}
+      {
+        "title": "Medical Imaging Signals and Systems",
+        "author": "Jerry L. Prince, Jonathan Links",
+        "description": "A comprehensive guide to the physics, mathematics, and engineering principles of medical imaging."
+      }
     ],
-    "certifications": ["Certified Imaging Informatics Professional (CIIP)"],
-    "relatedDomains": ["biomedical-instrumentation", "ai-in-healthcare", "bioinformatics"]
+    "certifications": [
+      "Certified Imaging Informatics Professional (CIIP)"
+    ],
+    "relatedDomains": [
+      "biomedical-instrumentation",
+      "ai-in-healthcare",
+      "bioinformatics"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "medical-image-processing",
+      "python",
+      "matlab"
+    ]
   },
   {
     "id": "biomaterials",
@@ -44,17 +130,59 @@
     "color": "#8B5CF6",
     "tagline": "Engineering materials for biological environments",
     "overview": "Biomaterials involves the study and development of materials that interact with biological systems. It covers a wide range of materials (metals, ceramics, polymers, composites) used in medical devices, implants, and tissue engineering scaffolds.",
-    "coreSubjects": ["Materials Science", "Organic Chemistry", "Cell Biology", "Biomechanics", "Polymer Science"],
-    "applications": ["Joint Replacements (Hip, Knee)", "Dental Implants", "Vascular Grafts", "Contact Lenses", "Drug Delivery Systems"],
-    "industries": ["Orthopedic Implants Manufacturing", "Pharmaceuticals", "Tissue Engineering Startups", "Dental Material Manufacturers"],
-    "skillsRequired": ["Material Characterization", "Biocompatibility Testing", "Chemistry", "CAD/CAM", "Regulatory Compliance (FDA/ISO)"],
-    "careerOpportunities": ["medical-device-design-engineer", "quality-assurance-engineer", "biomedical-research-scientist"],
+    "coreSubjects": [
+      "Materials Science",
+      "Organic Chemistry",
+      "Cell Biology",
+      "Biomechanics",
+      "Polymer Science"
+    ],
+    "applications": [
+      "Joint Replacements (Hip, Knee)",
+      "Dental Implants",
+      "Vascular Grafts",
+      "Contact Lenses",
+      "Drug Delivery Systems"
+    ],
+    "industries": [
+      "Orthopedic Implants Manufacturing",
+      "Pharmaceuticals",
+      "Tissue Engineering Startups",
+      "Dental Material Manufacturers"
+    ],
+    "skillsRequired": [
+      "Material Characterization",
+      "Biocompatibility Testing",
+      "Chemistry",
+      "CAD/CAM",
+      "Regulatory Compliance (FDA/ISO)"
+    ],
+    "careerOpportunities": [
+      "medical-device-design-engineer",
+      "quality-assurance-engineer",
+      "biomedical-research-scientist"
+    ],
     "futureScope": "The development of 'smart' biomaterials that respond to environmental stimuli (pH, temperature) and biodegradable materials that safely dissolve after serving their purpose are key areas of growth. 3D bioprinting of complex tissues is a major frontier.",
     "recommendedBooks": [
-      {"title": "Biomaterials Science: An Introduction to Materials in Medicine", "author": "Buddy D. Ratner, et al.", "description": "The standard textbook covering the broad field of biomaterials science and engineering."}
+      {
+        "title": "Biomaterials Science: An Introduction to Materials in Medicine",
+        "author": "Buddy D. Ratner, et al.",
+        "description": "The standard textbook covering the broad field of biomaterials science and engineering."
+      }
     ],
-    "certifications": ["Certifications from Society for Biomaterials (SFB)"],
-    "relatedDomains": ["biomechanics", "tissue-engineering", "medical-robotics"]
+    "certifications": [
+      "Certifications from Society for Biomaterials (SFB)"
+    ],
+    "relatedDomains": [
+      "biomechanics",
+      "tissue-engineering",
+      "medical-robotics"
+    ],
+    "category": "Biotechnology",
+    "roadmaps": [
+      "solidworks",
+      "research-writing"
+    ]
   },
   {
     "id": "biomechanics",
@@ -63,17 +191,59 @@
     "color": "#F59E0B",
     "tagline": "Applying mechanics to biological systems",
     "overview": "Biomechanics is the study of the structure, function, and motion of the mechanical aspects of biological systems, at any level from whole organisms to organs, cells, and cell organelles, using the methods of mechanics.",
-    "coreSubjects": ["Statics and Dynamics", "Fluid Mechanics", "Solid Mechanics", "Anatomy and Kinesiology", "Finite Element Analysis (FEA)"],
-    "applications": ["Prosthetics and Orthotics", "Sports Medicine", "Ergonomics", "Cardiovascular Dynamics (Blood Flow)", "Orthopedic Implant Design"],
-    "industries": ["Orthopedics", "Sports Equipment Manufacturing", "Rehabilitation Centers", "Automotive (Crash Testing)"],
-    "skillsRequired": ["FEA Software (ANSYS, Abaqus)", "Motion Analysis", "Mechanical Design", "CAD", "Data Analysis"],
-    "careerOpportunities": ["medical-device-design-engineer", "biomedical-research-scientist", "rehabilitation-engineer"],
+    "coreSubjects": [
+      "Statics and Dynamics",
+      "Fluid Mechanics",
+      "Solid Mechanics",
+      "Anatomy and Kinesiology",
+      "Finite Element Analysis (FEA)"
+    ],
+    "applications": [
+      "Prosthetics and Orthotics",
+      "Sports Medicine",
+      "Ergonomics",
+      "Cardiovascular Dynamics (Blood Flow)",
+      "Orthopedic Implant Design"
+    ],
+    "industries": [
+      "Orthopedics",
+      "Sports Equipment Manufacturing",
+      "Rehabilitation Centers",
+      "Automotive (Crash Testing)"
+    ],
+    "skillsRequired": [
+      "FEA Software (ANSYS, Abaqus)",
+      "Motion Analysis",
+      "Mechanical Design",
+      "CAD",
+      "Data Analysis"
+    ],
+    "careerOpportunities": [
+      "medical-device-design-engineer",
+      "biomedical-research-scientist",
+      "rehabilitation-engineer"
+    ],
     "futureScope": "Computational biomechanics is growing, allowing for personalized modeling of patient-specific interventions. Wearable sensors for continuous gait analysis and the development of advanced robotic prosthetics are exciting trends.",
     "recommendedBooks": [
-      {"title": "Fundamentals of Biomechanics", "author": "Duane Knudson", "description": "A great introductory text focusing on the mechanical principles of human movement."}
+      {
+        "title": "Fundamentals of Biomechanics",
+        "author": "Duane Knudson",
+        "description": "A great introductory text focusing on the mechanical principles of human movement."
+      }
     ],
-    "certifications": ["Certified SolidWorks Professional (CSWP) - for mechanical design aspects"],
-    "relatedDomains": ["biomaterials", "rehabilitation-engineering", "medical-robotics"]
+    "certifications": [
+      "Certified SolidWorks Professional (CSWP) - for mechanical design aspects"
+    ],
+    "relatedDomains": [
+      "biomaterials",
+      "rehabilitation-engineering",
+      "medical-robotics"
+    ],
+    "category": "Biomedical Engineering",
+    "roadmaps": [
+      "solidworks",
+      "matlab"
+    ]
   },
   {
     "id": "tissue-engineering",
@@ -82,17 +252,57 @@
     "color": "#EC4899",
     "tagline": "Creating living functional tissues to repair organs",
     "overview": "Tissue engineering is an interdisciplinary field that applies the principles of engineering and life sciences toward the development of biological substitutes that restore, maintain, or improve tissue function or a whole organ.",
-    "coreSubjects": ["Cell Biology", "Biomaterials", "Stem Cell Technology", "Bioreactor Design", "Molecular Biology"],
-    "applications": ["Skin Grafts for Burns", "Cartilage Repair", "Artificial Organs (Livers, Kidneys)", "In-vitro Drug Testing Models"],
-    "industries": ["Regenerative Medicine Startups", "Pharmaceuticals", "Academic Research Labs", "Biotechnology"],
-    "skillsRequired": ["Cell Culture Techniques", "Scaffold Design", "Microscopy", "Assay Development", "Good Laboratory Practice (GLP)"],
-    "careerOpportunities": ["biomedical-research-scientist", "clinical-research-associate"],
+    "coreSubjects": [
+      "Cell Biology",
+      "Biomaterials",
+      "Stem Cell Technology",
+      "Bioreactor Design",
+      "Molecular Biology"
+    ],
+    "applications": [
+      "Skin Grafts for Burns",
+      "Cartilage Repair",
+      "Artificial Organs (Livers, Kidneys)",
+      "In-vitro Drug Testing Models"
+    ],
+    "industries": [
+      "Regenerative Medicine Startups",
+      "Pharmaceuticals",
+      "Academic Research Labs",
+      "Biotechnology"
+    ],
+    "skillsRequired": [
+      "Cell Culture Techniques",
+      "Scaffold Design",
+      "Microscopy",
+      "Assay Development",
+      "Good Laboratory Practice (GLP)"
+    ],
+    "careerOpportunities": [
+      "biomedical-research-scientist",
+      "clinical-research-associate"
+    ],
     "futureScope": "The holy grail is the ability to fully 3D print functional solid organs (like a heart or kidney) for transplant, eliminating the need for organ donors. Organ-on-a-chip technologies are also revolutionizing drug discovery by replacing animal testing.",
     "recommendedBooks": [
-      {"title": "Principles of Tissue Engineering", "author": "Robert Lanza, Robert Langer, Joseph Vacanti", "description": "The foundational reference work for the field of tissue engineering and regenerative medicine."}
+      {
+        "title": "Principles of Tissue Engineering",
+        "author": "Robert Lanza, Robert Langer, Joseph Vacanti",
+        "description": "The foundational reference work for the field of tissue engineering and regenerative medicine."
+      }
     ],
-    "certifications": ["Good Laboratory Practice (GLP) Certification"],
-    "relatedDomains": ["biomaterials", "bioinformatics", "biomedical-instrumentation"]
+    "certifications": [
+      "Good Laboratory Practice (GLP) Certification"
+    ],
+    "relatedDomains": [
+      "biomaterials",
+      "bioinformatics",
+      "biomedical-instrumentation"
+    ],
+    "category": "Biotechnology",
+    "roadmaps": [
+      "research-writing",
+      "solidworks"
+    ]
   },
   {
     "id": "neural-engineering",
@@ -101,17 +311,59 @@
     "color": "#3B82F6",
     "tagline": "Interfacing engineering with the nervous system",
     "overview": "Neural engineering (or neuroengineering) uses engineering techniques to understand, repair, replace, or enhance neural systems. It's the science behind Brain-Computer Interfaces (BCIs) and neuroprosthetics.",
-    "coreSubjects": ["Neuroscience", "Signal Processing", "Electromagnetics", "Machine Learning", "Microfabrication"],
-    "applications": ["Brain-Computer Interfaces (BCIs)", "Cochlear Implants", "Deep Brain Stimulation (Parkinson's)", "Neuroprosthetics (Controlling robotic limbs with thought)"],
-    "industries": ["Neurotech Startups (e.g., Neuralink)", "Medical Device Companies (Neuromodulation)", "Academic Research", "Defense/DARPA"],
-    "skillsRequired": ["EEG/ECoG Signal Processing", "Machine Learning (Decoding neural signals)", "Embedded Systems", "Neuroanatomy"],
-    "careerOpportunities": ["biomedical-research-scientist", "ai-healthcare-engineer", "medical-device-design-engineer"],
+    "coreSubjects": [
+      "Neuroscience",
+      "Signal Processing",
+      "Electromagnetics",
+      "Machine Learning",
+      "Microfabrication"
+    ],
+    "applications": [
+      "Brain-Computer Interfaces (BCIs)",
+      "Cochlear Implants",
+      "Deep Brain Stimulation (Parkinson's)",
+      "Neuroprosthetics (Controlling robotic limbs with thought)"
+    ],
+    "industries": [
+      "Neurotech Startups (e.g., Neuralink)",
+      "Medical Device Companies (Neuromodulation)",
+      "Academic Research",
+      "Defense/DARPA"
+    ],
+    "skillsRequired": [
+      "EEG/ECoG Signal Processing",
+      "Machine Learning (Decoding neural signals)",
+      "Embedded Systems",
+      "Neuroanatomy"
+    ],
+    "careerOpportunities": [
+      "biomedical-research-scientist",
+      "ai-healthcare-engineer",
+      "medical-device-design-engineer"
+    ],
     "futureScope": "BCIs are moving from research labs to clinical reality, offering hope for patients with paralysis or locked-in syndrome. Non-invasive neuromodulation for treating mental health disorders (depression, PTSD) is a rapidly expanding area.",
     "recommendedBooks": [
-      {"title": "Neural Engineering", "author": "Bin He", "description": "A comprehensive overview of the fundamental principles and applications of neural engineering."}
+      {
+        "title": "Neural Engineering",
+        "author": "Bin He",
+        "description": "A comprehensive overview of the fundamental principles and applications of neural engineering."
+      }
     ],
-    "certifications": ["Certifications in Machine Learning and Deep Learning"],
-    "relatedDomains": ["biomechanics", "biomedical-instrumentation", "ai-in-healthcare"]
+    "certifications": [
+      "Certifications in Machine Learning and Deep Learning"
+    ],
+    "relatedDomains": [
+      "biomechanics",
+      "biomedical-instrumentation",
+      "ai-in-healthcare"
+    ],
+    "category": "Emerging Technologies",
+    "roadmaps": [
+      "machine-learning",
+      "embedded-systems",
+      "python",
+      "medical-image-processing"
+    ]
   },
   {
     "id": "medical-robotics",
@@ -120,17 +372,61 @@
     "color": "#10B981",
     "tagline": "Precision machines for surgery and rehabilitation",
     "overview": "Medical Robotics involves the design and use of robots in healthcare settings. It includes surgical robots that allow for minimally invasive, highly precise procedures, as well as rehabilitation and assistive robots.",
-    "coreSubjects": ["Robotics and Kinematics", "Control Systems", "Mechatronics", "Computer Vision", "Haptics"],
-    "applications": ["Robot-Assisted Surgery (e.g., Da Vinci System)", "Exoskeletons for Rehabilitation", "Pharmacy Dispensing Robots", "Telepresence Robots in Hospitals"],
-    "industries": ["Surgical Robotics Companies", "Rehabilitation Tech", "Hospital Automation", "R&D Labs"],
-    "skillsRequired": ["C++/Python Programming", "Kinematics & Dynamics Modeling", "ROS (Robot Operating System)", "Sensor Integration", "Control Theory"],
-    "careerOpportunities": ["medical-device-design-engineer", "medical-device-service-engineer", "ai-healthcare-engineer"],
+    "coreSubjects": [
+      "Robotics and Kinematics",
+      "Control Systems",
+      "Mechatronics",
+      "Computer Vision",
+      "Haptics"
+    ],
+    "applications": [
+      "Robot-Assisted Surgery (e.g., Da Vinci System)",
+      "Exoskeletons for Rehabilitation",
+      "Pharmacy Dispensing Robots",
+      "Telepresence Robots in Hospitals"
+    ],
+    "industries": [
+      "Surgical Robotics Companies",
+      "Rehabilitation Tech",
+      "Hospital Automation",
+      "R&D Labs"
+    ],
+    "skillsRequired": [
+      "C++/Python Programming",
+      "Kinematics & Dynamics Modeling",
+      "ROS (Robot Operating System)",
+      "Sensor Integration",
+      "Control Theory"
+    ],
+    "careerOpportunities": [
+      "medical-device-design-engineer",
+      "medical-device-service-engineer",
+      "ai-healthcare-engineer"
+    ],
     "futureScope": "The integration of AI with surgical robots will enable semi-autonomous procedures, where the robot can suggest optimal incisions or automatically suture wounds. Micro-robots navigating the bloodstream for targeted drug delivery are currently in research phases.",
     "recommendedBooks": [
-      {"title": "Medical Robotics", "author": "Achim Schweikard, Floris Ernst", "description": "Covers kinematics, medical imaging, image-guided surgery, and specific robotic systems."}
+      {
+        "title": "Medical Robotics",
+        "author": "Achim Schweikard, Floris Ernst",
+        "description": "Covers kinematics, medical imaging, image-guided surgery, and specific robotic systems."
+      }
     ],
-    "certifications": ["ROS Certifications", "Machine Learning Specializations"],
-    "relatedDomains": ["biomechanics", "neural-engineering", "ai-in-healthcare"]
+    "certifications": [
+      "ROS Certifications",
+      "Machine Learning Specializations"
+    ],
+    "relatedDomains": [
+      "biomechanics",
+      "neural-engineering",
+      "ai-in-healthcare"
+    ],
+    "category": "Robotics",
+    "roadmaps": [
+      "embedded-systems",
+      "python",
+      "artificial-intelligence",
+      "solidworks"
+    ]
   },
   {
     "id": "bioinformatics",
@@ -139,17 +435,59 @@
     "color": "#6366F1",
     "tagline": "Decoding the data of life",
     "overview": "Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, especially when the data sets are large and complex. It combines biology, computer science, information engineering, mathematics, and statistics.",
-    "coreSubjects": ["Genomics and Proteomics", "Algorithms", "Data Structures", "Statistics", "Database Management"],
-    "applications": ["Sequence Analysis (DNA/RNA)", "Drug Discovery and Design", "Personalized Medicine", "Evolutionary Biology", "Protein Structure Prediction"],
-    "industries": ["Pharmaceuticals", "Genomics Companies (e.g., Illumina, 23andMe)", "Research Institutes", "Agri-Tech"],
-    "skillsRequired": ["Python/R/Perl", "SQL/Database Management", "Statistical Analysis", "Knowledge of Genomic Databases (NCBI, BLAST)"],
-    "careerOpportunities": ["healthcare-data-analyst", "ai-healthcare-engineer", "biomedical-research-scientist"],
+    "coreSubjects": [
+      "Genomics and Proteomics",
+      "Algorithms",
+      "Data Structures",
+      "Statistics",
+      "Database Management"
+    ],
+    "applications": [
+      "Sequence Analysis (DNA/RNA)",
+      "Drug Discovery and Design",
+      "Personalized Medicine",
+      "Evolutionary Biology",
+      "Protein Structure Prediction"
+    ],
+    "industries": [
+      "Pharmaceuticals",
+      "Genomics Companies (e.g., Illumina, 23andMe)",
+      "Research Institutes",
+      "Agri-Tech"
+    ],
+    "skillsRequired": [
+      "Python/R/Perl",
+      "SQL/Database Management",
+      "Statistical Analysis",
+      "Knowledge of Genomic Databases (NCBI, BLAST)"
+    ],
+    "careerOpportunities": [
+      "healthcare-data-analyst",
+      "ai-healthcare-engineer",
+      "biomedical-research-scientist"
+    ],
     "futureScope": "With the cost of genomic sequencing dropping rapidly, the bottleneck is now data analysis. Bioinformatics is crucial for personalized medicine—tailoring treatments based on a patient's genetic profile. AI tools like AlphaFold have revolutionized protein structure prediction.",
     "recommendedBooks": [
-      {"title": "Bioinformatics Data Skills", "author": "Vince Buffalo", "description": "A practical guide to handling large biological datasets using robust computational tools."}
+      {
+        "title": "Bioinformatics Data Skills",
+        "author": "Vince Buffalo",
+        "description": "A practical guide to handling large biological datasets using robust computational tools."
+      }
     ],
-    "certifications": ["Bioinformatics Specializations (Coursera/edX)", "AWS/GCP Data Analytics"],
-    "relatedDomains": ["ai-in-healthcare", "tissue-engineering"]
+    "certifications": [
+      "Bioinformatics Specializations (Coursera/edX)",
+      "AWS/GCP Data Analytics"
+    ],
+    "relatedDomains": [
+      "ai-in-healthcare",
+      "tissue-engineering"
+    ],
+    "category": "AI & Computing",
+    "roadmaps": [
+      "python",
+      "machine-learning",
+      "research-writing"
+    ]
   },
   {
     "id": "rehabilitation-engineering",
@@ -158,17 +496,59 @@
     "color": "#14B8A6",
     "tagline": "Restoring function and improving quality of life",
     "overview": "Rehabilitation Engineering is the systematic application of engineering sciences to design, develop, adapt, test, evaluate, apply, and distribute technological solutions to problems confronted by individuals with disabilities.",
-    "coreSubjects": ["Biomechanics", "Ergonomics", "Prosthetics and Orthotics", "Human-Computer Interaction", "Sensorimotor Systems"],
-    "applications": ["Advanced Prosthetic Limbs", "Wheelchair Design", "Assistive Communication Devices (Augmentative and Alternative Communication - AAC)", "Exoskeletons"],
-    "industries": ["Prosthetics/Orthotics Clinics", "Assistive Technology Manufacturers", "Veterans Affairs / Rehabilitation Hospitals", "NGOs"],
-    "skillsRequired": ["Patient Interaction/Empathy", "CAD/3D Printing", "Mechanical Design", "Biomechanics Analysis", "Custom Fabrication"],
-    "careerOpportunities": ["medical-device-design-engineer", "clinical-engineer", "biomedical-research-scientist"],
+    "coreSubjects": [
+      "Biomechanics",
+      "Ergonomics",
+      "Prosthetics and Orthotics",
+      "Human-Computer Interaction",
+      "Sensorimotor Systems"
+    ],
+    "applications": [
+      "Advanced Prosthetic Limbs",
+      "Wheelchair Design",
+      "Assistive Communication Devices (Augmentative and Alternative Communication - AAC)",
+      "Exoskeletons"
+    ],
+    "industries": [
+      "Prosthetics/Orthotics Clinics",
+      "Assistive Technology Manufacturers",
+      "Veterans Affairs / Rehabilitation Hospitals",
+      "NGOs"
+    ],
+    "skillsRequired": [
+      "Patient Interaction/Empathy",
+      "CAD/3D Printing",
+      "Mechanical Design",
+      "Biomechanics Analysis",
+      "Custom Fabrication"
+    ],
+    "careerOpportunities": [
+      "medical-device-design-engineer",
+      "clinical-engineer",
+      "biomedical-research-scientist"
+    ],
     "futureScope": "The integration of neural engineering (BCIs) with rehabilitation engineering is creating mind-controlled prosthetics. Soft robotics and smart textiles are making wearable assistive devices more comfortable and effective.",
     "recommendedBooks": [
-      {"title": "Introduction to Rehabilitation Engineering", "author": "Rory A. Cooper, Hisaichi Ohnabe, Douglas A. Hobson", "description": "Covers the fundamental concepts and practical applications of engineering in rehabilitation."}
+      {
+        "title": "Introduction to Rehabilitation Engineering",
+        "author": "Rory A. Cooper, Hisaichi Ohnabe, Douglas A. Hobson",
+        "description": "Covers the fundamental concepts and practical applications of engineering in rehabilitation."
+      }
     ],
-    "certifications": ["Assistive Technology Professional (ATP)", "Certified Prosthetist Orthotist (CPO) - requires specific clinical training"],
-    "relatedDomains": ["biomechanics", "medical-robotics", "neural-engineering"]
+    "certifications": [
+      "Assistive Technology Professional (ATP)",
+      "Certified Prosthetist Orthotist (CPO) - requires specific clinical training"
+    ],
+    "relatedDomains": [
+      "biomechanics",
+      "medical-robotics",
+      "neural-engineering"
+    ],
+    "category": "Biomedical Engineering",
+    "roadmaps": [
+      "solidworks",
+      "embedded-systems"
+    ]
   },
   {
     "id": "ai-in-healthcare",
@@ -177,16 +557,3014 @@
     "color": "#F43F5E",
     "tagline": "Intelligent algorithms transforming medicine",
     "overview": "Artificial Intelligence (AI) and Machine Learning (ML) are rapidly becoming a domain of their own within biomedical engineering. This field involves training algorithms on massive healthcare datasets to perform tasks that typically require human intelligence, from diagnosing diseases to predicting patient outcomes.",
-    "coreSubjects": ["Machine Learning", "Deep Learning", "Computer Vision", "Natural Language Processing (NLP)", "Data Ethics & Privacy"],
-    "applications": ["Automated Medical Image Diagnosis", "Predictive Analytics for Patient Risk", "Drug Discovery and Repurposing", "Virtual Health Assistants / Chatbots", "EHR Data Mining"],
-    "industries": ["HealthTech Startups", "Big Tech (Google, Microsoft, Amazon Healthcare)", "Hospitals (Clinical Informatics)", "Pharmaceuticals"],
-    "skillsRequired": ["Python (TensorFlow, PyTorch)", "Data Science & Statistics", "Cloud Computing (AWS/GCP)", "Understanding of Clinical Workflows", "Regulatory Knowledge (SaMD)"],
-    "careerOpportunities": ["ai-healthcare-engineer", "healthcare-data-analyst", "biomedical-research-scientist"],
+    "coreSubjects": [
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "Natural Language Processing (NLP)",
+      "Data Ethics & Privacy"
+    ],
+    "applications": [
+      "Automated Medical Image Diagnosis",
+      "Predictive Analytics for Patient Risk",
+      "Drug Discovery and Repurposing",
+      "Virtual Health Assistants / Chatbots",
+      "EHR Data Mining"
+    ],
+    "industries": [
+      "HealthTech Startups",
+      "Big Tech (Google, Microsoft, Amazon Healthcare)",
+      "Hospitals (Clinical Informatics)",
+      "Pharmaceuticals"
+    ],
+    "skillsRequired": [
+      "Python (TensorFlow, PyTorch)",
+      "Data Science & Statistics",
+      "Cloud Computing (AWS/GCP)",
+      "Understanding of Clinical Workflows",
+      "Regulatory Knowledge (SaMD)"
+    ],
+    "careerOpportunities": [
+      "ai-healthcare-engineer",
+      "healthcare-data-analyst",
+      "biomedical-research-scientist"
+    ],
     "futureScope": "Generative AI is the current frontier, capable of summarizing patient histories, drafting medical reports, and even designing novel molecular structures for drugs. AI will not replace doctors, but doctors using AI will replace those who don't.",
     "recommendedBooks": [
-      {"title": "Deep Medicine", "author": "Eric Topol", "description": "Explores how AI can make healthcare more human by freeing up doctors' time to focus on patient care."}
+      {
+        "title": "Deep Medicine",
+        "author": "Eric Topol",
+        "description": "Explores how AI can make healthcare more human by freeing up doctors' time to focus on patient care."
+      }
     ],
-    "certifications": ["DeepLearning.AI Healthcare Specialization", "Cloud Provider Machine Learning Certifications (AWS/GCP/Azure)"],
-    "relatedDomains": ["medical-imaging", "bioinformatics", "biomedical-instrumentation"]
+    "certifications": [
+      "DeepLearning.AI Healthcare Specialization",
+      "Cloud Provider Machine Learning Certifications (AWS/GCP/Azure)"
+    ],
+    "relatedDomains": [
+      "medical-imaging",
+      "bioinformatics",
+      "biomedical-instrumentation"
+    ],
+    "category": "AI & Computing",
+    "roadmaps": [
+      "python",
+      "machine-learning",
+      "artificial-intelligence",
+      "medical-image-processing"
+    ]
+  },
+  {
+    "id": "artificial-organs",
+    "name": "Artificial Organs",
+    "icon": "HeartPulse",
+    "color": "#0F4C81",
+    "tagline": "Engineering life-sustaining organ replacements",
+    "overview": "Artificial Organs is the field of designing and building devices that partially or completely replace the function of a failing natural organ. It combines biomaterials, fluid mechanics, electronics, and physiology to create systems such as artificial hearts, dialysis machines, and ventricular assist devices. Engineers in this domain must ensure long-term biocompatibility, reliability, and hemodynamic performance inside the human body. The work directly addresses organ shortages and buys critical time for transplant patients or offers permanent therapeutic solutions.",
+    "coreSubjects": [
+      "Physiology and Anatomy",
+      "Biomaterials Science",
+      "Fluid Mechanics and Hemodynamics",
+      "Control Systems",
+      "Biocompatibility and Sterilization"
+    ],
+    "applications": [
+      "Total Artificial Hearts and Ventricular Assist Devices",
+      "Hemodialysis and Artificial Kidneys",
+      "Extracorporeal Membrane Oxygenation (ECMO)",
+      "Artificial Pancreas Systems",
+      "Bioartificial Liver Support"
+    ],
+    "industries": [
+      "Medical Device Manufacturing",
+      "Hospitals and Transplant Centers",
+      "Research & Development",
+      "Biotechnology Startups"
+    ],
+    "skillsRequired": [
+      "Biomaterial Selection and Testing",
+      "Fluid Dynamics Simulation (CFD)",
+      "Control System Design",
+      "Regulatory Compliance (FDA/ISO 13485)",
+      "Mechanical and Electronic Integration"
+    ],
+    "careerOpportunities": [
+      "artificial-organ-engineer",
+      "biomedical-rd-engineer",
+      "biomaterials-engineer",
+      "medical-device-design-engineer",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "Advances in 3D bioprinting, durable biomaterials, and miniaturized pumps are driving fully implantable, long-lasting artificial organs. Integration of sensors and closed-loop control promises devices that adapt automatically to patient physiology, reducing complications and the need for external management.",
+    "recommendedBooks": [
+      {
+        "title": "Artificial Organs",
+        "author": "Gerald E. Miller",
+        "description": "A concise overview of the engineering principles behind heart, kidney, and lung replacement devices."
+      },
+      {
+        "title": "The Artificial Kidney: Physiological Modeling and Tissue Engineering",
+        "author": "John K. Leypoldt",
+        "description": "Explores modeling and engineering approaches to renal replacement therapy."
+      }
+    ],
+    "certifications": [
+      "Certified Biomedical Equipment Technician (CBET)",
+      "ISO 13485 Medical Devices Quality Management",
+      "Regulatory Affairs Certification (RAC)"
+    ],
+    "relatedDomains": [
+      "regenerative-medicine",
+      "biomaterials",
+      "cardiovascular-engineering",
+      "biomedical-implants",
+      "tissue-engineering"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "solidworks",
+      "matlab",
+      "research-writing"
+    ]
+  },
+  {
+    "id": "regenerative-medicine",
+    "name": "Regenerative Medicine",
+    "icon": "Dna",
+    "color": "#1AB7B0",
+    "tagline": "Restoring form and function to damaged tissue",
+    "overview": "Regenerative Medicine focuses on repairing, replacing, or regenerating cells, tissues, and organs to restore normal function. It merges stem cell biology, tissue engineering, gene therapy, and biomaterials to treat conditions once considered irreversible. Engineers and scientists design scaffolds, growth factor delivery systems, and cell-culture bioreactors that guide the body's own healing. This domain holds the promise of curing degenerative diseases rather than merely managing symptoms.",
+    "coreSubjects": [
+      "Stem Cell Biology",
+      "Tissue Engineering",
+      "Molecular and Cell Biology",
+      "Biomaterials and Scaffolds",
+      "Gene Therapy Principles"
+    ],
+    "applications": [
+      "Stem Cell Therapies",
+      "Engineered Skin and Cartilage Grafts",
+      "Organ and Tissue Regeneration",
+      "Wound Healing Technologies",
+      "Gene and Cell Therapy Delivery"
+    ],
+    "industries": [
+      "Biotechnology",
+      "Pharmaceuticals",
+      "Research Institutes",
+      "Tissue Engineering Startups"
+    ],
+    "skillsRequired": [
+      "Cell Culture Techniques",
+      "Scaffold Fabrication",
+      "Molecular Biology Assays",
+      "Bioreactor Operation",
+      "Good Manufacturing Practice (GMP)"
+    ],
+    "careerOpportunities": [
+      "regenerative-medicine-researcher",
+      "tissue-engineer",
+      "stem-cell-researcher",
+      "biomedical-research-scientist",
+      "biomaterials-scientist"
+    ],
+    "futureScope": "Breakthroughs in induced pluripotent stem cells, organoid culture, and CRISPR gene editing are accelerating clinical translation. The convergence of 3D bioprinting with regenerative biology aims to manufacture patient-specific tissues and, ultimately, transplantable organs on demand.",
+    "recommendedBooks": [
+      {
+        "title": "Principles of Regenerative Medicine",
+        "author": "Anthony Atala, Robert Lanza",
+        "description": "A comprehensive reference on stem cells, biomaterials, and tissue engineering strategies."
+      },
+      {
+        "title": "Principles of Tissue Engineering",
+        "author": "Robert Lanza, Robert Langer, Joseph Vacanti",
+        "description": "The foundational textbook covering the science and engineering of regenerating tissues."
+      }
+    ],
+    "certifications": [
+      "Good Manufacturing Practice (GMP) Certification",
+      "ISSCR Stem Cell Research Training",
+      "Regulatory Affairs Certification (RAC)"
+    ],
+    "relatedDomains": [
+      "tissue-engineering",
+      "biomaterials",
+      "artificial-organs",
+      "biomedical-research",
+      "genomics"
+    ],
+    "category": "Biotechnology",
+    "roadmaps": [
+      "research-writing",
+      "python"
+    ]
+  },
+  {
+    "id": "biomedical-implants",
+    "name": "Biomedical Implants",
+    "icon": "Layers",
+    "color": "#2563EB",
+    "tagline": "Devices that live and work inside the body",
+    "overview": "Biomedical Implants covers the design, materials, and manufacturing of devices placed permanently or temporarily inside the human body to restore structure or function. It spans orthopedic hardware, cardiac devices, dental implants, and neural stimulators. Engineers must balance mechanical performance, biocompatibility, corrosion resistance, and long-term reliability. Successful implants dramatically improve mobility, cardiac health, and quality of life for millions of patients.",
+    "coreSubjects": [
+      "Biomaterials Science",
+      "Biomechanics",
+      "Surface Engineering and Coatings",
+      "Anatomy and Physiology",
+      "Design for Manufacturing"
+    ],
+    "applications": [
+      "Orthopedic Implants (Hip, Knee, Spine)",
+      "Dental Implants",
+      "Cardiac Pacemakers and Stents",
+      "Cochlear and Neural Implants",
+      "Fixation Plates and Screws"
+    ],
+    "industries": [
+      "Orthopedic Device Manufacturing",
+      "Cardiovascular Device Companies",
+      "Dental Implant Manufacturers",
+      "Hospitals and Surgical Centers"
+    ],
+    "skillsRequired": [
+      "Material Characterization",
+      "CAD and Finite Element Analysis",
+      "Biocompatibility Testing",
+      "Regulatory Compliance (FDA/ISO)",
+      "Additive Manufacturing"
+    ],
+    "careerOpportunities": [
+      "medical-device-engineer",
+      "medical-device-design-engineer",
+      "biomaterials-engineer",
+      "quality-assurance-engineer",
+      "biomedical-manufacturing-engineer"
+    ],
+    "futureScope": "Patient-specific implants produced by 3D metal printing, bioactive surface coatings that promote osseointegration, and smart implants embedded with sensors are transforming the field. These innovations reduce revision surgeries and enable real-time monitoring of healing.",
+    "recommendedBooks": [
+      {
+        "title": "Biomaterials Science: An Introduction to Materials in Medicine",
+        "author": "Buddy D. Ratner, Allan S. Hoffman, Frederick J. Schoen, Jack E. Lemons",
+        "description": "The definitive text on the materials used in medical implants and devices."
+      },
+      {
+        "title": "Implantable Bioelectronics",
+        "author": "Evgeny Katz",
+        "description": "Covers the engineering of electronic devices designed to operate within living systems."
+      }
+    ],
+    "certifications": [
+      "ISO 13485 Medical Devices Quality Management",
+      "Certified Quality Engineer (CQE)",
+      "Regulatory Affairs Certification (RAC)"
+    ],
+    "relatedDomains": [
+      "biomaterials",
+      "biomechanics",
+      "artificial-organs",
+      "biomedical-3d-printing",
+      "medical-device-design"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "solidworks",
+      "pcb-design",
+      "research-writing"
+    ]
+  },
+  {
+    "id": "prosthetics-orthotics",
+    "name": "Prosthetics & Orthotics",
+    "icon": "Bot",
+    "color": "#7C3AED",
+    "tagline": "Restoring movement and independence",
+    "overview": "Prosthetics and Orthotics is the engineering discipline dedicated to designing artificial limbs (prostheses) and supportive braces (orthoses) that restore mobility and function. It integrates biomechanics, materials science, control systems, and human-centered design to create devices that match individual anatomy and lifestyle. Modern practice increasingly uses myoelectric control, lightweight composites, and 3D scanning for custom fit. The goal is to maximize comfort, function, and independence for people with limb loss or musculoskeletal impairments.",
+    "coreSubjects": [
+      "Biomechanics and Gait Analysis",
+      "Materials Science",
+      "Control Systems and Signal Processing",
+      "Anatomy and Kinesiology",
+      "CAD and 3D Design"
+    ],
+    "applications": [
+      "Upper and Lower Limb Prostheses",
+      "Myoelectric and Bionic Limbs",
+      "Spinal and Limb Orthoses",
+      "Custom Foot Orthotics",
+      "Exoskeletons for Mobility Assistance"
+    ],
+    "industries": [
+      "Prosthetic and Orthotic Manufacturing",
+      "Rehabilitation Centers",
+      "Hospitals and Clinics",
+      "Assistive Technology Startups"
+    ],
+    "skillsRequired": [
+      "Gait and Motion Analysis",
+      "3D Scanning and Printing",
+      "EMG Signal Processing",
+      "Mechanical Design (CAD)",
+      "Patient Assessment and Fitting"
+    ],
+    "careerOpportunities": [
+      "prosthetics-orthotics-engineer",
+      "rehabilitation-engineer",
+      "biomechanical-engineer",
+      "biomedical-engineer",
+      "medical-device-design-engineer"
+    ],
+    "futureScope": "Advances in neural interfacing, sensory feedback, and lightweight actuators are producing prostheses that feel and move naturally. Affordable 3D-printed devices and powered exoskeletons are expanding access and restoring capabilities far beyond conventional designs.",
+    "recommendedBooks": [
+      {
+        "title": "Atlas of Amputations and Limb Deficiencies",
+        "author": "American Academy of Orthopaedic Surgeons (AAOS)",
+        "description": "A comprehensive clinical and engineering reference on prosthetic and orthotic care."
+      },
+      {
+        "title": "Fundamentals of Biomechanics",
+        "author": "Duane Knudson",
+        "description": "Provides the mechanical principles of human movement essential for device design."
+      }
+    ],
+    "certifications": [
+      "American Board for Certification in Orthotics, Prosthetics & Pedorthics (ABC)",
+      "Certified SolidWorks Professional (CSWP)",
+      "ISO 13485 Medical Devices Quality Management"
+    ],
+    "relatedDomains": [
+      "biomechanics",
+      "rehabilitation-engineering",
+      "biomechatronics",
+      "biomaterials",
+      "medical-robotics"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "solidworks",
+      "embedded-systems",
+      "matlab"
+    ]
+  },
+  {
+    "id": "biosensors",
+    "name": "Biosensors",
+    "icon": "Fingerprint",
+    "color": "#1AB7B0",
+    "tagline": "Turning biology into measurable signals",
+    "overview": "Biosensors are analytical devices that convert a biological response into a measurable electrical, optical, or electrochemical signal. They combine a biological recognition element such as an enzyme, antibody, or DNA strand with a physical transducer to detect target molecules with high specificity. Biosensors power glucose monitors, pregnancy tests, and rapid pathogen detection kits. As healthcare shifts toward prevention and point-of-care testing, biosensors are becoming indispensable diagnostic tools.",
+    "coreSubjects": [
+      "Biochemistry and Enzymology",
+      "Electrochemistry",
+      "Transducer Physics",
+      "Microfabrication and Nanotechnology",
+      "Signal Conditioning"
+    ],
+    "applications": [
+      "Continuous Glucose Monitoring",
+      "Point-of-Care Diagnostics",
+      "Pathogen and Disease Biomarker Detection",
+      "Environmental and Food Safety Testing",
+      "Wearable Health Monitoring"
+    ],
+    "industries": [
+      "Diagnostic Device Manufacturing",
+      "Biotechnology",
+      "Wearable Technology Companies",
+      "Research Laboratories"
+    ],
+    "skillsRequired": [
+      "Electrochemical Sensing",
+      "Microfabrication Techniques",
+      "Bioreceptor Immobilization",
+      "Signal Processing",
+      "Analytical Chemistry"
+    ],
+    "careerOpportunities": [
+      "biosensor-engineer",
+      "biomedical-rd-engineer",
+      "bioinstrumentation-engineer",
+      "medical-device-design-engineer",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "Nanomaterial-based sensors, flexible substrates, and wireless connectivity are enabling ultra-sensitive, wearable, and implantable biosensors. Integration with smartphones and AI analytics is making continuous, real-time diagnostics accessible outside the clinical laboratory.",
+    "recommendedBooks": [
+      {
+        "title": "Biosensors and Bioelectronics",
+        "author": "Chandra Prakash Kala",
+        "description": "Introduces the fundamentals of biosensor design, transduction, and applications."
+      },
+      {
+        "title": "Handbook of Biosensors and Biochips",
+        "author": "Robert S. Marks, David C. Cullen, Isao Karube",
+        "description": "A thorough reference covering biosensor technologies and their biomedical uses."
+      }
+    ],
+    "certifications": [
+      "Certified Biomedical Equipment Technician (CBET)",
+      "IPC Certification for Electronics",
+      "Good Laboratory Practice (GLP) Training"
+    ],
+    "relatedDomains": [
+      "bioelectronics",
+      "wearable-healthcare-technology",
+      "point-of-care-diagnostics",
+      "biomedical-instrumentation",
+      "diagnostic-technologies"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "embedded-systems",
+      "pcb-design",
+      "iot"
+    ]
+  },
+  {
+    "id": "wearable-healthcare-technology",
+    "name": "Wearable Healthcare Technology",
+    "icon": "Watch",
+    "color": "#0EA5A4",
+    "tagline": "Health monitoring that goes everywhere you do",
+    "overview": "Wearable Healthcare Technology involves body-worn devices that continuously sense, record, and transmit physiological data such as heart rate, oxygen saturation, and activity. It fuses miniaturized sensors, low-power electronics, wireless communication, and data analytics into comfortable, always-on form factors. These devices enable remote patient monitoring, early anomaly detection, and personalized wellness insights. The field is central to the shift from episodic hospital care toward continuous, preventive, and patient-driven healthcare.",
+    "coreSubjects": [
+      "Sensor Technology",
+      "Low-Power Embedded Systems",
+      "Wireless Communication (BLE)",
+      "Biomedical Signal Processing",
+      "Human Factors and Ergonomics"
+    ],
+    "applications": [
+      "Smartwatches and Fitness Trackers",
+      "Continuous Cardiac and SpO2 Monitoring",
+      "Remote Patient Monitoring",
+      "Sleep and Stress Analysis",
+      "Chronic Disease Management"
+    ],
+    "industries": [
+      "Consumer Electronics",
+      "Medical Device Manufacturing",
+      "Digital Health Startups",
+      "Healthcare Providers"
+    ],
+    "skillsRequired": [
+      "Embedded Firmware Development",
+      "Sensor Integration",
+      "Signal Processing",
+      "IoT and Wireless Protocols",
+      "Data Analytics and Machine Learning"
+    ],
+    "careerOpportunities": [
+      "wearable-technology-engineer",
+      "digital-health-engineer",
+      "healthcare-iot-engineer",
+      "biomedical-signal-processing-engineer",
+      "biomedical-engineer"
+    ],
+    "futureScope": "Flexible and epidermal electronics, energy harvesting, and on-device AI are pushing wearables toward clinical-grade accuracy and multi-day autonomy. Tight integration with telemedicine platforms will allow predictive alerts and truly continuous, personalized care.",
+    "recommendedBooks": [
+      {
+        "title": "Wearable Sensors: Fundamentals, Implementation and Applications",
+        "author": "Edward Sazonov",
+        "description": "A detailed engineering guide to designing and deploying wearable sensing systems."
+      },
+      {
+        "title": "Mobile Health: Sensors, Analytic Methods, and Applications",
+        "author": "James M. Rehg, Susan A. Murphy, Santosh Kumar",
+        "description": "Explores the analytics and applications behind mobile and wearable health technologies."
+      }
+    ],
+    "certifications": [
+      "Certified Internet of Things Practitioner (CIoTP)",
+      "Google/Coursera IoT Specialization",
+      "Certified Biomedical Equipment Technician (CBET)"
+    ],
+    "relatedDomains": [
+      "biosensors",
+      "healthcare-iot",
+      "digital-health",
+      "biomedical-signal-processing",
+      "telemedicine"
+    ],
+    "category": "Digital Health",
+    "roadmaps": [
+      "embedded-systems",
+      "iot",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "bioelectronics",
+    "name": "Bioelectronics",
+    "icon": "CircuitBoard",
+    "color": "#0F4C81",
+    "tagline": "Where electronics meet living tissue",
+    "overview": "Bioelectronics is the interdisciplinary field that couples electronic devices with biological systems to sense, stimulate, and modulate physiological processes. It underpins technologies like pacemakers, neural stimulators, and electroceuticals that treat disease with precise electrical signals. Engineers design biocompatible electrodes, ultra-low-power circuits, and interfaces that safely communicate with cells and tissue. Bioelectronics is opening new therapeutic frontiers where electronics augment or replace pharmacological treatment.",
+    "coreSubjects": [
+      "Analog and Digital Electronics",
+      "Bioelectricity and Electrophysiology",
+      "Semiconductor Devices",
+      "Signal Processing",
+      "Biocompatible Materials"
+    ],
+    "applications": [
+      "Cardiac Pacemakers and Defibrillators",
+      "Neural and Deep Brain Stimulators",
+      "Electroceuticals and Bioelectronic Medicine",
+      "Biosensing Interfaces",
+      "Cochlear and Retinal Implants"
+    ],
+    "industries": [
+      "Medical Device Manufacturing",
+      "Semiconductor Companies",
+      "Research Institutes",
+      "Neurotechnology Startups"
+    ],
+    "skillsRequired": [
+      "Circuit and PCB Design",
+      "Electrode and Interface Engineering",
+      "Signal Conditioning",
+      "Embedded Systems",
+      "Biocompatibility and Safety Testing"
+    ],
+    "careerOpportunities": [
+      "medical-electronics-engineer",
+      "bioinstrumentation-engineer",
+      "biomedical-rd-engineer",
+      "neural-engineer",
+      "medical-device-design-engineer"
+    ],
+    "futureScope": "Organic and flexible bioelectronics, closed-loop neuromodulation, and battery-free wireless implants are redefining chronic disease treatment. The rise of bioelectronic medicine promises targeted therapies that modulate the nervous system with fewer side effects than drugs.",
+    "recommendedBooks": [
+      {
+        "title": "Bioelectronics: From Theory to Applications",
+        "author": "Itamar Willner, Eugenii Katz",
+        "description": "A rigorous treatment of the science linking electronics and biological systems."
+      },
+      {
+        "title": "Principles of Neural Science",
+        "author": "Eric R. Kandel, James H. Schwartz, Thomas M. Jessell",
+        "description": "The authoritative reference for the neurophysiology underlying neural interfaces."
+      }
+    ],
+    "certifications": [
+      "IPC Certification for Electronics",
+      "Certified Biomedical Equipment Technician (CBET)",
+      "ISO 13485 Medical Devices Quality Management"
+    ],
+    "relatedDomains": [
+      "biosensors",
+      "neural-engineering",
+      "biomedical-implants",
+      "brain-computer-interfaces",
+      "biomedical-instrumentation"
+    ],
+    "category": "Biomedical Engineering",
+    "roadmaps": [
+      "pcb-design",
+      "embedded-systems",
+      "matlab"
+    ]
+  },
+  {
+    "id": "biomedical-signal-processing",
+    "name": "Biomedical Signal Processing",
+    "icon": "Activity",
+    "color": "#1AB7B0",
+    "tagline": "Extracting meaning from physiological signals",
+    "overview": "Biomedical Signal Processing applies mathematical and computational techniques to analyze physiological signals such as ECG, EEG, EMG, and blood pressure waveforms. It transforms noisy, complex biosignals into clinically meaningful information used for diagnosis, monitoring, and control. Engineers design filters, feature extraction algorithms, and machine learning models that detect arrhythmias, seizures, and other events. This domain is foundational to medical instrumentation, wearables, and AI-driven diagnostics.",
+    "coreSubjects": [
+      "Digital Signal Processing",
+      "Linear Algebra and Statistics",
+      "Time-Frequency Analysis",
+      "Machine Learning",
+      "Physiological Systems"
+    ],
+    "applications": [
+      "ECG and Arrhythmia Detection",
+      "EEG Analysis and Seizure Detection",
+      "EMG-Based Prosthetic Control",
+      "Sleep and Respiratory Monitoring",
+      "Real-Time Patient Alarm Systems"
+    ],
+    "industries": [
+      "Medical Device Manufacturing",
+      "Wearable Technology Companies",
+      "Healthcare AI Startups",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "MATLAB and Python Programming",
+      "Filter and Algorithm Design",
+      "Feature Extraction",
+      "Machine Learning",
+      "Statistical Analysis"
+    ],
+    "careerOpportunities": [
+      "biomedical-signal-processing-engineer",
+      "ai-healthcare-engineer",
+      "biomedical-data-scientist",
+      "bioinstrumentation-engineer",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "Deep learning is enabling automated, real-time interpretation of complex biosignals with near-clinician accuracy. Edge processing on wearables and multimodal signal fusion will drive continuous, personalized monitoring and earlier detection of deterioration.",
+    "recommendedBooks": [
+      {
+        "title": "Biomedical Signal Analysis",
+        "author": "Rangaraj M. Rangayyan",
+        "description": "A widely used text covering the analysis and interpretation of physiological signals."
+      },
+      {
+        "title": "Biomedical Signal Processing and Signal Modeling",
+        "author": "Eugene N. Bruce",
+        "description": "Connects signal processing theory with physiological modeling and applications."
+      }
+    ],
+    "certifications": [
+      "MathWorks MATLAB Certification",
+      "DeepLearning.AI Deep Learning Specialization",
+      "TensorFlow Developer Certificate"
+    ],
+    "relatedDomains": [
+      "biomedical-instrumentation",
+      "machine-learning-biomedical",
+      "wearable-healthcare-technology",
+      "medical-image-processing",
+      "biomedical-data-science"
+    ],
+    "category": "AI & Computing",
+    "roadmaps": [
+      "matlab",
+      "python",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "medical-image-processing",
+    "name": "Medical Image Processing",
+    "icon": "Scan",
+    "color": "#3B82F6",
+    "tagline": "Transforming scans into clinical insight",
+    "overview": "Medical Image Processing develops algorithms to enhance, analyze, and interpret images from modalities such as MRI, CT, ultrasound, and X-ray. It includes noise reduction, segmentation, registration, and quantitative measurement that support diagnosis and treatment planning. Increasingly, deep learning automates tumor detection, organ segmentation, and disease classification. This domain sits at the intersection of imaging physics, computer science, and clinical medicine.",
+    "coreSubjects": [
+      "Digital Image Processing",
+      "Medical Imaging Physics",
+      "Computer Vision",
+      "Machine Learning and Deep Learning",
+      "Anatomy and Radiology"
+    ],
+    "applications": [
+      "Tumor Detection and Segmentation",
+      "Organ and Tissue Segmentation",
+      "Image Registration and Fusion",
+      "Computer-Aided Diagnosis",
+      "Radiotherapy Treatment Planning"
+    ],
+    "industries": [
+      "Imaging Equipment Manufacturers",
+      "Healthcare AI Startups",
+      "Hospitals and Diagnostic Centers",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Python and MATLAB Programming",
+      "Deep Learning Frameworks",
+      "Image Segmentation and Registration",
+      "DICOM and Medical Data Handling",
+      "Algorithm Optimization"
+    ],
+    "careerOpportunities": [
+      "medical-imaging-engineer",
+      "ai-healthcare-engineer",
+      "biomedical-data-scientist",
+      "biomedical-research-scientist",
+      "medical-device-design-engineer"
+    ],
+    "futureScope": "Convolutional and transformer-based models are approaching expert-level performance in detecting disease from images. Federated learning, explainable AI, and integration into clinical workflows will make automated image analysis a routine part of radiology.",
+    "recommendedBooks": [
+      {
+        "title": "Medical Image Processing, Reconstruction and Analysis",
+        "author": "Jiri Jan",
+        "description": "A thorough treatment of algorithms for processing and reconstructing medical images."
+      },
+      {
+        "title": "Medical Imaging Signals and Systems",
+        "author": "Jerry L. Prince, Jonathan M. Links",
+        "description": "Covers the physics and mathematics behind medical imaging modalities."
+      }
+    ],
+    "certifications": [
+      "MathWorks MATLAB Certification",
+      "DeepLearning.AI Deep Learning Specialization",
+      "Certified Imaging Informatics Professional (CIIP)"
+    ],
+    "relatedDomains": [
+      "medical-imaging",
+      "computer-vision-healthcare",
+      "machine-learning-biomedical",
+      "biomedical-signal-processing",
+      "ai-in-healthcare"
+    ],
+    "category": "AI & Computing",
+    "roadmaps": [
+      "medical-image-processing",
+      "python",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "computer-vision-healthcare",
+    "name": "Computer Vision in Healthcare",
+    "icon": "Eye",
+    "color": "#6366F1",
+    "tagline": "Teaching machines to see and diagnose",
+    "overview": "Computer Vision in Healthcare applies image and video understanding techniques to medical and clinical settings. It powers automated diagnosis from scans, surgical scene analysis, patient monitoring through cameras, and analysis of pathology slides. By combining deep learning with domain expertise, it augments clinicians with fast, consistent, and scalable visual interpretation. The field is central to reducing diagnostic errors and expanding access to specialist-level assessment.",
+    "coreSubjects": [
+      "Computer Vision Fundamentals",
+      "Deep Learning and Neural Networks",
+      "Digital Image Processing",
+      "Statistics and Probability",
+      "Clinical Data and Anatomy"
+    ],
+    "applications": [
+      "Pathology and Histology Slide Analysis",
+      "Diabetic Retinopathy and Skin Lesion Screening",
+      "Surgical Navigation and Scene Understanding",
+      "Contactless Patient Monitoring",
+      "Automated Diagnosis from Medical Images"
+    ],
+    "industries": [
+      "Healthcare AI Startups",
+      "Imaging Equipment Manufacturers",
+      "Hospitals and Diagnostic Centers",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Python and Deep Learning Frameworks",
+      "Convolutional Neural Networks",
+      "Image Annotation and Data Curation",
+      "Model Deployment (MLOps)",
+      "Clinical Validation"
+    ],
+    "careerOpportunities": [
+      "ai-healthcare-engineer",
+      "biomedical-data-scientist",
+      "medical-imaging-engineer",
+      "biomedical-research-scientist",
+      "healthcare-data-analyst"
+    ],
+    "futureScope": "Vision transformers, self-supervised learning, and multimodal models that combine images with clinical text are raising accuracy and generalization. Real-time surgical guidance and point-of-care screening on mobile devices will bring expert vision to underserved regions.",
+    "recommendedBooks": [
+      {
+        "title": "Deep Learning for Medical Image Analysis",
+        "author": "S. Kevin Zhou, Hayit Greenspan, Dinggang Shen",
+        "description": "Focuses on applying deep learning to medical imaging and vision tasks."
+      },
+      {
+        "title": "Computer Vision: Algorithms and Applications",
+        "author": "Richard Szeliski",
+        "description": "A comprehensive and widely used foundation for modern computer vision."
+      }
+    ],
+    "certifications": [
+      "DeepLearning.AI Deep Learning Specialization",
+      "TensorFlow Developer Certificate",
+      "AWS Certified Machine Learning – Specialty"
+    ],
+    "relatedDomains": [
+      "medical-image-processing",
+      "machine-learning-biomedical",
+      "ai-in-healthcare",
+      "medical-imaging",
+      "biomedical-data-science"
+    ],
+    "category": "AI & Computing",
+    "roadmaps": [
+      "medical-image-processing",
+      "machine-learning",
+      "artificial-intelligence"
+    ]
+  },
+  {
+    "id": "machine-learning-biomedical",
+    "name": "Machine Learning in Biomedical Engineering",
+    "icon": "Cpu",
+    "color": "#8B5CF6",
+    "tagline": "Data-driven intelligence for medicine",
+    "overview": "Machine Learning in Biomedical Engineering applies statistical learning and neural networks to biomedical data such as signals, images, genomics, and electronic health records. It builds predictive models for diagnosis, prognosis, drug discovery, and treatment optimization. Engineers must handle noisy, imbalanced, and privacy-sensitive medical data while ensuring interpretability and clinical safety. This domain is a driving force behind the modern transformation of healthcare into a data-driven discipline.",
+    "coreSubjects": [
+      "Machine Learning Algorithms",
+      "Deep Learning",
+      "Statistics and Probability",
+      "Data Engineering",
+      "Biomedical Data Sources"
+    ],
+    "applications": [
+      "Disease Prediction and Risk Modeling",
+      "Drug Discovery and Repurposing",
+      "Personalized Treatment Recommendation",
+      "Biosignal and Image Classification",
+      "Clinical Decision Support Systems"
+    ],
+    "industries": [
+      "Healthcare AI Startups",
+      "Pharmaceuticals",
+      "Hospitals and Health Systems",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Python and ML Frameworks",
+      "Model Development and Evaluation",
+      "Feature Engineering",
+      "Handling Medical Data (EHR, DICOM)",
+      "Model Interpretability and Validation"
+    ],
+    "careerOpportunities": [
+      "ai-healthcare-engineer",
+      "biomedical-data-scientist",
+      "healthcare-data-analyst",
+      "biomedical-research-scientist",
+      "computational-biologist"
+    ],
+    "futureScope": "Foundation models, federated learning, and explainable AI are addressing data scarcity, privacy, and trust barriers in clinical adoption. As regulators establish frameworks for AI as a medical device, machine learning will become embedded across diagnostics, monitoring, and therapy.",
+    "recommendedBooks": [
+      {
+        "title": "Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again",
+        "author": "Eric Topol",
+        "description": "An accessible look at how machine learning is reshaping clinical practice."
+      },
+      {
+        "title": "Pattern Recognition and Machine Learning",
+        "author": "Christopher M. Bishop",
+        "description": "A rigorous foundation in the machine learning methods used across biomedical data."
+      }
+    ],
+    "certifications": [
+      "DeepLearning.AI Machine Learning Specialization",
+      "TensorFlow Developer Certificate",
+      "AWS Certified Machine Learning – Specialty"
+    ],
+    "relatedDomains": [
+      "ai-in-healthcare",
+      "biomedical-data-science",
+      "medical-image-processing",
+      "biomedical-signal-processing",
+      "computational-biology"
+    ],
+    "category": "AI & Computing",
+    "roadmaps": [
+      "machine-learning",
+      "artificial-intelligence",
+      "python"
+    ]
+  },
+  {
+    "id": "computational-biology",
+    "name": "Computational Biology",
+    "icon": "FlaskConical",
+    "color": "#0D9488",
+    "tagline": "Decoding life with computation",
+    "overview": "Computational Biology uses algorithms, mathematical models, and simulations to understand biological systems and molecular processes. It analyzes DNA, RNA, and protein data to reveal how genes, cells, and organisms function and evolve. Researchers model biochemical networks, predict protein structures, and simulate cellular dynamics to accelerate discovery. The field is essential to modern genomics, drug design, and systems biology.",
+    "coreSubjects": [
+      "Molecular Biology and Genetics",
+      "Algorithms and Data Structures",
+      "Statistics and Probability",
+      "Bioinformatics",
+      "Systems Biology Modeling"
+    ],
+    "applications": [
+      "Genome Assembly and Analysis",
+      "Protein Structure Prediction",
+      "Molecular Docking and Drug Design",
+      "Biological Network Modeling",
+      "Evolutionary and Phylogenetic Analysis"
+    ],
+    "industries": [
+      "Biotechnology",
+      "Pharmaceuticals",
+      "Research Institutes",
+      "Genomics Companies"
+    ],
+    "skillsRequired": [
+      "Python and R Programming",
+      "Sequence Analysis Tools",
+      "Statistical Modeling",
+      "Machine Learning",
+      "Biological Database Management"
+    ],
+    "careerOpportunities": [
+      "computational-biologist",
+      "bioinformatics-scientist",
+      "genomics-researcher",
+      "biomedical-data-scientist",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "AI breakthroughs like accurate protein structure prediction are transforming molecular biology and drug discovery. Multi-omics integration and large-scale simulation will enable predictive, systems-level understanding of health and disease.",
+    "recommendedBooks": [
+      {
+        "title": "Bioinformatics and Functional Genomics",
+        "author": "Jonathan Pevsner",
+        "description": "A comprehensive introduction to computational analysis of genes and genomes."
+      },
+      {
+        "title": "Biological Sequence Analysis",
+        "author": "Richard Durbin, Sean R. Eddy, Anders Krogh, Graeme Mitchison",
+        "description": "A classic text on probabilistic models for biological sequences."
+      }
+    ],
+    "certifications": [
+      "Coursera Bioinformatics Specialization (UC San Diego)",
+      "EMBL-EBI Bioinformatics Training Certificates",
+      "DeepLearning.AI Machine Learning Specialization"
+    ],
+    "relatedDomains": [
+      "bioinformatics",
+      "genomics",
+      "machine-learning-biomedical",
+      "biomedical-data-science",
+      "precision-medicine"
+    ],
+    "category": "Research",
+    "roadmaps": [
+      "python",
+      "machine-learning",
+      "research-writing"
+    ]
+  },
+  {
+    "id": "genomics",
+    "name": "Genomics",
+    "icon": "Dna",
+    "color": "#059669",
+    "tagline": "Reading the blueprint of life",
+    "overview": "Genomics is the study of the complete set of genes in an organism, including their structure, function, evolution, and interactions. It relies on high-throughput sequencing and computational analysis to map genomes and link genetic variation to health and disease. Applications range from diagnosing inherited disorders to guiding targeted cancer therapies. Genomics forms the scientific backbone of precision medicine and modern biotechnology.",
+    "coreSubjects": [
+      "Molecular Biology and Genetics",
+      "Next-Generation Sequencing",
+      "Bioinformatics",
+      "Statistics and Population Genetics",
+      "Data Analysis"
+    ],
+    "applications": [
+      "Genetic Disease Diagnosis",
+      "Cancer Genomics and Targeted Therapy",
+      "Pharmacogenomics",
+      "Newborn and Carrier Screening",
+      "Agricultural and Microbial Genomics"
+    ],
+    "industries": [
+      "Genomics and Sequencing Companies",
+      "Biotechnology",
+      "Hospitals and Clinical Labs",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Sequencing Data Analysis",
+      "Python and R Programming",
+      "Variant Calling and Annotation",
+      "Statistical Genetics",
+      "Laboratory Techniques"
+    ],
+    "careerOpportunities": [
+      "genomics-researcher",
+      "bioinformatics-scientist",
+      "computational-biologist",
+      "biomedical-data-scientist",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "Falling sequencing costs, long-read technologies, and AI-driven interpretation are making whole-genome analysis routine in clinical care. Integration of genomics with electronic health records will drive population-scale precision medicine and preventive healthcare.",
+    "recommendedBooks": [
+      {
+        "title": "Genomes 4",
+        "author": "T. A. Brown",
+        "description": "A leading textbook covering the structure, function, and analysis of genomes."
+      },
+      {
+        "title": "Bioinformatics and Functional Genomics",
+        "author": "Jonathan Pevsner",
+        "description": "Bridges genomics with the computational tools used to analyze it."
+      }
+    ],
+    "certifications": [
+      "Coursera Genomic Data Science Specialization (Johns Hopkins)",
+      "EMBL-EBI Bioinformatics Training Certificates",
+      "Illumina Sequencing Training"
+    ],
+    "relatedDomains": [
+      "computational-biology",
+      "bioinformatics",
+      "precision-medicine",
+      "biomedical-data-science",
+      "cancer-engineering"
+    ],
+    "category": "Biomedical Science",
+    "roadmaps": [
+      "python",
+      "machine-learning",
+      "research-writing"
+    ]
+  },
+  {
+    "id": "precision-medicine",
+    "name": "Precision Medicine",
+    "icon": "Pill",
+    "color": "#0F4C81",
+    "tagline": "The right treatment for the right patient",
+    "overview": "Precision Medicine tailors prevention, diagnosis, and treatment to the individual characteristics of each patient, including their genes, environment, and lifestyle. It integrates genomics, biomarkers, imaging, and data analytics to move beyond one-size-fits-all care. Engineers and scientists build the diagnostic tools, data pipelines, and decision systems that make personalized therapy possible. This approach improves outcomes and reduces adverse effects across oncology, cardiology, and rare diseases.",
+    "coreSubjects": [
+      "Genomics and Molecular Biology",
+      "Biomarker Discovery",
+      "Bioinformatics and Data Science",
+      "Pharmacogenomics",
+      "Clinical Research Methods"
+    ],
+    "applications": [
+      "Targeted Cancer Therapy",
+      "Pharmacogenomic Drug Dosing",
+      "Companion Diagnostics",
+      "Rare Disease Diagnosis",
+      "Risk Prediction and Prevention"
+    ],
+    "industries": [
+      "Pharmaceuticals",
+      "Genomics Companies",
+      "Hospitals and Health Systems",
+      "Diagnostics and Biotechnology"
+    ],
+    "skillsRequired": [
+      "Genomic Data Interpretation",
+      "Biostatistics",
+      "Data Integration and Analysis",
+      "Clinical Research Knowledge",
+      "Bioinformatics Tools"
+    ],
+    "careerOpportunities": [
+      "translational-researcher",
+      "biomedical-data-scientist",
+      "genomics-researcher",
+      "clinical-research-associate",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "Multi-omics profiling, AI-driven decision support, and large biobanks are expanding precision medicine from oncology into everyday care. Real-world data and continuous monitoring will enable dynamic, individualized treatment that adapts over a patient's lifetime.",
+    "recommendedBooks": [
+      {
+        "title": "The Innovator's Prescription: A Disruptive Solution for Health Care",
+        "author": "Clayton M. Christensen, Jerome H. Grossman, Jason Hwang",
+        "description": "Explores how personalized and data-driven approaches transform healthcare delivery."
+      },
+      {
+        "title": "Genomic and Precision Medicine: Foundations, Translation, and Implementation",
+        "author": "Geoffrey S. Ginsburg, Huntington F. Willard",
+        "description": "A comprehensive reference on the science and practice of precision medicine."
+      }
+    ],
+    "certifications": [
+      "Coursera Genomic Data Science Specialization (Johns Hopkins)",
+      "Good Clinical Practice (GCP) Certification",
+      "Regulatory Affairs Certification (RAC)"
+    ],
+    "relatedDomains": [
+      "genomics",
+      "biomedical-data-science",
+      "cancer-engineering",
+      "translational-medicine",
+      "computational-biology"
+    ],
+    "category": "Clinical",
+    "roadmaps": [
+      "python",
+      "machine-learning",
+      "research-writing"
+    ]
+  },
+  {
+    "id": "biomedical-data-science",
+    "name": "Biomedical Data Science",
+    "icon": "Database",
+    "color": "#1AB7B0",
+    "tagline": "Turning health data into knowledge",
+    "overview": "Biomedical Data Science combines statistics, computing, and domain expertise to extract insight from large, complex health datasets. It works with electronic health records, genomics, imaging, wearables, and clinical trial data to support research and decision-making. Practitioners build data pipelines, predictive models, and visualizations while safeguarding privacy and ensuring reproducibility. The field is essential to evidence-based medicine, population health, and the responsible use of AI in healthcare.",
+    "coreSubjects": [
+      "Statistics and Biostatistics",
+      "Machine Learning",
+      "Data Engineering",
+      "Databases and Data Management",
+      "Healthcare Informatics"
+    ],
+    "applications": [
+      "Clinical Predictive Analytics",
+      "Population and Public Health Studies",
+      "Electronic Health Record Mining",
+      "Clinical Trial Data Analysis",
+      "Health Outcomes Research"
+    ],
+    "industries": [
+      "Hospitals and Health Systems",
+      "Pharmaceuticals",
+      "Healthcare Analytics Companies",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Python and R Programming",
+      "SQL and Data Wrangling",
+      "Statistical Modeling",
+      "Machine Learning",
+      "Data Visualization"
+    ],
+    "careerOpportunities": [
+      "biomedical-data-scientist",
+      "healthcare-data-analyst",
+      "healthcare-informatics-specialist",
+      "ai-healthcare-engineer",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "Interoperability standards, cloud platforms, and privacy-preserving analytics are unlocking the value of previously siloed health data. Real-time analytics and AI-augmented decision support will make data science a routine part of clinical operations and research.",
+    "recommendedBooks": [
+      {
+        "title": "The Elements of Statistical Learning",
+        "author": "Trevor Hastie, Robert Tibshirani, Jerome Friedman",
+        "description": "A foundational text on the statistical and machine learning methods used in data science."
+      },
+      {
+        "title": "Biomedical Informatics: Computer Applications in Health Care and Biomedicine",
+        "author": "Edward H. Shortliffe, James J. Cimino",
+        "description": "The standard reference connecting informatics with clinical and biomedical practice."
+      }
+    ],
+    "certifications": [
+      "Coursera Data Science Specialization (Johns Hopkins)",
+      "Microsoft Certified: Azure Data Scientist Associate",
+      "AWS Certified Machine Learning – Specialty"
+    ],
+    "relatedDomains": [
+      "health-informatics",
+      "machine-learning-biomedical",
+      "genomics",
+      "digital-health",
+      "ai-in-healthcare"
+    ],
+    "category": "AI & Computing",
+    "roadmaps": [
+      "python",
+      "machine-learning",
+      "artificial-intelligence"
+    ]
+  },
+  {
+    "id": "brain-computer-interfaces",
+    "name": "Brain-Computer Interfaces",
+    "icon": "Brain",
+    "color": "#7C3AED",
+    "tagline": "Connecting minds to machines",
+    "overview": "Brain-Computer Interfaces (BCIs) create direct communication pathways between the brain and external devices by recording and decoding neural activity. They translate signals from techniques like EEG, ECoG, or implanted electrodes into commands that control computers, prosthetics, or communication aids. BCIs combine neuroscience, signal processing, machine learning, and hardware design. They offer transformative possibilities for people with paralysis, communication disorders, and neurological conditions.",
+    "coreSubjects": [
+      "Neuroscience and Electrophysiology",
+      "Biomedical Signal Processing",
+      "Machine Learning",
+      "Electronics and Instrumentation",
+      "Neural Interface Engineering"
+    ],
+    "applications": [
+      "Assistive Communication for Paralysis",
+      "Neuroprosthetic and Robotic Limb Control",
+      "Neurorehabilitation",
+      "Cognitive and Attention Monitoring",
+      "Neurofeedback Therapy"
+    ],
+    "industries": [
+      "Neurotechnology Startups",
+      "Medical Device Manufacturing",
+      "Research Institutes",
+      "Rehabilitation Centers"
+    ],
+    "skillsRequired": [
+      "Neural Signal Acquisition and Decoding",
+      "Signal Processing",
+      "Machine Learning",
+      "Embedded and Hardware Design",
+      "Python and MATLAB Programming"
+    ],
+    "careerOpportunities": [
+      "neural-engineer",
+      "biomedical-signal-processing-engineer",
+      "biomedical-rd-engineer",
+      "neuroscience-researcher",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "High-density electrodes, wireless implants, and deep learning decoders are rapidly increasing BCI bandwidth and reliability. Emerging invasive and non-invasive systems aim to restore movement, speech, and sensation, bringing clinical BCIs closer to everyday use.",
+    "recommendedBooks": [
+      {
+        "title": "Brain-Computer Interfaces: Principles and Practice",
+        "author": "Jonathan Wolpaw, Elizabeth Winter Wolpaw",
+        "description": "The definitive reference on the science and engineering of BCIs."
+      },
+      {
+        "title": "Principles of Neural Science",
+        "author": "Eric R. Kandel, James H. Schwartz, Thomas M. Jessell",
+        "description": "The authoritative foundation in neuroscience underlying neural interfaces."
+      }
+    ],
+    "certifications": [
+      "DeepLearning.AI Deep Learning Specialization",
+      "MathWorks MATLAB Certification",
+      "Certified Biomedical Equipment Technician (CBET)"
+    ],
+    "relatedDomains": [
+      "neural-engineering",
+      "bioelectronics",
+      "biomedical-signal-processing",
+      "rehabilitation-engineering",
+      "biomechatronics"
+    ],
+    "category": "Emerging Technologies",
+    "roadmaps": [
+      "machine-learning",
+      "matlab",
+      "embedded-systems"
+    ]
+  },
+  {
+    "id": "cardiovascular-engineering",
+    "name": "Cardiovascular Engineering",
+    "icon": "Heart",
+    "color": "#DC2626",
+    "tagline": "Engineering solutions for the heart and vessels",
+    "overview": "Cardiovascular Engineering applies engineering principles to understand, diagnose, and treat diseases of the heart and blood vessels. It encompasses hemodynamics, device design, and computational modeling of blood flow and cardiac mechanics. Engineers develop stents, heart valves, ventricular assist devices, and diagnostic tools that address the world's leading cause of death. The field blends fluid mechanics, materials science, and physiology to improve cardiac care.",
+    "coreSubjects": [
+      "Cardiovascular Physiology",
+      "Fluid Mechanics and Hemodynamics",
+      "Biomaterials",
+      "Computational Modeling (CFD/FEA)",
+      "Medical Device Design"
+    ],
+    "applications": [
+      "Stents and Heart Valves",
+      "Ventricular Assist Devices",
+      "Vascular Grafts",
+      "Cardiac Monitoring and Diagnostics",
+      "Patient-Specific Flow Simulation"
+    ],
+    "industries": [
+      "Cardiovascular Device Companies",
+      "Hospitals and Cardiac Centers",
+      "Research Institutes",
+      "Medical Device Manufacturing"
+    ],
+    "skillsRequired": [
+      "Computational Fluid Dynamics",
+      "Finite Element Analysis",
+      "Biomaterial Selection",
+      "CAD and Device Design",
+      "Regulatory Compliance (FDA/ISO)"
+    ],
+    "careerOpportunities": [
+      "biomedical-rd-engineer",
+      "medical-device-design-engineer",
+      "biomechanical-engineer",
+      "biomedical-research-scientist",
+      "artificial-organ-engineer"
+    ],
+    "futureScope": "Patient-specific computational modeling, bioresorbable stents, and minimally invasive transcatheter devices are reshaping cardiac treatment. Integration of imaging, simulation, and AI promises personalized planning and next-generation implantable heart technologies.",
+    "recommendedBooks": [
+      {
+        "title": "Cardiovascular Biomechanics",
+        "author": "Peter R. Hoskins, Patricia V. Lawford, Barry J. Doyle",
+        "description": "Covers the mechanics of the heart, vessels, and cardiovascular devices."
+      },
+      {
+        "title": "Cardiovascular Physiology",
+        "author": "David E. Mohrman, Lois Jane Heller",
+        "description": "A clear grounding in the physiology essential to cardiovascular engineering."
+      }
+    ],
+    "certifications": [
+      "ISO 13485 Medical Devices Quality Management",
+      "Certified SolidWorks Professional (CSWP)",
+      "Regulatory Affairs Certification (RAC)"
+    ],
+    "relatedDomains": [
+      "biomaterials",
+      "biomechanics",
+      "artificial-organs",
+      "biomedical-implants",
+      "medical-device-design"
+    ],
+    "category": "Biomedical Engineering",
+    "roadmaps": [
+      "solidworks",
+      "matlab",
+      "research-writing"
+    ]
+  },
+  {
+    "id": "cancer-engineering",
+    "name": "Cancer Engineering",
+    "icon": "TestTube",
+    "color": "#9333EA",
+    "tagline": "Engineering the fight against cancer",
+    "overview": "Cancer Engineering applies engineering and quantitative sciences to understand, detect, and treat cancer. It integrates microfluidics, nanotechnology, tumor modeling, and targeted drug delivery to tackle tumor complexity. Engineers build tumor-on-a-chip platforms, biosensors for early detection, and nanoparticle systems that deliver therapy precisely to cancer cells. The field accelerates discovery and enables more effective, less toxic treatments.",
+    "coreSubjects": [
+      "Cancer Biology",
+      "Microfluidics and Nanotechnology",
+      "Drug Delivery Systems",
+      "Bioimaging",
+      "Computational Tumor Modeling"
+    ],
+    "applications": [
+      "Targeted Nanoparticle Drug Delivery",
+      "Tumor-on-a-Chip Models",
+      "Early Cancer Detection Biosensors",
+      "Immunotherapy Engineering",
+      "Radiotherapy and Treatment Planning"
+    ],
+    "industries": [
+      "Biotechnology",
+      "Pharmaceuticals",
+      "Research Institutes",
+      "Diagnostics Companies"
+    ],
+    "skillsRequired": [
+      "Cell Culture and Assays",
+      "Microfabrication",
+      "Nanoparticle Formulation",
+      "Computational Modeling",
+      "Bioimaging Techniques"
+    ],
+    "careerOpportunities": [
+      "cancer-researcher",
+      "nanomedicine-researcher",
+      "biomedical-research-scientist",
+      "translational-researcher",
+      "tissue-engineer"
+    ],
+    "futureScope": "Organ-on-a-chip tumor models, liquid biopsy biosensors, and AI-guided nanomedicine are enabling earlier detection and highly personalized cancer therapy. Convergence of engineering with immunotherapy and genomics is opening powerful new treatment frontiers.",
+    "recommendedBooks": [
+      {
+        "title": "The Biology of Cancer",
+        "author": "Robert A. Weinberg",
+        "description": "The leading textbook on the molecular and cellular basis of cancer."
+      },
+      {
+        "title": "Physical Sciences and Engineering Advances in Life Sciences and Oncology",
+        "author": "Paul Janmey, Daniel Fletcher, et al.",
+        "description": "Explores how engineering and physical sciences advance cancer research and treatment."
+      }
+    ],
+    "certifications": [
+      "Good Laboratory Practice (GLP) Training",
+      "Coursera Nanotechnology and Nanosensors Certificate",
+      "Good Clinical Practice (GCP) Certification"
+    ],
+    "relatedDomains": [
+      "nanomedicine",
+      "drug-delivery-systems",
+      "microfluidics",
+      "genomics",
+      "biomedical-research"
+    ],
+    "category": "Research",
+    "roadmaps": [
+      "python",
+      "research-writing",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "biomechatronics",
+    "name": "Biomechatronics",
+    "icon": "Bot",
+    "color": "#0891B2",
+    "tagline": "Fusing biology, mechanics, and electronics",
+    "overview": "Biomechatronics integrates biology, mechanics, electronics, and control to create devices that work in harmony with the human body. It underlies powered prosthetics, exoskeletons, and assistive robots that sense user intent and respond in real time. Engineers combine sensors, actuators, and biosignal decoding to restore or augment human movement. The field is central to advanced rehabilitation and human performance enhancement.",
+    "coreSubjects": [
+      "Mechatronics and Control Systems",
+      "Biomechanics",
+      "Sensors and Actuators",
+      "Biosignal Processing",
+      "Embedded Systems"
+    ],
+    "applications": [
+      "Powered Prosthetic Limbs",
+      "Wearable Exoskeletons",
+      "Assistive and Rehabilitation Robots",
+      "Human-Machine Interfaces",
+      "Functional Electrical Stimulation Systems"
+    ],
+    "industries": [
+      "Assistive Technology Companies",
+      "Rehabilitation Centers",
+      "Robotics Startups",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Control System Design",
+      "Mechanical Design (CAD)",
+      "Sensor and Actuator Integration",
+      "Embedded Programming",
+      "EMG Signal Processing"
+    ],
+    "careerOpportunities": [
+      "biomechatronics-engineer",
+      "rehabilitation-engineer",
+      "prosthetics-orthotics-engineer",
+      "medical-robotics-engineer",
+      "biomedical-engineer"
+    ],
+    "futureScope": "Advances in soft robotics, neural interfacing, and lightweight actuators are producing intuitive, natural-feeling assistive devices. Closed-loop control with sensory feedback will make prosthetics and exoskeletons more responsive, restoring near-natural movement.",
+    "recommendedBooks": [
+      {
+        "title": "Introduction to Mechatronics and Measurement Systems",
+        "author": "David G. Alciatore, Michael B. Histand",
+        "description": "A solid foundation in the mechatronic principles behind biomechatronic devices."
+      },
+      {
+        "title": "Fundamentals of Biomechanics",
+        "author": "Duane Knudson",
+        "description": "Provides the biomechanical basis needed for human-integrated devices."
+      }
+    ],
+    "certifications": [
+      "Certified SolidWorks Professional (CSWP)",
+      "Certified Biomedical Equipment Technician (CBET)",
+      "Coursera Robotics Specialization (Penn)"
+    ],
+    "relatedDomains": [
+      "biomechanics",
+      "prosthetics-orthotics",
+      "rehabilitation-engineering",
+      "medical-robotics",
+      "brain-computer-interfaces"
+    ],
+    "category": "Robotics",
+    "roadmaps": [
+      "embedded-systems",
+      "solidworks",
+      "matlab"
+    ]
+  },
+  {
+    "id": "surgical-robotics",
+    "name": "Surgical Robotics",
+    "icon": "Bot",
+    "color": "#0F4C81",
+    "tagline": "Precision robotics for the operating room",
+    "overview": "Surgical Robotics develops robotic systems that assist surgeons in performing minimally invasive, precise, and repeatable procedures. It combines robotics, control systems, medical imaging, and human-machine interfaces to extend surgical capability. Platforms translate a surgeon's hand movements into scaled, tremor-free motions of miniature instruments inside the body. This technology reduces patient trauma, shortens recovery, and enables procedures once considered too complex.",
+    "coreSubjects": [
+      "Robotics and Kinematics",
+      "Control Systems",
+      "Medical Imaging and Navigation",
+      "Haptics and Human-Machine Interfaces",
+      "Sterilization and Safety Engineering"
+    ],
+    "applications": [
+      "Minimally Invasive Surgery",
+      "Image-Guided and Navigated Surgery",
+      "Microsurgery and Neurosurgery",
+      "Orthopedic Robotic Surgery",
+      "Telesurgery"
+    ],
+    "industries": [
+      "Surgical Robotics Companies",
+      "Hospitals and Surgical Centers",
+      "Medical Device Manufacturing",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Robot Kinematics and Control",
+      "Real-Time Software Development",
+      "Medical Imaging Integration",
+      "Mechanical and Electronic Design",
+      "Regulatory Compliance (FDA/ISO)"
+    ],
+    "careerOpportunities": [
+      "surgical-robotics-engineer",
+      "medical-robotics-engineer",
+      "biomedical-rd-engineer",
+      "medical-device-design-engineer",
+      "clinical-applications-specialist"
+    ],
+    "futureScope": "Autonomy features, AI-guided navigation, and augmented reality overlays are enhancing surgical precision and consistency. Smaller, more affordable, and increasingly intelligent systems will broaden access to robotic surgery across specialties and regions.",
+    "recommendedBooks": [
+      {
+        "title": "Springer Handbook of Robotics",
+        "author": "Bruno Siciliano, Oussama Khatib",
+        "description": "The comprehensive reference covering robotics fundamentals including medical robotics."
+      },
+      {
+        "title": "Medical Robotics",
+        "author": "Jocelyne Troccaz",
+        "description": "Focuses on the design and application of robotic systems in surgery and medicine."
+      }
+    ],
+    "certifications": [
+      "Coursera Robotics Specialization (Penn)",
+      "ISO 13485 Medical Devices Quality Management",
+      "Regulatory Affairs Certification (RAC)"
+    ],
+    "relatedDomains": [
+      "medical-robotics",
+      "healthcare-robotics",
+      "medical-imaging",
+      "biomechatronics",
+      "medical-device-design"
+    ],
+    "category": "Robotics",
+    "roadmaps": [
+      "embedded-systems",
+      "matlab",
+      "solidworks"
+    ]
+  },
+  {
+    "id": "healthcare-robotics",
+    "name": "Healthcare Robotics",
+    "icon": "Bot",
+    "color": "#14B8A6",
+    "tagline": "Robots that care, assist, and heal",
+    "overview": "Healthcare Robotics designs robotic systems that support patient care, rehabilitation, hospital logistics, and elderly assistance. It spans rehabilitation robots, service and disinfection robots, telepresence systems, and socially assistive robots. Engineers combine robotics, AI, sensing, and human-robot interaction to create safe, dependable machines that work alongside people. The field helps address staffing shortages, improves care quality, and extends independence for aging populations.",
+    "coreSubjects": [
+      "Robotics and Control Systems",
+      "Artificial Intelligence and Perception",
+      "Human-Robot Interaction",
+      "Sensors and Actuators",
+      "Safety and Ergonomics"
+    ],
+    "applications": [
+      "Rehabilitation and Mobility Robots",
+      "Hospital Logistics and Disinfection Robots",
+      "Elderly and Assistive Care Robots",
+      "Telepresence and Remote Care",
+      "Socially Assistive Robotics"
+    ],
+    "industries": [
+      "Robotics Companies",
+      "Hospitals and Care Facilities",
+      "Assistive Technology Startups",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Robotics Programming (ROS)",
+      "Control System Design",
+      "Computer Vision and AI",
+      "Sensor Integration",
+      "Human-Centered Design"
+    ],
+    "careerOpportunities": [
+      "medical-robotics-engineer",
+      "healthcare-technology-specialist",
+      "rehabilitation-engineer",
+      "biomedical-engineer",
+      "biomedical-rd-engineer"
+    ],
+    "futureScope": "Advances in AI perception, safe collaborative robotics, and natural human-robot interaction are expanding robots' roles across care settings. As populations age, assistive and service robots will become vital partners in delivering scalable, compassionate healthcare.",
+    "recommendedBooks": [
+      {
+        "title": "Springer Handbook of Robotics",
+        "author": "Bruno Siciliano, Oussama Khatib",
+        "description": "A comprehensive reference on robotics fundamentals applicable to healthcare systems."
+      },
+      {
+        "title": "Robotics, Vision and Control",
+        "author": "Peter Corke",
+        "description": "A practical guide to the perception and control techniques used in service robots."
+      }
+    ],
+    "certifications": [
+      "Coursera Robotics Specialization (Penn)",
+      "ROS Robotics Developer Certification",
+      "Certified Biomedical Equipment Technician (CBET)"
+    ],
+    "relatedDomains": [
+      "medical-robotics",
+      "surgical-robotics",
+      "rehabilitation-engineering",
+      "biomechatronics",
+      "digital-health"
+    ],
+    "category": "Robotics",
+    "roadmaps": [
+      "embedded-systems",
+      "artificial-intelligence",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "digital-health",
+    "name": "Digital Health",
+    "icon": "HeartPulse",
+    "color": "#1AB7B0",
+    "tagline": "Transforming care through connected technology",
+    "overview": "Digital Health integrates digital technologies with healthcare to enhance the efficiency of care delivery and make medicine more personalized and precise. It spans mobile health apps, wearable sensors, electronic health records, and data analytics platforms that empower both patients and clinicians. By connecting devices, data, and people, digital health enables continuous monitoring, remote engagement, and evidence-based decision-making. This domain sits at the intersection of software engineering, clinical practice, and behavioral science.",
+    "coreSubjects": [
+      "Mobile and Web App Development",
+      "Health Data Analytics",
+      "Human-Computer Interaction",
+      "Interoperability Standards (HL7, FHIR)",
+      "Data Privacy and Security"
+    ],
+    "applications": [
+      "Mobile Health (mHealth) Apps",
+      "Remote Patient Monitoring",
+      "Chronic Disease Management Platforms",
+      "Electronic Health Records",
+      "Personalized Wellness and Fitness Tracking"
+    ],
+    "industries": [
+      "Digital Health Startups",
+      "Hospitals and Health Systems",
+      "Health Insurance (Payers)",
+      "Consumer Electronics",
+      "Pharmaceutical Companies"
+    ],
+    "skillsRequired": [
+      "Software Development",
+      "UX/UI Design",
+      "Data Analytics",
+      "Regulatory and Privacy Compliance",
+      "Cloud Computing",
+      "Clinical Workflow Understanding"
+    ],
+    "careerOpportunities": [
+      "digital-health-engineer",
+      "healthcare-data-analyst",
+      "digital-health-specialist",
+      "healthcare-technology-specialist",
+      "medical-device-product-manager"
+    ],
+    "futureScope": "Digital health is expanding rapidly as AI, cloud computing, and 5G enable smarter, always-connected care. Personalized medicine and predictive analytics will shift healthcare from reactive treatment toward proactive prevention. Regulatory frameworks and reimbursement models are maturing, opening major opportunities for engineers who can build compliant, patient-centered platforms.",
+    "recommendedBooks": [
+      {
+        "title": "The Digital Doctor: Hope, Hype, and Harm at the Dawn of Medicine's Computer Age",
+        "author": "Robert Wachter",
+        "description": "An insightful look at how digital technology is reshaping medicine, its promises, and its pitfalls."
+      },
+      {
+        "title": "The Patient Will See You Now: The Future of Medicine Is in Your Hands",
+        "author": "Eric Topol",
+        "description": "Explores how smartphones and digital tools are democratizing healthcare and empowering patients."
+      }
+    ],
+    "certifications": [
+      "Certified Professional in Healthcare Information and Management Systems (CPHIMS)",
+      "Digital Health Certificate (Stanford Medicine / Coursera)",
+      "HL7 FHIR Fundamentals Certification"
+    ],
+    "relatedDomains": [
+      "telemedicine",
+      "health-informatics",
+      "healthcare-iot",
+      "wearable-healthcare-technology",
+      "ai-in-healthcare"
+    ],
+    "category": "Digital Health",
+    "roadmaps": [
+      "python",
+      "iot",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "telemedicine",
+    "name": "Telemedicine",
+    "icon": "Stethoscope",
+    "color": "#0F6FB1",
+    "tagline": "Delivering care across any distance",
+    "overview": "Telemedicine uses telecommunications technology to deliver clinical care remotely, connecting patients and providers regardless of geography. It combines secure video conferencing, remote diagnostics, and real-time data transmission to enable consultations, monitoring, and follow-up from a distance. This domain has become essential for expanding access to care in rural and underserved communities. Engineers in telemedicine design the platforms, devices, and networks that make virtual care reliable and secure.",
+    "coreSubjects": [
+      "Telecommunications and Networking",
+      "Video and Audio Streaming",
+      "Remote Monitoring Systems",
+      "Cybersecurity",
+      "Clinical Informatics"
+    ],
+    "applications": [
+      "Virtual Consultations (Teleconsultation)",
+      "Tele-ICU and Remote Critical Care",
+      "Store-and-Forward Teleradiology",
+      "Remote Chronic Disease Monitoring",
+      "Tele-mental Health Services"
+    ],
+    "industries": [
+      "Telehealth Platform Providers",
+      "Hospitals and Clinics",
+      "Rural Health Networks",
+      "Medical Device Manufacturers",
+      "Health Insurance Providers"
+    ],
+    "skillsRequired": [
+      "Network and Systems Engineering",
+      "Video Conferencing Technology",
+      "Data Security and Encryption",
+      "Software Integration",
+      "Regulatory Compliance (HIPAA)",
+      "Clinical Communication"
+    ],
+    "careerOpportunities": [
+      "digital-health-engineer",
+      "healthcare-technology-specialist",
+      "clinical-applications-specialist",
+      "healthcare-iot-engineer",
+      "digital-health-specialist"
+    ],
+    "futureScope": "Telemedicine adoption has accelerated dramatically and is now a permanent fixture of modern healthcare. Advances in high-speed connectivity, remote diagnostic devices, and AI triage will make virtual visits richer and more accurate. Hybrid care models blending in-person and remote care will define the future, creating strong demand for engineers who can integrate secure, scalable telehealth systems.",
+    "recommendedBooks": [
+      {
+        "title": "Telemedicine Technologies: Big Data, Deep Learning, Robotics, Mobile and Remote Applications for Global Healthcare",
+        "author": "Fei Hu, Ali Hamou-Lhadj, Md Farhan Tomal",
+        "description": "A technical overview of the engineering behind modern telemedicine systems."
+      },
+      {
+        "title": "Understanding Telehealth",
+        "author": "Karen S. Rheuban, Elizabeth A. Krupinski",
+        "description": "A comprehensive guide covering the clinical, technical, and policy aspects of telehealth."
+      }
+    ],
+    "certifications": [
+      "Certified Telehealth Coordinator (CTC)",
+      "American Board of Telehealth Certificate",
+      "CPHIMS (Certified Professional in Healthcare Information and Management Systems)"
+    ],
+    "relatedDomains": [
+      "digital-health",
+      "health-informatics",
+      "healthcare-iot",
+      "wearable-healthcare-technology"
+    ],
+    "category": "Digital Health",
+    "roadmaps": [
+      "iot",
+      "python",
+      "embedded-systems"
+    ]
+  },
+  {
+    "id": "health-informatics",
+    "name": "Health Informatics",
+    "icon": "Database",
+    "color": "#2A6FA5",
+    "tagline": "Turning health data into better decisions",
+    "overview": "Health Informatics is the science of acquiring, storing, managing, and using healthcare data to improve clinical and operational outcomes. It combines information technology, data science, and clinical knowledge to design systems like electronic health records, clinical decision support, and population health tools. Practitioners ensure that the right information reaches the right people at the right time, safely and efficiently. This domain is foundational to modern data-driven, evidence-based medicine.",
+    "coreSubjects": [
+      "Database Design and Management",
+      "Clinical Data Standards (HL7, FHIR, ICD, SNOMED)",
+      "Data Analytics and Statistics",
+      "Information Systems",
+      "Healthcare Workflow and Process Design"
+    ],
+    "applications": [
+      "Electronic Health Record Systems",
+      "Clinical Decision Support Systems",
+      "Population Health Management",
+      "Public Health Surveillance",
+      "Hospital Information Systems"
+    ],
+    "industries": [
+      "Hospitals and Health Systems",
+      "Health IT Vendors",
+      "Government and Public Health Agencies",
+      "Research Institutions",
+      "Health Insurance Companies"
+    ],
+    "skillsRequired": [
+      "Database Management (SQL)",
+      "Data Analysis",
+      "Interoperability Standards",
+      "Programming (Python/R)",
+      "Systems Analysis",
+      "Clinical Terminology"
+    ],
+    "careerOpportunities": [
+      "healthcare-informatics-specialist",
+      "healthcare-data-analyst",
+      "health-information-specialist",
+      "biomedical-data-scientist",
+      "healthcare-technology-specialist"
+    ],
+    "futureScope": "Health informatics is central to the future of value-based, data-driven care. Growth in AI, big data, and interoperability initiatives is creating a surge in demand for professionals who can integrate and analyze complex health datasets. As precision medicine and population health expand, informatics specialists will play a critical role in translating data into actionable clinical insight.",
+    "recommendedBooks": [
+      {
+        "title": "Biomedical Informatics: Computer Applications in Health Care and Biomedicine",
+        "author": "Edward H. Shortliffe, James J. Cimino",
+        "description": "The authoritative textbook on the principles and applications of biomedical and health informatics."
+      },
+      {
+        "title": "Health Informatics: Practical Guide",
+        "author": "William R. Hersh, Robert E. Hoyt",
+        "description": "A practical introduction to the concepts and technologies of health informatics."
+      }
+    ],
+    "certifications": [
+      "Registered Health Information Administrator (RHIA)",
+      "Certified Professional in Healthcare Information and Management Systems (CPHIMS)",
+      "AMIA Health Informatics Certification (AHIC)"
+    ],
+    "relatedDomains": [
+      "digital-health",
+      "telemedicine",
+      "biomedical-data-science",
+      "bioinformatics",
+      "ai-in-healthcare"
+    ],
+    "category": "Digital Health",
+    "roadmaps": [
+      "python",
+      "machine-learning",
+      "research-writing"
+    ]
+  },
+  {
+    "id": "clinical-engineering",
+    "name": "Clinical Engineering",
+    "icon": "Activity",
+    "color": "#0F4C81",
+    "tagline": "Ensuring medical technology works safely in hospitals",
+    "overview": "Clinical Engineering applies engineering principles and management skills to healthcare technology in clinical settings. Clinical engineers manage the acquisition, deployment, maintenance, and safe use of medical devices throughout hospitals and health systems. They bridge clinical staff, technology vendors, and regulatory bodies to keep equipment safe, effective, and compliant. This domain is vital to patient safety and to the efficient operation of modern medical facilities.",
+    "coreSubjects": [
+      "Medical Device Technology",
+      "Healthcare Technology Management",
+      "Electrical and Patient Safety",
+      "Regulatory Standards and Compliance",
+      "Systems and Risk Analysis"
+    ],
+    "applications": [
+      "Medical Equipment Management",
+      "Device Safety and Incident Investigation",
+      "Technology Procurement and Evaluation",
+      "Preventive Maintenance Programs",
+      "Integration of Networked Medical Devices"
+    ],
+    "industries": [
+      "Hospitals and Health Systems",
+      "Medical Device Manufacturers",
+      "Healthcare Consulting Firms",
+      "Government Health Regulators",
+      "Independent Service Organizations"
+    ],
+    "skillsRequired": [
+      "Electronics and Instrumentation",
+      "Troubleshooting and Repair",
+      "Regulatory Knowledge (IEC 60601, FDA)",
+      "Project Management",
+      "Risk Assessment",
+      "Communication with Clinical Staff"
+    ],
+    "careerOpportunities": [
+      "clinical-engineer",
+      "biomedical-equipment-engineer",
+      "medical-equipment-specialist",
+      "healthcare-technology-specialist",
+      "medical-device-service-engineer"
+    ],
+    "futureScope": "As hospitals adopt increasingly complex, networked, and software-driven medical devices, clinical engineering is expanding into cybersecurity, IoT integration, and data-driven asset management. Predictive maintenance using analytics and the convergence of IT and biomedical engineering are reshaping the field. Clinical engineers will remain essential guardians of patient safety in an ever-more connected clinical environment.",
+    "recommendedBooks": [
+      {
+        "title": "Clinical Engineering Handbook",
+        "author": "Ernesto Iadanza",
+        "description": "The definitive reference covering all aspects of clinical engineering practice and healthcare technology management."
+      },
+      {
+        "title": "Introduction to Biomedical Engineering",
+        "author": "John Enderle, Joseph Bronzino",
+        "description": "A broad foundational text that includes clinical engineering and medical device fundamentals."
+      }
+    ],
+    "certifications": [
+      "Certified Clinical Engineer (CCE)",
+      "Certified Biomedical Equipment Technician (CBET)",
+      "Certified Healthcare Technology Manager (CHTM)"
+    ],
+    "relatedDomains": [
+      "biomedical-instrumentation",
+      "hospital-technology-management",
+      "medical-device-design",
+      "healthcare-iot"
+    ],
+    "category": "Clinical",
+    "roadmaps": [
+      "embedded-systems",
+      "iot",
+      "pcb-design"
+    ]
+  },
+  {
+    "id": "pharmaceutical-engineering",
+    "name": "Pharmaceutical Engineering",
+    "icon": "Pill",
+    "color": "#3F6BB0",
+    "tagline": "Engineering the science of medicines",
+    "overview": "Pharmaceutical Engineering applies engineering principles to the design, development, and manufacturing of drugs and pharmaceutical products. It combines chemical engineering, process design, and quality science to scale medicines from laboratory discovery to mass production safely and reliably. Engineers in this field optimize formulation, manufacturing processes, and facility design while meeting strict regulatory standards. The domain ensures that safe, effective, and consistent medicines reach patients worldwide.",
+    "coreSubjects": [
+      "Pharmaceutics and Formulation Science",
+      "Process Engineering and Unit Operations",
+      "Good Manufacturing Practices (GMP)",
+      "Quality Assurance and Validation",
+      "Chemical and Reaction Engineering"
+    ],
+    "applications": [
+      "Drug Formulation and Development",
+      "Pharmaceutical Manufacturing Process Design",
+      "Bioprocessing and Biologics Production",
+      "Quality Control and Validation",
+      "Facility and Cleanroom Design"
+    ],
+    "industries": [
+      "Pharmaceutical Manufacturers",
+      "Biotechnology Companies",
+      "Contract Manufacturing Organizations (CMOs)",
+      "Regulatory Agencies",
+      "Process Equipment Suppliers"
+    ],
+    "skillsRequired": [
+      "Process Design and Optimization",
+      "GMP and Regulatory Knowledge",
+      "Quality Systems and Validation",
+      "Chemical Engineering Fundamentals",
+      "Data Analysis",
+      "Problem Solving"
+    ],
+    "careerOpportunities": [
+      "biomedical-manufacturing-engineer",
+      "quality-assurance-engineer",
+      "validation-engineer",
+      "regulatory-affairs-specialist",
+      "biomedical-rd-engineer"
+    ],
+    "futureScope": "Pharmaceutical engineering is being transformed by continuous manufacturing, process analytical technology, and Industry 4.0 automation. The rise of biologics, personalized medicines, and cell and gene therapies demands new manufacturing approaches and flexible facilities. Engineers who blend process expertise with data science and quality-by-design principles will lead the next generation of drug production.",
+    "recommendedBooks": [
+      {
+        "title": "Remington: The Science and Practice of Pharmacy",
+        "author": "Adeboye Adejare (Ed.)",
+        "description": "A comprehensive reference covering pharmaceutical sciences, formulation, and manufacturing."
+      },
+      {
+        "title": "Pharmaceutical Manufacturing Handbook: Production and Processes",
+        "author": "Shayne Cox Gad",
+        "description": "A practical guide to the engineering and processes behind pharmaceutical production."
+      }
+    ],
+    "certifications": [
+      "ISPE Certified Pharmaceutical Industry Professional (CPIP)",
+      "Certified Quality Engineer (CQE) - ASQ",
+      "GMP Certification (Good Manufacturing Practice)"
+    ],
+    "relatedDomains": [
+      "drug-delivery-systems",
+      "biomedical-manufacturing",
+      "nanomedicine",
+      "microfluidics"
+    ],
+    "category": "Biotechnology",
+    "roadmaps": [
+      "research-writing",
+      "matlab",
+      "python"
+    ]
+  },
+  {
+    "id": "drug-delivery-systems",
+    "name": "Drug Delivery Systems",
+    "icon": "Syringe",
+    "color": "#2E7DB8",
+    "tagline": "Getting the right dose to the right place",
+    "overview": "Drug Delivery Systems focus on engineering technologies that transport therapeutic agents to their target sites in the body with precise timing and dosage. This field combines pharmaceutics, materials science, and engineering to design carriers such as nanoparticles, implants, transdermal patches, and controlled-release formulations. The goal is to maximize therapeutic effect while minimizing side effects and improving patient compliance. It is a cornerstone of modern targeted and personalized therapy.",
+    "coreSubjects": [
+      "Pharmacokinetics and Pharmacodynamics",
+      "Biomaterials and Polymers",
+      "Controlled Release Mechanisms",
+      "Nanotechnology",
+      "Cell and Molecular Biology"
+    ],
+    "applications": [
+      "Controlled and Sustained-Release Formulations",
+      "Targeted Nanoparticle Delivery",
+      "Transdermal and Implantable Systems",
+      "Inhalation and Pulmonary Delivery",
+      "Smart and Stimuli-Responsive Delivery"
+    ],
+    "industries": [
+      "Pharmaceutical Companies",
+      "Biotechnology Firms",
+      "Medical Device Manufacturers",
+      "Academic Research Labs",
+      "Nanomedicine Startups"
+    ],
+    "skillsRequired": [
+      "Biomaterials Science",
+      "Formulation Development",
+      "Analytical Characterization",
+      "Pharmacology",
+      "Laboratory Techniques",
+      "Research and Data Analysis"
+    ],
+    "careerOpportunities": [
+      "biomaterials-engineer",
+      "biomedical-rd-engineer",
+      "biomedical-research-scientist",
+      "nanomedicine-researcher",
+      "biomaterials-scientist"
+    ],
+    "futureScope": "Drug delivery is advancing toward highly targeted, smart, and responsive systems that release drugs on demand in response to biological signals. Nanocarriers, gene-delivery vehicles, and implantable micro-devices are enabling precision therapies for cancer, chronic disease, and neurological disorders. This rapidly growing field promises safer, more effective treatments and continues to attract significant research and commercial investment.",
+    "recommendedBooks": [
+      {
+        "title": "Controlled Drug Delivery: Concepts and Advances",
+        "author": "S. P. Vyas, R. K. Khar",
+        "description": "A detailed exploration of controlled drug delivery principles, systems, and applications."
+      },
+      {
+        "title": "Fundamentals and Applications of Controlled Release Drug Delivery",
+        "author": "Juergen Siepmann, Ronald A. Siegel, Michael J. Rathbone",
+        "description": "A rigorous engineering-oriented treatment of controlled release technologies."
+      }
+    ],
+    "certifications": [
+      "Controlled Release Society (CRS) Professional Programs",
+      "Nanotechnology and Nanomedicine Certificate (edX/MIT)",
+      "GMP Certification (Good Manufacturing Practice)"
+    ],
+    "relatedDomains": [
+      "pharmaceutical-engineering",
+      "nanomedicine",
+      "biomaterials",
+      "microfluidics",
+      "regenerative-medicine"
+    ],
+    "category": "Biotechnology",
+    "roadmaps": [
+      "research-writing",
+      "matlab",
+      "python"
+    ]
+  },
+  {
+    "id": "microfluidics",
+    "name": "Microfluidics",
+    "icon": "Droplets",
+    "color": "#1A9DB7",
+    "tagline": "Controlling tiny fluids for big discoveries",
+    "overview": "Microfluidics is the science and engineering of manipulating extremely small volumes of fluids within micrometer-scale channels. By precisely controlling flow, mixing, and reactions at this scale, engineers create powerful tools for diagnostics, drug screening, and biological research. Microfluidic devices enable faster, cheaper, and highly sensitive analyses using minute sample amounts. This domain underpins lab-on-a-chip technology and is transforming point-of-care testing and biomedical research.",
+    "coreSubjects": [
+      "Fluid Mechanics at Micro Scale",
+      "Microfabrication Techniques",
+      "Surface Chemistry",
+      "Transport Phenomena",
+      "MEMS (Microelectromechanical Systems)"
+    ],
+    "applications": [
+      "Diagnostic and Analytical Chips",
+      "Cell Sorting and Analysis",
+      "Drug Screening and Organ-on-Chip",
+      "DNA and Protein Analysis",
+      "Chemical Synthesis and Reactions"
+    ],
+    "industries": [
+      "Diagnostics Companies",
+      "Biotechnology Firms",
+      "Pharmaceutical Research",
+      "Academic Research Labs",
+      "Semiconductor and MEMS Manufacturers"
+    ],
+    "skillsRequired": [
+      "Microfabrication and Soft Lithography",
+      "Fluid Dynamics",
+      "CAD and Device Design",
+      "Surface Chemistry",
+      "Experimental Design",
+      "Data Analysis"
+    ],
+    "careerOpportunities": [
+      "biomedical-rd-engineer",
+      "biosensor-engineer",
+      "biomedical-research-scientist",
+      "bioinstrumentation-engineer",
+      "medical-device-engineer"
+    ],
+    "futureScope": "Microfluidics is a rapidly maturing field driving innovations in point-of-care diagnostics, organ-on-chip models, and high-throughput screening. Integration with sensors, electronics, and AI is producing smart, automated microsystems for personalized medicine and drug discovery. As fabrication becomes cheaper and more scalable, microfluidic platforms will become ubiquitous in clinical and research settings.",
+    "recommendedBooks": [
+      {
+        "title": "Fundamentals and Applications of Microfluidics",
+        "author": "Nam-Trung Nguyen, Steven T. Wereley",
+        "description": "A comprehensive textbook covering the theory, fabrication, and applications of microfluidic systems."
+      },
+      {
+        "title": "Introduction to Microfluidics",
+        "author": "Patrick Tabeling",
+        "description": "A clear introduction to the physics and engineering principles of microfluidics."
+      }
+    ],
+    "certifications": [
+      "Microfluidics and Lab-on-a-Chip Certificate (edX)",
+      "MEMS and Microsystems Certification (Coursera)",
+      "Cleanroom and Microfabrication Training"
+    ],
+    "relatedDomains": [
+      "lab-on-a-chip",
+      "point-of-care-diagnostics",
+      "biosensors",
+      "nanobiotechnology",
+      "diagnostic-technologies"
+    ],
+    "category": "Emerging Technologies",
+    "roadmaps": [
+      "solidworks",
+      "matlab",
+      "python"
+    ]
+  },
+  {
+    "id": "lab-on-a-chip",
+    "name": "Lab-on-a-Chip",
+    "icon": "CircuitBoard",
+    "color": "#158FA8",
+    "tagline": "An entire laboratory on a single chip",
+    "overview": "Lab-on-a-Chip (LOC) technology integrates one or more laboratory functions onto a single miniature chip, often just millimeters in size. By combining microfluidics, sensors, and electronics, these devices automate complex assays that would normally require a full laboratory. LOC systems enable rapid, portable, and cost-effective testing with tiny sample volumes. This domain is a driving force behind point-of-care diagnostics and decentralized healthcare.",
+    "coreSubjects": [
+      "Microfluidics",
+      "Microfabrication and MEMS",
+      "Biosensors and Detection",
+      "Integrated Electronics",
+      "Assay and Reaction Design"
+    ],
+    "applications": [
+      "Point-of-Care Diagnostic Devices",
+      "DNA and PCR Analysis on Chip",
+      "Immunoassays and Biomarker Detection",
+      "Environmental and Food Testing",
+      "Cell-Based Assays and Screening"
+    ],
+    "industries": [
+      "Diagnostics Companies",
+      "Biotechnology Firms",
+      "Medical Device Manufacturers",
+      "Research Institutions",
+      "Consumer Health Startups"
+    ],
+    "skillsRequired": [
+      "Microfabrication",
+      "Microfluidic Design",
+      "Biosensor Integration",
+      "Electronics and Signal Processing",
+      "Assay Development",
+      "System Integration"
+    ],
+    "careerOpportunities": [
+      "biosensor-engineer",
+      "biomedical-rd-engineer",
+      "bioinstrumentation-engineer",
+      "medical-device-engineer",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "Lab-on-a-chip technology is central to the shift toward decentralized, rapid, and affordable diagnostics. Advances in integration, automation, and connectivity are enabling smartphone-linked and AI-powered chips for home and field testing. The COVID-19 pandemic underscored the value of rapid on-chip testing, and the field will continue to expand across diagnostics, environmental monitoring, and personalized medicine.",
+    "recommendedBooks": [
+      {
+        "title": "Lab-on-a-Chip Devices and Micro-Total Analysis Systems",
+        "author": "Jaime Castillo-León, Winnie E. Svendsen",
+        "description": "A practical overview of the design, fabrication, and applications of lab-on-a-chip systems."
+      },
+      {
+        "title": "Fundamentals and Applications of Microfluidics",
+        "author": "Nam-Trung Nguyen, Steven T. Wereley",
+        "description": "A foundational text bridging microfluidics and lab-on-a-chip engineering."
+      }
+    ],
+    "certifications": [
+      "Microfluidics and Lab-on-a-Chip Certificate (edX)",
+      "MEMS and Microsystems Certification (Coursera)",
+      "Biosensors and Bioelectronics Certificate"
+    ],
+    "relatedDomains": [
+      "microfluidics",
+      "point-of-care-diagnostics",
+      "biosensors",
+      "diagnostic-technologies",
+      "nanobiotechnology"
+    ],
+    "category": "Emerging Technologies",
+    "roadmaps": [
+      "solidworks",
+      "pcb-design",
+      "matlab"
+    ]
+  },
+  {
+    "id": "nanomedicine",
+    "name": "Nanomedicine",
+    "icon": "Atom",
+    "color": "#4A5FB0",
+    "tagline": "Healing the body at the nanoscale",
+    "overview": "Nanomedicine applies nanotechnology to the prevention, diagnosis, and treatment of disease at the molecular and cellular level. By engineering materials and devices at the scale of billionths of a meter, it enables targeted drug delivery, ultra-sensitive diagnostics, and novel therapies. Nanoparticles can be designed to seek out diseased cells, carry drugs, or enhance imaging with remarkable precision. This domain is opening new frontiers in cancer treatment, regenerative medicine, and personalized therapy.",
+    "coreSubjects": [
+      "Nanomaterials and Nanoparticles",
+      "Biochemistry and Cell Biology",
+      "Drug Delivery",
+      "Nanofabrication and Characterization",
+      "Biocompatibility and Toxicology"
+    ],
+    "applications": [
+      "Targeted Cancer Therapy",
+      "Nanoparticle Drug Delivery",
+      "Molecular Imaging and Contrast Agents",
+      "Regenerative Medicine and Scaffolds",
+      "Nanoscale Biosensing and Diagnostics"
+    ],
+    "industries": [
+      "Pharmaceutical Companies",
+      "Biotechnology Firms",
+      "Medical Device Manufacturers",
+      "Academic and Government Research Labs",
+      "Nanotechnology Startups"
+    ],
+    "skillsRequired": [
+      "Nanomaterials Synthesis",
+      "Characterization Techniques (SEM, TEM)",
+      "Cell and Molecular Biology",
+      "Drug Formulation",
+      "Analytical Chemistry",
+      "Research and Experimental Design"
+    ],
+    "careerOpportunities": [
+      "nanomedicine-researcher",
+      "biomaterials-scientist",
+      "biomedical-research-scientist",
+      "biomaterials-engineer",
+      "biomedical-rd-engineer"
+    ],
+    "futureScope": "Nanomedicine is one of the most promising frontiers in healthcare, with growing success in targeted cancer therapies and mRNA vaccine delivery via lipid nanoparticles. Future advances will enable theranostics that combine diagnosis and treatment, along with precision nanodevices for early disease detection. As biocompatibility and manufacturing challenges are solved, nanomedicine will play a transformative role in personalized medicine.",
+    "recommendedBooks": [
+      {
+        "title": "Nanomedicine: Design of Particles, Sensors, Motors, Implants, Robots, and Devices",
+        "author": "Mark J. Schulz, Vesselin N. Shanov, Yeoheung Yun",
+        "description": "A comprehensive engineering-focused survey of nanomedicine devices and design."
+      },
+      {
+        "title": "Introduction to Nanomedicine and Nanobioengineering",
+        "author": "Paras N. Prasad",
+        "description": "An accessible introduction covering the principles and biomedical applications of nanotechnology."
+      }
+    ],
+    "certifications": [
+      "Nanotechnology and Nanomedicine Certificate (edX/MIT)",
+      "Nanoscience and Nanotechnology Certification (Coursera)",
+      "Controlled Release Society (CRS) Programs"
+    ],
+    "relatedDomains": [
+      "nanobiotechnology",
+      "drug-delivery-systems",
+      "biomaterials",
+      "regenerative-medicine",
+      "diagnostic-technologies"
+    ],
+    "category": "Emerging Technologies",
+    "roadmaps": [
+      "research-writing",
+      "matlab",
+      "python"
+    ]
+  },
+  {
+    "id": "nanobiotechnology",
+    "name": "Nanobiotechnology",
+    "icon": "Dna",
+    "color": "#5B57A8",
+    "tagline": "Where nanotechnology meets biology",
+    "overview": "Nanobiotechnology merges nanotechnology with biology to engineer functional systems at the molecular scale using biological building blocks. It exploits biomolecules such as DNA, proteins, and enzymes to create nanoscale structures, sensors, and machines. This interdisciplinary field enables breakthroughs in biosensing, molecular diagnostics, and bio-inspired materials. It provides the fundamental tools that power many advances in nanomedicine, diagnostics, and synthetic biology.",
+    "coreSubjects": [
+      "Molecular Biology and Biochemistry",
+      "Nanomaterials Science",
+      "Biomolecular Engineering",
+      "Self-Assembly and Bio-nanostructures",
+      "Surface and Interface Science"
+    ],
+    "applications": [
+      "Biosensors and Molecular Detection",
+      "DNA Nanotechnology and Nanostructures",
+      "Protein and Enzyme Engineering",
+      "Bio-inspired Nanomaterials",
+      "Molecular Imaging Probes"
+    ],
+    "industries": [
+      "Biotechnology Companies",
+      "Diagnostics Firms",
+      "Academic and Government Research Labs",
+      "Pharmaceutical Companies",
+      "Materials Science Startups"
+    ],
+    "skillsRequired": [
+      "Molecular Biology Techniques",
+      "Nanomaterials Synthesis and Characterization",
+      "Biomolecular Engineering",
+      "Analytical Instrumentation",
+      "Research Design",
+      "Data Analysis"
+    ],
+    "careerOpportunities": [
+      "nanomedicine-researcher",
+      "biomedical-research-scientist",
+      "biomaterials-scientist",
+      "biosensor-engineer",
+      "biomedical-rd-engineer"
+    ],
+    "futureScope": "Nanobiotechnology is driving powerful new tools in diagnostics, synthetic biology, and molecular engineering. DNA-based nanostructures and biomolecular machines are enabling programmable materials and ultrasensitive detection platforms. As the boundary between engineering and biology blurs, this field will underpin next-generation therapeutics, biosensors, and sustainable bio-manufacturing.",
+    "recommendedBooks": [
+      {
+        "title": "Introduction to Nanoscience and Nanotechnology",
+        "author": "Chris Binns",
+        "description": "A clear introduction to the science underpinning nanoscale engineering and its biological applications."
+      },
+      {
+        "title": "Nanobiotechnology: Concepts, Applications and Perspectives",
+        "author": "Christof M. Niemeyer, Chad A. Mirkin",
+        "description": "A foundational edited volume covering the concepts and applications of nanobiotechnology."
+      }
+    ],
+    "certifications": [
+      "Nanotechnology and Nanomedicine Certificate (edX/MIT)",
+      "Nanoscience and Nanotechnology Certification (Coursera)",
+      "Biosensors and Bioelectronics Certificate"
+    ],
+    "relatedDomains": [
+      "nanomedicine",
+      "biosensors",
+      "biomaterials",
+      "microfluidics",
+      "diagnostic-technologies"
+    ],
+    "category": "Biotechnology",
+    "roadmaps": [
+      "research-writing",
+      "matlab",
+      "python"
+    ]
+  },
+  {
+    "id": "diagnostic-technologies",
+    "name": "Diagnostic Technologies",
+    "icon": "Microscope",
+    "color": "#0F7FA0",
+    "tagline": "Detecting disease accurately and early",
+    "overview": "Diagnostic Technologies encompass the instruments, assays, and systems used to detect, identify, and monitor disease. This domain spans in vitro diagnostics, molecular testing, imaging-based diagnostics, and biosensor platforms that inform clinical decision-making. Engineers design devices that deliver fast, accurate, and reliable results from blood, tissue, and other biological samples. Accurate diagnostics are the foundation of effective treatment and preventive healthcare.",
+    "coreSubjects": [
+      "Clinical Chemistry and Biochemistry",
+      "Biosensors and Detection Methods",
+      "Instrumentation and Signal Processing",
+      "Molecular Diagnostics",
+      "Assay Design and Validation"
+    ],
+    "applications": [
+      "In Vitro Diagnostic Devices",
+      "Molecular and Genetic Testing",
+      "Immunoassays and Biomarker Detection",
+      "Blood and Clinical Chemistry Analyzers",
+      "Infectious Disease Detection"
+    ],
+    "industries": [
+      "Diagnostics Companies",
+      "Medical Device Manufacturers",
+      "Clinical Laboratories",
+      "Biotechnology Firms",
+      "Research Institutions"
+    ],
+    "skillsRequired": [
+      "Biosensor Design",
+      "Assay Development",
+      "Instrumentation and Electronics",
+      "Clinical Chemistry",
+      "Regulatory Knowledge",
+      "Data Analysis"
+    ],
+    "careerOpportunities": [
+      "biosensor-engineer",
+      "medical-device-engineer",
+      "biomedical-rd-engineer",
+      "bioinstrumentation-engineer",
+      "biomedical-research-scientist"
+    ],
+    "futureScope": "Diagnostic technologies are evolving toward faster, more sensitive, and highly automated platforms integrated with AI and connectivity. Molecular diagnostics, liquid biopsy, and multiplexed testing are enabling earlier and more precise disease detection. The push toward decentralized and point-of-care testing will drive continued innovation and strong demand for engineers in this critical field.",
+    "recommendedBooks": [
+      {
+        "title": "Tietz Textbook of Clinical Chemistry and Molecular Diagnostics",
+        "author": "Nader Rifai, Andrea Rita Horvath, Carl Wittwer",
+        "description": "The authoritative reference on the science and technology of clinical diagnostics."
+      },
+      {
+        "title": "Biosensors and Biodetection: Methods and Protocols",
+        "author": "Avraham Rasooly, Ben Prickril",
+        "description": "A practical guide to the engineering of diagnostic biosensors and detection systems."
+      }
+    ],
+    "certifications": [
+      "Certified Medical Laboratory Scientist (MLS)",
+      "Regulatory Affairs Certification (RAC)",
+      "Biosensors and Bioelectronics Certificate"
+    ],
+    "relatedDomains": [
+      "point-of-care-diagnostics",
+      "biosensors",
+      "lab-on-a-chip",
+      "microfluidics",
+      "medical-imaging"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "embedded-systems",
+      "matlab",
+      "python"
+    ]
+  },
+  {
+    "id": "point-of-care-diagnostics",
+    "name": "Point-of-Care Diagnostics",
+    "icon": "TestTube",
+    "color": "#159A9A",
+    "tagline": "Fast, accurate testing right where care happens",
+    "overview": "Point-of-Care Diagnostics (POCT) delivers rapid medical testing at or near the site of patient care, rather than in a centralized laboratory. These portable, easy-to-use devices provide immediate results that enable faster clinical decisions and treatment. Engineers design compact, robust, and often connected systems that combine biosensors, microfluidics, and electronics. POCT is expanding access to healthcare in clinics, homes, and resource-limited settings worldwide.",
+    "coreSubjects": [
+      "Biosensors and Detection",
+      "Microfluidics and Lab-on-a-Chip",
+      "Embedded Systems and Electronics",
+      "Assay Design",
+      "Human-Centered Device Design"
+    ],
+    "applications": [
+      "Rapid Infectious Disease Tests",
+      "Blood Glucose and Metabolic Monitoring",
+      "Cardiac Marker Testing",
+      "Home and Self-Testing Kits",
+      "Field and Emergency Diagnostics"
+    ],
+    "industries": [
+      "Diagnostics Companies",
+      "Medical Device Manufacturers",
+      "Consumer Health Startups",
+      "Hospitals and Clinics",
+      "Global Health Organizations"
+    ],
+    "skillsRequired": [
+      "Biosensor Integration",
+      "Microfluidic Design",
+      "Embedded Systems",
+      "Assay Development",
+      "Regulatory Compliance",
+      "User-Centered Design"
+    ],
+    "careerOpportunities": [
+      "biosensor-engineer",
+      "medical-device-engineer",
+      "biomedical-rd-engineer",
+      "bioinstrumentation-engineer",
+      "medical-device-design-engineer"
+    ],
+    "futureScope": "Point-of-care diagnostics is a fast-growing market fueled by demand for decentralized, rapid, and connected testing. Integration with smartphones, cloud data, and AI is enabling smarter self-testing and remote monitoring. Advances in microfluidics and biosensing will expand POCT into new conditions and settings, making it a key pillar of accessible, patient-centered healthcare.",
+    "recommendedBooks": [
+      {
+        "title": "Point-of-Care Testing: Principles and Clinical Applications",
+        "author": "Peter Luppa, Ralf Junker",
+        "description": "A comprehensive overview of the technologies, applications, and management of point-of-care testing."
+      },
+      {
+        "title": "Biosensors and Biodetection: Methods and Protocols",
+        "author": "Avraham Rasooly, Ben Prickril",
+        "description": "A practical resource on the biosensing technologies underlying point-of-care devices."
+      }
+    ],
+    "certifications": [
+      "Point-of-Care Testing Certificate (POCT)",
+      "Regulatory Affairs Certification (RAC)",
+      "Biosensors and Bioelectronics Certificate"
+    ],
+    "relatedDomains": [
+      "diagnostic-technologies",
+      "microfluidics",
+      "lab-on-a-chip",
+      "biosensors",
+      "wearable-healthcare-technology"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "embedded-systems",
+      "pcb-design",
+      "python"
+    ]
+  },
+  {
+    "id": "biomedical-3d-printing",
+    "name": "Biomedical 3D Printing",
+    "icon": "Printer",
+    "color": "#2C74C9",
+    "tagline": "Building custom medical solutions layer by layer",
+    "overview": "Biomedical 3D Printing uses additive manufacturing to create patient-specific medical devices, models, implants, and even living tissues. By building objects layer by layer from digital designs, it enables unprecedented customization and complex geometries impossible with traditional methods. Applications range from surgical planning models and prosthetics to bioprinted scaffolds seeded with cells. This domain is revolutionizing personalized medicine and rapid prototyping in healthcare.",
+    "coreSubjects": [
+      "Additive Manufacturing Processes",
+      "Biomaterials and Bioinks",
+      "CAD and Medical Image Modeling",
+      "Tissue Engineering",
+      "Materials Science"
+    ],
+    "applications": [
+      "Patient-Specific Implants and Prosthetics",
+      "Surgical Planning and Anatomical Models",
+      "Bioprinting of Tissues and Scaffolds",
+      "Custom Surgical Guides and Instruments",
+      "Dental and Orthopedic Devices"
+    ],
+    "industries": [
+      "Medical Device Manufacturers",
+      "Hospitals and Surgical Centers",
+      "Prosthetics and Orthotics Companies",
+      "Tissue Engineering Startups",
+      "Research Institutions"
+    ],
+    "skillsRequired": [
+      "CAD and 3D Modeling",
+      "Medical Image Processing (CT/MRI to Model)",
+      "Biomaterials Knowledge",
+      "Additive Manufacturing",
+      "Design for Manufacturing",
+      "Regulatory Awareness"
+    ],
+    "careerOpportunities": [
+      "medical-device-design-engineer",
+      "biomedical-manufacturing-engineer",
+      "prosthetics-orthotics-engineer",
+      "tissue-engineer",
+      "biomedical-rd-engineer"
+    ],
+    "futureScope": "Biomedical 3D printing is rapidly advancing, with bioprinting of functional tissues and organs on the horizon. Point-of-care printing in hospitals will enable on-demand production of custom implants and surgical guides. As materials, resolution, and regulatory pathways mature, additive manufacturing will become a mainstream tool for truly personalized medical devices and regenerative therapies.",
+    "recommendedBooks": [
+      {
+        "title": "3D Bioprinting and Nanotechnology in Tissue Engineering and Regenerative Medicine",
+        "author": "Lijie Grace Zhang, John P. Fisher, Kam W. Leong",
+        "description": "A detailed exploration of bioprinting and its role in regenerative medicine."
+      },
+      {
+        "title": "3D Printing in Medicine: A Practical Guide for Medical Professionals",
+        "author": "Frank J. Rybicki, Gerald T. Grant",
+        "description": "A hands-on guide to clinical applications of 3D printing in healthcare."
+      }
+    ],
+    "certifications": [
+      "Certified SolidWorks Associate (CSWA)",
+      "Additive Manufacturing Certificate (Coursera/edX)",
+      "3D Printing in Healthcare Certificate"
+    ],
+    "relatedDomains": [
+      "tissue-engineering",
+      "biomaterials",
+      "prosthetics-orthotics",
+      "biomedical-implants",
+      "biomedical-manufacturing"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "solidworks",
+      "medical-image-processing",
+      "matlab"
+    ]
+  },
+  {
+    "id": "healthcare-iot",
+    "name": "Healthcare IoT",
+    "icon": "Wifi",
+    "color": "#17A5B0",
+    "tagline": "Connecting devices for smarter healthcare",
+    "overview": "Healthcare IoT (Internet of Medical Things) connects medical devices, sensors, and systems through networks to collect, share, and act on health data in real time. It enables continuous remote monitoring, smart hospital operations, and data-driven clinical decisions. Engineers design the sensors, connectivity, edge computing, and secure data pipelines that power this connected ecosystem. This domain is central to the future of proactive, efficient, and personalized care.",
+    "coreSubjects": [
+      "Embedded Systems and Sensors",
+      "Wireless Communication Protocols",
+      "Cloud and Edge Computing",
+      "Data Analytics",
+      "Cybersecurity and Data Privacy"
+    ],
+    "applications": [
+      "Remote Patient Monitoring",
+      "Smart Hospital and Asset Tracking",
+      "Wearable Health Sensors",
+      "Connected Medical Devices",
+      "Medication Adherence Systems"
+    ],
+    "industries": [
+      "Medical Device Manufacturers",
+      "Digital Health Companies",
+      "Hospitals and Health Systems",
+      "Technology and Cloud Providers",
+      "Telehealth Platforms"
+    ],
+    "skillsRequired": [
+      "Embedded Systems Programming",
+      "Wireless Protocols (BLE, Wi-Fi, Zigbee)",
+      "Cloud and Edge Computing",
+      "Data Analytics",
+      "Cybersecurity",
+      "Sensor Integration"
+    ],
+    "careerOpportunities": [
+      "healthcare-iot-engineer",
+      "digital-health-engineer",
+      "wearable-technology-engineer",
+      "biomedical-equipment-engineer",
+      "healthcare-technology-specialist"
+    ],
+    "futureScope": "Healthcare IoT is expanding rapidly as connected devices, 5G, and edge AI enable real-time, continuous health monitoring at scale. Smart hospitals and remote monitoring will reduce costs and improve outcomes, while security and interoperability remain key engineering challenges. Demand for engineers who can build secure, scalable connected medical systems will continue to grow strongly.",
+    "recommendedBooks": [
+      {
+        "title": "Internet of Things and Data Analytics Handbook",
+        "author": "Hwaiyu Geng",
+        "description": "A broad reference on IoT architectures and analytics, with strong coverage of healthcare applications."
+      },
+      {
+        "title": "Healthcare Internet of Things: Concepts, Applications and Research Challenges",
+        "author": "Chintan Bhatt, S. K. Peddoju (Eds.)",
+        "description": "A focused exploration of IoT technologies and challenges specific to healthcare."
+      }
+    ],
+    "certifications": [
+      "Certified IoT Professional (CIoTP)",
+      "AWS IoT Certification",
+      "CompTIA Security+ (for medical device security)"
+    ],
+    "relatedDomains": [
+      "digital-health",
+      "wearable-healthcare-technology",
+      "telemedicine",
+      "biomedical-instrumentation",
+      "clinical-engineering"
+    ],
+    "category": "Digital Health",
+    "roadmaps": [
+      "iot",
+      "embedded-systems",
+      "python"
+    ]
+  },
+  {
+    "id": "hospital-technology-management",
+    "name": "Hospital Technology Management",
+    "icon": "Building2",
+    "color": "#3A5FA0",
+    "tagline": "Managing the technology that powers hospitals",
+    "overview": "Hospital Technology Management focuses on the strategic planning, acquisition, maintenance, and optimization of medical technology across healthcare facilities. It ensures that equipment and systems are safe, reliable, cost-effective, and aligned with clinical needs. Professionals in this field balance engineering, finance, regulatory compliance, and operations to maximize the value of healthcare technology. This domain is essential to running efficient, safe, and modern hospitals.",
+    "coreSubjects": [
+      "Healthcare Technology Management",
+      "Medical Equipment Lifecycle Management",
+      "Regulatory Standards and Safety",
+      "Project and Asset Management",
+      "Healthcare Economics"
+    ],
+    "applications": [
+      "Medical Equipment Planning and Procurement",
+      "Preventive Maintenance Programs",
+      "Technology Assessment and Capital Planning",
+      "Safety and Compliance Management",
+      "Integration of Networked Systems"
+    ],
+    "industries": [
+      "Hospitals and Health Systems",
+      "Healthcare Consulting Firms",
+      "Medical Device Manufacturers",
+      "Government Health Agencies",
+      "Independent Service Organizations"
+    ],
+    "skillsRequired": [
+      "Technology Management",
+      "Regulatory Compliance",
+      "Project Management",
+      "Financial and Risk Analysis",
+      "Equipment Maintenance Knowledge",
+      "Communication and Leadership"
+    ],
+    "careerOpportunities": [
+      "healthcare-technology-specialist",
+      "clinical-engineer",
+      "biomedical-equipment-engineer",
+      "medical-equipment-specialist",
+      "medical-technology-consultant"
+    ],
+    "futureScope": "Hospital technology management is becoming more data-driven, with predictive maintenance, IoT-enabled asset tracking, and cybersecurity taking center stage. The growing complexity and interconnection of medical devices demand skilled managers who bridge engineering, IT, and clinical operations. As healthcare seeks efficiency and safety, this field offers strong leadership opportunities for biomedical engineers.",
+    "recommendedBooks": [
+      {
+        "title": "Clinical Engineering Handbook",
+        "author": "Ernesto Iadanza",
+        "description": "A comprehensive reference covering healthcare technology management and clinical engineering practice."
+      },
+      {
+        "title": "Healthcare Technology Management: A Systematic Approach",
+        "author": "Francis Hegarty, John Amoore, Paul Blackett, Justin McCarthy, Richard Scott",
+        "description": "A structured guide to managing medical technology across its lifecycle in healthcare settings."
+      }
+    ],
+    "certifications": [
+      "Certified Healthcare Technology Manager (CHTM)",
+      "Certified Clinical Engineer (CCE)",
+      "Project Management Professional (PMP)"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "biomedical-instrumentation",
+      "healthcare-iot",
+      "medical-device-design"
+    ],
+    "category": "Healthcare",
+    "roadmaps": [
+      "iot",
+      "embedded-systems",
+      "research-writing"
+    ]
+  },
+  {
+    "id": "biomedical-manufacturing",
+    "name": "Biomedical Manufacturing",
+    "icon": "Factory",
+    "color": "#2F5FB0",
+    "tagline": "Producing medical devices at scale and quality",
+    "overview": "Biomedical Manufacturing focuses on the design and operation of processes that produce medical devices and biomedical products at scale. It combines manufacturing engineering, quality systems, and regulatory compliance to ensure products are safe, consistent, and cost-effective. Engineers optimize production lines, cleanroom operations, automation, and validation for everything from implants to diagnostic devices. This domain turns innovative designs into reliable products that reach patients.",
+    "coreSubjects": [
+      "Manufacturing Processes",
+      "Quality Management Systems (ISO 13485)",
+      "Process Validation and Control",
+      "Automation and Robotics",
+      "Materials and Design for Manufacturing"
+    ],
+    "applications": [
+      "Medical Device Production",
+      "Implant and Prosthetic Manufacturing",
+      "Cleanroom and Sterile Manufacturing",
+      "Process Automation and Scale-Up",
+      "Quality Control and Validation"
+    ],
+    "industries": [
+      "Medical Device Manufacturers",
+      "Contract Manufacturing Organizations",
+      "Implant and Orthopedic Companies",
+      "Diagnostics Companies",
+      "Biotechnology Firms"
+    ],
+    "skillsRequired": [
+      "Manufacturing Process Design",
+      "Quality Systems and GMP",
+      "Process Validation",
+      "Automation and Lean Manufacturing",
+      "Regulatory Compliance",
+      "Statistical Process Control"
+    ],
+    "careerOpportunities": [
+      "biomedical-manufacturing-engineer",
+      "quality-assurance-engineer",
+      "validation-engineer",
+      "medical-device-quality-engineer",
+      "medical-device-engineer"
+    ],
+    "futureScope": "Biomedical manufacturing is being transformed by automation, additive manufacturing, and Industry 4.0 digital technologies. Smart factories with real-time monitoring and predictive quality control are improving efficiency and consistency. As demand for personalized devices and advanced therapies grows, engineers who master flexible, high-quality, and compliant manufacturing will be in strong demand.",
+    "recommendedBooks": [
+      {
+        "title": "Medical Device Manufacturing",
+        "author": "Anil Mital, Anoop Desai, Aashi Mital",
+        "description": "A practical guide to the processes and quality considerations in medical device production."
+      },
+      {
+        "title": "Design Controls for the Medical Device Industry",
+        "author": "Marie B. Teixeira",
+        "description": "A reference on design and quality controls essential to compliant medical device manufacturing."
+      }
+    ],
+    "certifications": [
+      "Certified Quality Engineer (CQE) - ASQ",
+      "ISO 13485 Lead Auditor Certification",
+      "Six Sigma Green/Black Belt Certification"
+    ],
+    "relatedDomains": [
+      "medical-device-design",
+      "biomedical-3d-printing",
+      "pharmaceutical-engineering",
+      "biomaterials",
+      "clinical-engineering"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "solidworks",
+      "matlab",
+      "pcb-design"
+    ]
+  },
+  {
+    "id": "medical-device-design",
+    "name": "Medical Device Design",
+    "icon": "Cpu",
+    "color": "#1E5FA0",
+    "tagline": "Engineering devices from concept to clinic",
+    "overview": "Medical Device Design is the discipline of conceiving, developing, and refining devices that diagnose, monitor, or treat medical conditions. It integrates engineering, human factors, regulatory science, and clinical understanding to create safe and effective products. Designers move a device through concept, prototyping, verification, validation, and regulatory approval to commercialization. This domain lies at the heart of biomedical engineering innovation and product development.",
+    "coreSubjects": [
+      "Design Controls and Product Development",
+      "Human Factors Engineering",
+      "CAD and Prototyping",
+      "Regulatory Standards (FDA, ISO 13485, IEC 60601)",
+      "Risk Management (ISO 14971)"
+    ],
+    "applications": [
+      "Diagnostic Device Development",
+      "Therapeutic and Surgical Devices",
+      "Wearable and Implantable Devices",
+      "Rehabilitation and Assistive Devices",
+      "Point-of-Care Instruments"
+    ],
+    "industries": [
+      "Medical Device Manufacturers",
+      "Startups and Product Development Firms",
+      "Contract Design Organizations",
+      "Hospitals and Research Institutions",
+      "Regulatory Consulting Firms"
+    ],
+    "skillsRequired": [
+      "CAD and Mechanical Design",
+      "Electronics and Embedded Systems",
+      "Human Factors and Usability",
+      "Regulatory and Quality Knowledge",
+      "Prototyping",
+      "Risk Analysis"
+    ],
+    "careerOpportunities": [
+      "medical-device-design-engineer",
+      "medical-device-engineer",
+      "biomedical-rd-engineer",
+      "medical-device-product-manager",
+      "biomedical-engineer"
+    ],
+    "futureScope": "Medical device design is being reshaped by connectivity, miniaturization, AI-enabled software, and rapid prototyping. Software as a Medical Device (SaMD) and combination products are expanding the scope of what designers must consider. Engineers who combine strong technical design skills with regulatory, human factors, and digital expertise will lead innovation in this dynamic field.",
+    "recommendedBooks": [
+      {
+        "title": "Medical Device Design: Innovation from Concept to Market",
+        "author": "Peter J. Ogrodnik",
+        "description": "A step-by-step guide to the full medical device design and development process."
+      },
+      {
+        "title": "Design Controls for the Medical Device Industry",
+        "author": "Marie B. Teixeira",
+        "description": "An essential reference on design control requirements and best practices."
+      }
+    ],
+    "certifications": [
+      "Certified SolidWorks Professional (CSWP)",
+      "Regulatory Affairs Certification (RAC)",
+      "ISO 13485 Lead Auditor Certification"
+    ],
+    "relatedDomains": [
+      "biomedical-instrumentation",
+      "biomedical-manufacturing",
+      "biomedical-3d-printing",
+      "biomedical-implants",
+      "prosthetics-orthotics"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "solidworks",
+      "embedded-systems",
+      "pcb-design"
+    ]
+  },
+  {
+    "id": "translational-medicine",
+    "name": "Translational Medicine",
+    "icon": "Layers",
+    "color": "#6A5AB0",
+    "tagline": "Bridging the lab bench and the bedside",
+    "overview": "Translational Medicine bridges the gap between basic scientific research and clinical application, turning discoveries into real-world therapies and diagnostics. It follows the path from bench to bedside and back, integrating biology, engineering, clinical trials, and regulatory science. Professionals in this field accelerate the development and adoption of new treatments, devices, and interventions. This domain is essential for delivering the benefits of research to patients efficiently and safely.",
+    "coreSubjects": [
+      "Clinical and Preclinical Research",
+      "Biostatistics and Study Design",
+      "Regulatory Science",
+      "Biomarker Discovery and Validation",
+      "Molecular and Cellular Biology"
+    ],
+    "applications": [
+      "Bench-to-Bedside Therapy Development",
+      "Biomarker and Diagnostic Validation",
+      "Clinical Trial Design and Execution",
+      "Medical Device Translation",
+      "Personalized and Precision Medicine"
+    ],
+    "industries": [
+      "Academic Medical Centers",
+      "Pharmaceutical and Biotech Companies",
+      "Research Institutes",
+      "Hospitals and Clinical Networks",
+      "Regulatory Agencies"
+    ],
+    "skillsRequired": [
+      "Research Methodology",
+      "Biostatistics and Data Analysis",
+      "Clinical Trial Knowledge",
+      "Regulatory Understanding",
+      "Scientific Communication",
+      "Interdisciplinary Collaboration"
+    ],
+    "careerOpportunities": [
+      "translational-researcher",
+      "clinical-research-associate",
+      "biomedical-research-scientist",
+      "regenerative-medicine-researcher",
+      "biomedical-rd-engineer"
+    ],
+    "futureScope": "Translational medicine is central to accelerating the delivery of precision therapies, cell and gene treatments, and advanced diagnostics. Growing emphasis on data integration, biomarkers, and adaptive clinical trials is speeding up the research-to-clinic pipeline. Professionals who can navigate science, engineering, and regulation will be vital to bringing tomorrow's innovations to patients faster.",
+    "recommendedBooks": [
+      {
+        "title": "Clinical and Translational Science: Principles of Human Research",
+        "author": "David Robertson, Gordon H. Williams",
+        "description": "A comprehensive text on the principles and practice of translational and clinical research."
+      },
+      {
+        "title": "Principles of Translational Science in Medicine: From Bench to Bedside",
+        "author": "Martin Wehling",
+        "description": "A guide to the concepts and strategies that drive successful translational medicine."
+      }
+    ],
+    "certifications": [
+      "Certified Clinical Research Professional (CCRP)",
+      "Good Clinical Practice (GCP) Certification",
+      "Clinical and Translational Science Certificate"
+    ],
+    "relatedDomains": [
+      "biomedical-research",
+      "regenerative-medicine",
+      "precision-medicine",
+      "tissue-engineering",
+      "genomics"
+    ],
+    "category": "Research",
+    "roadmaps": [
+      "research-writing",
+      "python",
+      "machine-learning"
+    ]
+  },
+  {
+    "id": "biomedical-research",
+    "name": "Biomedical Research",
+    "icon": "FlaskConical",
+    "color": "#0F5C8C",
+    "tagline": "Discovering the science behind better health",
+    "overview": "Biomedical Research investigates the biological, chemical, and physical mechanisms underlying health and disease to advance medical knowledge and treatment. It spans molecular and cellular studies, physiology, engineering research, and clinical investigation. Researchers design experiments, analyze data, and develop new theories, technologies, and therapies. This domain forms the scientific foundation on which all of modern medicine and biomedical engineering is built.",
+    "coreSubjects": [
+      "Molecular and Cell Biology",
+      "Physiology and Anatomy",
+      "Research Methodology and Design",
+      "Biostatistics and Data Analysis",
+      "Laboratory Techniques"
+    ],
+    "applications": [
+      "Disease Mechanism Studies",
+      "Drug and Therapy Discovery",
+      "Medical Device and Biomaterial Research",
+      "Genomics and Proteomics",
+      "Preclinical and Clinical Studies"
+    ],
+    "industries": [
+      "Universities and Academic Labs",
+      "Pharmaceutical and Biotech Companies",
+      "Government Research Institutes",
+      "Hospitals and Medical Centers",
+      "Nonprofit Research Foundations"
+    ],
+    "skillsRequired": [
+      "Experimental Design",
+      "Laboratory Techniques",
+      "Data Analysis and Statistics",
+      "Scientific Writing",
+      "Critical Thinking",
+      "Programming (Python/R)"
+    ],
+    "careerOpportunities": [
+      "biomedical-research-scientist",
+      "biomedical-scientist",
+      "biomedical-rd-engineer",
+      "computational-biologist",
+      "translational-researcher"
+    ],
+    "futureScope": "Biomedical research is being accelerated by big data, AI, advanced imaging, and genomics, enabling discoveries at unprecedented speed and scale. Interdisciplinary approaches that combine biology, engineering, and computation are opening new frontiers in precision medicine and regenerative therapies. Skilled researchers will continue to drive innovation across academia, industry, and healthcare.",
+    "recommendedBooks": [
+      {
+        "title": "Molecular Biology of the Cell",
+        "author": "Bruce Alberts, Alexander Johnson, Julian Lewis, David Morgan, Martin Raff, Keith Roberts, Peter Walter",
+        "description": "The definitive textbook on cell and molecular biology, foundational to biomedical research."
+      },
+      {
+        "title": "Introduction to Biomedical Engineering",
+        "author": "John Enderle, Joseph Bronzino",
+        "description": "A broad foundational text covering the engineering principles applied in biomedical research."
+      }
+    ],
+    "certifications": [
+      "Good Clinical Practice (GCP) Certification",
+      "Certified Clinical Research Professional (CCRP)",
+      "Laboratory Safety and Research Ethics Certification"
+    ],
+    "relatedDomains": [
+      "translational-medicine",
+      "computational-biology",
+      "genomics",
+      "regenerative-medicine",
+      "biomedical-data-science"
+    ],
+    "category": "Research",
+    "roadmaps": [
+      "research-writing",
+      "python",
+      "matlab"
+    ]
   }
 ]

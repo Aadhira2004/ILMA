@@ -4,7 +4,8 @@ import { Layout } from '@/components/layout/Layout';
 import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import careersData from '@/data/careers.json';
-import { Career } from '@/types';
+import roadmapsData from '@/data/roadmaps.json';
+import { Career, Roadmap } from '@/types';
 import { useEffect, useRef } from 'react';
 import { useAuth } from '@clerk/react';
 import { useRecordView } from '@workspace/api-client-react';
@@ -62,6 +63,20 @@ export default function CareerDetailPage() {
   }
 
   const Icon = (Icons as any)[career.icon] || Icons.Briefcase;
+
+  const linkedRoadmaps = (career.roadmaps ?? [])
+    .map((rid) => (roadmapsData as Roadmap[]).find((r) => r.id === rid))
+    .filter((r): r is Roadmap => Boolean(r));
+
+  const pathSteps = [
+    { label: 'Student', icon: 'GraduationCap' as const },
+    { label: 'Foundation Skills', icon: 'BookOpen' as const },
+    { label: 'Projects', icon: 'FolderGit2' as const },
+    { label: 'Internship', icon: 'Briefcase' as const },
+    { label: 'Entry-Level Role', icon: 'UserCheck' as const },
+    { label: 'Specialization', icon: 'Target' as const },
+    { label: 'Advanced Career / Research', icon: 'Rocket' as const },
+  ];
 
   return (
     <Layout>
@@ -297,6 +312,60 @@ export default function CareerDetailPage() {
                     </li>
                   ))}
                 </ul>
+              </div>
+
+              {/* Skill Roadmaps */}
+              {linkedRoadmaps.length > 0 && (
+                <div className="p-6 rounded-2xl bg-card border border-border shadow-sm">
+                  <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+                    <Icons.Map className="w-5 h-5 text-primary" />
+                    Skill Roadmaps
+                  </h3>
+                  <div className="flex flex-col gap-3">
+                    {linkedRoadmaps.map((roadmap) => {
+                      const RmIcon = (Icons as any)[roadmap.icon] || Icons.Map;
+                      return (
+                        <Link
+                          key={roadmap.id}
+                          href={`/roadmaps/${roadmap.id}`}
+                          className="group flex items-center gap-3 p-3 rounded-xl hover:bg-accent transition-colors border border-transparent hover:border-border"
+                        >
+                          <div
+                            className="p-2 rounded-lg"
+                            style={{ backgroundColor: `${roadmap.color}20`, color: roadmap.color }}
+                          >
+                            <RmIcon className="w-4 h-4" />
+                          </div>
+                          <span className="font-semibold text-sm group-hover:text-primary transition-colors">{roadmap.title}</span>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Path to this Career */}
+              <div className="p-6 rounded-2xl bg-card border border-border shadow-sm">
+                <h3 className="text-lg font-bold mb-5 flex items-center gap-2">
+                  <Icons.Route className="w-5 h-5 text-primary" />
+                  Path to this Career
+                </h3>
+                <div className="relative">
+                  <div className="absolute left-4 top-2 bottom-2 w-px bg-border" />
+                  <ul className="space-y-4">
+                    {pathSteps.map((step) => {
+                      const StepIcon = (Icons as any)[step.icon] || Icons.Circle;
+                      return (
+                        <li key={step.label} className="relative flex items-center gap-3">
+                          <div className="relative z-10 w-8 h-8 rounded-full bg-primary/10 border border-primary/20 flex items-center justify-center shrink-0 text-primary">
+                            <StepIcon className="w-4 h-4" />
+                          </div>
+                          <span className="text-sm font-medium text-foreground/80">{step.label}</span>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
               </div>
 
               {/* Future Scope Box */}

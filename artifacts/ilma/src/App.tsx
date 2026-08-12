@@ -14,6 +14,7 @@ import HomePage from '@/pages/HomePage';
 import AboutPage from '@/pages/AboutPage';
 import CareerExplorerPage from '@/pages/CareerExplorerPage';
 import CareerDetailPage from '@/pages/CareerDetailPage';
+import CareerMatchPage from '@/pages/CareerMatchPage';
 import DomainsPage from '@/pages/DomainsPage';
 import DomainDetailPage from '@/pages/DomainDetailPage';
 import RoadmapsPage from '@/pages/RoadmapsPage';
@@ -160,6 +161,7 @@ function Router() {
       <Route path="/sign-up/*?" component={SignUpPage} />
       <Route path="/about" component={AboutPage} />
       <Route path="/careers" component={CareerExplorerPage} />
+      <Route path="/career-match" component={CareerMatchPage} />
       <Route path="/careers/:id" component={CareerDetailPage} />
       <Route path="/domains" component={DomainsPage} />
       <Route path="/domains/:id" component={DomainDetailPage} />

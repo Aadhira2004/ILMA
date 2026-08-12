@@ -5,7 +5,8 @@ import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import domainsData from '@/data/domains.json';
 import careersData from '@/data/careers.json';
-import { Domain, Career } from '@/types';
+import roadmapsData from '@/data/roadmaps.json';
+import { Domain, Career, Roadmap } from '@/types';
 import { useEffect, useRef } from 'react';
 import { useAuth } from '@clerk/react';
 import { useRecordView } from '@workspace/api-client-react';
@@ -61,6 +62,10 @@ export default function DomainDetailPage() {
 
   // Find related domains
   const relatedDomainsList = (domainsData as Domain[]).filter(d => domain.relatedDomains.includes(d.id));
+
+  const linkedRoadmaps = (domain.roadmaps ?? [])
+    .map((rid) => (roadmapsData as Roadmap[]).find((r) => r.id === rid))
+    .filter((r): r is Roadmap => Boolean(r));
 
   return (
     <Layout>
@@ -239,6 +244,36 @@ export default function DomainDetailPage() {
                   ))}
                 </ul>
               </div>
+
+              {/* Skill Roadmaps */}
+              {linkedRoadmaps.length > 0 && (
+                <div className="p-6 rounded-2xl bg-card border border-border shadow-sm">
+                  <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+                    <Icons.Map className="w-5 h-5 text-primary" />
+                    Skill Roadmaps
+                  </h3>
+                  <div className="flex flex-col gap-3">
+                    {linkedRoadmaps.map((roadmap) => {
+                      const RmIcon = (Icons as any)[roadmap.icon] || Icons.Map;
+                      return (
+                        <Link
+                          key={roadmap.id}
+                          href={`/roadmaps/${roadmap.id}`}
+                          className="group flex items-center gap-3 p-3 rounded-xl hover:bg-accent transition-colors border border-transparent hover:border-border"
+                        >
+                          <div
+                            className="p-2 rounded-lg"
+                            style={{ backgroundColor: `${roadmap.color}20`, color: roadmap.color }}
+                          >
+                            <RmIcon className="w-4 h-4" />
+                          </div>
+                          <span className="font-semibold text-sm group-hover:text-primary transition-colors">{roadmap.title}</span>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
 
               {/* Related Domains */}
               <div className="p-6 rounded-2xl bg-card border border-border shadow-sm">

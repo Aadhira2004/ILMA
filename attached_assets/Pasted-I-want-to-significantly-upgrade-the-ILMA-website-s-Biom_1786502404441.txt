@@ -1,0 +1,483 @@
+I want to significantly upgrade the ILMA website's "Biomedical Domains" and "Career Explorer" sections.
+
+IMPORTANT:
+- Do NOT delete, replace, or break any existing ILMA content, pages, components, navigation, animations, styling, or functionality.
+- Preserve the existing ILMA brand identity, logo, typography, futuristic biomedical aesthetic, responsive design, and color system.
+- Make the new sections feel like a natural premium extension of the existing website.
+- The website must remain fully responsive on desktop, tablet, and mobile.
+- Do not use placeholder content.
+- Use clear, accurate, student-friendly descriptions.
+- Keep the interface modern, clean, interactive, and professional.
+- Before making changes, inspect the existing project structure and reuse existing components/styles wherever possible.
+
+==================================================
+1. UPGRADE "BIOMEDICAL DOMAINS"
+==================================================
+
+Create a comprehensive Biomedical Domains Explorer covering both traditional and emerging areas of biomedical engineering, biomedical science, healthcare technology, biotechnology, and medical research.
+
+Include these domains:
+
+1. Artificial Organs & Organ Engineering
+2. Tissue Engineering
+3. Regenerative Medicine
+4. Biomaterials
+5. Biomedical Implants
+6. Prosthetics & Orthotics
+7. Rehabilitation Engineering
+8. Medical Devices & Instrumentation
+9. Biosensors
+10. Wearable Healthcare Technology
+11. Bioelectronics
+12. Biomedical Signal Processing
+13. Medical Imaging
+14. Medical Image Processing
+15. Computer Vision in Healthcare
+16. Artificial Intelligence in Healthcare
+17. Machine Learning for Biomedical Applications
+18. Computational Biology
+19. Bioinformatics
+20. Genomics
+21. Precision Medicine
+22. Biomedical Data Science
+23. Neural Engineering
+24. Neuroengineering
+25. Brain-Computer Interfaces
+26. Cardiovascular Engineering
+27. Cancer Engineering & Oncology Technology
+28. Biomechanics
+29. Biomechatronics
+30. Healthcare Robotics
+31. Surgical Robotics
+32. Digital Health
+33. Telemedicine
+34. Health Informatics
+35. Clinical Engineering
+36. Pharmaceutical Engineering
+37. Drug Delivery Systems
+38. Microfluidics
+39. Lab-on-a-Chip Technology
+40. Nanomedicine
+41. Nanobiotechnology
+42. Diagnostic Technologies
+43. Point-of-Care Diagnostics
+44. Biomedical 3D Printing
+45. Medical 3D Printing
+46. Healthcare IoT
+47. Hospital Technology Management
+48. Biomedical Manufacturing
+49. Medical Device Design & Development
+50. Biomedical Research & Translational Medicine
+
+==================================================
+2. DOMAIN CARD DESIGN
+==================================================
+
+Create attractive interactive cards for every domain.
+
+Each domain card should contain:
+
+- Domain name
+- Short one-line description
+- Relevant icon
+- Category
+- "Explore Domain" button
+
+When a user opens a domain, show:
+
+A. What is this domain?
+B. Why is it important?
+C. What problems does it solve?
+D. Key technologies
+E. Important subjects to learn
+F. Technical skills
+G. Software/tools used
+H. Hardware/equipment commonly used
+I. Research opportunities
+J. Industry applications
+K. Possible careers
+L. Recommended learning roadmap
+M. Beginner → Intermediate → Advanced skills
+N. Related biomedical domains
+O. Higher-study opportunities
+P. Research project ideas
+
+==================================================
+3. DOMAIN CATEGORIES / FILTERS
+==================================================
+
+Add interactive filters so students can discover domains by category.
+
+Categories:
+
+- Biomedical Engineering
+- Biomedical Science
+- Medical Devices
+- Biotechnology
+- AI & Computing
+- Healthcare
+- Robotics
+- Clinical
+- Research
+- Emerging Technologies
+- Digital Health
+- Academia
+
+Include:
+- Search bar
+- Category filters
+- Clear filters button
+- Smooth filtering animation
+
+==================================================
+4. CAREER EXPLORER
+==================================================
+
+Upgrade the Career Explorer into a comprehensive interactive career discovery system.
+
+Include these careers:
+
+Engineering & Technology:
+- Biomedical Engineer
+- Clinical Engineer
+- Medical Device Engineer
+- Biomedical R&D Engineer
+- Bioinstrumentation Engineer
+- Medical Electronics Engineer
+- Biosensor Engineer
+- Wearable Technology Engineer
+- Medical Imaging Engineer
+- Biomedical Signal Processing Engineer
+- Healthcare AI Engineer
+- Biomedical Data Scientist
+- Computational Biologist
+- Bioinformatics Scientist
+- Biomechanical Engineer
+- Biomechatronics Engineer
+- Neural Engineer
+- Neuroengineer
+- Medical Robotics Engineer
+- Surgical Robotics Engineer
+- Rehabilitation Engineer
+- Prosthetics & Orthotics Engineer
+- Artificial Organ Engineer
+- Tissue Engineering Engineer
+- Biomaterials Engineer
+- Biomedical Manufacturing Engineer
+- Medical Device Design Engineer
+- Healthcare IoT Engineer
+- Digital Health Engineer
+
+Research & Science:
+- Biomedical Researcher
+- Biomedical Scientist
+- Tissue Engineering Researcher
+- Regenerative Medicine Researcher
+- Biomaterials Scientist
+- Artificial Organ Researcher
+- Stem Cell Researcher
+- Cancer Researcher
+- Neuroscience Researcher
+- Genomics Researcher
+- Computational Biology Researcher
+- Nanomedicine Researcher
+- Translational Researcher
+- Clinical Researcher
+
+Clinical & Healthcare:
+- Clinical Engineer
+- Healthcare Technology Specialist
+- Medical Equipment Specialist
+- Biomedical Equipment Engineer
+- Healthcare Informatics Specialist
+- Health Information Specialist
+- Digital Health Specialist
+- Medical Technology Specialist
+- Clinical Applications Specialist
+
+Industry & Business:
+- Medical Device Product Manager
+- Medical Device Application Engineer
+- Biomedical Application Specialist
+- Medical Technology Consultant
+- Regulatory Affairs Specialist
+- Medical Device Quality Engineer
+- Validation Engineer
+- Quality Assurance Engineer
+- Medical Device Entrepreneur
+- Healthcare Technology Entrepreneur
+- Biomedical Sales/Application Engineer
+
+Communication & Academia:
+- Biomedical Professor
+- Biomedical Academic Researcher
+- Biomedical Technical Writer
+- Medical Writer
+- Scientific Writer
+- Patent Analyst
+- Biomedical Patent Researcher
+- Science Communicator
+
+==================================================
+5. CAREER PROFILE
+==================================================
+
+Each career should have its own detailed profile.
+
+Include:
+
+- Career title
+- Short description
+- What does this professional do?
+- Where do they work?
+- Industries
+- Daily responsibilities
+- Required educational background
+- Important subjects
+- Technical skills
+- Soft skills
+- Software/tools
+- Hardware/equipment
+- Certifications that may be useful
+- Entry-level roles
+- Career progression
+- Research opportunities
+- Higher-study options
+- Related domains
+- Typical project types
+- "How to enter this career" roadmap
+
+Create a visual pathway such as:
+
+Student
+↓
+Foundation Skills
+↓
+Projects
+↓
+Internship
+↓
+Entry-Level Role
+↓
+Specialization
+↓
+Advanced Career / Research
+
+==================================================
+6. CAREER FILTERS
+==================================================
+
+Allow students to filter careers by:
+
+- Engineering
+- Research
+- Clinical
+- AI & Data
+- Medical Devices
+- Biotechnology
+- Robotics
+- Digital Health
+- Academia
+- Industry
+- Entrepreneurship
+- Communication
+
+Also add:
+
+- Search careers
+- "Explore Career" button
+- Related careers
+- Related domains
+
+==================================================
+7. CAREER MATCHING FEATURE
+==================================================
+
+Add a simple interactive "Find Your Biomedical Career" feature.
+
+Ask students questions such as:
+
+1. What do you enjoy?
+   - Coding
+   - Electronics
+   - Biology
+   - Research
+   - Design
+   - Robotics
+   - Clinical work
+   - Writing/communication
+
+2. What type of work interests you?
+   - Laboratory
+   - Hospital
+   - Research institute
+   - Industry
+   - Startup
+   - University
+
+3. Which technology interests you?
+   - AI
+   - Robotics
+   - Medical devices
+   - Biomaterials
+   - Imaging
+   - Wearables
+   - Biotechnology
+
+Based on the answers, recommend suitable biomedical careers and domains.
+
+Display:
+"Your Recommended Careers"
+with the top 3–5 matches and explanations.
+
+==================================================
+8. SKILL ROADMAP CONNECTION
+==================================================
+
+Connect every domain and career to ILMA's Skill Roadmaps.
+
+For example:
+
+Artificial Intelligence in Healthcare
+→ Python
+→ Statistics
+→ Machine Learning
+→ Deep Learning
+→ Medical Imaging
+→ Healthcare Dataset Handling
+→ AI Project
+→ Research/Industry
+
+Artificial Organs
+→ Anatomy & Physiology
+→ Biomaterials
+→ Tissue Engineering
+→ Biomechanics
+→ CAD
+→ 3D Printing
+→ Experimental Research
+→ R&D
+
+Medical Devices
+→ Anatomy
+→ Electronics
+→ Sensors
+→ Embedded Systems
+→ CAD
+→ Prototyping
+→ Testing
+→ Regulatory Concepts
+→ Product Development
+
+==================================================
+9. "EXPLORE THE BIOMEDICAL WORLD" SECTION
+==================================================
+
+Create a visually impressive section on the homepage introducing the breadth of biomedical science and engineering.
+
+Use categories such as:
+
+🧬 Biology & Life Sciences
+⚙️ Biomedical Engineering
+🦾 Medical Devices & Robotics
+🤖 AI & Healthcare Technology
+🧪 Biotechnology & Regenerative Medicine
+🧠 Neuroengineering
+🫀 Cardiovascular Technology
+🩻 Medical Imaging
+💻 Computational Biology
+🏥 Clinical Engineering
+🌐 Digital Health
+🔬 Biomedical Research
+
+Each category should lead to relevant domains.
+
+==================================================
+10. UI / UX
+==================================================
+
+Make the experience feel like a premium educational platform.
+
+Use:
+
+- Modern cards
+- Subtle hover effects
+- Smooth animations
+- Search
+- Filters
+- Category chips
+- Icons
+- Progress indicators
+- Expandable sections
+- Modal/detail pages where appropriate
+- Breadcrumb navigation
+- Clear CTAs
+- Mobile-friendly layouts
+
+Do not overcrowd the interface.
+
+Use progressive disclosure so users see summaries first and detailed information after clicking.
+
+==================================================
+11. SEO
+==================================================
+
+Optimize the new pages for search engines.
+
+Use meaningful:
+
+- Page titles
+- Meta descriptions
+- Headings
+- Semantic HTML
+- Internal links
+- Descriptive URLs
+- Image alt text where applicable
+
+Important SEO topics should naturally include:
+
+- Biomedical Engineering
+- Biomedical Science
+- Biomedical Engineering Careers
+- Biomedical Engineering Domains
+- Medical Device Engineering
+- Biomedical Research
+- Artificial Organs
+- Tissue Engineering
+- Regenerative Medicine
+- Biomedical AI
+- Medical Robotics
+- Bioinformatics
+- Healthcare Technology
+
+Do NOT keyword-stuff.
+
+==================================================
+12. FINAL QUALITY CHECK
+==================================================
+
+Before finishing:
+
+- Make sure no existing ILMA functionality is broken.
+- Make sure navigation works.
+- Make sure all domain cards work.
+- Make sure all career cards work.
+- Make sure filters work.
+- Make sure search works.
+- Make sure career matching works.
+- Make sure mobile responsiveness works.
+- Make sure there are no console errors.
+- Make sure all links work.
+- Make sure the existing ILMA branding remains intact.
+- Do not change the domain configuration.
+- Do not change BigRock DNS.
+- Do not remove the existing Replit deployment.
+- Do not remove existing content.
+
+After implementation, show me a summary of:
+1. Files/components modified
+2. New features added
+3. Any dependencies added
+4. Any issues that still need attention
+
+Do NOT publish automatically until I review the changes.

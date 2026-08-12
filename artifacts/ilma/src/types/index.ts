@@ -32,6 +32,7 @@ export interface Career {
   dayInLife: string;
   faqs: FAQ[];
   relatedCareers: string[];
+  roadmaps?: string[];
 }
 
 export interface RecommendedBook {
@@ -57,6 +58,8 @@ export interface Domain {
   recommendedBooks: RecommendedBook[];
   certifications: string[];
   relatedDomains: string[];
+  category?: string;
+  roadmaps?: string[];
 }
 
 export interface RoadmapResource {
