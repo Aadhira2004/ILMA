@@ -128,7 +128,7 @@ export interface Exam {
   preparationTips: string[];
   recommendedBooks: RecommendedBook[];
   careerOpportunities: string[];
-  qualificationType?: 'Exam' | 'Certification' | 'Professional Registration' | 'Licensure' | 'Qualification';
+  qualificationType?: 'Exam' | 'Certification' | 'Professional Registration' | 'Licensure' | 'Qualification' | 'Government Exam' | 'Biomedical Equipment Certification';
   country?: string;
   region?: string;
   purpose?: string;

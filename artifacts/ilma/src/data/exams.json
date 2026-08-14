@@ -814,12 +814,12 @@
   },
   {
     "id": "state-psc",
-    "name": "State Public Service Commissions (PSC)",
+    "name": "TNPSC – Tamil Nadu Public Service Commission",
     "icon": "Map",
     "category": "State Government",
-    "conductedBy": "Respective State PSCs (e.g., MPSC, TNPSC, UPPSC)",
-    "officialWebsite": "Varies by State",
-    "overview": "Various State Public Service Commissions periodically release notifications for Assistant Engineer (AE) or Biomedical Engineer posts, specifically for state government hospitals, health departments, and medical colleges.",
+    "conductedBy": "Tamil Nadu Public Service Commission (TNPSC)",
+    "officialWebsite": "https://www.tnpsc.gov.in/",
+    "overview": "The Tamil Nadu Public Service Commission (TNPSC) periodically releases notifications for Assistant Engineer (AE) and Biomedical Engineer posts in Tamil Nadu government hospitals, health departments, and medical colleges. Check the official TNPSC notifications page for current openings and detailed eligibility.",
     "eligibility": "B.E/B.Tech in Biomedical Engineering. Domicile of the respective state is often preferred or required.",
     "ageLimit": "Usually 21 to 35/40 years (varies significantly by state).",
     "examPattern": {
@@ -870,7 +870,7 @@
       "Assistant Engineer in State Health Departments",
       "Technical Officer in State Medical Supplies Corporations"
     ],
-    "qualificationType": "Exam",
+    "qualificationType": "Government Exam",
     "country": "India",
     "purpose": "Recruitment of biomedical/assistant engineers into state government hospitals and health departments.",
     "educationLevel": "Graduate (Bachelor's in Biomedical Engineering)",
@@ -1723,7 +1723,7 @@
     "careerOpportunities": [
       "Certified Biomedical Equipment Technician roles in hospitals and healthcare technology management"
     ],
-    "category": "Biomedical Certification",
+    "category": "AAMI Certification",
     "conductedBy": "AAMI Credentials Institute (ACI)",
     "country": "USA",
     "educationLevel": "Vocational/associate level plus experience",
@@ -1762,8 +1762,8 @@
     "id": "aami-cbet",
     "internationalRecognition": "US-based credential recognised in many healthcare technology management settings internationally.",
     "lastVerified": "2026-08",
-    "name": "CBET – Certified Biomedical Equipment Technician (AAMI/ACI)",
-    "officialWebsite": "https://www.aami.org/certification",
+    "name": "CBET – Certified Biomedical Equipment Technician",
+    "officialWebsite": "https://aami.org/certifications/cbet/",
     "overview": "The Certified Biomedical Equipment Technician (CBET) credential, administered by the AAMI Credentials Institute, certifies competence in installing, maintaining, and repairing biomedical equipment in healthcare settings. It is a widely recognised credential for healthcare technology management professionals.",
     "preparationTips": [
       "Review the ACI candidate handbook for the current exam content outline.",
@@ -1772,7 +1772,7 @@
       "Gain hands-on experience with common clinical equipment."
     ],
     "purpose": "Certifying competence in servicing and managing biomedical equipment in healthcare facilities.",
-    "qualificationType": "Certification",
+    "qualificationType": "Biomedical Equipment Certification",
     "recommendedBooks": [
       {
         "author": "AAMI",
@@ -1853,7 +1853,7 @@
     "internationalRecognition": "US-based credential respected in healthcare technology management internationally.",
     "lastVerified": "2026-08",
     "name": "CHTM – Certified Healthcare Technology Manager (AAMI/ACI)",
-    "officialWebsite": "https://www.aami.org/certification",
+    "officialWebsite": "https://aami.org/certifications/chtm/",
     "overview": "The Certified Healthcare Technology Manager (CHTM), offered by the AAMI Credentials Institute, is an advanced credential for professionals who lead biomedical/clinical engineering departments and manage healthcare technology programs. It builds on foundational technician certifications with a focus on management competencies.",
     "preparationTips": [
       "Review the ACI candidate handbook for the CHTM content outline.",
