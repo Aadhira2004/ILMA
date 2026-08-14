@@ -29,23 +29,37 @@ export function ExamCard({ exam, index }: ExamCardProps) {
             <div className="p-3 bg-primary/10 rounded-lg text-primary">
               <Icon className="w-6 h-6" />
             </div>
-            <Badge variant="outline" className={
-              exam.category === 'National' ? 'border-blue-500/30 text-blue-600 bg-blue-50 dark:bg-blue-900/20 dark:text-blue-400' :
-              exam.category === 'Defense / Research' ? 'border-green-500/30 text-green-600 bg-green-50 dark:bg-green-900/20 dark:text-green-400' :
-              'border-orange-500/30 text-orange-600 bg-orange-50 dark:bg-orange-900/20 dark:text-orange-400'
-            }>
-              {exam.category}
-            </Badge>
+            <div className="flex flex-col items-end gap-2">
+              <Badge variant="outline" className={
+                exam.category === 'National' ? 'border-blue-500/30 text-blue-600 bg-blue-50 dark:bg-blue-900/20 dark:text-blue-400' :
+                exam.category === 'Defense / Research' ? 'border-green-500/30 text-green-600 bg-green-50 dark:bg-green-900/20 dark:text-green-400' :
+                'border-orange-500/30 text-orange-600 bg-orange-50 dark:bg-orange-900/20 dark:text-orange-400'
+              }>
+                {exam.category}
+              </Badge>
+              {exam.qualificationType && (
+                <Badge variant="secondary" className="font-normal text-muted-foreground bg-accent">
+                  {exam.qualificationType}
+                </Badge>
+              )}
+            </div>
           </div>
           
           <h3 className="text-xl font-bold mb-2 text-foreground group-hover:text-primary transition-colors">
             {exam.name}
           </h3>
           
-          <div className="flex items-center text-sm text-muted-foreground mb-4 font-medium">
+          <div className="flex items-center text-sm text-muted-foreground mb-2 font-medium">
             <Building2 className="w-4 h-4 mr-2" />
             <span className="truncate">{exam.conductedBy}</span>
           </div>
+
+          {exam.country && (
+            <div className="flex items-center text-sm text-muted-foreground mb-4 font-medium">
+              <Globe className="w-4 h-4 mr-2" />
+              <span className="truncate">{exam.country}</span>
+            </div>
+          )}
 
           <p className="text-muted-foreground text-sm leading-relaxed mb-6 flex-grow line-clamp-2">
             {exam.overview}

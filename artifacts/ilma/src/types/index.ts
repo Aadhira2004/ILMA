@@ -128,4 +128,16 @@ export interface Exam {
   preparationTips: string[];
   recommendedBooks: RecommendedBook[];
   careerOpportunities: string[];
+  qualificationType?: 'Exam' | 'Certification' | 'Professional Registration' | 'Licensure' | 'Qualification';
+  country?: string;
+  region?: string;
+  purpose?: string;
+  educationLevel?: string;
+  applicationProcess?: string;
+  validity?: string;
+  internationalRecognition?: string;
+  higherStudyRelevance?: string;
+  lastVerified?: string;
+  relatedCareers?: string[];
+  relatedDomains?: string[];
 }

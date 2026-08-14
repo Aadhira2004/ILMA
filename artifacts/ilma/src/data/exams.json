@@ -13,52 +13,126 @@
       "duration": "3 hours",
       "totalMarks": 100,
       "sections": [
-        {"name": "General Aptitude", "marks": 15},
-        {"name": "Engineering Mathematics", "marks": 13},
-        {"name": "Biomedical Engineering Core Subjects", "marks": 72}
+        {
+          "name": "General Aptitude",
+          "marks": 15
+        },
+        {
+          "name": "Engineering Mathematics",
+          "marks": 13
+        },
+        {
+          "name": "Biomedical Engineering Core Subjects",
+          "marks": 72
+        }
       ],
-      "questionTypes": ["Multiple Choice Questions (MCQ)", "Multiple Select Questions (MSQ)", "Numerical Answer Type (NAT)"]
+      "questionTypes": [
+        "Multiple Choice Questions (MCQ)",
+        "Multiple Select Questions (MSQ)",
+        "Numerical Answer Type (NAT)"
+      ]
     },
     "syllabus": [
       {
         "section": "Engineering Mathematics",
-        "topics": ["Linear Algebra", "Calculus", "Differential Equations", "Analysis of Complex Variables", "Probability and Statistics", "Numerical Methods"]
+        "topics": [
+          "Linear Algebra",
+          "Calculus",
+          "Differential Equations",
+          "Analysis of Complex Variables",
+          "Probability and Statistics",
+          "Numerical Methods"
+        ]
       },
       {
         "section": "Electrical Circuits",
-        "topics": ["Voltage and current sources", "Kirchhoff's laws", "Mesh and nodal analysis", "Thevenin's, Norton's, and Superposition Theorems", "AC circuits"]
+        "topics": [
+          "Voltage and current sources",
+          "Kirchhoff's laws",
+          "Mesh and nodal analysis",
+          "Thevenin's, Norton's, and Superposition Theorems",
+          "AC circuits"
+        ]
       },
       {
         "section": "Signals and Systems",
-        "topics": ["Continuous and Discrete Signal and Systems", "Periodic, aperiodic and impulse signals", "Laplace, Fourier and z-transforms", "LTI Systems"]
+        "topics": [
+          "Continuous and Discrete Signal and Systems",
+          "Periodic, aperiodic and impulse signals",
+          "Laplace, Fourier and z-transforms",
+          "LTI Systems"
+        ]
       },
       {
         "section": "Analog and Digital Electronics",
-        "topics": ["Diodes, BJT, FET, Op-Amps", "Combinational and Sequential Logic Circuits", "A/D and D/A converters", "Microprocessors and Microcontrollers basics"]
+        "topics": [
+          "Diodes, BJT, FET, Op-Amps",
+          "Combinational and Sequential Logic Circuits",
+          "A/D and D/A converters",
+          "Microprocessors and Microcontrollers basics"
+        ]
       },
       {
         "section": "Measurements and Control Systems",
-        "topics": ["SI units", "Error analysis", "Bridges", "Feedback principles", "Transfer function", "Block diagram reduction", "Bode plots", "Root Loci"]
+        "topics": [
+          "SI units",
+          "Error analysis",
+          "Bridges",
+          "Feedback principles",
+          "Transfer function",
+          "Block diagram reduction",
+          "Bode plots",
+          "Root Loci"
+        ]
       },
       {
         "section": "Sensors and Bioinstrumentation",
-        "topics": ["Sensors: resistive, capacitive, inductive, piezoelectric", "Biopotentials (ECG, EEG, EMG)", "Amplifiers", "Blood pressure measurement", "Pulse Oximetry"]
+        "topics": [
+          "Sensors: resistive, capacitive, inductive, piezoelectric",
+          "Biopotentials (ECG, EEG, EMG)",
+          "Amplifiers",
+          "Blood pressure measurement",
+          "Pulse Oximetry"
+        ]
       },
       {
         "section": "Human Anatomy and Physiology",
-        "topics": ["Cell structure", "Cardiovascular system", "Respiratory system", "Nervous system", "Musculoskeletal system", "Excretory system"]
+        "topics": [
+          "Cell structure",
+          "Cardiovascular system",
+          "Respiratory system",
+          "Nervous system",
+          "Musculoskeletal system",
+          "Excretory system"
+        ]
       },
       {
         "section": "Medical Imaging Systems",
-        "topics": ["Physics of X-ray", "CT", "MRI", "Ultrasound", "PET and SPECT"]
+        "topics": [
+          "Physics of X-ray",
+          "CT",
+          "MRI",
+          "Ultrasound",
+          "PET and SPECT"
+        ]
       },
       {
         "section": "Biomechanics",
-        "topics": ["Kinematics of joints", "Statics and dynamics of the musculoskeletal system", "Mechanics of hard and soft tissues", "Biofluid mechanics"]
+        "topics": [
+          "Kinematics of joints",
+          "Statics and dynamics of the musculoskeletal system",
+          "Mechanics of hard and soft tissues",
+          "Biofluid mechanics"
+        ]
       },
       {
         "section": "Biomaterials",
-        "topics": ["Properties of biomaterials", "Metals, Polymers, Ceramics", "Biocompatibility", "Tissue engineering concepts"]
+        "topics": [
+          "Properties of biomaterials",
+          "Metals, Polymers, Ceramics",
+          "Biocompatibility",
+          "Tissue engineering concepts"
+        ]
       }
     ],
     "preparationTips": [
@@ -69,17 +143,52 @@
       "Join a reliable test series for time management and accuracy improvement."
     ],
     "recommendedBooks": [
-      {"title": "Higher Engineering Mathematics", "author": "B.S. Grewal", "subject": "Mathematics"},
-      {"title": "Medical Instrumentation Application and Design", "author": "John G. Webster", "subject": "Bioinstrumentation"},
-      {"title": "Fundamentals of Anatomy & Physiology", "author": "Frederic H. Martini", "subject": "Anatomy and Physiology"},
-      {"title": "Digital Image Processing", "author": "Rafael C. Gonzalez", "subject": "Medical Imaging (Concepts)"},
-      {"title": "Biomaterials Science", "author": "Buddy D. Ratner", "subject": "Biomaterials"}
+      {
+        "title": "Higher Engineering Mathematics",
+        "author": "B.S. Grewal",
+        "subject": "Mathematics"
+      },
+      {
+        "title": "Medical Instrumentation Application and Design",
+        "author": "John G. Webster",
+        "subject": "Bioinstrumentation"
+      },
+      {
+        "title": "Fundamentals of Anatomy & Physiology",
+        "author": "Frederic H. Martini",
+        "subject": "Anatomy and Physiology"
+      },
+      {
+        "title": "Digital Image Processing",
+        "author": "Rafael C. Gonzalez",
+        "subject": "Medical Imaging (Concepts)"
+      },
+      {
+        "title": "Biomaterials Science",
+        "author": "Buddy D. Ratner",
+        "subject": "Biomaterials"
+      }
     ],
     "careerOpportunities": [
       "M.Tech / MS / Ph.D. in IITs, IISc, NITs",
       "Recruitment in PSUs like BARC, DRDO (subject to specific notifications)",
       "Research Fellowship (JRF/SRF) in government institutes",
       "Direct recruitment in government healthcare projects"
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Graduate admission (M.Tech/Ph.D.) and PSU recruitment for biomedical engineering graduates in India.",
+    "educationLevel": "Postgraduate entrance (after Bachelor's degree)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "biomedical-rd-engineer",
+      "biomedical-research-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-instrumentation",
+      "biomedical-research",
+      "medical-device-design"
     ]
   },
   {
@@ -96,16 +205,40 @@
       "duration": "Multi-stage exam",
       "totalMarks": 1300,
       "sections": [
-        {"name": "Stage I (Prelims)", "marks": 500},
-        {"name": "Stage II (Mains - Subjective)", "marks": 600},
-        {"name": "Stage III (Personality Test / Interview)", "marks": 200}
+        {
+          "name": "Stage I (Prelims)",
+          "marks": 500
+        },
+        {
+          "name": "Stage II (Mains - Subjective)",
+          "marks": 600
+        },
+        {
+          "name": "Stage III (Personality Test / Interview)",
+          "marks": 200
+        }
       ],
-      "questionTypes": ["Objective (Prelims)", "Conventional/Subjective (Mains)", "Interview"]
+      "questionTypes": [
+        "Objective (Prelims)",
+        "Conventional/Subjective (Mains)",
+        "Interview"
+      ]
     },
     "syllabus": [
       {
         "section": "Electronics and Telecom (Most relevant for BME)",
-        "topics": ["Basic Electronics Engineering", "Basic Electrical Engineering", "Materials Science", "Electronic Measurements and Instrumentation", "Network Theory", "Analog and Digital Circuits", "Control Systems", "Computer Organization and Architecture", "Electro Magnetics", "Advanced Electronics Topics"]
+        "topics": [
+          "Basic Electronics Engineering",
+          "Basic Electrical Engineering",
+          "Materials Science",
+          "Electronic Measurements and Instrumentation",
+          "Network Theory",
+          "Analog and Digital Circuits",
+          "Control Systems",
+          "Computer Organization and Architecture",
+          "Electro Magnetics",
+          "Advanced Electronics Topics"
+        ]
       }
     ],
     "preparationTips": [
@@ -115,14 +248,35 @@
       "Thoroughly revise the common subjects: Control Systems, Networks, Analog/Digital Electronics, and Instrumentation."
     ],
     "recommendedBooks": [
-      {"title": "General Studies & Engineering Aptitude", "author": "Made Easy Publications", "subject": "Prelims Paper 1"},
-      {"title": "Electronic Devices and Circuit Theory", "author": "Boylestad", "subject": "Electronics"}
+      {
+        "title": "General Studies & Engineering Aptitude",
+        "author": "Made Easy Publications",
+        "subject": "Prelims Paper 1"
+      },
+      {
+        "title": "Electronic Devices and Circuit Theory",
+        "author": "Boylestad",
+        "subject": "Electronics"
+      }
     ],
     "careerOpportunities": [
       "Indian Railway Service of Signal Engineers (IRSSE)",
       "Indian Naval Armament Service",
       "Defense Aeronautical Quality Assurance Service",
       "Central Power Engineering Service"
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Recruitment of engineers into Group A/B gazetted officer posts across Indian government technical services.",
+    "educationLevel": "Graduate (Bachelor's in Engineering)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "medical-electronics-engineer",
+      "bioinstrumentation-engineer"
+    ],
+    "relatedDomains": [
+      "biomedical-instrumentation",
+      "bioelectronics"
     ]
   },
   {
@@ -139,14 +293,27 @@
       "duration": "120 minutes (Written Test)",
       "totalMarks": 240,
       "sections": [
-        {"name": "Core Subject (Electronics/Relevant Stream)", "marks": 240}
+        {
+          "name": "Core Subject (Electronics/Relevant Stream)",
+          "marks": 240
+        }
       ],
-      "questionTypes": ["Objective Type (80 Questions, +3 for correct, -1 for wrong)"]
+      "questionTypes": [
+        "Objective Type (80 Questions, +3 for correct, -1 for wrong)"
+      ]
     },
     "syllabus": [
       {
         "section": "Electronics Engineering (Typical Stream)",
-        "topics": ["Networks, Signals and Systems", "Electronic Devices", "Analog Circuits", "Digital Circuits", "Control Systems", "Communications", "Electromagnetics"]
+        "topics": [
+          "Networks, Signals and Systems",
+          "Electronic Devices",
+          "Analog Circuits",
+          "Digital Circuits",
+          "Control Systems",
+          "Communications",
+          "Electromagnetics"
+        ]
       }
     ],
     "preparationTips": [
@@ -156,12 +323,34 @@
       "Prepare your B.Tech project thoroughly, as ISRO interviews focus heavily on practical understanding and projects."
     ],
     "recommendedBooks": [
-      {"title": "Previous Years ISRO Question Papers", "author": "Various", "subject": "All Subjects"},
-      {"title": "GATE preparation material for Electronics", "author": "Various", "subject": "Electronics Core"}
+      {
+        "title": "Previous Years ISRO Question Papers",
+        "author": "Various",
+        "subject": "All Subjects"
+      },
+      {
+        "title": "GATE preparation material for Electronics",
+        "author": "Various",
+        "subject": "Electronics Core"
+      }
     ],
     "careerOpportunities": [
       "Scientist/Engineer 'SC' at various ISRO centers (VSSC, SAC, URSC, etc.)",
       "Involvement in space medicine, life support systems, or bio-instrumentation for astronauts (Gaganyaan mission)"
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Recruitment of scientists and engineers into the Indian Space Research Organisation.",
+    "educationLevel": "Graduate (Bachelor's in Engineering)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "medical-electronics-engineer",
+      "bioinstrumentation-engineer",
+      "biomedical-rd-engineer"
+    ],
+    "relatedDomains": [
+      "bioelectronics",
+      "biomedical-instrumentation"
     ]
   },
   {
@@ -178,20 +367,40 @@
       "duration": "Varies (Written Test + Interview)",
       "totalMarks": "Weightage based",
       "sections": [
-        {"name": "GATE Score", "marks": "Used for shortlisting"},
-        {"name": "Descriptive Exam (if applicable)", "marks": "Subjective"},
-        {"name": "Personal Interview", "marks": "80% weightage (often)"}
+        {
+          "name": "GATE Score",
+          "marks": "Used for shortlisting"
+        },
+        {
+          "name": "Descriptive Exam (if applicable)",
+          "marks": "Subjective"
+        },
+        {
+          "name": "Personal Interview",
+          "marks": "80% weightage (often)"
+        }
       ],
-      "questionTypes": ["Descriptive (Subjective) and Interview"]
+      "questionTypes": [
+        "Descriptive (Subjective) and Interview"
+      ]
     },
     "syllabus": [
       {
         "section": "Biomedical Engineering (When specifically notified)",
-        "topics": ["Bioinstrumentation", "Medical Imaging", "Biomechanics", "Biomaterials", "Physiology", "Signal and Image Processing"]
+        "topics": [
+          "Bioinstrumentation",
+          "Medical Imaging",
+          "Biomechanics",
+          "Biomaterials",
+          "Physiology",
+          "Signal and Image Processing"
+        ]
       },
       {
         "section": "Electronics (Alternative Entry)",
-        "topics": ["Standard ECE syllabus"]
+        "topics": [
+          "Standard ECE syllabus"
+        ]
       }
     ],
     "preparationTips": [
@@ -200,11 +409,30 @@
       "Stay updated on DRDO's recent technological developments, especially in defense healthcare, life support systems, and exoskeletons."
     ],
     "recommendedBooks": [
-      {"title": "GATE Biomedical preparation material", "author": "Various", "subject": "Core Subjects"}
+      {
+        "title": "GATE Biomedical preparation material",
+        "author": "Various",
+        "subject": "Core Subjects"
+      }
     ],
     "careerOpportunities": [
       "Scientist 'B' at INMAS, DIPAS, DEBEL (Defence Bioengineering and Electromedical Laboratory).",
       "Work on high-altitude physiology, protective gear, combat casualty care devices, and nuclear medicine."
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Recruitment of scientists into DRDO defence research laboratories, including biomedical-focused labs.",
+    "educationLevel": "Graduate/Postgraduate (Bachelor's in Engineering, often with GATE score)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "biomedical-research-scientist",
+      "biomedical-rd-engineer",
+      "bioinstrumentation-engineer"
+    ],
+    "relatedDomains": [
+      "biomedical-research",
+      "biomedical-instrumentation",
+      "medical-device-design"
     ]
   },
   {
@@ -221,14 +449,25 @@
       "duration": "2 hours (Online Exam)",
       "totalMarks": 300,
       "sections": [
-        {"name": "Core Engineering Subject", "marks": 300}
+        {
+          "name": "Core Engineering Subject",
+          "marks": 300
+        }
       ],
-      "questionTypes": ["Objective (100 questions, +3 correct, -1 wrong)"]
+      "questionTypes": [
+        "Objective (100 questions, +3 correct, -1 wrong)"
+      ]
     },
     "syllabus": [
       {
         "section": "Instrumentation / Electronics",
-        "topics": ["Analog and Digital Electronics", "Measurements", "Control Systems", "Signals and Systems", "Microprocessors"]
+        "topics": [
+          "Analog and Digital Electronics",
+          "Measurements",
+          "Control Systems",
+          "Signals and Systems",
+          "Microprocessors"
+        ]
       }
     ],
     "preparationTips": [
@@ -237,11 +476,30 @@
       "The BARC interview is notorious for being extremely rigorous and purely technical, often lasting 1-2 hours. Prepare to derive formulas and explain concepts on a whiteboard."
     ],
     "recommendedBooks": [
-      {"title": "Standard textbooks for Electronics/Instrumentation", "author": "Various", "subject": "Core"}
+      {
+        "title": "Standard textbooks for Electronics/Instrumentation",
+        "author": "Various",
+        "subject": "Core"
+      }
     ],
     "careerOpportunities": [
       "Scientific Officer 'C' in Department of Atomic Energy (DAE) units.",
       "Research in radiation therapy equipment, nuclear medicine, and radioisotopes."
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Recruitment and training of scientific officers for the Department of Atomic Energy and BARC.",
+    "educationLevel": "Graduate (Bachelor's in Engineering / Postgraduate in Science)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "biomedical-research-scientist",
+      "bioinstrumentation-engineer",
+      "medical-imaging-engineer"
+    ],
+    "relatedDomains": [
+      "biomedical-research",
+      "medical-imaging",
+      "biomedical-instrumentation"
     ]
   },
   {
@@ -258,16 +516,37 @@
       "duration": "3 hours",
       "totalMarks": 200,
       "sections": [
-        {"name": "Part A (General Aptitude)", "marks": 30},
-        {"name": "Part B (Subject-related Conventional)", "marks": 70},
-        {"name": "Part C (Higher Value Questions/Application)", "marks": 100}
+        {
+          "name": "Part A (General Aptitude)",
+          "marks": 30
+        },
+        {
+          "name": "Part B (Subject-related Conventional)",
+          "marks": 70
+        },
+        {
+          "name": "Part C (Higher Value Questions/Application)",
+          "marks": 100
+        }
       ],
-      "questionTypes": ["Multiple Choice Questions (Negative marking applies)"]
+      "questionTypes": [
+        "Multiple Choice Questions (Negative marking applies)"
+      ]
     },
     "syllabus": [
       {
         "section": "Life Sciences (Common choice for BME)",
-        "topics": ["Molecules and their Interaction Relevant to Biology", "Cellular Organization", "Fundamental Processes", "Cell Communication and Cell Signaling", "Developmental Biology", "System Physiology - Animal", "Inheritance Biology", "Applied Biology", "Methods in Biology"]
+        "topics": [
+          "Molecules and their Interaction Relevant to Biology",
+          "Cellular Organization",
+          "Fundamental Processes",
+          "Cell Communication and Cell Signaling",
+          "Developmental Biology",
+          "System Physiology - Animal",
+          "Inheritance Biology",
+          "Applied Biology",
+          "Methods in Biology"
+        ]
       }
     ],
     "preparationTips": [
@@ -276,13 +555,36 @@
       "Review standard biology textbooks alongside your engineering background."
     ],
     "recommendedBooks": [
-      {"title": "Principles of Biochemistry", "author": "Lehninger", "subject": "Biochemistry"},
-      {"title": "Molecular Biology of the Cell", "author": "Bruce Alberts", "subject": "Cell Biology"}
+      {
+        "title": "Principles of Biochemistry",
+        "author": "Lehninger",
+        "subject": "Biochemistry"
+      },
+      {
+        "title": "Molecular Biology of the Cell",
+        "author": "Bruce Alberts",
+        "subject": "Cell Biology"
+      }
     ],
     "careerOpportunities": [
       "Junior Research Fellow (JRF) in CSIR labs (like CCMB, IGIB, CDRI).",
       "Assistant Professor in universities.",
       "Ph.D. funding (UGC/CSIR Fellowship)."
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Determines eligibility for Junior Research Fellowship and Assistant Professor/Lectureship positions in India.",
+    "educationLevel": "Postgraduate (Master's or equivalent)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "biomedical-research-scientist",
+      "biomedical-scientist",
+      "biomedical-professor"
+    ],
+    "relatedDomains": [
+      "biomedical-research",
+      "computational-biology",
+      "genomics"
     ]
   },
   {
@@ -299,16 +601,35 @@
       "duration": "Varies (Written Test + Interview/Skill Test)",
       "totalMarks": "Varies",
       "sections": [
-        {"name": "Domain Knowledge (Biomedical Engineering)", "marks": "Major"},
-        {"name": "General Intelligence & Reasoning", "marks": "Minor"},
-        {"name": "Hospital Safety and Regulations", "marks": "Minor"}
+        {
+          "name": "Domain Knowledge (Biomedical Engineering)",
+          "marks": "Major"
+        },
+        {
+          "name": "General Intelligence & Reasoning",
+          "marks": "Minor"
+        },
+        {
+          "name": "Hospital Safety and Regulations",
+          "marks": "Minor"
+        }
       ],
-      "questionTypes": ["Objective + Skill/Practical Test"]
+      "questionTypes": [
+        "Objective + Skill/Practical Test"
+      ]
     },
     "syllabus": [
       {
         "section": "Biomedical Engineering",
-        "topics": ["Medical Imaging Equipment", "Life Support Systems", "Surgical Instruments", "Hospital Electrical Systems", "NABH/JCI Regulations", "Preventive Maintenance Protocols", "Calibration techniques"]
+        "topics": [
+          "Medical Imaging Equipment",
+          "Life Support Systems",
+          "Surgical Instruments",
+          "Hospital Electrical Systems",
+          "NABH/JCI Regulations",
+          "Preventive Maintenance Protocols",
+          "Calibration techniques"
+        ]
       }
     ],
     "preparationTips": [
@@ -317,12 +638,31 @@
       "Understand hospital procurement processes, tendering, and AMC/CMC contracts."
     ],
     "recommendedBooks": [
-      {"title": "Handbook of Biomedical Instrumentation", "author": "R.S. Khandpur", "subject": "Instrumentation"}
+      {
+        "title": "Handbook of Biomedical Instrumentation",
+        "author": "R.S. Khandpur",
+        "subject": "Instrumentation"
+      }
     ],
     "careerOpportunities": [
       "Biomedical Engineer",
       "Technical Officer (Biomedical)",
       "Assistant Engineer (Biomedical)"
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Recruitment of biomedical and clinical engineers into premier Indian government medical institutions.",
+    "educationLevel": "Graduate (Bachelor's in Biomedical Engineering)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "clinical-engineer",
+      "biomedical-equipment-engineer",
+      "healthcare-technology-specialist"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "hospital-technology-management",
+      "biomedical-instrumentation"
     ]
   },
   {
@@ -339,15 +679,32 @@
       "duration": "Paper 1 (2 Hrs), Paper 2 (2 Hrs)",
       "totalMarks": 500,
       "sections": [
-        {"name": "Paper 1: General Intelligence, Awareness, General Engineering", "marks": 200},
-        {"name": "Paper 2: General Engineering (Descriptive)", "marks": 300}
+        {
+          "name": "Paper 1: General Intelligence, Awareness, General Engineering",
+          "marks": 200
+        },
+        {
+          "name": "Paper 2: General Engineering (Descriptive)",
+          "marks": 300
+        }
       ],
-      "questionTypes": ["Objective (Paper 1)", "Conventional/Descriptive (Paper 2)"]
+      "questionTypes": [
+        "Objective (Paper 1)",
+        "Conventional/Descriptive (Paper 2)"
+      ]
     },
     "syllabus": [
       {
         "section": "General Engineering (Electrical)",
-        "topics": ["Basic concepts", "Circuit law", "Magnetic Circuit", "AC Fundamentals", "Measurement and measuring instruments", "Electrical Machines", "Fractional Kilowatt Motors"]
+        "topics": [
+          "Basic concepts",
+          "Circuit law",
+          "Magnetic Circuit",
+          "AC Fundamentals",
+          "Measurement and measuring instruments",
+          "Electrical Machines",
+          "Fractional Kilowatt Motors"
+        ]
       }
     ],
     "preparationTips": [
@@ -356,10 +713,27 @@
       "Practice previous years' SSC JE papers."
     ],
     "recommendedBooks": [
-      {"title": "SSC JE Electrical Engineering", "author": "Made Easy Publications", "subject": "Core"}
+      {
+        "title": "SSC JE Electrical Engineering",
+        "author": "Made Easy Publications",
+        "subject": "Core"
+      }
     ],
     "careerOpportunities": [
       "Junior Engineer in CPWD, MES, Border Roads Organization (BRO)."
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Recruitment of Junior Engineers into Group B posts across central government engineering departments.",
+    "educationLevel": "Diploma/Graduate (Engineering)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "biomedical-equipment-engineer",
+      "medical-electronics-engineer"
+    ],
+    "relatedDomains": [
+      "hospital-technology-management",
+      "biomedical-instrumentation"
     ]
   },
   {
@@ -376,15 +750,30 @@
       "duration": "CBT 1 (90 mins), CBT 2 (120 mins)",
       "totalMarks": "CBT 1: 100, CBT 2: 150",
       "sections": [
-        {"name": "CBT 1: Math, General Intelligence, General Science", "marks": 100},
-        {"name": "CBT 2: General Awareness, Physics/Chemistry, Technical Abilities", "marks": 150}
+        {
+          "name": "CBT 1: Math, General Intelligence, General Science",
+          "marks": 100
+        },
+        {
+          "name": "CBT 2: General Awareness, Physics/Chemistry, Technical Abilities",
+          "marks": 150
+        }
       ],
-      "questionTypes": ["Multiple Choice Questions (Objective)"]
+      "questionTypes": [
+        "Multiple Choice Questions (Objective)"
+      ]
     },
     "syllabus": [
       {
         "section": "Technical Abilities (Electronics/Allied)",
-        "topics": ["Electronic Devices", "Energy bands", "Signal and Systems", "Wireless Communication", "Multiplexing", "Modulation"]
+        "topics": [
+          "Electronic Devices",
+          "Energy bands",
+          "Signal and Systems",
+          "Wireless Communication",
+          "Multiplexing",
+          "Modulation"
+        ]
       }
     ],
     "preparationTips": [
@@ -393,13 +782,34 @@
       "Speed is crucial; practice mock tests regularly."
     ],
     "recommendedBooks": [
-      {"title": "Lucent's General Knowledge", "author": "Lucent", "subject": "General Awareness"},
-      {"title": "Quantitative Aptitude", "author": "R.S. Aggarwal", "subject": "Maths"}
+      {
+        "title": "Lucent's General Knowledge",
+        "author": "Lucent",
+        "subject": "General Awareness"
+      },
+      {
+        "title": "Quantitative Aptitude",
+        "author": "R.S. Aggarwal",
+        "subject": "Maths"
+      }
     ],
     "careerOpportunities": [
       "Junior Engineer (Signal & Telecom)",
       "Junior Engineer (Electrical)",
       "Postings in Railway Hospitals (rare but possible)"
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Recruitment of Junior Engineers into the Indian Railways technical departments.",
+    "educationLevel": "Diploma/Graduate (Engineering)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "biomedical-equipment-engineer",
+      "medical-electronics-engineer"
+    ],
+    "relatedDomains": [
+      "hospital-technology-management",
+      "bioelectronics"
     ]
   },
   {
@@ -416,19 +826,31 @@
       "duration": "Varies",
       "totalMarks": "Varies",
       "sections": [
-        {"name": "General Knowledge (State Specific)", "marks": "Varies"},
-        {"name": "Technical Subject (Biomedical)", "marks": "Varies"}
+        {
+          "name": "General Knowledge (State Specific)",
+          "marks": "Varies"
+        },
+        {
+          "name": "Technical Subject (Biomedical)",
+          "marks": "Varies"
+        }
       ],
-      "questionTypes": ["Objective + Interview"]
+      "questionTypes": [
+        "Objective + Interview"
+      ]
     },
     "syllabus": [
       {
         "section": "State General Knowledge",
-        "topics": ["History, Geography, Economy, and Polity of the specific state"]
+        "topics": [
+          "History, Geography, Economy, and Polity of the specific state"
+        ]
       },
       {
         "section": "Technical",
-        "topics": ["Core Biomedical Engineering syllabus (similar to GATE)"]
+        "topics": [
+          "Core Biomedical Engineering syllabus (similar to GATE)"
+        ]
       }
     ],
     "preparationTips": [
@@ -437,12 +859,2486 @@
       "Brush up on local language skills if required by the state."
     ],
     "recommendedBooks": [
-      {"title": "State specific GK books (e.g., Arihant Publications)", "author": "Various", "subject": "General Knowledge"}
+      {
+        "title": "State specific GK books (e.g., Arihant Publications)",
+        "author": "Various",
+        "subject": "General Knowledge"
+      }
     ],
     "careerOpportunities": [
       "Biomedical Engineer in District Hospitals",
       "Assistant Engineer in State Health Departments",
       "Technical Officer in State Medical Supplies Corporations"
+    ],
+    "qualificationType": "Exam",
+    "country": "India",
+    "purpose": "Recruitment of biomedical/assistant engineers into state government hospitals and health departments.",
+    "educationLevel": "Graduate (Bachelor's in Biomedical Engineering)",
+    "lastVerified": "2026-08",
+    "relatedCareers": [
+      "clinical-engineer",
+      "biomedical-equipment-engineer"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "hospital-technology-management"
     ]
+  },
+  {
+    "ageLimit": "No official age limit",
+    "applicationProcess": "Register online through the College Board, choose a test centre or digital date, and pay the exam fee; scores are sent to selected universities.",
+    "careerOpportunities": [
+      "Admission to undergraduate biomedical engineering and science programs in the USA and internationally"
+    ],
+    "category": "University Entrance",
+    "conductedBy": "College Board",
+    "country": "USA",
+    "educationLevel": "Undergraduate entrance (secondary school students)",
+    "eligibility": "Open to high school students; typically taken in the final two years of secondary school. No formal prerequisites.",
+    "examPattern": {
+      "duration": "Approximately 2 hours 14 minutes (digital, adaptive)",
+      "questionTypes": [
+        "Multiple Choice",
+        "Student-Produced Response (Math)"
+      ],
+      "sections": [
+        {
+          "marks": "200–800",
+          "name": "Reading and Writing"
+        },
+        {
+          "marks": "200–800",
+          "name": "Math"
+        }
+      ],
+      "totalMarks": "400–1600 scale"
+    },
+    "higherStudyRelevance": "A foundational entrance test for beginning an undergraduate biomedical engineering pathway.",
+    "icon": "PencilRuler",
+    "id": "sat",
+    "internationalRecognition": "Accepted by universities in the USA and by many institutions in Canada, Europe, the Middle East, and Asia.",
+    "lastVerified": "2026-08",
+    "name": "SAT",
+    "officialWebsite": "https://satsuite.collegeboard.org/sat",
+    "overview": "The SAT is a standardized university admissions test widely used by undergraduate programs in the United States and accepted by many universities worldwide. For aspiring biomedical engineering students, a strong SAT score supports applications to competitive undergraduate engineering and science programs.",
+    "preparationTips": [
+      "Use the free official Bluebook app and Khan Academy Official SAT Practice.",
+      "Take full-length adaptive practice tests to build stamina.",
+      "Focus on algebra and data analysis, which form the largest math content areas.",
+      "Review grammar conventions systematically for the Writing section."
+    ],
+    "purpose": "Undergraduate university admission, primarily in the United States and at many institutions globally.",
+    "qualificationType": "Exam",
+    "recommendedBooks": [
+      {
+        "author": "College Board",
+        "subject": "Official Preparation",
+        "title": "The Official Digital SAT Study Guide"
+      }
+    ],
+    "region": "North America",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "medical-device-design-engineer"
+    ],
+    "relatedDomains": [
+      "biomedical-research",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "Reading and Writing",
+        "topics": [
+          "Information and Ideas",
+          "Craft and Structure",
+          "Expression of Ideas",
+          "Standard English Conventions"
+        ]
+      },
+      {
+        "section": "Math",
+        "topics": [
+          "Algebra",
+          "Advanced Math",
+          "Problem-Solving and Data Analysis",
+          "Geometry and Trigonometry"
+        ]
+      }
+    ],
+    "validity": "Scores are generally accepted for up to about 5 years by most universities."
+  },
+  {
+    "ageLimit": "No age limit (subject to year-of-passing conditions)",
+    "applicationProcess": "Apply online via the NTA portal during the notified window, pay the fee, and appear in the computer-based test; admission through centralised counselling (JoSAA/CSAB).",
+    "careerOpportunities": [
+      "Admission to undergraduate engineering programs at NITs, IIITs and other institutions, including biomedical engineering"
+    ],
+    "category": "University Entrance",
+    "conductedBy": "National Testing Agency (NTA)",
+    "country": "India",
+    "educationLevel": "Undergraduate entrance (after Class 12)",
+    "eligibility": "Candidates who have passed or are appearing in Class 12 (or equivalent) with Physics, Chemistry and Mathematics.",
+    "examPattern": {
+      "duration": "3 hours",
+      "questionTypes": [
+        "Multiple Choice Questions",
+        "Numerical Value Type"
+      ],
+      "sections": [
+        {
+          "marks": 100,
+          "name": "Physics"
+        },
+        {
+          "marks": 100,
+          "name": "Chemistry"
+        },
+        {
+          "marks": 100,
+          "name": "Mathematics"
+        }
+      ],
+      "totalMarks": 300
+    },
+    "higherStudyRelevance": "The starting point for an undergraduate biomedical engineering degree at leading Indian institutions.",
+    "icon": "PencilRuler",
+    "id": "jee-main",
+    "internationalRecognition": "Primarily used within India; scores are not typically used for international admission.",
+    "lastVerified": "2026-08",
+    "name": "JEE Main",
+    "officialWebsite": "https://jeemain.nta.nic.in/",
+    "overview": "The Joint Entrance Examination (Main) is the primary undergraduate engineering admission test in India, used for admission to NITs, IIITs, and other centrally funded technical institutions, and as the qualifying stage for JEE Advanced. It is a key entry point for undergraduate biomedical and allied engineering programs.",
+    "preparationTips": [
+      "Master NCERT textbooks thoroughly before moving to advanced material.",
+      "Practice previous years' papers and mock tests under timed conditions.",
+      "Focus on conceptual clarity in Physics and problem-solving speed in Mathematics.",
+      "Maintain a formula and error log for revision."
+    ],
+    "purpose": "Undergraduate engineering admission in India and qualification for JEE Advanced.",
+    "qualificationType": "Exam",
+    "recommendedBooks": [
+      {
+        "author": "H.C. Verma",
+        "subject": "Physics",
+        "title": "Concepts of Physics"
+      },
+      {
+        "author": "NCERT",
+        "subject": "Chemistry",
+        "title": "NCERT Chemistry (Class 11 & 12)"
+      }
+    ],
+    "region": "Asia",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "medical-device-design-engineer",
+      "biomedical-rd-engineer"
+    ],
+    "relatedDomains": [
+      "biomedical-instrumentation",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "Physics",
+        "topics": [
+          "Mechanics",
+          "Thermodynamics",
+          "Electrodynamics",
+          "Optics",
+          "Modern Physics"
+        ]
+      },
+      {
+        "section": "Chemistry",
+        "topics": [
+          "Physical Chemistry",
+          "Organic Chemistry",
+          "Inorganic Chemistry"
+        ]
+      },
+      {
+        "section": "Mathematics",
+        "topics": [
+          "Algebra",
+          "Calculus",
+          "Coordinate Geometry",
+          "Trigonometry",
+          "Vectors and 3D Geometry"
+        ]
+      }
+    ],
+    "validity": "Valid for admission in the same academic session."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Register through ETS, select a test centre or at-home option, pay the fee, and send scores to chosen universities.",
+    "careerOpportunities": [
+      "Admission to graduate (MS/PhD) programs in biomedical engineering and related fields worldwide"
+    ],
+    "category": "Graduate Admission",
+    "conductedBy": "ETS (Educational Testing Service)",
+    "country": "Global",
+    "educationLevel": "Postgraduate entrance",
+    "eligibility": "No formal eligibility; typically taken by graduates or final-year students applying to postgraduate programs.",
+    "examPattern": {
+      "duration": "Approximately 1 hour 58 minutes",
+      "questionTypes": [
+        "Multiple Choice",
+        "Numeric Entry",
+        "Analytical Essay"
+      ],
+      "sections": [
+        {
+          "marks": "130–170",
+          "name": "Verbal Reasoning"
+        },
+        {
+          "marks": "130–170",
+          "name": "Quantitative Reasoning"
+        },
+        {
+          "marks": "0–6",
+          "name": "Analytical Writing"
+        }
+      ],
+      "totalMarks": "130–170 per reasoning section"
+    },
+    "higherStudyRelevance": "A common requirement for MS and PhD applications in biomedical engineering internationally.",
+    "icon": "GraduationCap",
+    "id": "gre",
+    "internationalRecognition": "Accepted by thousands of graduate programs in the USA, Canada, Europe, and beyond.",
+    "lastVerified": "2026-08",
+    "name": "GRE General Test",
+    "officialWebsite": "https://www.ets.org/gre.html",
+    "overview": "The GRE General Test is a widely accepted graduate admissions exam used by master's and doctoral programs, including biomedical engineering, across the United States and increasingly worldwide. It assesses verbal reasoning, quantitative reasoning, and analytical writing.",
+    "preparationTips": [
+      "Use the official ETS PowerPrep practice tests.",
+      "Build vocabulary steadily for the Verbal section.",
+      "Review high-school-level quantitative concepts and practice data interpretation.",
+      "Practice timed analytical essays."
+    ],
+    "purpose": "Graduate (master's and doctoral) admission, especially in the USA and at many institutions globally.",
+    "qualificationType": "Exam",
+    "recommendedBooks": [
+      {
+        "author": "ETS",
+        "subject": "Official Preparation",
+        "title": "The Official Guide to the GRE General Test"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "biomedical-research-scientist",
+      "biomedical-rd-engineer",
+      "biomedical-data-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-research",
+      "biomedical-data-science"
+    ],
+    "syllabus": [
+      {
+        "section": "Verbal Reasoning",
+        "topics": [
+          "Reading Comprehension",
+          "Text Completion",
+          "Sentence Equivalence"
+        ]
+      },
+      {
+        "section": "Quantitative Reasoning",
+        "topics": [
+          "Arithmetic",
+          "Algebra",
+          "Geometry",
+          "Data Analysis"
+        ]
+      },
+      {
+        "section": "Analytical Writing",
+        "topics": [
+          "Analyze an Issue task"
+        ]
+      }
+    ],
+    "validity": "Scores are valid for 5 years from the test date."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Register online, select the Core Test and a subject module, and take the test at an approved centre or digitally where offered.",
+    "careerOpportunities": [
+      "Undergraduate admission to German universities, including engineering programs"
+    ],
+    "category": "University Entrance",
+    "conductedBy": "TestDaF-Institut / g.a.s.t. (on behalf of German universities)",
+    "country": "Germany",
+    "educationLevel": "Undergraduate entrance (international applicants)",
+    "eligibility": "International students intending to enrol in an undergraduate degree at a German higher education institution.",
+    "examPattern": {
+      "duration": "Approximately 3 hours 20 minutes (Core Test plus a subject module)",
+      "questionTypes": [
+        "Multiple Choice",
+        "Pattern and Problem Solving"
+      ],
+      "sections": [
+        {
+          "marks": "Standardised",
+          "name": "Core Test (general cognitive abilities)"
+        },
+        {
+          "marks": "Standardised",
+          "name": "Subject-specific Module (e.g. Engineering)"
+        }
+      ],
+      "totalMarks": "Standardised score scale"
+    },
+    "higherStudyRelevance": "Supports entry into an undergraduate biomedical/engineering pathway in Germany.",
+    "icon": "GraduationCap",
+    "id": "testas",
+    "internationalRecognition": "Recognised by many German higher education institutions for international admissions.",
+    "lastVerified": "2026-08",
+    "name": "TestAS",
+    "officialWebsite": "https://www.testas.de/en/",
+    "overview": "TestAS is a standardized aptitude test for international students applying to undergraduate programs at German universities. It assesses general and subject-specific cognitive abilities and helps international applicants demonstrate readiness for study in Germany, including engineering fields.",
+    "preparationTips": [
+      "Work through the official sample questions on the TestAS website.",
+      "Practice pattern recognition and numerical series under time pressure.",
+      "Choose the subject module aligned with your intended field of study.",
+      "Familiarise yourself with the digital test interface."
+    ],
+    "purpose": "Assessing international applicants' aptitude for undergraduate study at German universities.",
+    "qualificationType": "Exam",
+    "recommendedBooks": [
+      {
+        "author": "g.a.s.t. / TestDaF-Institut",
+        "subject": "Official Preparation",
+        "title": "Official TestAS Practice Materials"
+      }
+    ],
+    "region": "Europe",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "medical-device-design-engineer"
+    ],
+    "relatedDomains": [
+      "biomedical-research",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "Core Test",
+        "topics": [
+          "Solving Quantitative Problems",
+          "Inferring Relationships",
+          "Completing Patterns",
+          "Continuing Numerical Series"
+        ]
+      },
+      {
+        "section": "Engineering Module",
+        "topics": [
+          "Analysing Technical Relationships",
+          "Formalising Technical Relationships"
+        ]
+      }
+    ],
+    "validity": "Results are generally recognised without a fixed expiry, though universities may set their own preferences."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Register through the NCEES account system, schedule at a Pearson VUE test centre, and take the computer-based exam year-round.",
+    "careerOpportunities": [
+      "Engineer-in-Training (EIT) designation and progression toward Professional Engineer (PE) licensure"
+    ],
+    "category": "Professional Licensure",
+    "conductedBy": "National Council of Examiners for Engineering and Surveying (NCEES)",
+    "country": "USA",
+    "educationLevel": "Graduate (final-year students or engineering graduates)",
+    "eligibility": "Open to students nearing completion of, or graduates from, an engineering program (typically ABET-accredited).",
+    "examPattern": {
+      "duration": "6 hours (includes tutorial and break; about 5 hours 20 minutes testing)",
+      "questionTypes": [
+        "Multiple Choice (computer-based)"
+      ],
+      "sections": [
+        {
+          "marks": "Pass/Fail",
+          "name": "Discipline-specific knowledge areas"
+        }
+      ],
+      "totalMarks": "Pass/Fail (scaled)"
+    },
+    "higherStudyRelevance": "Establishes the engineering-in-training status underpinning a licensed engineering career in the USA.",
+    "icon": "ClipboardCheck",
+    "id": "ncees-fe",
+    "internationalRecognition": "Primarily a US licensure step; some other jurisdictions recognise it toward mobility agreements.",
+    "lastVerified": "2026-08",
+    "name": "NCEES Fundamentals of Engineering (FE) Exam",
+    "officialWebsite": "https://ncees.org/exams/fe-exam/",
+    "overview": "The Fundamentals of Engineering (FE) exam is the first step toward professional engineering (PE) licensure in the United States. It is typically taken near graduation and is a prerequisite before gaining qualifying experience and sitting the PE exam. The FE Electrical and Computer or Other Disciplines exams are relevant pathways for biomedical engineers.",
+    "preparationTips": [
+      "Use the official NCEES FE Reference Handbook, which is provided during the exam.",
+      "Take the official NCEES practice exam for your chosen discipline.",
+      "Focus on breadth across foundational topics rather than deep specialisation.",
+      "Practice with the computer-based testing interface."
+    ],
+    "purpose": "First step toward Professional Engineer (PE) licensure in the United States.",
+    "qualificationType": "Licensure",
+    "recommendedBooks": [
+      {
+        "author": "NCEES",
+        "subject": "Official Reference",
+        "title": "FE Reference Handbook"
+      },
+      {
+        "author": "NCEES",
+        "subject": "Practice",
+        "title": "FE Electrical and Computer Practice Exam"
+      }
+    ],
+    "region": "North America",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "medical-device-design-engineer",
+      "clinical-engineer"
+    ],
+    "relatedDomains": [
+      "medical-device-design",
+      "clinical-engineering"
+    ],
+    "syllabus": [
+      {
+        "section": "Common Foundations",
+        "topics": [
+          "Mathematics",
+          "Probability and Statistics",
+          "Ethics and Professional Practice",
+          "Engineering Economics"
+        ]
+      },
+      {
+        "section": "Discipline Topics (varies by exam chosen)",
+        "topics": [
+          "Circuits",
+          "Electronics",
+          "Signal Processing",
+          "Instrumentation and Controls",
+          "Materials Science"
+        ]
+      }
+    ],
+    "validity": "Passing the FE does not expire, though state licensure boards set overall licensure requirements."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply to the relevant state licensing board, meet experience requirements, register with NCEES, and schedule the exam.",
+    "careerOpportunities": [
+      "Licensed Professional Engineer (PE) status in the United States"
+    ],
+    "category": "Professional Licensure",
+    "conductedBy": "National Council of Examiners for Engineering and Surveying (NCEES)",
+    "country": "USA",
+    "educationLevel": "Experienced graduate (after FE and qualifying experience)",
+    "eligibility": "Typically requires passing the FE exam and completing qualifying engineering experience as defined by the state licensing board.",
+    "examPattern": {
+      "duration": "Varies by discipline (commonly around 8–9 hours)",
+      "questionTypes": [
+        "Multiple Choice (computer-based for most disciplines)"
+      ],
+      "sections": [
+        {
+          "marks": "Pass/Fail",
+          "name": "Discipline-specific knowledge and practice"
+        }
+      ],
+      "totalMarks": "Pass/Fail (scaled)"
+    },
+    "higherStudyRelevance": "Marks full professional licensure, supporting senior engineering and consulting roles.",
+    "icon": "Award",
+    "id": "ncees-pe",
+    "internationalRecognition": "A US professional licence; recognised toward some international mobility agreements.",
+    "lastVerified": "2026-08",
+    "name": "NCEES Principles and Practice of Engineering (PE) Exam",
+    "officialWebsite": "https://ncees.org/exams/pe-exam/",
+    "overview": "The Principles and Practice of Engineering (PE) exam is the exam required to become a licensed Professional Engineer in the United States, taken after passing the FE exam and gaining qualifying engineering experience. Biomedical engineers often pursue licensure through a related discipline exam where a dedicated biomedical PE is not offered.",
+    "preparationTips": [
+      "Confirm your state's experience and education requirements before applying.",
+      "Study using NCEES specifications and practice exams for your chosen discipline.",
+      "Focus on applied design problems and relevant codes/standards.",
+      "Allow ample preparation time alongside professional work."
+    ],
+    "purpose": "Achieving licensed Professional Engineer (PE) status in the United States.",
+    "qualificationType": "Licensure",
+    "recommendedBooks": [
+      {
+        "author": "NCEES",
+        "subject": "Official Preparation",
+        "title": "PE Exam Specifications and Practice Exam"
+      }
+    ],
+    "region": "North America",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "medical-device-design-engineer",
+      "validation-engineer"
+    ],
+    "relatedDomains": [
+      "medical-device-design",
+      "biomedical-manufacturing"
+    ],
+    "syllabus": [
+      {
+        "section": "Discipline Practice (varies by chosen exam)",
+        "topics": [
+          "Applied engineering analysis",
+          "Design and application",
+          "Codes and standards",
+          "Professional practice"
+        ]
+      }
+    ],
+    "validity": "Licensure, once granted by a state board, requires periodic renewal and continuing education."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply to the relevant provincial/territorial regulator, undergo academic and experience assessment, and pass the professional practice examination.",
+    "careerOpportunities": [
+      "Licensed Professional Engineer (P.Eng.) practising in Canada"
+    ],
+    "category": "Professional Licensure",
+    "conductedBy": "Provincial and territorial engineering regulators (e.g. PEO, APEGA, EGBC)",
+    "country": "Canada",
+    "educationLevel": "Experienced graduate (accredited degree plus experience)",
+    "eligibility": "An accredited (or assessed-equivalent) engineering degree, required engineering work experience, and completion of a professional practice examination.",
+    "examPattern": {
+      "duration": "Varies by route",
+      "questionTypes": [
+        "Professional practice examination and documented experience review"
+      ],
+      "sections": [
+        {
+          "marks": "Requirement",
+          "name": "Academic assessment"
+        },
+        {
+          "marks": "Requirement",
+          "name": "Qualifying engineering experience"
+        },
+        {
+          "marks": "Pass/Fail",
+          "name": "Professional Practice Exam (law and ethics)"
+        }
+      ],
+      "totalMarks": "Assessment-based (multiple components)"
+    },
+    "higherStudyRelevance": "Enables independent professional practice and sign-off authority in Canadian engineering.",
+    "icon": "Award",
+    "id": "peng-canada",
+    "internationalRecognition": "A Canadian licence; mobility agreements exist with several jurisdictions via mutual recognition.",
+    "lastVerified": "2026-08",
+    "name": "P.Eng. (Professional Engineer, Canada)",
+    "officialWebsite": "https://engineerscanada.ca/become-an-engineer",
+    "overview": "The Professional Engineer (P.Eng.) designation is Canada's licence to practise engineering, granted by provincial and territorial regulators such as Professional Engineers Ontario (PEO), APEGA (Alberta), and Engineers and Geoscientists BC. Licensure typically requires an accredited degree, qualifying experience, a professional practice exam, and good character. Biomedical engineers pursue P.Eng. through the applicable engineering discipline.",
+    "preparationTips": [
+      "Confirm requirements with the specific provincial regulator you are applying to.",
+      "Document engineering experience carefully with references.",
+      "Study the regulator's professional practice exam syllabus (law and ethics).",
+      "Plan for the experience requirement early in your career."
+    ],
+    "purpose": "Licensure to practise and take professional responsibility as an engineer in Canada.",
+    "qualificationType": "Professional Registration",
+    "recommendedBooks": [
+      {
+        "author": "Gordon C. Andrews",
+        "subject": "Professional Practice",
+        "title": "Canadian Professional Engineering and Geoscience: Practice and Ethics"
+      }
+    ],
+    "region": "North America",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "clinical-engineer",
+      "medical-device-design-engineer"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "Professional Practice Examination",
+        "topics": [
+          "Engineering law",
+          "Professional liability",
+          "Ethics",
+          "Regulatory framework"
+        ]
+      }
+    ],
+    "validity": "An ongoing licence requiring annual renewal and continuing professional development."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply through a licensed professional engineering institution, submit a competence report, and attend a professional review interview.",
+    "careerOpportunities": [
+      "Chartered Engineer status recognised across UK and international engineering practice"
+    ],
+    "category": "Professional Registration",
+    "conductedBy": "Engineering Council UK (via licensed professional engineering institutions)",
+    "country": "UK",
+    "educationLevel": "Experienced graduate (accredited MEng/BEng plus competence)",
+    "eligibility": "Requires accredited academic qualifications (or demonstrated equivalent) and demonstration of professional competence and commitment against the UK-SPEC standard.",
+    "examPattern": {
+      "duration": "Varies by route",
+      "questionTypes": [
+        "Competence portfolio and professional review interview"
+      ],
+      "sections": [
+        {
+          "marks": "Requirement",
+          "name": "Academic qualification / equivalent"
+        },
+        {
+          "marks": "Requirement",
+          "name": "Professional competence report (UK-SPEC)"
+        },
+        {
+          "marks": "Pass/Fail",
+          "name": "Professional Review Interview"
+        }
+      ],
+      "totalMarks": "Competence-based assessment"
+    },
+    "higherStudyRelevance": "A senior professional credential supporting leadership roles in biomedical/clinical engineering.",
+    "icon": "Award",
+    "id": "ceng-uk",
+    "internationalRecognition": "Recognised internationally, including through agreements such as the International Professional Engineers Agreement.",
+    "lastVerified": "2026-08",
+    "name": "CEng (Chartered Engineer, UK)",
+    "officialWebsite": "https://www.engc.org.uk/ceng",
+    "overview": "Chartered Engineer (CEng) is a UK professional registration awarded by the Engineering Council through licensed professional engineering institutions (such as the IET or IPEM). It recognises engineers who can develop solutions to engineering problems using new or existing technologies. Biomedical and clinical engineers commonly register via the Institute of Physics and Engineering in Medicine (IPEM).",
+    "preparationTips": [
+      "Register with a relevant licensed institution such as IPEM or the IET.",
+      "Map your experience to the five UK-SPEC competence areas.",
+      "Seek a mentor or sponsor within your institution.",
+      "Prepare thoroughly for the professional review interview."
+    ],
+    "purpose": "Professional recognition of engineering competence in the United Kingdom.",
+    "qualificationType": "Professional Registration",
+    "recommendedBooks": [
+      {
+        "author": "Engineering Council",
+        "subject": "Standard",
+        "title": "UK-SPEC (UK Standard for Professional Engineering Competence)"
+      }
+    ],
+    "region": "Europe",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "clinical-engineer",
+      "medical-device-design-engineer"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "medical-device-design",
+      "biomedical-instrumentation"
+    ],
+    "syllabus": [
+      {
+        "section": "UK-SPEC Competences",
+        "topics": [
+          "Knowledge and understanding",
+          "Design and development of processes/systems",
+          "Responsibility, management and leadership",
+          "Communication and interpersonal skills",
+          "Professional commitment"
+        ]
+      }
+    ],
+    "validity": "Ongoing registration maintained through institution membership and continuing professional development."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Complete the NHS STP or the IPEM-assessed equivalence route, then apply to the HCPC for registration.",
+    "careerOpportunities": [
+      "Registered Clinical Scientist in NHS medical physics and clinical/biomedical engineering departments"
+    ],
+    "category": "Professional Registration",
+    "conductedBy": "Health and Care Professions Council (HCPC), with routes via NHS STP and IPEM",
+    "country": "UK",
+    "educationLevel": "Postgraduate (degree plus STP training or assessed equivalence)",
+    "eligibility": "Typically a relevant honours degree (and often a master's), completion of the NHS STP or an assessed equivalent route, and evidence meeting HCPC standards of proficiency.",
+    "examPattern": {
+      "duration": "Varies by route (STP is a three-year training programme)",
+      "questionTypes": [
+        "Portfolio of evidence, workplace assessment, and (for STP) academic examinations"
+      ],
+      "sections": [
+        {
+          "marks": "Requirement",
+          "name": "Academic qualification"
+        },
+        {
+          "marks": "Requirement",
+          "name": "Workplace training and competencies (STP) or equivalence portfolio"
+        },
+        {
+          "marks": "Requirement",
+          "name": "Certificate of Attainment / equivalence assessment"
+        }
+      ],
+      "totalMarks": "Competence and portfolio assessment"
+    },
+    "higherStudyRelevance": "Essential credential for clinical scientist careers within the UK healthcare system.",
+    "icon": "Stethoscope",
+    "id": "hcpc-clinical-scientist-uk",
+    "internationalRecognition": "A UK statutory registration; overseas applicants are assessed against UK standards.",
+    "lastVerified": "2026-08",
+    "name": "HCPC Registration – Clinical Scientist (UK)",
+    "officialWebsite": "https://www.hcpc-uk.org/",
+    "overview": "In the UK, 'Clinical Scientist' is a legally protected title requiring registration with the Health and Care Professions Council (HCPC). The most common route is the NHS Scientist Training Programme (STP) in medical physics or clinical/biomedical engineering; an alternative equivalence route is assessed by IPEM. Registration is essential for practising as a clinical scientist in the NHS.",
+    "preparationTips": [
+      "Research the NHS Scientist Training Programme (STP) application process and specialisms early.",
+      "For the equivalence route, review IPEM's guidance and build a robust competence portfolio.",
+      "Gain relevant clinical and healthcare science experience.",
+      "Familiarise yourself with HCPC standards of proficiency for clinical scientists."
+    ],
+    "purpose": "Statutory registration required to practise under the protected title 'Clinical Scientist' in the UK.",
+    "qualificationType": "Professional Registration",
+    "recommendedBooks": [
+      {
+        "author": "Health and Care Professions Council",
+        "subject": "Standards",
+        "title": "HCPC Standards of Proficiency – Clinical Scientists"
+      }
+    ],
+    "region": "Europe",
+    "relatedCareers": [
+      "clinical-engineer",
+      "biomedical-scientist",
+      "healthcare-technology-specialist"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "medical-imaging",
+      "rehabilitation-engineering"
+    ],
+    "syllabus": [
+      {
+        "section": "Clinical Engineering / Medical Physics competencies",
+        "topics": [
+          "Medical device management and safety",
+          "Physiological measurement or imaging",
+          "Rehabilitation engineering",
+          "Clinical measurement",
+          "Professional practice and governance"
+        ]
+      }
+    ],
+    "validity": "Registration renewed every two years with continuing professional development requirements."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Enrol in TEAP via an ACPSEM-accredited training site, complete supervised training and assessments, and sit certification examinations.",
+    "careerOpportunities": [
+      "Certified Medical Physicist or biomedical engineering specialist in Australian and New Zealand healthcare"
+    ],
+    "category": "Professional Registration",
+    "conductedBy": "Australasian College of Physical Scientists and Engineers in Medicine (ACPSEM)",
+    "country": "Australia",
+    "educationLevel": "Postgraduate (degree plus supervised clinical training)",
+    "eligibility": "A relevant accredited degree (physics, engineering or equivalent) and enrolment in a supervised TEAP training position, typically at an accredited hospital or clinic.",
+    "examPattern": {
+      "duration": "Structured multi-year training program",
+      "questionTypes": [
+        "Clinical competency assessment, written and oral examinations"
+      ],
+      "sections": [
+        {
+          "marks": "Requirement",
+          "name": "Supervised clinical training"
+        },
+        {
+          "marks": "Requirement",
+          "name": "Competency portfolio"
+        },
+        {
+          "marks": "Pass/Fail",
+          "name": "Certification examinations"
+        }
+      ],
+      "totalMarks": "Competence and examination based"
+    },
+    "higherStudyRelevance": "Core pathway to specialist practice in clinical medical physics and biomedical engineering in Australasia.",
+    "icon": "Stethoscope",
+    "id": "acpsem-teap",
+    "internationalRecognition": "Recognised across Australia and New Zealand and respected internationally in medical physics.",
+    "lastVerified": "2026-08",
+    "name": "ACPSEM TEAP (Australia & New Zealand)",
+    "officialWebsite": "https://www.acpsem.org.au/",
+    "overview": "The Training, Education and Assessment Program (TEAP) is the structured training and certification pathway of the ACPSEM for medical physicists and biomedical engineers in Australia and New Zealand. Completion leads to certification and eligibility for professional accreditation in specialties such as radiation oncology, diagnostic imaging, and nuclear medicine physics.",
+    "preparationTips": [
+      "Secure an ACPSEM-accredited training position to enrol in TEAP.",
+      "Follow the ACPSEM training guide and log competencies systematically.",
+      "Prepare for both written and oral certification examinations.",
+      "Engage supervisors and mentors throughout the program."
+    ],
+    "purpose": "Structured certification of medical physicists and biomedical engineers in Australia and New Zealand.",
+    "qualificationType": "Professional Registration",
+    "recommendedBooks": [
+      {
+        "author": "ACPSEM",
+        "subject": "Official Program Guide",
+        "title": "ACPSEM TEAP Training Guide"
+      }
+    ],
+    "region": "Oceania",
+    "relatedCareers": [
+      "clinical-engineer",
+      "medical-imaging-engineer",
+      "biomedical-scientist"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "medical-imaging"
+    ],
+    "syllabus": [
+      {
+        "section": "Clinical Specialty Modules",
+        "topics": [
+          "Radiation Oncology Medical Physics",
+          "Diagnostic Imaging Medical Physics",
+          "Nuclear Medicine Physics",
+          "Radiation safety and dosimetry",
+          "Clinical equipment and quality assurance"
+        ]
+      }
+    ],
+    "validity": "Certification maintained through ongoing ACPSEM membership and continuing professional development."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Confirm eligibility through the AAMI Credentials Institute, apply, and schedule the computer-based examination.",
+    "careerOpportunities": [
+      "Certified Biomedical Equipment Technician roles in hospitals and healthcare technology management"
+    ],
+    "category": "Biomedical Certification",
+    "conductedBy": "AAMI Credentials Institute (ACI)",
+    "country": "USA",
+    "educationLevel": "Vocational/associate level plus experience",
+    "eligibility": "Meets one of the ACI eligibility routes combining relevant education (e.g. associate degree in biomedical equipment technology) and work experience in the field.",
+    "examPattern": {
+      "duration": "Approximately 3 hours",
+      "questionTypes": [
+        "Multiple Choice (computer-based)"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Anatomy and Physiology"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Public Safety in Healthcare Facility"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Electronics and Instrumentation"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Medical Equipment Function and Operation"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Healthcare Information Technology"
+        }
+      ],
+      "totalMarks": "Scaled score (pass/fail)"
+    },
+    "higherStudyRelevance": "Validates practical competence for healthcare technology management careers.",
+    "icon": "ClipboardCheck",
+    "id": "aami-cbet",
+    "internationalRecognition": "US-based credential recognised in many healthcare technology management settings internationally.",
+    "lastVerified": "2026-08",
+    "name": "CBET – Certified Biomedical Equipment Technician (AAMI/ACI)",
+    "officialWebsite": "https://www.aami.org/certification",
+    "overview": "The Certified Biomedical Equipment Technician (CBET) credential, administered by the AAMI Credentials Institute, certifies competence in installing, maintaining, and repairing biomedical equipment in healthcare settings. It is a widely recognised credential for healthcare technology management professionals.",
+    "preparationTips": [
+      "Review the ACI candidate handbook for the current exam content outline.",
+      "Use AAMI study resources and practice exams.",
+      "Strengthen electronics fundamentals and medical device operating principles.",
+      "Gain hands-on experience with common clinical equipment."
+    ],
+    "purpose": "Certifying competence in servicing and managing biomedical equipment in healthcare facilities.",
+    "qualificationType": "Certification",
+    "recommendedBooks": [
+      {
+        "author": "AAMI",
+        "subject": "Official Preparation",
+        "title": "AAMI CBET Study Guide"
+      },
+      {
+        "author": "Joseph J. Carr and John M. Brown",
+        "subject": "Biomedical Equipment",
+        "title": "Introduction to Biomedical Equipment Technology"
+      }
+    ],
+    "region": "North America",
+    "relatedCareers": [
+      "biomedical-equipment-engineer",
+      "medical-device-service-engineer",
+      "medical-equipment-specialist"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "hospital-technology-management",
+      "biomedical-instrumentation"
+    ],
+    "syllabus": [
+      {
+        "section": "CBET Domains",
+        "topics": [
+          "Anatomy and Physiology",
+          "Public Safety in the Healthcare Facility",
+          "Electricity and Electronics",
+          "Healthcare Technology Function and Operation",
+          "Healthcare Technology Problem Solving",
+          "Healthcare Information Technology"
+        ]
+      }
+    ],
+    "validity": "Certification requires periodic renewal through continuing practice/education per ACI rules."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Confirm eligibility with the AAMI Credentials Institute, apply, and sit the computer-based examination.",
+    "careerOpportunities": [
+      "Healthcare Technology Manager and clinical engineering leadership roles"
+    ],
+    "category": "Biomedical Certification",
+    "conductedBy": "AAMI Credentials Institute (ACI)",
+    "country": "USA",
+    "educationLevel": "Professional (management-level experience)",
+    "eligibility": "Meets ACI eligibility combining education and management-level experience in healthcare technology management.",
+    "examPattern": {
+      "duration": "Approximately 3 hours",
+      "questionTypes": [
+        "Multiple Choice (computer-based)"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Technology Management"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Financial and Operations Management"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Leadership and Human Resources"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Risk and Regulatory Compliance"
+        }
+      ],
+      "totalMarks": "Scaled score (pass/fail)"
+    },
+    "higherStudyRelevance": "Supports advancement into leadership of biomedical/clinical engineering departments.",
+    "icon": "ClipboardCheck",
+    "id": "aami-chtm",
+    "internationalRecognition": "US-based credential respected in healthcare technology management internationally.",
+    "lastVerified": "2026-08",
+    "name": "CHTM – Certified Healthcare Technology Manager (AAMI/ACI)",
+    "officialWebsite": "https://www.aami.org/certification",
+    "overview": "The Certified Healthcare Technology Manager (CHTM), offered by the AAMI Credentials Institute, is an advanced credential for professionals who lead biomedical/clinical engineering departments and manage healthcare technology programs. It builds on foundational technician certifications with a focus on management competencies.",
+    "preparationTips": [
+      "Review the ACI candidate handbook for the CHTM content outline.",
+      "Develop management and financial planning knowledge for healthcare technology.",
+      "Study relevant regulatory and safety standards.",
+      "Draw on real departmental leadership experience."
+    ],
+    "purpose": "Certifying leadership and management competence in healthcare technology management.",
+    "qualificationType": "Certification",
+    "recommendedBooks": [
+      {
+        "author": "AAMI",
+        "subject": "Official Preparation",
+        "title": "AAMI Healthcare Technology Management resources"
+      }
+    ],
+    "region": "North America",
+    "relatedCareers": [
+      "healthcare-technology-specialist",
+      "clinical-engineer",
+      "medical-equipment-specialist"
+    ],
+    "relatedDomains": [
+      "hospital-technology-management",
+      "clinical-engineering"
+    ],
+    "syllabus": [
+      {
+        "section": "CHTM Domains",
+        "topics": [
+          "Healthcare technology strategic planning",
+          "Financial management",
+          "Operations and service management",
+          "Leadership and personnel",
+          "Regulatory compliance and risk management"
+        ]
+      }
+    ],
+    "validity": "Requires periodic renewal through continuing education/practice per ACI rules."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply through RAPS, confirm eligibility, and schedule the computer-based certification exam.",
+    "careerOpportunities": [
+      "Regulatory Affairs Specialist and manager roles in medical device and pharmaceutical companies"
+    ],
+    "category": "Regulatory Certification",
+    "conductedBy": "Regulatory Affairs Professionals Society (RAPS)",
+    "country": "Global",
+    "educationLevel": "Professional (regulatory affairs experience)",
+    "eligibility": "Recommended for professionals with regulatory affairs experience; RAPS specifies eligibility criteria based on education and experience.",
+    "examPattern": {
+      "duration": "Approximately 3.5 hours",
+      "questionTypes": [
+        "Multiple Choice (computer-based)"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted by domain",
+          "name": "Regulatory strategy and lifecycle knowledge"
+        }
+      ],
+      "totalMarks": "Scaled score (pass/fail)"
+    },
+    "higherStudyRelevance": "Advances careers in regulatory affairs across the medical technology industry worldwide.",
+    "icon": "ScrollText",
+    "id": "raps-rac",
+    "internationalRecognition": "Globally recognised credential in medical device and pharmaceutical regulatory affairs.",
+    "lastVerified": "2026-08",
+    "name": "RAC – Regulatory Affairs Certification (RAPS)",
+    "officialWebsite": "https://www.raps.org/rac",
+    "overview": "The Regulatory Affairs Certification (RAC) from the Regulatory Affairs Professionals Society (RAPS) is a leading credential for regulatory professionals working with medical devices, pharmaceuticals, and biologics. RAC credentials (such as RAC Devices and RAC Drugs) demonstrate expertise in regulatory requirements across healthcare product lifecycles.",
+    "preparationTips": [
+      "Use the RAPS RAC exam candidate guide and content outline.",
+      "Focus on the product scope (devices or drugs) you are certifying in.",
+      "Study major regulatory frameworks (e.g. FDA, EU MDR) relevant to your scope.",
+      "Take RAPS practice materials and courses."
+    ],
+    "purpose": "Demonstrating professional expertise in healthcare product regulatory affairs.",
+    "qualificationType": "Certification",
+    "recommendedBooks": [
+      {
+        "author": "RAPS",
+        "subject": "Regulatory Affairs",
+        "title": "Fundamentals of Medical Device Regulations"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "regulatory-affairs-specialist",
+      "quality-assurance-engineer",
+      "medical-device-product-manager"
+    ],
+    "relatedDomains": [
+      "medical-device-design",
+      "biomedical-manufacturing"
+    ],
+    "syllabus": [
+      {
+        "section": "Regulatory Affairs Knowledge Areas",
+        "topics": [
+          "Regulatory frameworks and agencies",
+          "Product development and submissions",
+          "Postmarket surveillance and compliance",
+          "Quality systems",
+          "Labeling and advertising regulations"
+        ]
+      }
+    ],
+    "validity": "Maintained through RAPS continuing education/recertification requirements."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply through ASQ, confirm eligibility, and schedule the computer-based exam at an approved centre.",
+    "careerOpportunities": [
+      "Quality Engineer and quality assurance roles in medical device and biomedical manufacturing"
+    ],
+    "category": "Quality Certification",
+    "conductedBy": "American Society for Quality (ASQ)",
+    "country": "Global",
+    "educationLevel": "Professional (education plus experience)",
+    "eligibility": "Requires a combination of education and work experience in quality-related roles as specified by ASQ.",
+    "examPattern": {
+      "duration": "Approximately 5 hours 18 minutes",
+      "questionTypes": [
+        "Multiple Choice (computer-based)"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Management and Leadership"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Quality System"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Product, Process, and Service Design"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Product and Process Control"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Continuous Improvement"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Quantitative Methods and Tools"
+        }
+      ],
+      "totalMarks": "Scaled score (pass/fail)"
+    },
+    "higherStudyRelevance": "Supports quality and validation careers in regulated medical device manufacturing.",
+    "icon": "BadgeCheck",
+    "id": "asq-cqe",
+    "internationalRecognition": "Globally recognised quality credential across manufacturing industries.",
+    "lastVerified": "2026-08",
+    "name": "ASQ Certified Quality Engineer (CQE)",
+    "officialWebsite": "https://asq.org/cert/quality-engineer",
+    "overview": "The ASQ Certified Quality Engineer (CQE) credential recognises professionals who understand the principles of product and service quality evaluation and control. It is highly relevant to biomedical and medical device manufacturing, where quality engineering underpins safety and regulatory compliance.",
+    "preparationTips": [
+      "Study the current ASQ CQE Body of Knowledge.",
+      "Strengthen statistics and reliability engineering fundamentals.",
+      "Use ASQ's certification preparation materials and question banks.",
+      "Apply concepts to real manufacturing/quality scenarios."
+    ],
+    "purpose": "Certifying professional competence in quality engineering principles and practice.",
+    "qualificationType": "Certification",
+    "recommendedBooks": [
+      {
+        "author": "Rachel Silvestrini and Sarah Burke (ASQ)",
+        "subject": "Quality Engineering",
+        "title": "The Certified Quality Engineer Handbook"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "quality-assurance-engineer",
+      "medical-device-quality-engineer",
+      "validation-engineer"
+    ],
+    "relatedDomains": [
+      "biomedical-manufacturing",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "CQE Body of Knowledge",
+        "topics": [
+          "Management and leadership",
+          "Quality systems",
+          "Design and product control",
+          "Statistical process control",
+          "Reliability and risk management",
+          "Continuous improvement",
+          "Quantitative methods"
+        ]
+      }
+    ],
+    "validity": "Recertification required periodically through ASQ's continuing education units."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply through ASQ, confirm eligibility, and schedule the computer-based exam.",
+    "careerOpportunities": [
+      "Quality Auditor and compliance roles in medical device and biomedical organisations"
+    ],
+    "category": "Quality Certification",
+    "conductedBy": "American Society for Quality (ASQ)",
+    "country": "Global",
+    "educationLevel": "Professional (education plus experience)",
+    "eligibility": "Requires a combination of education and quality-related work experience as specified by ASQ.",
+    "examPattern": {
+      "duration": "Approximately 4 hours 18 minutes",
+      "questionTypes": [
+        "Multiple Choice (computer-based)"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Auditing Fundamentals"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Audit Process"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Auditor Competencies"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Audit Program Management and Business Applications"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Quality Tools and Techniques"
+        }
+      ],
+      "totalMarks": "Scaled score (pass/fail)"
+    },
+    "higherStudyRelevance": "Supports careers in quality auditing and regulatory compliance in medical technology.",
+    "icon": "BadgeCheck",
+    "id": "asq-cqa",
+    "internationalRecognition": "Globally recognised auditing credential.",
+    "lastVerified": "2026-08",
+    "name": "ASQ Certified Quality Auditor (CQA)",
+    "officialWebsite": "https://asq.org/cert/quality-auditor",
+    "overview": "The ASQ Certified Quality Auditor (CQA) credential recognises professionals who understand the standards and principles of auditing and the auditing techniques of examining, questioning, evaluating, and reporting to determine a quality system's adequacy. It is valuable in medical device and biomedical quality environments.",
+    "preparationTips": [
+      "Study the ASQ CQA Body of Knowledge in detail.",
+      "Understand auditing standards such as ISO 19011.",
+      "Practice audit scenario questions.",
+      "Use ASQ preparation resources and refresher courses."
+    ],
+    "purpose": "Certifying competence in quality systems auditing.",
+    "qualificationType": "Certification",
+    "recommendedBooks": [
+      {
+        "author": "Lance B. Coleman (ASQ)",
+        "subject": "Quality Auditing",
+        "title": "The ASQ Certified Quality Auditor Handbook"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "quality-assurance-engineer",
+      "medical-device-quality-engineer",
+      "regulatory-affairs-specialist"
+    ],
+    "relatedDomains": [
+      "biomedical-manufacturing",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "CQA Body of Knowledge",
+        "topics": [
+          "Auditing fundamentals and ethics",
+          "Audit preparation and performance",
+          "Audit reporting and follow-up",
+          "Audit program management",
+          "Quality tools and process improvement"
+        ]
+      }
+    ],
+    "validity": "Recertification required periodically through ASQ continuing education units."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Enrol in a certified ISO 13485 Lead Auditor training course, complete workshops, and pass the final examination.",
+    "careerOpportunities": [
+      "Lead Auditor and quality management roles for medical device organisations"
+    ],
+    "category": "Quality Certification",
+    "conductedBy": "Accredited training providers (Exemplar Global / IRCA-certified courses)",
+    "country": "Global",
+    "educationLevel": "Professional (quality management background)",
+    "eligibility": "Typically requires prior knowledge of quality management systems; some courses recommend ISO 13485 or ISO 9001 familiarity beforehand.",
+    "examPattern": {
+      "duration": "Typically a 5-day course with an examination",
+      "questionTypes": [
+        "Written examination and practical audit exercises"
+      ],
+      "sections": [
+        {
+          "marks": "Requirement",
+          "name": "Course workshops and continuous assessment"
+        },
+        {
+          "marks": "Pass/Fail",
+          "name": "Final written examination"
+        }
+      ],
+      "totalMarks": "Course assessment (pass/fail)"
+    },
+    "higherStudyRelevance": "Advances careers in medical device quality assurance and auditing worldwide.",
+    "icon": "BadgeCheck",
+    "id": "iso-13485-lead-auditor",
+    "internationalRecognition": "Internationally recognised, based on the ISO 13485 standard and recognised training schemes.",
+    "lastVerified": "2026-08",
+    "name": "ISO 13485 Lead Auditor Certification",
+    "officialWebsite": "https://www.iso.org/standard/59752.html",
+    "overview": "ISO 13485 specifies requirements for a quality management system for organisations involved in the medical device lifecycle. Lead Auditor certification, delivered through training providers whose courses are certified by bodies such as Exemplar Global or IRCA, qualifies professionals to plan and lead audits of medical device quality management systems.",
+    "preparationTips": [
+      "Choose a course certified by a recognised body (e.g. Exemplar Global or IRCA).",
+      "Read ISO 13485 and ISO 19011 before the course.",
+      "Engage actively in the practical audit workshops.",
+      "Review medical device regulatory context (e.g. EU MDR, FDA QSR)."
+    ],
+    "purpose": "Qualifying professionals to lead audits of medical device quality management systems.",
+    "qualificationType": "Certification",
+    "recommendedBooks": [
+      {
+        "author": "International Organization for Standardization",
+        "subject": "Standard",
+        "title": "ISO 13485:2016 – Medical devices — Quality management systems"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "quality-assurance-engineer",
+      "medical-device-quality-engineer",
+      "regulatory-affairs-specialist"
+    ],
+    "relatedDomains": [
+      "biomedical-manufacturing",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "ISO 13485 Auditing",
+        "topics": [
+          "ISO 13485 requirements",
+          "Audit principles and ISO 19011",
+          "Planning and conducting audits",
+          "Nonconformity reporting",
+          "Audit follow-up and closure",
+          "Regulatory context for medical devices"
+        ]
+      }
+    ],
+    "validity": "Auditor certification/registration is maintained through the certifying body's continuing requirements."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply through PMI, verify eligibility and experience, and schedule the exam online or at a test centre.",
+    "careerOpportunities": [
+      "Project and program management roles in medical device and healthcare technology organisations"
+    ],
+    "category": "Professional Certification",
+    "conductedBy": "Project Management Institute (PMI)",
+    "country": "Global",
+    "educationLevel": "Professional (education plus project experience)",
+    "eligibility": "Requires a combination of education and documented project management experience, plus project management education/training hours, as defined by PMI.",
+    "examPattern": {
+      "duration": "Approximately 230 minutes",
+      "questionTypes": [
+        "Multiple Choice, multiple response, matching, and hotspot"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "People"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Process"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Business Environment"
+        }
+      ],
+      "totalMarks": "Scaled score (pass/fail)"
+    },
+    "higherStudyRelevance": "Supports leadership of complex biomedical product and implementation projects.",
+    "icon": "ClipboardList",
+    "id": "pmp",
+    "internationalRecognition": "One of the most globally recognised project management credentials.",
+    "lastVerified": "2026-08",
+    "name": "PMP – Project Management Professional (PMI)",
+    "officialWebsite": "https://www.pmi.org/certifications/project-management-pmp",
+    "overview": "The Project Management Professional (PMP) certification from the Project Management Institute is a globally recognised credential for project managers. In the medical device and healthcare technology industries, PMP-certified professionals often lead product development, clinical, and implementation projects.",
+    "preparationTips": [
+      "Study the current PMP Exam Content Outline and PMBOK Guide.",
+      "Learn predictive, agile, and hybrid delivery approaches.",
+      "Use PMI-authorised training and practice questions.",
+      "Apply concepts to healthcare/medical device project scenarios."
+    ],
+    "purpose": "Certifying professional competence in project management across industries.",
+    "qualificationType": "Certification",
+    "recommendedBooks": [
+      {
+        "author": "Project Management Institute",
+        "subject": "Project Management",
+        "title": "A Guide to the Project Management Body of Knowledge (PMBOK Guide)"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "medical-device-product-manager",
+      "medical-technology-consultant",
+      "biomedical-manufacturing-engineer"
+    ],
+    "relatedDomains": [
+      "medical-device-design",
+      "biomedical-manufacturing"
+    ],
+    "syllabus": [
+      {
+        "section": "PMP Exam Content Outline",
+        "topics": [
+          "Leading and managing teams (People)",
+          "Project processes and delivery (Process)",
+          "Business environment and compliance",
+          "Agile and hybrid delivery approaches"
+        ]
+      }
+    ],
+    "validity": "Requires renewal every three years via professional development units (PDUs)."
+  },
+  {
+    "ageLimit": "Recommended for candidates aged 16 and above (per test provider guidance)",
+    "applicationProcess": "Register online with a test provider (British Council, IDP, or authorised centre), choose paper-based or computer-delivered, and attend the test.",
+    "careerOpportunities": [
+      "Meets English requirements for study, professional registration, and work abroad"
+    ],
+    "category": "Language Proficiency",
+    "conductedBy": "British Council, IDP: IELTS Australia, and Cambridge University Press & Assessment",
+    "country": "Global",
+    "educationLevel": "Any (used for admission and professional registration)",
+    "eligibility": "Open to anyone needing to demonstrate English proficiency; no formal prerequisites.",
+    "examPattern": {
+      "duration": "Approximately 2 hours 45 minutes",
+      "questionTypes": [
+        "Listening, reading, writing tasks, and a face-to-face speaking interview"
+      ],
+      "sections": [
+        {
+          "marks": "Band 0–9",
+          "name": "Listening"
+        },
+        {
+          "marks": "Band 0–9",
+          "name": "Reading"
+        },
+        {
+          "marks": "Band 0–9",
+          "name": "Writing"
+        },
+        {
+          "marks": "Band 0–9",
+          "name": "Speaking"
+        }
+      ],
+      "totalMarks": "Band scores 0–9"
+    },
+    "higherStudyRelevance": "A common language requirement for international biomedical engineering study.",
+    "icon": "Languages",
+    "id": "ielts",
+    "internationalRecognition": "Accepted by thousands of institutions and authorities across the UK, Australia, Canada, and worldwide.",
+    "lastVerified": "2026-08",
+    "name": "IELTS",
+    "officialWebsite": "https://www.ielts.org/",
+    "overview": "The International English Language Testing System (IELTS) assesses English language proficiency for study, work, and migration. It is widely required for admission to English-medium biomedical engineering programs and for professional registration in English-speaking countries.",
+    "preparationTips": [
+      "Choose the Academic module for university admission.",
+      "Practice all four skills with official IELTS practice materials.",
+      "Develop timed reading and essay-writing strategies.",
+      "Practice speaking with a partner or tutor to build fluency."
+    ],
+    "purpose": "Demonstrating English language proficiency for study, work, and migration.",
+    "qualificationType": "Qualification",
+    "recommendedBooks": [
+      {
+        "author": "Cambridge University Press & Assessment",
+        "subject": "Official Preparation",
+        "title": "The Official Cambridge Guide to IELTS"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "biomedical-research-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-research"
+    ],
+    "syllabus": [
+      {
+        "section": "Test Components",
+        "topics": [
+          "Listening comprehension",
+          "Academic or General Training reading",
+          "Academic or General Training writing",
+          "Spoken interaction and fluency"
+        ]
+      }
+    ],
+    "validity": "Results are typically considered valid for 2 years."
+  },
+  {
+    "ageLimit": "No official age limit",
+    "applicationProcess": "Register through ETS, choose a test centre or at-home option, and take the internet-based test.",
+    "careerOpportunities": [
+      "Meets English requirements for university admission and academic programs abroad"
+    ],
+    "category": "Language Proficiency",
+    "conductedBy": "ETS (Educational Testing Service)",
+    "country": "Global",
+    "educationLevel": "Any (used for university admission)",
+    "eligibility": "Open to anyone needing to demonstrate academic English proficiency; no formal prerequisites.",
+    "examPattern": {
+      "duration": "Approximately 2 hours",
+      "questionTypes": [
+        "Reading, listening, integrated and independent speaking and writing tasks"
+      ],
+      "sections": [
+        {
+          "marks": "0–30",
+          "name": "Reading"
+        },
+        {
+          "marks": "0–30",
+          "name": "Listening"
+        },
+        {
+          "marks": "0–30",
+          "name": "Speaking"
+        },
+        {
+          "marks": "0–30",
+          "name": "Writing"
+        }
+      ],
+      "totalMarks": "0–120 (30 per section)"
+    },
+    "higherStudyRelevance": "A common language requirement for international biomedical engineering study.",
+    "icon": "Languages",
+    "id": "toefl",
+    "internationalRecognition": "Accepted by universities and institutions worldwide, especially in the USA.",
+    "lastVerified": "2026-08",
+    "name": "TOEFL iBT",
+    "officialWebsite": "https://www.ets.org/toefl.html",
+    "overview": "The TOEFL iBT test measures the English language ability of non-native speakers who want to study at English-medium universities. It is widely accepted for admission to biomedical engineering and science programs, particularly in the United States.",
+    "preparationTips": [
+      "Use official ETS TOEFL practice tests.",
+      "Practice note-taking for listening and integrated tasks.",
+      "Develop academic writing and speaking templates.",
+      "Build academic vocabulary through reading."
+    ],
+    "purpose": "Demonstrating academic English proficiency for university admission.",
+    "qualificationType": "Qualification",
+    "recommendedBooks": [
+      {
+        "author": "ETS",
+        "subject": "Official Preparation",
+        "title": "The Official Guide to the TOEFL iBT Test"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "biomedical-research-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-research"
+    ],
+    "syllabus": [
+      {
+        "section": "Test Sections",
+        "topics": [
+          "Academic reading comprehension",
+          "Academic listening",
+          "Integrated and independent speaking",
+          "Integrated and academic writing"
+        ]
+      }
+    ],
+    "validity": "Scores are valid for 2 years from the test date."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Register through the TestDaF portal, choose a test date/centre, and take the digital examination.",
+    "careerOpportunities": [
+      "Meets German language requirements for admission to German universities"
+    ],
+    "category": "Language Proficiency",
+    "conductedBy": "TestDaF-Institut (g.a.s.t.)",
+    "country": "Germany",
+    "educationLevel": "Any (used for university admission)",
+    "eligibility": "Open to international applicants intending to study or work in a German-speaking academic environment.",
+    "examPattern": {
+      "duration": "Approximately 3 hours 10 minutes (digital)",
+      "questionTypes": [
+        "Reading, listening, writing and speaking tasks (digital)"
+      ],
+      "sections": [
+        {
+          "marks": "TDN 3–5",
+          "name": "Reading"
+        },
+        {
+          "marks": "TDN 3–5",
+          "name": "Listening"
+        },
+        {
+          "marks": "TDN 3–5",
+          "name": "Writing"
+        },
+        {
+          "marks": "TDN 3–5",
+          "name": "Speaking"
+        }
+      ],
+      "totalMarks": "TestDaF levels (TDN 3–5)"
+    },
+    "higherStudyRelevance": "Enables entry into German-taught biomedical engineering programs.",
+    "icon": "Languages",
+    "id": "testdaf",
+    "internationalRecognition": "Widely recognised by German higher education institutions.",
+    "lastVerified": "2026-08",
+    "name": "TestDaF",
+    "officialWebsite": "https://www.testdaf.de/en/",
+    "overview": "TestDaF (Test Deutsch als Fremdsprache) is a standardized German language examination for international applicants who wish to study at German universities. Demonstrating German proficiency via TestDaF supports admission to German-taught biomedical engineering and science programs.",
+    "preparationTips": [
+      "Use official TestDaF preparation and sample materials.",
+      "Build academic German vocabulary and register.",
+      "Practice all four skills under digital test conditions.",
+      "Take a preparation course if aiming for TDN 4 or above."
+    ],
+    "purpose": "Demonstrating German language proficiency for academic study in Germany.",
+    "qualificationType": "Qualification",
+    "recommendedBooks": [
+      {
+        "author": "g.a.s.t. / TestDaF-Institut",
+        "subject": "Official Preparation",
+        "title": "Official TestDaF Preparation Materials"
+      }
+    ],
+    "region": "Europe",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "biomedical-research-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-research"
+    ],
+    "syllabus": [
+      {
+        "section": "Test Sections",
+        "topics": [
+          "Academic German reading",
+          "Academic German listening",
+          "Academic writing",
+          "Academic speaking"
+        ]
+      }
+    ],
+    "validity": "Results are generally recognised without a fixed expiry, though universities may set preferences."
+  },
+  {
+    "ageLimit": "Varies by exam level (some youth versions exist)",
+    "applicationProcess": "Register through a Goethe-Institut or authorised exam centre for the desired level and take the examination.",
+    "careerOpportunities": [
+      "Supports study, professional recognition, and work in German-speaking countries"
+    ],
+    "category": "Language Proficiency",
+    "conductedBy": "Goethe-Institut",
+    "country": "Germany",
+    "educationLevel": "Any (language certification)",
+    "eligibility": "Open to German language learners at the corresponding CEFR level; no other prerequisites.",
+    "examPattern": {
+      "duration": "Varies by level",
+      "questionTypes": [
+        "Reading, listening, writing and speaking tasks"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Reading"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Listening"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Writing"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Speaking"
+        }
+      ],
+      "totalMarks": "Pass/Fail per CEFR level"
+    },
+    "higherStudyRelevance": "Supports academic entry and professional integration in German-speaking countries.",
+    "icon": "Languages",
+    "id": "goethe-zertifikat",
+    "internationalRecognition": "Internationally recognised German language qualification.",
+    "lastVerified": "2026-08",
+    "name": "Goethe-Zertifikat",
+    "officialWebsite": "https://www.goethe.de/en/spr/kup/prf.html",
+    "overview": "The Goethe-Zertifikat is a suite of internationally recognised German language examinations offered by the Goethe-Institut, spanning levels A1 to C2 of the Common European Framework of Reference (CEFR). Higher-level certificates (e.g. C1/C2) can support academic and professional pathways in German-speaking countries.",
+    "preparationTips": [
+      "Select the certificate level matching your CEFR ability.",
+      "Use Goethe-Institut practice materials and courses.",
+      "Practice all four language skills.",
+      "For academic use, target C1 or higher."
+    ],
+    "purpose": "Certifying German language proficiency at defined CEFR levels.",
+    "qualificationType": "Qualification",
+    "recommendedBooks": [
+      {
+        "author": "Goethe-Institut",
+        "subject": "Official Preparation",
+        "title": "Goethe-Institut Official Practice Materials"
+      }
+    ],
+    "region": "Europe",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "biomedical-research-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-research"
+    ],
+    "syllabus": [
+      {
+        "section": "CEFR Level Competencies",
+        "topics": [
+          "Reading comprehension",
+          "Listening comprehension",
+          "Written production",
+          "Spoken interaction and production"
+        ]
+      }
+    ],
+    "validity": "Certificates do not formally expire, though institutions may prefer recent results."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Register during the twice-yearly application windows through the official JLPT site or local host institutions, and take the test at a designated centre.",
+    "careerOpportunities": [
+      "Supports study and employment in Japan, including at universities and companies"
+    ],
+    "category": "Language Proficiency",
+    "conductedBy": "Japan Foundation and Japan Educational Exchanges and Services (JEES)",
+    "country": "Japan",
+    "educationLevel": "Any (language certification)",
+    "eligibility": "Open to non-native Japanese speakers; candidates select the level appropriate to their ability.",
+    "examPattern": {
+      "duration": "Varies by level (roughly 1.5–3 hours)",
+      "questionTypes": [
+        "Multiple Choice (vocabulary, grammar, reading, listening)"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Language Knowledge (Vocabulary/Grammar)"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Reading"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Listening"
+        }
+      ],
+      "totalMarks": "Scaled score with pass mark per level"
+    },
+    "higherStudyRelevance": "Supports admission to Japanese-taught programs and research placements in Japan.",
+    "icon": "Languages",
+    "id": "jlpt",
+    "internationalRecognition": "The most widely recognised Japanese proficiency certification worldwide.",
+    "lastVerified": "2026-08",
+    "name": "JLPT – Japanese-Language Proficiency Test",
+    "officialWebsite": "https://www.jlpt.jp/e/",
+    "overview": "The Japanese-Language Proficiency Test (JLPT) evaluates and certifies Japanese-language proficiency for non-native speakers across five levels (N5 to N1). Higher levels support study and employment in Japan, including at Japanese universities and companies in the medical technology sector.",
+    "preparationTips": [
+      "Choose the level (N5–N1) that matches your ability.",
+      "Build kanji and vocabulary systematically.",
+      "Practice listening with authentic Japanese materials.",
+      "Use official JLPT workbooks and past papers."
+    ],
+    "purpose": "Certifying Japanese language proficiency for study and work in Japan.",
+    "qualificationType": "Qualification",
+    "recommendedBooks": [
+      {
+        "author": "Japan Foundation / JEES",
+        "subject": "Official Preparation",
+        "title": "Official JLPT Practice Workbook"
+      }
+    ],
+    "region": "Asia",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "biomedical-research-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-research"
+    ],
+    "syllabus": [
+      {
+        "section": "Test Components",
+        "topics": [
+          "Vocabulary and kanji",
+          "Grammar",
+          "Reading comprehension",
+          "Listening comprehension"
+        ]
+      }
+    ],
+    "validity": "Certificates do not expire, though institutions may prefer recent results."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Register through the official TOPIK portal or local test administrators during the scheduled windows, and take the test at a designated centre.",
+    "careerOpportunities": [
+      "Supports admission and employment in South Korea, including universities and companies"
+    ],
+    "category": "Language Proficiency",
+    "conductedBy": "National Institute for International Education (NIIED), South Korea",
+    "country": "South Korea",
+    "educationLevel": "Any (language certification)",
+    "eligibility": "Open to non-native Korean speakers and overseas Koreans; candidates choose TOPIK I or TOPIK II.",
+    "examPattern": {
+      "duration": "Varies (TOPIK I approx. 100 minutes; TOPIK II approx. 180 minutes)",
+      "questionTypes": [
+        "Multiple Choice and written composition (TOPIK II)"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Listening"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Reading"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Writing (TOPIK II only)"
+        }
+      ],
+      "totalMarks": "Scaled score determining level (1–6)"
+    },
+    "higherStudyRelevance": "Supports admission to Korean-taught biomedical and engineering programs.",
+    "icon": "Languages",
+    "id": "topik",
+    "internationalRecognition": "The official Korean proficiency test, recognised by South Korean universities and institutions.",
+    "lastVerified": "2026-08",
+    "name": "TOPIK – Test of Proficiency in Korean",
+    "officialWebsite": "https://www.topik.go.kr/",
+    "overview": "The Test of Proficiency in Korean (TOPIK) evaluates Korean-language ability for non-native speakers and overseas Koreans. It is required for admission to many South Korean universities and supports study and employment pathways, including in South Korea's medical technology and research sectors.",
+    "preparationTips": [
+      "Select TOPIK I (levels 1–2) or TOPIK II (levels 3–6) based on your goals.",
+      "Practice past papers available on the official TOPIK site.",
+      "For TOPIK II, develop structured writing skills.",
+      "Build vocabulary and grammar steadily."
+    ],
+    "purpose": "Certifying Korean language proficiency for study and work in South Korea.",
+    "qualificationType": "Qualification",
+    "recommendedBooks": [
+      {
+        "author": "NIIED",
+        "subject": "Official Preparation",
+        "title": "Official TOPIK Past Papers"
+      }
+    ],
+    "region": "Asia",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "biomedical-research-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-research"
+    ],
+    "syllabus": [
+      {
+        "section": "Test Components",
+        "topics": [
+          "Listening comprehension",
+          "Reading comprehension",
+          "Writing (TOPIK II)",
+          "Vocabulary and grammar in context"
+        ]
+      }
+    ],
+    "validity": "Results are typically valid for 2 years."
+  },
+  {
+    "ageLimit": "No age limit (junior versions exist)",
+    "applicationProcess": "Register through an approved DELF/DALF exam centre for the chosen level and take the examination.",
+    "careerOpportunities": [
+      "Supports study and professional pathways in France and French-speaking regions"
+    ],
+    "category": "Language Proficiency",
+    "conductedBy": "France Éducation international (French Ministry of Education)",
+    "country": "France",
+    "educationLevel": "Any (language certification)",
+    "eligibility": "Open to non-native French speakers; candidates choose the diploma level matching their ability.",
+    "examPattern": {
+      "duration": "Varies by level",
+      "questionTypes": [
+        "Listening, reading, written production and oral interview"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Listening"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Reading"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Writing"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Speaking"
+        }
+      ],
+      "totalMarks": "Pass mark per CEFR level"
+    },
+    "higherStudyRelevance": "Supports admission to French-taught biomedical engineering programs.",
+    "icon": "Languages",
+    "id": "delf-dalf",
+    "internationalRecognition": "Official French diplomas recognised worldwide.",
+    "lastVerified": "2026-08",
+    "name": "DELF / DALF – French Language Diplomas",
+    "officialWebsite": "https://www.france-education-international.fr/en/diplomes-tests/delf-dalf",
+    "overview": "DELF (Diplôme d'études en langue française) and DALF (Diplôme approfondi de langue française) are official French language diplomas issued by the French Ministry of Education, covering CEFR levels A1 to C2. They are lifelong-valid and support admission to French universities and professional integration in France.",
+    "preparationTips": [
+      "Choose the diploma level appropriate to your CEFR ability.",
+      "Use official France Éducation international sample papers.",
+      "Practice all four skills, including the oral interview.",
+      "For university entry, target B2 or higher."
+    ],
+    "purpose": "Certifying French language proficiency for study and professional integration.",
+    "qualificationType": "Qualification",
+    "recommendedBooks": [
+      {
+        "author": "France Éducation international",
+        "subject": "Official Preparation",
+        "title": "Official DELF/DALF Sample Papers"
+      }
+    ],
+    "region": "Europe",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "biomedical-research-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-research"
+    ],
+    "syllabus": [
+      {
+        "section": "CEFR Competencies",
+        "topics": [
+          "Listening comprehension",
+          "Reading comprehension",
+          "Written production",
+          "Oral production and interaction"
+        ]
+      }
+    ],
+    "validity": "The diplomas are valid for life."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply online via the GATE portal during the notified window, select the discipline paper, and appear in the computer-based test.",
+    "careerOpportunities": [
+      "M.Tech/MS/Ph.D. admission and PSU recruitment via a discipline aligned with the candidate's background"
+    ],
+    "category": "Graduate Admission",
+    "conductedBy": "IISc Bangalore and the IITs (rotational)",
+    "country": "India",
+    "educationLevel": "Postgraduate entrance (after Bachelor's degree)",
+    "eligibility": "Bachelor's degree in Engineering/Technology or a relevant science postgraduate degree; final-year students may also apply.",
+    "examPattern": {
+      "duration": "3 hours",
+      "questionTypes": [
+        "Multiple Choice Questions",
+        "Multiple Select Questions",
+        "Numerical Answer Type"
+      ],
+      "sections": [
+        {
+          "marks": 15,
+          "name": "General Aptitude"
+        },
+        {
+          "marks": 13,
+          "name": "Engineering Mathematics"
+        },
+        {
+          "marks": 72,
+          "name": "Core Subject (chosen paper)"
+        }
+      ],
+      "totalMarks": 100
+    },
+    "higherStudyRelevance": "Enables postgraduate study routes for biomedical engineers via allied disciplines.",
+    "icon": "GraduationCap",
+    "id": "gate-general",
+    "internationalRecognition": "Primarily used within India; a few institutions abroad also consider GATE scores.",
+    "lastVerified": "2026-08",
+    "name": "GATE (General Engineering Papers)",
+    "officialWebsite": "https://gate.iitm.ac.in/",
+    "overview": "Beyond the dedicated Biomedical (BM) paper, GATE offers papers such as Electronics and Communication (EC), Instrumentation (IN), Electrical (EE), and Computer Science (CS) that biomedical engineers commonly use for M.Tech/Ph.D. admission and PSU recruitment when their coursework aligns with these disciplines.",
+    "preparationTips": [
+      "Choose the paper that best matches your undergraduate coursework.",
+      "Practise previous years' papers for the selected discipline.",
+      "Strengthen Engineering Mathematics and General Aptitude for guaranteed marks.",
+      "Use a structured test series for time management."
+    ],
+    "purpose": "Graduate admission and PSU recruitment in India through allied engineering disciplines.",
+    "qualificationType": "Exam",
+    "recommendedBooks": [
+      {
+        "author": "B.S. Grewal",
+        "subject": "Mathematics",
+        "title": "Higher Engineering Mathematics"
+      },
+      {
+        "author": "Various",
+        "subject": "Core",
+        "title": "GATE previous year papers (chosen discipline)"
+      }
+    ],
+    "region": "Asia",
+    "relatedCareers": [
+      "bioinstrumentation-engineer",
+      "medical-electronics-engineer",
+      "biomedical-data-scientist"
+    ],
+    "relatedDomains": [
+      "biomedical-instrumentation",
+      "bioelectronics",
+      "biomedical-signal-processing"
+    ],
+    "syllabus": [
+      {
+        "section": "General Aptitude",
+        "topics": [
+          "Verbal Aptitude",
+          "Quantitative Aptitude",
+          "Analytical and Spatial Reasoning"
+        ]
+      },
+      {
+        "section": "Chosen Core Paper (e.g. EC/IN/EE/CS)",
+        "topics": [
+          "Discipline-specific core topics as per GATE syllabus",
+          "Engineering Mathematics",
+          "Signals and systems / relevant fundamentals"
+        ]
+      }
+    ],
+    "validity": "GATE scores are valid for 3 years."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Administered to eligible medical students/graduates via the USMLE program; not an application route for engineers.",
+    "careerOpportunities": [
+      "Context for biomedical engineers collaborating with licensed physicians in clinical and device settings"
+    ],
+    "category": "Medical Licensure",
+    "conductedBy": "Federation of State Medical Boards (FSMB) and National Board of Medical Examiners (NBME)",
+    "country": "USA",
+    "educationLevel": "Medical graduate (not engineering)",
+    "eligibility": "For students and graduates of medical (MD/MBBS-equivalent) programs recognised for USMLE; not applicable to engineering graduates for their own practice.",
+    "examPattern": {
+      "duration": "Multi-step examination sequence",
+      "questionTypes": [
+        "Multiple Choice and computer-based case simulations"
+      ],
+      "sections": [
+        {
+          "marks": "Pass/Fail",
+          "name": "Step 1 (foundational sciences)"
+        },
+        {
+          "marks": "Scored",
+          "name": "Step 2 CK (clinical knowledge)"
+        },
+        {
+          "marks": "Scored",
+          "name": "Step 3 (clinical practice)"
+        }
+      ],
+      "totalMarks": "Pass/Fail (Step 1) and scored steps"
+    },
+    "higherStudyRelevance": "Helps biomedical engineers understand the clinical licensure context they work alongside.",
+    "icon": "Stethoscope",
+    "id": "usmle",
+    "internationalRecognition": "The standard pathway to US medical licensure; internationally influential.",
+    "lastVerified": "2026-08",
+    "name": "USMLE (Context for Clinical Collaboration)",
+    "officialWebsite": "https://www.usmle.org/",
+    "overview": "The United States Medical Licensing Examination (USMLE) is the examination sequence for medical licensure in the United States. It is intended for medical doctors, not biomedical engineers; it is included here for context, as biomedical engineers frequently collaborate with USMLE-qualified clinicians and benefit from understanding the clinical licensure landscape.",
+    "preparationTips": [
+      "This exam is for medical graduates; biomedical engineers do not sit it for their own practice.",
+      "Biomedical engineers may study clinical foundations to collaborate effectively with clinicians.",
+      "Understanding clinical workflows aids medical device design and clinical engineering.",
+      "Refer to official USMLE resources for accurate, current information."
+    ],
+    "purpose": "Medical licensure for physicians in the United States (contextual for biomedical collaboration).",
+    "qualificationType": "Licensure",
+    "recommendedBooks": [
+      {
+        "author": "USMLE (FSMB/NBME)",
+        "subject": "Official Reference",
+        "title": "USMLE Step content outlines"
+      }
+    ],
+    "region": "North America",
+    "relatedCareers": [
+      "clinical-applications-specialist",
+      "clinical-engineer",
+      "medical-device-application-engineer"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "surgical-robotics",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "Foundational and Clinical Sciences",
+        "topics": [
+          "Anatomy, physiology, pharmacology, pathology",
+          "Clinical knowledge and patient management",
+          "Biostatistics and ethics",
+          "Clinical case simulations"
+        ]
+      }
+    ],
+    "validity": "Governed by USMLE and state medical board policies."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Register through AWS Certification, then take the exam online (proctored) or at a Pearson VUE test centre.",
+    "careerOpportunities": [
+      "Supports digital health, health informatics, and connected medical device roles using cloud platforms"
+    ],
+    "category": "Technical Certification",
+    "conductedBy": "Amazon Web Services (AWS)",
+    "country": "Global",
+    "educationLevel": "Professional/entry (no prerequisites)",
+    "eligibility": "No formal prerequisites; recommended for those with basic exposure to AWS or cloud concepts.",
+    "examPattern": {
+      "duration": "Approximately 90 minutes",
+      "questionTypes": [
+        "Multiple Choice and multiple response"
+      ],
+      "sections": [
+        {
+          "marks": "Weighted",
+          "name": "Cloud Concepts"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Security and Compliance"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Cloud Technology and Services"
+        },
+        {
+          "marks": "Weighted",
+          "name": "Billing, Pricing and Support"
+        }
+      ],
+      "totalMarks": "100–1000 scaled score"
+    },
+    "higherStudyRelevance": "Supports digital health and health data engineering careers using cloud infrastructure.",
+    "icon": "Cloud",
+    "id": "aws-certified-cloud-practitioner",
+    "internationalRecognition": "A globally recognised foundational cloud credential.",
+    "lastVerified": "2026-08",
+    "name": "AWS Certified Cloud Practitioner",
+    "officialWebsite": "https://aws.amazon.com/certification/certified-cloud-practitioner/",
+    "overview": "The AWS Certified Cloud Practitioner is a foundational cloud certification. It is relevant to biomedical and digital health engineers who build and deploy healthcare data platforms, connected medical devices, and health informatics systems on cloud infrastructure, where understanding cloud fundamentals and security is increasingly important.",
+    "preparationTips": [
+      "Use the official AWS Skill Builder learning path.",
+      "Understand the shared responsibility model and core services.",
+      "For healthcare use, note compliance considerations for handling health data.",
+      "Take official practice questions before the exam."
+    ],
+    "purpose": "Validating foundational cloud knowledge relevant to digital health systems.",
+    "qualificationType": "Certification",
+    "recommendedBooks": [
+      {
+        "author": "Ben Piper and David Clinton",
+        "subject": "Cloud Fundamentals",
+        "title": "AWS Certified Cloud Practitioner Study Guide"
+      }
+    ],
+    "region": "Global",
+    "relatedCareers": [
+      "digital-health-engineer",
+      "healthcare-iot-engineer",
+      "healthcare-data-analyst"
+    ],
+    "relatedDomains": [
+      "digital-health",
+      "healthcare-iot",
+      "health-informatics"
+    ],
+    "syllabus": [
+      {
+        "section": "Cloud Practitioner Domains",
+        "topics": [
+          "Cloud concepts and value proposition",
+          "Security, compliance and the shared responsibility model",
+          "Core AWS services",
+          "Billing, pricing and support models"
+        ]
+      }
+    ],
+    "validity": "AWS certifications are valid for 3 years, after which recertification is required."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply via a FEANI national member association, which assesses education and experience against the FEANI formula.",
+    "careerOpportunities": [
+      "Recognised engineering professional mobility across FEANI member countries in Europe"
+    ],
+    "category": "Professional Registration",
+    "conductedBy": "European Federation of National Engineering Associations (FEANI)",
+    "country": "Global",
+    "educationLevel": "Experienced graduate (education plus experience)",
+    "eligibility": "Requires accredited engineering education and professional experience that together satisfy the FEANI formula, submitted through a national member association.",
+    "examPattern": {
+      "duration": "Varies by application route",
+      "questionTypes": [
+        "Documented education and experience assessment"
+      ],
+      "sections": [
+        {
+          "marks": "Requirement",
+          "name": "Recognised engineering education"
+        },
+        {
+          "marks": "Requirement",
+          "name": "Professional engineering experience"
+        },
+        {
+          "marks": "Requirement",
+          "name": "National and FEANI assessment"
+        }
+      ],
+      "totalMarks": "Assessment-based (education plus experience)"
+    },
+    "higherStudyRelevance": "Supports professional recognition and cross-border engineering practice within Europe.",
+    "icon": "Award",
+    "id": "feani-eur-ing",
+    "internationalRecognition": "Recognised across FEANI member countries in Europe.",
+    "lastVerified": "2026-08",
+    "name": "EUR ING (European Engineer, FEANI)",
+    "officialWebsite": "https://www.feani.org/feani/eur-ing-title",
+    "overview": "The EUR ING title is a professional qualification awarded by FEANI (the European Federation of National Engineering Associations) to engineers who meet defined standards of education and professional experience. It provides a recognised marker of engineering competence and mobility across European countries.",
+    "preparationTips": [
+      "Apply through your country's FEANI national member association.",
+      "Ensure your degree is on the FEANI INDEX of recognised programmes.",
+      "Document professional experience thoroughly.",
+      "Maintain records of continuing professional development."
+    ],
+    "purpose": "Providing a pan-European marker of engineering competence and professional mobility.",
+    "qualificationType": "Professional Registration",
+    "recommendedBooks": [
+      {
+        "author": "FEANI",
+        "subject": "Registration Guidance",
+        "title": "FEANI EUR ING Guide"
+      }
+    ],
+    "region": "Europe",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "clinical-engineer",
+      "medical-device-design-engineer"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "FEANI Requirements",
+        "topics": [
+          "Accredited engineering education",
+          "Professional practice and experience",
+          "Continuing professional development",
+          "Adherence to the FEANI code of conduct"
+        ]
+      }
+    ],
+    "validity": "The title is maintained through continued good standing and professional development."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply through a licensed professional engineering institution, submit a competence report, and attend a professional review interview.",
+    "careerOpportunities": [
+      "Incorporated Engineer status supporting biomedical/clinical engineering technologist careers in the UK"
+    ],
+    "category": "Professional Registration",
+    "conductedBy": "Engineering Council UK (via licensed professional engineering institutions)",
+    "country": "UK",
+    "educationLevel": "Graduate (accredited degree/equivalent plus competence)",
+    "eligibility": "Requires accredited academic qualifications (or demonstrated equivalent) and demonstration of professional competence against the UK-SPEC standard for IEng.",
+    "examPattern": {
+      "duration": "Varies by route",
+      "questionTypes": [
+        "Competence portfolio and professional review interview"
+      ],
+      "sections": [
+        {
+          "marks": "Requirement",
+          "name": "Academic qualification / equivalent"
+        },
+        {
+          "marks": "Requirement",
+          "name": "Professional competence report (UK-SPEC)"
+        },
+        {
+          "marks": "Pass/Fail",
+          "name": "Professional Review Interview"
+        }
+      ],
+      "totalMarks": "Competence-based assessment"
+    },
+    "higherStudyRelevance": "A professional credential supporting technologist-level biomedical/clinical engineering roles.",
+    "icon": "Award",
+    "id": "ieng-uk",
+    "internationalRecognition": "Recognised internationally through relevant engineering mobility agreements.",
+    "lastVerified": "2026-08",
+    "name": "IEng (Incorporated Engineer, UK)",
+    "officialWebsite": "https://www.engc.org.uk/ieng",
+    "overview": "Incorporated Engineer (IEng) is a UK professional registration awarded by the Engineering Council through licensed institutions such as IPEM. IEng recognises engineers who maintain and manage applications of current and developing technology, offering a professional pathway for biomedical and clinical engineering technologists.",
+    "preparationTips": [
+      "Register with a relevant licensed institution such as IPEM.",
+      "Map your experience to the UK-SPEC IEng competences.",
+      "Seek mentoring within your professional institution.",
+      "Prepare for the professional review interview."
+    ],
+    "purpose": "Professional recognition of engineering technologist competence in the UK.",
+    "qualificationType": "Professional Registration",
+    "recommendedBooks": [
+      {
+        "author": "Engineering Council",
+        "subject": "Standard",
+        "title": "UK-SPEC (UK Standard for Professional Engineering Competence)"
+      }
+    ],
+    "region": "Europe",
+    "relatedCareers": [
+      "clinical-engineer",
+      "biomedical-equipment-engineer",
+      "healthcare-technology-specialist"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "hospital-technology-management"
+    ],
+    "syllabus": [
+      {
+        "section": "UK-SPEC Competences (IEng)",
+        "topics": [
+          "Knowledge and understanding",
+          "Application of current technology",
+          "Responsibility, management and leadership",
+          "Communication and interpersonal skills",
+          "Professional commitment"
+        ]
+      }
+    ],
+    "validity": "Ongoing registration maintained through institution membership and continuing professional development."
+  },
+  {
+    "ageLimit": "No age limit",
+    "applicationProcess": "Apply to the PEB, meet degree and experience requirements, and pass the Fundamentals and Practice of Engineering examinations.",
+    "careerOpportunities": [
+      "Registered Professional Engineer authorised to practise in Singapore"
+    ],
+    "category": "Professional Licensure",
+    "conductedBy": "Professional Engineers Board (PEB), Singapore",
+    "country": "Singapore",
+    "educationLevel": "Experienced graduate (accredited degree plus experience)",
+    "eligibility": "An accredited engineering degree, required practical experience, and passing the PEB Fundamentals and Practice of Engineering examinations.",
+    "examPattern": {
+      "duration": "Varies (multiple stages)",
+      "questionTypes": [
+        "Written examinations and experience assessment"
+      ],
+      "sections": [
+        {
+          "marks": "Pass/Fail",
+          "name": "Fundamentals of Engineering Examination"
+        },
+        {
+          "marks": "Requirement",
+          "name": "Practical experience requirement"
+        },
+        {
+          "marks": "Pass/Fail",
+          "name": "Practice of Engineering Examination"
+        }
+      ],
+      "totalMarks": "Examination and assessment based"
+    },
+    "higherStudyRelevance": "Enables licensed engineering practice and professional responsibility in Singapore.",
+    "icon": "Award",
+    "id": "singapore-per",
+    "internationalRecognition": "A Singapore licence; recognised toward some regional mobility agreements.",
+    "lastVerified": "2026-08",
+    "name": "Professional Engineer Registration (Singapore, PEB)",
+    "officialWebsite": "https://www.peb.gov.sg/",
+    "overview": "The Professional Engineers Board (PEB) Singapore registers Professional Engineers who are legally authorised to practise engineering in Singapore. Registration involves an accredited degree, practical experience, and the Fundamentals and Practice of Engineering examinations. Biomedical engineers may register under a relevant recognised branch of engineering.",
+    "preparationTips": [
+      "Check that your degree is recognised by PEB.",
+      "Accumulate the required practical experience under supervision.",
+      "Prepare for both the Fundamentals and Practice examinations.",
+      "Study Singapore's engineering practice regulations and ethics."
+    ],
+    "purpose": "Licensure to practise as a Professional Engineer in Singapore.",
+    "qualificationType": "Licensure",
+    "recommendedBooks": [
+      {
+        "author": "Professional Engineers Board Singapore",
+        "subject": "Registration Guidance",
+        "title": "PEB Examination Guidelines"
+      }
+    ],
+    "region": "Asia",
+    "relatedCareers": [
+      "biomedical-engineer",
+      "clinical-engineer",
+      "medical-device-design-engineer"
+    ],
+    "relatedDomains": [
+      "clinical-engineering",
+      "medical-device-design"
+    ],
+    "syllabus": [
+      {
+        "section": "PEB Examinations",
+        "topics": [
+          "Engineering fundamentals",
+          "Professional practice",
+          "Engineering ethics and law in Singapore",
+          "Discipline-specific practice"
+        ]
+      }
+    ],
+    "validity": "Registration renewed periodically with continuing professional development requirements."
   }
 ]

@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Send, Loader2, AlertCircle, CheckCircle2, Instagram } from 'lucide-react';
+import { Mail, Send, Loader2, AlertCircle, CheckCircle2, Instagram, Linkedin, Youtube } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
@@ -286,6 +286,38 @@ export default function ContactPage() {
                         className="text-lg font-semibold hover:text-primary transition-colors break-all"
                       >
                         @ilma.biomedical
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 p-4 rounded-2xl bg-accent border border-primary/10">
+                    <div className="p-3 bg-primary text-primary-foreground rounded-xl shrink-0">
+                      <Linkedin className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground font-medium">LinkedIn</p>
+                      <a
+                        href="https://www.linkedin.com/company/ilma-biomedical/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-lg font-semibold hover:text-primary transition-colors break-all"
+                      >
+                        ILMA Biomedical
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 p-4 rounded-2xl bg-accent border border-primary/10">
+                    <div className="p-3 bg-primary text-primary-foreground rounded-xl shrink-0">
+                      <Youtube className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground font-medium">YouTube</p>
+                      <a
+                        href="https://www.youtube.com/@ILMA-2026"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-lg font-semibold hover:text-primary transition-colors break-all"
+                      >
+                        @ILMA-2026
                       </a>
                     </div>
                   </div>

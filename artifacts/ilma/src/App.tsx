@@ -40,6 +40,8 @@ import OpportunitiesPage from '@/pages/OpportunitiesPage';
 import PartnershipsPage from '@/pages/PartnershipsPage';
 import DisclaimerPage from '@/pages/DisclaimerPage';
 import CookiePolicyPage from '@/pages/CookiePolicyPage';
+import RoadmapBuilderPage from '@/pages/RoadmapBuilderPage';
+import StudentSessionPage from '@/pages/StudentSessionPage';
 import AdminPage from '@/pages/AdminPage';
 
 // REQUIRED — copy verbatim. Resolves the key from window.location.hostname so the
@@ -194,6 +196,8 @@ function Router() {
       <Route path="/partnerships" component={PartnershipsPage} />
       <Route path="/disclaimer" component={DisclaimerPage} />
       <Route path="/cookie-policy" component={CookiePolicyPage} />
+      <Route path="/roadmap-builder" component={RoadmapBuilderPage} />
+      <Route path="/student-session" component={StudentSessionPage} />
       <Route path="/admin" component={AdminPage} />
       <Route component={NotFound} />
     </Switch>

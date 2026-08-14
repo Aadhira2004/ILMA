@@ -29,6 +29,8 @@ const NAV_LINKS = [
 
 const EXPLORE_LINKS = [
   { name: 'Career Match', href: '/career-match' },
+  { name: 'Build My Roadmap', href: '/roadmap-builder' },
+  { name: 'Student Session', href: '/student-session' },
   { name: 'Project Hub', href: '/projects' },
   { name: 'Research Hub', href: '/research' },
   { name: 'Higher Studies', href: '/higher-studies' },

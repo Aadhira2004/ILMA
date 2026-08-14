@@ -5,7 +5,17 @@ import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import careersData from '@/data/careers.json';
 import roadmapsData from '@/data/roadmaps.json';
+import examsData from '@/data/exams.json';
 import { Career, Roadmap } from '@/types';
+
+interface RelevantExam {
+  id: string;
+  name: string;
+  qualificationType?: string;
+  country?: string;
+  relatedCareers?: string[];
+  relatedDomains?: string[];
+}
 import { useEffect, useRef } from 'react';
 import { useAuth } from '@clerk/react';
 import { useRecordView } from '@workspace/api-client-react';
@@ -67,6 +77,10 @@ export default function CareerDetailPage() {
   const linkedRoadmaps = (career.roadmaps ?? [])
     .map((rid) => (roadmapsData as Roadmap[]).find((r) => r.id === rid))
     .filter((r): r is Roadmap => Boolean(r));
+
+  const relevantExams = (examsData as RelevantExam[]).filter((exam) =>
+    (exam.relatedCareers ?? []).includes(career.id)
+  );
 
   const pathSteps = [
     { label: 'Student', icon: 'GraduationCap' as const },
@@ -313,6 +327,39 @@ export default function CareerDetailPage() {
                   ))}
                 </ul>
               </div>
+
+              {/* Relevant Exams & Qualifications */}
+              {relevantExams.length > 0 && (
+                <div className="p-6 rounded-2xl bg-card border border-border shadow-sm">
+                  <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+                    <Icons.ClipboardCheck className="w-5 h-5 text-primary" />
+                    Relevant Exams & Qualifications
+                  </h3>
+                  <div className="flex flex-col gap-3">
+                    {relevantExams.map((exam) => (
+                      <Link
+                        key={exam.id}
+                        href={`/exams/${exam.id}`}
+                        className="group flex flex-col gap-2 p-3 rounded-xl hover:bg-accent transition-colors border border-transparent hover:border-border"
+                      >
+                        <span className="font-semibold text-sm group-hover:text-primary transition-colors">{exam.name}</span>
+                        <div className="flex flex-wrap gap-2">
+                          {exam.country && (
+                            <Badge variant="outline" className="text-xs py-0.5 px-2 bg-background font-medium text-foreground/70">
+                              {exam.country}
+                            </Badge>
+                          )}
+                          {exam.qualificationType && (
+                            <Badge variant="secondary" className="text-xs py-0.5 px-2 bg-accent text-accent-foreground font-medium">
+                              {exam.qualificationType}
+                            </Badge>
+                          )}
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Skill Roadmaps */}
               {linkedRoadmaps.length > 0 && (

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Link } from 'wouter';
-import { Mail, ArrowRight, Loader2, CheckCircle, AlertCircle, Instagram } from 'lucide-react';
+import { Mail, ArrowRight, Loader2, CheckCircle, AlertCircle, Instagram, Linkedin, Youtube } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
@@ -167,6 +167,28 @@ export function Footer() {
             >
               <Instagram className="h-4 w-4 text-primary shrink-0" />
               <span className="group-hover:underline underline-offset-2">@ilma.biomedical</span>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/company/ilma-biomedical/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors group w-fit"
+              aria-label="Follow ILMA on LinkedIn"
+            >
+              <Linkedin className="h-4 w-4 text-primary shrink-0" />
+              <span className="group-hover:underline underline-offset-2">ILMA Biomedical</span>
+            </a>
+
+            <a
+              href="https://www.youtube.com/@ILMA-2026"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors group w-fit"
+              aria-label="Subscribe to ILMA on YouTube"
+            >
+              <Youtube className="h-4 w-4 text-primary shrink-0" />
+              <span className="group-hover:underline underline-offset-2">@ILMA-2026</span>
             </a>
 
           </div>

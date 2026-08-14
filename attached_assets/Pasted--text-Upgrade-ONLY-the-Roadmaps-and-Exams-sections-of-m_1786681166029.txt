@@ -1,0 +1,486 @@
+```text
+Upgrade ONLY the "Roadmaps" and "Exams" sections of my existing ILMA Biomedical website.
+
+IMPORTANT:
+DO NOT CHANGE THE EXISTING UI/UX DESIGN.
+Do not change the colors, typography, layout, navigation, logo, cards, buttons, animations, spacing, or overall visual identity.
+
+Use the existing ILMA design system and components.
+
+The goal is to make these sections INTERNATIONAL and aligned with the full range of biomedical careers and domains already available on ILMA.
+
+==================================================
+1. INTERNATIONAL BIOMEDICAL CAREER ROADMAPS
+==================================================
+
+Create a comprehensive interactive "Career Roadmaps" section.
+
+The roadmap system should cover careers across all major biomedical fields, including:
+
+• Biomedical Engineer
+• Clinical Engineer
+• Medical Device Engineer
+• Bioinstrumentation Engineer
+• Biomedical Researcher
+• Biomedical AI Engineer
+• Biomedical Data Scientist
+• Medical Imaging Engineer
+• Biomedical Signal Processing Engineer
+• Biomaterials Engineer
+• Tissue Engineering Researcher
+• Regenerative Medicine Researcher
+• Artificial Organ Researcher
+• Prosthetics & Orthotics Specialist
+• Rehabilitation Engineer
+• Assistive Technology Engineer
+• Neural Engineer
+• Neurotechnology Researcher
+• Brain-Computer Interface Researcher
+• Biosensor Engineer
+• Wearable Technology Engineer
+• Medical Robotics Engineer
+• Surgical Robotics Engineer
+• Healthcare IoT Engineer
+• Digital Health Specialist
+• Health Informatics Specialist
+• Bioinformatics Researcher
+• Computational Biology Researcher
+• Genomics Researcher
+• Precision Medicine Specialist
+• Nanomedicine Researcher
+• Drug Delivery Researcher
+• Biomechanics Engineer
+• Cardiovascular Biomedical Engineer
+• Cancer Technology Researcher
+• Ophthalmic Biomedical Engineer
+• Biomedical Software Engineer
+• Medical Device Software Engineer
+• Medical Device Product Developer
+• Medical Device Regulatory Specialist
+• Medical Device Quality Specialist
+• Clinical Research Professional
+• Healthcare Technology Consultant
+• Biomedical Technical Writer
+• Biomedical Entrepreneur
+• Academic Researcher
+• PhD Researcher
+
+Also make the roadmap database expandable so new careers can be added later.
+
+==================================================
+2. ROADMAP STRUCTURE
+==================================================
+
+Every career roadmap should follow:
+
+CAREER GOAL
+↓
+EDUCATION
+↓
+FOUNDATION KNOWLEDGE
+↓
+CORE SUBJECTS
+↓
+TECHNICAL SKILLS
+↓
+SOFTWARE & TOOLS
+↓
+HANDS-ON PROJECTS
+↓
+PORTFOLIO
+↓
+INTERNSHIP / EXPERIENCE
+↓
+RESEARCH / CERTIFICATION
+↓
+ENTRY-LEVEL CAREER
+↓
+ADVANCED CAREER
+↓
+SPECIALIZATION
+↓
+GLOBAL OPPORTUNITIES
+
+For every career, show:
+
+• What the career involves
+• Who is suitable for it
+• Recommended educational background
+• Core subjects
+• Technical skills
+• Software
+• Hardware
+• Certifications where relevant
+• Project ideas
+• Portfolio requirements
+• Internship recommendations
+• Research areas
+• Higher-study options
+• Relevant exams
+• Professional registration/licensing where applicable
+• Entry-level roles
+• Advanced roles
+• Related industries
+• Global career opportunities
+
+Do not assume that the same qualification or license applies worldwide.
+
+==================================================
+3. DOMAIN-BASED ROADMAPS
+==================================================
+
+Also create roadmaps based on biomedical domains.
+
+Include:
+
+Biomedical Instrumentation
+Medical Devices
+Clinical Engineering
+Artificial Organs
+Tissue Engineering
+Regenerative Medicine
+Biomaterials
+Prosthetics & Orthotics
+Rehabilitation Engineering
+Assistive Technology
+Neural Engineering
+Neurotechnology
+Brain-Computer Interfaces
+Medical Imaging
+Biomedical Signal Processing
+Bioinformatics
+Computational Biology
+Genomics
+Healthcare AI
+Digital Health
+Wearable Technology
+Biosensors
+Microfluidics
+Lab-on-a-Chip
+Medical Robotics
+Surgical Robotics
+Nanomedicine
+Drug Delivery
+Biomechanics
+Cardiovascular Engineering
+Cancer Technology
+Ophthalmic Engineering
+Healthcare Data Science
+Biomedical Cybersecurity
+Precision Medicine
+3D Bioprinting
+
+Each domain roadmap should show:
+
+BEGINNER
+→ INTERMEDIATE
+→ ADVANCED
+→ SPECIALIST
+
+Include:
+
+Subjects
+Skills
+Tools
+Software
+Projects
+Research directions
+Portfolio ideas
+Internships
+Relevant careers
+Higher studies
+Relevant exams/certifications
+
+==================================================
+4. INTERNATIONAL EXAMS & QUALIFICATIONS
+==================================================
+
+Create a dedicated "Global Exams & Qualifications" section connected directly to the career and domain roadmaps.
+
+DO NOT simply create a random list of exams.
+
+Each exam/qualification must be linked to:
+
+Career
+Domain
+Country/Region
+Purpose
+Education level
+Professional pathway
+
+Classify entries into:
+
+• University Entrance Exams
+• Graduate Admission Exams
+• Engineering Exams
+• Professional Licensure Exams
+• Professional Registration
+• Biomedical/Clinical Registration
+• Research & Fellowship Exams
+• Language Exams
+• Technical Certifications
+• Professional Certifications
+• Government/Public-Sector Exams
+
+For every entry include:
+
+• Exam/qualification name
+• Country/region
+• Relevant career
+• Relevant biomedical domain
+• Purpose
+• Eligibility
+• Education level
+• Exam format
+• Official organization
+• Official website
+• Application process
+• Validity, if applicable
+• Career relevance
+• Higher-study relevance
+• International recognition, if applicable
+• Last verified date
+
+IMPORTANT:
+Never claim that an exam is globally mandatory unless that is genuinely true.
+
+Clearly distinguish:
+
+EXAM
+CERTIFICATION
+PROFESSIONAL REGISTRATION
+LICENSURE
+QUALIFICATION
+
+==================================================
+5. INTERNATIONAL COUNTRY MAPPING
+==================================================
+
+Make the exam database globally scalable.
+
+Include country/region filters such as:
+
+India
+USA
+Canada
+UK
+Germany
+Australia
+New Zealand
+France
+Netherlands
+Sweden
+Switzerland
+Denmark
+Finland
+Norway
+Ireland
+Belgium
+Austria
+Italy
+Spain
+Japan
+South Korea
+Singapore
+UAE
+Saudi Arabia
+
+Allow additional countries to be added later.
+
+Do NOT make any single country the main focus.
+
+The purpose is to help students understand:
+
+"What qualification or examination is relevant to MY career and MY country?"
+
+==================================================
+6. SMART CONNECTION BETWEEN ROADMAPS AND EXAMS
+==================================================
+
+Connect the two sections.
+
+Example:
+
+Career:
+Medical Device Engineer
+
+↓ Roadmap
+
+Education
+→ Electronics
+→ Sensors
+→ Medical Instrumentation
+→ CAD
+→ Embedded Systems
+→ Medical Device Design
+→ Projects
+→ Internship
+→ Industry
+
+↓ Relevant qualifications/exams
+
+Show only the exams/certifications/registrations that are genuinely relevant.
+
+Similarly:
+
+Career:
+Biomedical Researcher
+
+↓ Roadmap
+
+Biology
+→ Research Methodology
+→ Statistics
+→ Programming
+→ Literature Review
+→ Research Project
+→ Publication
+→ Research Experience
+→ Master's/PhD
+
+↓ Relevant exams/fellowships/admission requirements
+
+This relationship should exist throughout the platform.
+
+==================================================
+7. PERSONALIZED ROADMAP BUILDER
+==================================================
+
+Add an interactive feature:
+
+"Build My Roadmap"
+
+Students select:
+
+• Current education level
+• Current field
+• Country
+• Target country
+• Career goal
+• Biomedical domain
+• Current skills
+• Research / Industry / Academia preference
+• Higher-study interest
+
+Then generate a structured roadmap:
+
+CURRENT LEVEL
+↓
+WHAT TO LEARN
+↓
+SKILLS TO DEVELOP
+↓
+PROJECTS TO BUILD
+↓
+EXAMS / QUALIFICATIONS
+↓
+CERTIFICATIONS
+↓
+INTERNSHIPS
+↓
+HIGHER STUDIES
+↓
+CAREER
+
+Use the existing ILMA UI/UX.
+
+==================================================
+8. STUDENT INTERACTIVE SESSION
+==================================================
+
+Add one interactive section called:
+
+"Student Interactive Session"
+
+Purpose:
+Help students discover their suitable biomedical career and roadmap.
+
+Create an interactive career discovery experience with questions such as:
+
+1. What are you currently studying?
+2. Which area interests you most?
+3. Do you prefer hardware, software, biology, research, or clinical applications?
+4. Do you enjoy programming?
+5. Do you enjoy designing medical devices?
+6. Are you interested in AI and healthcare?
+7. Are you interested in research?
+8. Are you interested in medical robotics?
+9. Are you interested in artificial organs/tissue engineering?
+10. Do you prefer industry, research, academia, entrepreneurship, or clinical environments?
+11. Which country are you interested in studying/working in?
+12. What is your current skill level?
+
+At the end, provide:
+
+"Your ILMA Career Profile"
+
+Show:
+
+• Suggested career paths
+• Suggested biomedical domains
+• Recommended skills
+• Recommended projects
+• Recommended roadmap
+• Relevant exams/qualifications
+• Suggested higher-study pathway
+• Suggested next 3 actions
+
+Do NOT present the result as a guaranteed career prediction.
+
+Use wording such as:
+
+"Suggested career paths based on your responses."
+
+==================================================
+9. INTERNATIONAL ACCURACY
+==================================================
+
+Because exams, licensing, registration and university requirements vary between countries:
+
+• Prefer official sources.
+• Include official organization names.
+• Include official links.
+• Add "Last verified" dates.
+• Do not invent eligibility criteria.
+• Do not invent exam dates or fees.
+• Do not claim universal recognition.
+• Clearly identify country-specific requirements.
+• Make the database easy to update.
+
+==================================================
+10. FINAL REQUIREMENT
+==================================================
+
+DO NOT CHANGE THE EXISTING ILMA UI/UX.
+
+Only improve:
+
+ROADMAPS
++
+GLOBAL EXAMS
++
+QUALIFICATIONS
++
+PROFESSIONAL REGISTRATION
++
+CAREER/DOMAIN CONNECTIONS
++
+PERSONALIZED ROADMAP BUILDER
++
+STUDENT INTERACTIVE SESSION
+
+The final experience should help a student answer:
+
+"What career is right for me?"
+"What should I learn?"
+"What projects should I build?"
+"Which exams or qualifications are relevant?"
+"Which certifications actually matter?"
+"Do I need professional registration?"
+"What should I do next?"
+"How can I build an international biomedical career?"
+
+Keep everything aligned with ILMA's global vision:
+
+LEARN → EXPLORE → BUILD → RESEARCH → INNOVATE → CONNECT → GROW
+```

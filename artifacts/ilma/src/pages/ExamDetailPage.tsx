@@ -4,7 +4,9 @@ import { Layout } from '@/components/layout/Layout';
 import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { useScrollTop } from '@/hooks/use-scroll-top';
 import examsData from '@/data/exams.json';
-import { Exam } from '@/types';
+import careersData from '@/data/careers.json';
+import domainsData from '@/data/domains.json';
+import { Exam, Career, Domain } from '@/types';
 import { useEffect, useRef } from 'react';
 import { useAuth } from '@clerk/react';
 import { useRecordView } from '@workspace/api-client-react';
@@ -63,6 +65,25 @@ export default function ExamDetailPage() {
 
   const Icon = (Icons as any)[exam.icon] || Icons.FileText;
 
+  const careers = careersData as Career[];
+  const domains = domainsData as Domain[];
+
+  const relatedCareers = (exam.relatedCareers ?? [])
+    .map((id) => careers.find((c) => c.id === id))
+    .filter((c): c is Career => Boolean(c));
+  const relatedDomains = (exam.relatedDomains ?? [])
+    .map((id) => domains.find((d) => d.id === id))
+    .filter((d): d is Domain => Boolean(d));
+
+  const detailItems: { label: string; value?: string }[] = [
+    { label: 'Purpose', value: exam.purpose },
+    { label: 'Education Level', value: exam.educationLevel },
+    { label: 'Application Process', value: exam.applicationProcess },
+    { label: 'Validity', value: exam.validity },
+    { label: 'International Recognition', value: exam.internationalRecognition },
+    { label: 'Higher-Study Relevance', value: exam.higherStudyRelevance },
+  ].filter((item) => Boolean(item.value));
+
   return (
     <Layout>
       {/* Hero Section */}
@@ -86,13 +107,26 @@ export default function ExamDetailPage() {
                     <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-foreground" data-testid={`text-title-${exam.id}`}>{exam.name}</h1>
                     <BookmarkButton itemType="exam" itemId={exam.id} title={exam.name} />
                   </div>
-                  <Badge variant="outline" className={
-                    exam.category === 'National' ? 'border-blue-500/30 text-blue-600 bg-blue-50 dark:bg-blue-900/20 dark:text-blue-400' :
-                    exam.category === 'Defense / Research' ? 'border-green-500/30 text-green-600 bg-green-50 dark:bg-green-900/20 dark:text-green-400' :
-                    'border-orange-500/30 text-orange-600 bg-orange-50 dark:bg-orange-900/20 dark:text-orange-400'
-                  }>
-                    {exam.category}
-                  </Badge>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <Badge variant="outline" className={
+                      exam.category === 'National' ? 'border-blue-500/30 text-blue-600 bg-blue-50 dark:bg-blue-900/20 dark:text-blue-400' :
+                      exam.category === 'Defense / Research' ? 'border-green-500/30 text-green-600 bg-green-50 dark:bg-green-900/20 dark:text-green-400' :
+                      'border-orange-500/30 text-orange-600 bg-orange-50 dark:bg-orange-900/20 dark:text-orange-400'
+                    }>
+                      {exam.category}
+                    </Badge>
+                    {exam.country && (
+                      <Badge variant="outline" className="border-primary/30 text-primary bg-primary/5">
+                        <Globe className="w-3 h-3 mr-1" />
+                        {exam.country}
+                      </Badge>
+                    )}
+                    {exam.qualificationType && (
+                      <Badge variant="secondary" className="font-normal text-muted-foreground bg-accent">
+                        {exam.qualificationType}
+                      </Badge>
+                    )}
+                  </div>
                 </div>
               </div>
               <p className="text-xl text-muted-foreground max-w-3xl leading-relaxed mt-6">
@@ -127,7 +161,25 @@ export default function ExamDetailPage() {
             
             {/* Left Column */}
             <div className="lg:col-span-2 space-y-12">
-              
+
+              {/* Qualification Details */}
+              {detailItems.length > 0 && (
+                <div>
+                  <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+                    <Icons.Info className="w-6 h-6 text-primary" />
+                    About This Qualification
+                  </h2>
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    {detailItems.map((item, i) => (
+                      <div key={i} className="p-5 rounded-xl border border-border bg-card">
+                        <p className="text-sm font-semibold text-muted-foreground mb-2">{item.label}</p>
+                        <p className="text-foreground/90 leading-relaxed text-sm">{item.value}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* Exam Pattern */}
               <div>
                 <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
@@ -288,6 +340,60 @@ export default function ExamDetailPage() {
                   ))}
                 </div>
               </div>
+
+              {/* Related Careers */}
+              {relatedCareers.length > 0 && (
+                <div className="p-6 rounded-2xl bg-card border border-border shadow-sm">
+                  <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+                    <Briefcase className="w-5 h-5 text-primary" />
+                    Related Careers
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {relatedCareers.map((career) => (
+                      <Link
+                        key={career.id}
+                        href={`/careers/${career.id}`}
+                        className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium bg-accent border border-border text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-200"
+                      >
+                        {career.name}
+                        <ExternalLink className="w-3 h-3" />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Related Domains */}
+              {relatedDomains.length > 0 && (
+                <div className="p-6 rounded-2xl bg-card border border-border shadow-sm">
+                  <h3 className="text-lg font-bold mb-4 flex items-center gap-2">
+                    <GraduationCap className="w-5 h-5 text-primary" />
+                    Related Domains
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {relatedDomains.map((domain) => (
+                      <Link
+                        key={domain.id}
+                        href={`/domains/${domain.id}`}
+                        className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium bg-accent border border-border text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-200"
+                      >
+                        {domain.name}
+                        <ExternalLink className="w-3 h-3" />
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Last Verified Note */}
+              {exam.lastVerified && (
+                <div className="p-4 rounded-xl bg-muted/50 border border-border flex items-start gap-3">
+                  <AlertCircle className="w-4 h-4 text-muted-foreground shrink-0 mt-0.5" />
+                  <p className="text-xs text-muted-foreground leading-relaxed">
+                    Last verified: Aug 2026 — always confirm the latest details on the official website.
+                  </p>
+                </div>
+              )}
 
             </div>
           </div>
