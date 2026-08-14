@@ -25,15 +25,19 @@ import { Layout } from '@/components/layout/Layout';
 import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { AnimatedCounter } from '@/components/shared/AnimatedCounter';
 import { Button } from '@/components/ui/button';
+import careersData from '@/data/careers.json';
+import domainsData from '@/data/domains.json';
+import roadmapsData from '@/data/roadmaps.json';
+import examsData from '@/data/exams.json';
 
 export default function HomePage() {
   useDocumentMeta('Home', 'The Future of Biomedical Engineering Starts Here');
 
   const stats = [
-    { label: "Careers Explained", value: 65, suffix: "+", icon: Compass },
-    { label: "Biomedical Domains", value: 50, suffix: "", icon: BookOpen },
-    { label: "Skill Roadmaps", value: 10, suffix: "", icon: Map },
-    { label: "Government Exams", value: 10, suffix: "", icon: Award },
+    { label: "Careers Explained", value: careersData.length, suffix: "+", icon: Compass },
+    { label: "Biomedical Domains", value: domainsData.length, suffix: "", icon: BookOpen },
+    { label: "Skill Roadmaps", value: roadmapsData.length, suffix: "", icon: Map },
+    { label: "Exams & Qualifications", value: examsData.length, suffix: "", icon: Award },
   ];
 
   // Titles must exactly match the "category" values in domains.json
