@@ -358,7 +358,7 @@
         {
           "name": "Medical Image Analysis (Coursera)",
           "type": "course",
-          "url": "https://www.coursera.org/courses?query=medical%20image%20analysis"
+          "url": "https://www.coursera.org/learn/medical-image-processing"
         }
       ],
       "project": "Construct a 3D model of a skull from a stack of 2D CT scan DICOM slices."
@@ -999,7 +999,7 @@
         {
           "name": "Biosignal Processing (Coursera / EIT Digital)",
           "type": "course",
-          "url": "https://www.coursera.org/learn/biosignal-processing"
+          "url": "https://www.coursera.org/learn/dsp1"
         }
       ],
       "project": "Implement Pan–Tompkins QRS detection and compute heart rate variability metrics from a noisy ECG."
@@ -1023,7 +1023,7 @@
         {
           "name": "Biomedical Signal Processing (edX)",
           "type": "course",
-          "url": "https://www.edx.org/learn/signal-processing"
+          "url": "https://www.edx.org/learn/computer-programming/rice-university-discrete-time-signals-and-systems"
         }
       ],
       "project": "Build a pipeline that classifies EEG epochs into sleep stages using extracted spectral features and a classifier."
@@ -1356,7 +1356,7 @@
         {
           "name": "FDA Design Control Guidance for Medical Device Manufacturers",
           "type": "free",
-          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/design-control-guidance-medical-device-manufacturers"
+          "url": "https://www.hhs.gov/guidance/document/design-control-guidance-medical-device-manufacturers-guidance-industry"
         },
         {
           "name": "ISO 13485 Quality Management Systems (standard overview)",
@@ -1481,7 +1481,7 @@
         {
           "name": "Texas Instruments Medical & Healthcare Application Notes",
           "type": "free",
-          "url": "https://www.ti.com/applications/personal-electronics/medical-healthcare.html"
+          "url": "https://www.ti.com/applications/industrial/medical-healthcare/overview.html"
         },
         {
           "name": "Medical Instrumentation: Application and Design by Webster (book)",
@@ -1651,7 +1651,7 @@
         {
           "name": "NIH Introduction to the Principles and Practice of Clinical Research",
           "type": "free",
-          "url": "https://ocr.od.nih.gov/courses/ippcr.html"
+          "url": "https://ocreco.od.nih.gov/courses/ippcr.html"
         },
         {
           "name": "ICH E6(R2) Good Clinical Practice Guideline",
@@ -1800,12 +1800,12 @@
         {
           "name": "FDA Software as a Medical Device (SaMD) Resources",
           "type": "free",
-          "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+          "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/global-approach-software-medical-device"
         },
         {
           "name": "IMDRF SaMD Framework Documents",
           "type": "free",
-          "url": "https://www.imdrf.org/documents/software-medical-device-samd"
+          "url": "https://www.imdrf.org/working-groups/software-medical-device-samd"
         }
       ],
       "project": "Draft a post-market surveillance plan and vigilance-reporting workflow for an AI-enabled diagnostic app."

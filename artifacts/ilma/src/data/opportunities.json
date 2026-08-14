@@ -9,7 +9,7 @@
     "mode": "Hybrid",
     "typicalTiming": "Conference held mid-year (usually July); paper submissions typically open in the preceding winter.",
     "eligibility": "Open to students, researchers, and professionals worldwide. Reduced student registration rates available.",
-    "officialUrl": "https://www.embs.org/embc/",
+    "officialUrl": "https://embc.embs.org/2026/",
     "relatedDomains": ["biomedical-instrumentation", "biomedical-signal-processing", "medical-imaging"]
   },
   {
@@ -87,7 +87,7 @@
     "mode": "On-site",
     "typicalTiming": "Each programme sets its own application window, usually opening in autumn for the next academic year.",
     "eligibility": "Bachelor's degree holders worldwide; scholarship covers tuition, travel, and living costs for selected students.",
-    "officialUrl": "https://www.eacea.ec.europa.eu/scholarships/emjm-catalogue_en",
+    "officialUrl": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
     "relatedDomains": ["medical-imaging", "medical-image-processing", "health-informatics"]
   },
   {
@@ -269,7 +269,7 @@
     "mode": "On-site",
     "typicalTiming": "Applications generally open in winter/early spring for autumn enrollment.",
     "eligibility": "International students meeting age and academic requirements; apply via universities or diplomatic missions.",
-    "officialUrl": "https://www.campuschina.org/",
+    "officialUrl": "https://www.csc.edu.cn/",
     "relatedDomains": ["biomedical-instrumentation", "biomaterials", "biomedical-research"]
   },
   {
@@ -373,7 +373,7 @@
     "mode": "Hybrid",
     "typicalTiming": "Membership can be joined year-round; mentoring and events run throughout the year.",
     "eligibility": "Students enrolled in relevant programmes worldwide; discounted student membership rates.",
-    "officialUrl": "https://www.embs.org/about-embs/get-involved/membership/",
+    "officialUrl": "https://www.embs.org/membership/",
     "relatedDomains": ["biomedical-signal-processing", "biomedical-instrumentation", "neural-engineering"]
   },
   {
@@ -386,7 +386,7 @@
     "mode": "On-site",
     "typicalTiming": "Applications typically open in winter for the following summer.",
     "eligibility": "Undergraduate and master's students in computing, physics, engineering, or related fields.",
-    "officialUrl": "https://openlab.cern/summer-student-programme",
+    "officialUrl": "https://openlab.cern/cern-openlab-summer-student-programme/",
     "relatedDomains": ["machine-learning-biomedical", "biomedical-data-science", "medical-image-processing"]
   }
 ]
