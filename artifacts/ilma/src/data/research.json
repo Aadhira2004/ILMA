@@ -132,5 +132,394 @@
       "title": "Ask for Advice, Not Just a Job",
       "description": "Sometimes labs are full. Asking 'Can I get your advice on how to prepare for this field?' often opens doors later when funding appears."
     }
+  ],
+  "researchRoadmap": [
+    {
+      "step": 1,
+      "title": "Idea",
+      "description": "Start with curiosity, not a full plan. Note a clinical problem, an inefficient device, or a pattern in data that interests you. Talk to clinicians, engineers, and patients. A good idea is specific enough to investigate but broad enough to matter."
+    },
+    {
+      "step": 2,
+      "title": "Literature Review",
+      "description": "Systematically read what already exists. Search PubMed, Google Scholar, IEEE Xplore, and Scopus. Track papers in a reference manager (Zotero, Mendeley). Map the field: who are the key groups, what methods dominate, and what keeps getting cited?"
+    },
+    {
+      "step": 3,
+      "title": "Research Gap",
+      "description": "The gap is what the literature has not yet answered well. Look for contradictions between studies, untested populations, missing validation, or methods borrowed from other fields that nobody has applied to your problem. Write the gap in one sentence."
+    },
+    {
+      "step": 4,
+      "title": "Problem Statement",
+      "description": "Convert the gap into a precise, answerable question or hypothesis. Define your variables, scope, and what 'success' looks like. A strong problem statement is testable and constrained to what you can realistically do with your time and resources."
+    },
+    {
+      "step": 5,
+      "title": "Methodology",
+      "description": "Design how you will answer the question: study type, materials, sensors, datasets, sample size, controls, and the exact protocol. Justify each choice against your question. Get ethics/IRB approval early if human or animal data is involved."
+    },
+    {
+      "step": 6,
+      "title": "Experiment",
+      "description": "Execute the protocol and keep a rigorous lab notebook (or version-controlled repository for code). Record every parameter, calibration, and deviation. Reproducibility starts here—future-you and reviewers must be able to retrace exactly what you did."
+    },
+    {
+      "step": 7,
+      "title": "Analysis",
+      "description": "Clean your data, then apply the statistical or computational methods you pre-specified. Visualise results honestly, report effect sizes and confidence intervals, and avoid p-hacking. In BME, plots and metrics like sensitivity, specificity, and AUC often tell the story."
+    },
+    {
+      "step": 8,
+      "title": "Validation",
+      "description": "Confirm your findings hold up: cross-validate models, replicate key experiments, test on an independent dataset or cohort, and compare against a baseline or gold standard. Discuss limitations and threats to validity before anyone else has to point them out."
+    },
+    {
+      "step": 9,
+      "title": "Publication",
+      "description": "Share your work through a preprint, conference paper, or peer-reviewed journal. Choose a venue that fits your scope, follow its author guidelines, and respond to reviewers constructively. Publishing—open access where possible—is how research becomes part of the field."
+    }
+  ],
+  "literatureReview": [
+    {
+      "step": 1,
+      "title": "Define Your Search Scope",
+      "description": "Write your topic as a focused question and list the key concepts. Turn each concept into search terms plus synonyms (e.g. 'ECG' OR 'electrocardiogram'). This vocabulary becomes the backbone of every database search."
+    },
+    {
+      "step": 2,
+      "title": "Search the Right Databases",
+      "description": "Use PubMed for clinical/biology, IEEE Xplore for engineering, Scopus and Web of Science for cross-field coverage, and Google Scholar to catch anything missed. Combine terms with Boolean operators (AND, OR, NOT) and use filters for date and study type."
+    },
+    {
+      "step": 3,
+      "title": "Screen Efficiently",
+      "description": "Read titles and abstracts first to include or exclude quickly. Save the survivors to a reference manager like Zotero or Mendeley. Only read full text for papers that pass screening—this saves weeks of effort."
+    },
+    {
+      "step": 4,
+      "title": "Extract and Organise",
+      "description": "Build a summary table: authors, year, method, sample size, key result, and limitations. This turns a pile of PDFs into a comparable dataset and makes patterns visible."
+    },
+    {
+      "step": 5,
+      "title": "Synthesise, Don't Summarise",
+      "description": "Group papers by theme or method rather than listing them one by one. Explain how findings agree, conflict, and build on each other. The synthesis is where your review adds value and where the research gap becomes obvious."
+    },
+    {
+      "step": 6,
+      "title": "Follow the Citation Trail",
+      "description": "Use backward search (a paper's reference list) and forward search (who cited it, via Scopus or Google Scholar 'Cited by') to find seminal and recent work you missed. Stop when you keep seeing the same references."
+    }
+  ],
+  "researchGaps": [
+    {
+      "title": "Read the 'Future Work' Sections",
+      "description": "Authors often spell out what they could not do at the end of their papers. A recurring 'future work' or 'limitation' across several papers is a strong, pre-validated research gap."
+    },
+    {
+      "title": "Look for Contradictions",
+      "description": "When two credible studies reach opposite conclusions, there is usually an unexamined variable—different populations, devices, or protocols. Resolving the contradiction is a publishable contribution."
+    },
+    {
+      "title": "Check Population and Setting Coverage",
+      "description": "Many methods are validated only on narrow groups or ideal lab conditions. Testing whether a technique generalises to a new population, low-resource setting, or noisy real-world data is a common, high-value gap."
+    },
+    {
+      "title": "Read Recent Review and Survey Papers",
+      "description": "Systematic reviews and surveys explicitly list open problems and under-explored directions. Start from the newest review in your area to see the field's own consensus on what is missing."
+    },
+    {
+      "title": "Borrow Methods Across Fields",
+      "description": "A technique standard in one domain (e.g. transformer models, microfluidics, or wearable sensing) may be untried in another. Cross-disciplinary transfer is one of the richest sources of novel BME research."
+    },
+    {
+      "title": "Watch for Missing Validation or Reproducibility",
+      "description": "If a promising result has never been reproduced, tested prospectively, or validated against a gold standard, that missing step is itself a legitimate and needed research contribution."
+    }
+  ],
+  "datasets": [
+    {
+      "name": "PhysioNet",
+      "description": "Large archive of freely available physiological signals (ECG, EEG, PPG, respiration) and clinical databases, with open-source analysis software. A cornerstone for biosignal research.",
+      "access": "Open; some clinical databases require a free credentialed account and a data use agreement.",
+      "url": "https://physionet.org/"
+    },
+    {
+      "name": "MIMIC-IV",
+      "description": "De-identified critical care records (vitals, labs, medications, notes) from Beth Israel Deaconess Medical Center. Widely used for clinical machine learning and outcome prediction.",
+      "access": "Credentialed access via PhysioNet after completing CITI 'Data or Specimens Only Research' training.",
+      "url": "https://physionet.org/content/mimiciv/"
+    },
+    {
+      "name": "The Cancer Imaging Archive (TCIA)",
+      "description": "Massive public repository of de-identified medical images (CT, MRI, PET, pathology) organised by cancer type, often with clinical and genomic metadata.",
+      "access": "Most collections are public and downloadable; a few restricted collections require request.",
+      "url": "https://www.cancerimagingarchive.net/"
+    },
+    {
+      "name": "UK Biobank",
+      "description": "Deep genetic, imaging, and health data from ~500,000 UK participants. One of the most powerful resources for population-scale biomedical research.",
+      "access": "Application-based; researchers must register, submit a project, and pay an access fee. Not open download.",
+      "url": "https://www.ukbiobank.ac.uk/"
+    },
+    {
+      "name": "NIH National Library of Medicine (NCBI)",
+      "description": "Gateway to GenBank, PubMed, PMC, and dozens of biomedical databases covering sequences, literature, and molecular data.",
+      "access": "Open and free.",
+      "url": "https://www.ncbi.nlm.nih.gov/"
+    },
+    {
+      "name": "Gene Expression Omnibus (GEO)",
+      "description": "NCBI's public functional genomics repository of microarray and next-generation sequencing gene expression datasets.",
+      "access": "Open and free.",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/"
+    },
+    {
+      "name": "The Cancer Genome Atlas (TCGA / GDC)",
+      "description": "Genomic, epigenomic, and clinical data across 33 cancer types, hosted on the NCI Genomic Data Commons. A standard resource for cancer bioinformatics.",
+      "access": "Open data is free; controlled genomic data requires dbGaP authorisation.",
+      "url": "https://portal.gdc.cancer.gov/"
+    },
+    {
+      "name": "OpenNeuro",
+      "description": "Free platform for sharing raw neuroimaging data (MRI, EEG, MEG, iEEG) in the BIDS standard—ideal for neuroengineering and brain-computer interface work.",
+      "access": "Open and free.",
+      "url": "https://openneuro.org/"
+    },
+    {
+      "name": "Kaggle Health & Medicine Datasets",
+      "description": "Community-hosted datasets and competitions covering medical imaging, EHR, and public health, including the HAM10000 skin lesion dataset and diabetic retinopathy challenges.",
+      "access": "Free with a Kaggle account; licences vary per dataset—check before publishing.",
+      "url": "https://www.kaggle.com/datasets?tags=13302-Medicine"
+    },
+    {
+      "name": "UCI Machine Learning Repository",
+      "description": "Classic benchmark datasets including the Breast Cancer Wisconsin, Heart Disease, and Diabetes datasets—great for learning ML pipelines on biomedical data.",
+      "access": "Open and free.",
+      "url": "https://archive.ics.uci.edu/"
+    },
+    {
+      "name": "NIH ChestX-ray14",
+      "description": "Over 112,000 frontal chest X-ray images from ~30,000 patients labelled with 14 disease categories, released by the NIH Clinical Center.",
+      "access": "Open and free via the NIH Box repository.",
+      "url": "https://nihcc.app.box.com/v/ChestXray-NIHCC"
+    },
+    {
+      "name": "OASIS Brain MRI",
+      "description": "Open Access Series of Imaging Studies: neuroimaging datasets for the study of normal ageing and Alzheimer's disease, including longitudinal MRI and PET.",
+      "access": "Free after a short data use agreement and registration.",
+      "url": "https://www.oasis-brains.org/"
+    },
+    {
+      "name": "Human Connectome Project",
+      "description": "High-quality MRI and behavioural data mapping structural and functional brain connectivity in healthy adults.",
+      "access": "Open data terms; full dataset requires free registration and acceptance of data use terms.",
+      "url": "https://www.humanconnectome.org/"
+    }
+  ],
+  "statisticalAnalysis": [
+    {
+      "title": "Descriptive Statistics",
+      "description": "Always start by summarising your data—means, medians, standard deviations, and distributions. Plot histograms and box plots before any test; they reveal outliers, skew, and errors that hypothesis tests silently assume away."
+    },
+    {
+      "title": "Choosing a Hypothesis Test",
+      "description": "Match the test to the data: t-test or Mann–Whitney U for two groups, ANOVA or Kruskal–Wallis for three or more, chi-square for categorical counts. Use non-parametric versions when data are not normally distributed or samples are small."
+    },
+    {
+      "title": "Correlation and Regression",
+      "description": "Use Pearson (linear) or Spearman (rank) correlation to measure association, and linear or logistic regression to model relationships and adjust for confounders. Correlation is not causation—design, not statistics, establishes cause."
+    },
+    {
+      "title": "Report Effect Size and Confidence Intervals",
+      "description": "A p-value alone is not enough. Report effect sizes (Cohen's d, odds ratios) and 95% confidence intervals so readers know whether a result is not just statistically significant but practically meaningful."
+    },
+    {
+      "title": "Evaluating Classifiers",
+      "description": "For diagnostic and ML models, report sensitivity, specificity, precision, recall, F1-score, and the ROC-AUC. Always evaluate on held-out or cross-validated data—accuracy on training data is meaningless."
+    },
+    {
+      "title": "Tools",
+      "description": "R (with tidyverse) and Python (pandas, SciPy, statsmodels, scikit-learn) are the free standards. GraphPad Prism and JASP suit those who prefer a GUI, and SPSS is common in clinical departments. Pick one and learn it deeply."
+    }
+  ],
+  "aiInResearch": [
+    {
+      "title": "Literature Discovery",
+      "description": "Tools like Semantic Scholar, Elicit, and Connected Papers use AI to surface relevant papers and map citation networks faster than keyword search alone. Treat them as a starting point, not a replacement for reading."
+    },
+    {
+      "title": "Machine Learning for Biomedical Data",
+      "description": "CNNs for medical imaging, recurrent and transformer models for biosignals, and gradient-boosted trees for tabular clinical data are the workhorses. Frameworks: PyTorch, TensorFlow/Keras, scikit-learn, and MONAI for medical imaging."
+    },
+    {
+      "title": "Avoid Data Leakage",
+      "description": "The most common fatal error in medical AI is letting information from the test set influence training—for example, splitting by image instead of by patient. Split by subject, and do all preprocessing inside the training fold."
+    },
+    {
+      "title": "Explainability and Trust",
+      "description": "Clinicians rarely accept a black box. Use methods like Grad-CAM, SHAP, or attention maps to show why a model made a decision, and validate that the model attends to clinically plausible features."
+    },
+    {
+      "title": "Use LLMs Responsibly",
+      "description": "Large language models can help draft, summarise, and debug code, but they hallucinate references and facts. Verify every citation, never paste confidential or patient data into public tools, and disclose AI use as required by your journal."
+    }
+  ],
+  "proposalWriting": [
+    {
+      "step": 1,
+      "title": "Title and Abstract",
+      "description": "Write a specific, jargon-light title and a one-paragraph abstract that states the problem, your approach, and the expected impact. Reviewers often decide their attitude to a proposal in these first few lines."
+    },
+    {
+      "step": 2,
+      "title": "Background and Significance",
+      "description": "Use your literature review to show you know the field and to prove the problem matters. End this section with the explicit research gap your work will fill."
+    },
+    {
+      "step": 3,
+      "title": "Aims and Objectives",
+      "description": "State 2–4 concrete, measurable aims. Each aim should be independent enough that failure in one does not sink the whole project. Frame them as hypotheses or deliverables."
+    },
+    {
+      "step": 4,
+      "title": "Methodology and Timeline",
+      "description": "Describe exactly how you will achieve each aim, what resources you need, and a realistic timeline (a Gantt chart helps). Address feasibility—reviewers reward projects that are ambitious yet achievable."
+    },
+    {
+      "step": 5,
+      "title": "Expected Outcomes and Impact",
+      "description": "Explain what success looks like, how you will measure it, and who benefits. Connect the outcome back to the significance you argued earlier."
+    },
+    {
+      "step": 6,
+      "title": "Budget and References",
+      "description": "Justify each cost against an aim, and cite recent, relevant literature. A clean reference list managed in Zotero or Mendeley signals rigour and saves you from formatting errors."
+    }
+  ],
+  "researchEthics": [
+    {
+      "title": "Ethics and IRB Approval",
+      "description": "Any research involving humans, human data, or animals needs approval from an Institutional Review Board (IRB) or ethics committee before you collect data. Retrospective approval is not possible—plan for it in your timeline."
+    },
+    {
+      "title": "Informed Consent",
+      "description": "Participants must understand what the study involves, its risks, and that they can withdraw at any time. Consent must be voluntary, documented, and appropriate to the participant's capacity and language."
+    },
+    {
+      "title": "Data Privacy and De-identification",
+      "description": "Protect participant confidentiality by de-identifying data and storing it securely. Follow frameworks such as GDPR (Europe), HIPAA (US), and your institution's data governance rules when handling health data."
+    },
+    {
+      "title": "Avoiding Plagiarism and Misconduct",
+      "description": "Cite every source, never fabricate or falsify data, and disclose conflicts of interest. Research misconduct—fabrication, falsification, plagiarism—can end a career; integrity is non-negotiable."
+    },
+    {
+      "title": "Authorship and Credit",
+      "description": "List as authors only those who made a substantial intellectual contribution, and acknowledge everyone else. Follow ICMJE authorship criteria to avoid disputes and ghost or gift authorship."
+    }
+  ],
+  "conferencePrep": [
+    {
+      "title": "Choosing the Right Conference",
+      "description": "Match your work to the venue's scope and read past proceedings to gauge fit. Flagship BME venues include IEEE EMBC (Engineering in Medicine & Biology), BMES, and specialty meetings like MICCAI for medical image computing."
+    },
+    {
+      "title": "Abstract Submission",
+      "description": "Most conferences accept work via a structured abstract or short paper reviewed by a committee. Submit before the deadline, follow the template exactly, and highlight your novel contribution in the first two sentences."
+    },
+    {
+      "title": "Designing a Poster",
+      "description": "A poster is a visual summary, not a paper on a wall. Use a clear left-to-right or top-to-bottom flow, large readable fonts (title 72pt+, body 24pt+), one key figure per section, and generous whitespace. Aim for a 3-minute read."
+    },
+    {
+      "title": "The Poster Pitch",
+      "description": "Prepare a 60-second and a 3-minute version of your story: problem, method, result, why it matters. Let visitors read while you narrate, and end by inviting questions. Bring a QR code linking to your paper or preprint."
+    },
+    {
+      "title": "Preparing a Talk",
+      "description": "For an oral presentation, rehearse to time, use one idea per slide, and practise the transitions. Anticipate the three hardest questions and prepare backup slides for them."
+    },
+    {
+      "title": "Networking",
+      "description": "Conferences are where collaborations and PhD offers begin. Attend sessions outside your niche, introduce yourself to authors whose work you cited, and follow up by email within a week while the memory is fresh."
+    }
+  ],
+  "publicationGuidance": [
+    {
+      "step": 1,
+      "title": "Select a Target Journal",
+      "description": "Match your scope and rigour to a journal's aims and audience. Check its scope, recent articles, and metrics, and use tools like the Journal/Author Name Estimator (JANE). Beware predatory journals—verify against the DOAJ and Think.Check.Submit."
+    },
+    {
+      "step": 2,
+      "title": "Structure the Manuscript",
+      "description": "Follow the IMRaD format: Introduction, Methods, Results, and Discussion, plus abstract and references. Adhere to reporting guidelines relevant to your study type (e.g. CONSORT for trials, STARD for diagnostic accuracy)."
+    },
+    {
+      "step": 3,
+      "title": "Write Clearly",
+      "description": "Use plain, precise language and active voice. Make every figure and table self-explanatory. A confused reviewer is a hostile reviewer—clarity is persuasion."
+    },
+    {
+      "step": 4,
+      "title": "Submit and Handle Peer Review",
+      "description": "Follow author guidelines exactly, write a concise cover letter, and be patient. When reviews arrive, respond to every comment point-by-point, politely, with evidence—even when you disagree."
+    },
+    {
+      "step": 5,
+      "title": "Consider Open Access and Preprints",
+      "description": "Posting a preprint on bioRxiv or medRxiv establishes priority and gets early feedback. Choose open access where funding allows so your work reaches readers without paywalls."
+    }
+  ],
+  "patentBasics": [
+    {
+      "title": "What a Patent Protects",
+      "description": "A patent grants a time-limited monopoly (typically ~20 years) over an invention in exchange for public disclosure. In BME this often covers novel devices, methods, or materials—but not abstract ideas or naturally occurring things."
+    },
+    {
+      "title": "The Three Requirements",
+      "description": "To be patentable an invention must be novel (not previously disclosed), involve an inventive step (non-obvious to an expert), and be useful/industrially applicable. A prior-art search is essential before filing."
+    },
+    {
+      "title": "Disclose Carefully",
+      "description": "Publicly presenting or publishing your invention before filing can destroy novelty and forfeit patent rights in many jurisdictions. Talk to your institution's technology transfer office before you publish or present."
+    },
+    {
+      "title": "Provisional vs Full Application",
+      "description": "A provisional application secures an early filing date cheaply and buys ~12 months to develop the idea before filing a full application. The Patent Cooperation Treaty (PCT) route helps seek protection in multiple countries."
+    },
+    {
+      "title": "Patents vs Publications",
+      "description": "Patents protect commercial rights; publications build academic reputation. They can coexist—file first, then publish—but the order matters. Learn your institution's IP policy early."
+    }
+  ],
+  "phdGuidance": [
+    {
+      "step": 1,
+      "title": "Decide Whether You Need One",
+      "description": "A PhD trains you to produce original research and is essential for academic and many senior R&D roles. It is a multi-year commitment—pursue it because you love research questions, not just for the title."
+    },
+    {
+      "step": 2,
+      "title": "Find the Right Advisor and Lab",
+      "description": "Your advisor matters more than the university's ranking. Read recent papers from candidate labs, check that students graduate and publish, and email professors with a specific, informed message about their work."
+    },
+    {
+      "step": 3,
+      "title": "Build a Strong Application",
+      "description": "Applications usually need a research statement, CV, transcripts, references, and sometimes standardised tests. Highlight research experience, publications, and a clear fit with the group's direction."
+    },
+    {
+      "step": 4,
+      "title": "Secure Funding",
+      "description": "Look for funded positions, assistantships, and fellowships—doing a PhD unfunded is risky. Explore national and international schemes such as Fulbright, DAAD, Marie Skłodowska-Curie Actions, and university studentships."
+    },
+    {
+      "step": 5,
+      "title": "Plan for the Long Haul",
+      "description": "A PhD is a marathon of small experiments, setbacks, and rewrites. Set milestones, publish along the way, build a peer support network, and protect your mental health—finishing is as much about resilience as intelligence."
+    }
   ]
 }

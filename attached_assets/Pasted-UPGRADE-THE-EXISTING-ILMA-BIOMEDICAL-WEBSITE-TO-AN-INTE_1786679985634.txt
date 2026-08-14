@@ -1,0 +1,634 @@
+UPGRADE THE EXISTING ILMA BIOMEDICAL WEBSITE TO AN INTERNATIONAL-LEVEL PLATFORM.
+
+CRITICAL INSTRUCTION — DO NOT CHANGE THE EXISTING UI/UX DESIGN.
+
+I already have a UI/UX design for ILMA Biomedical that I want to keep.
+
+DO NOT:
+- Redesign the website
+- Change the existing layout
+- Change the navigation structure unless absolutely necessary
+- Change the existing color palette
+- Change typography
+- Change buttons
+- Change cards
+- Change spacing
+- Change animations
+- Change the logo
+- Change the existing visual style
+- Replace existing components unnecessarily
+- Create a completely new homepage
+- Change the current responsive behavior
+
+The current UI/UX is approved.
+
+Your job is to UPGRADE THE CONTENT, INFORMATION ARCHITECTURE, FUNCTIONALITY, SCALABILITY, SEO, and GLOBAL FEATURES while keeping the existing UI/UX intact.
+
+==================================================
+ILMA BRAND
+==================================================
+
+Name:
+ILMA Biomedical
+
+Meaning:
+I — Innovation
+L — Learning
+M — Medical Technology
+A — Advancement
+
+Tagline:
+Learn. Innovate. Advance.
+
+Global positioning:
+
+"An international biomedical education, career, research and innovation platform."
+
+ILMA must NOT be focused on Germany, India, or any single country.
+
+It should be designed for biomedical students, graduates, researchers, educators, innovators and healthcare technology professionals WORLDWIDE.
+
+==================================================
+1. PRESERVE THE EXISTING UI/UX
+==================================================
+
+Before making any changes:
+
+1. Inspect the entire existing application.
+2. Understand the current pages.
+3. Understand the existing components.
+4. Understand the existing navigation.
+5. Understand the current data structure.
+6. Identify existing reusable components.
+
+Then improve the CONTENT and FUNCTIONALITY using the EXISTING UI COMPONENTS.
+
+If a new page or section is required, use the SAME existing design system.
+
+Do not introduce a new visual design system.
+
+Reuse:
+- Existing cards
+- Existing buttons
+- Existing typography
+- Existing colors
+- Existing navigation
+- Existing layouts
+- Existing animations
+- Existing responsive components
+
+The result should visually look like the SAME ILMA website, just significantly more powerful.
+
+==================================================
+2. GLOBAL CAREER EXPLORER
+==================================================
+
+Expand the existing Career Explorer.
+
+Include careers such as:
+
+Biomedical Engineer
+Clinical Engineer
+Medical Device Engineer
+Bioinstrumentation Engineer
+Biomaterials Engineer
+Tissue Engineering Specialist
+Regenerative Medicine Researcher
+Artificial Organ Engineer
+Prosthetics & Orthotics Engineer
+Rehabilitation Engineer
+Neural Engineer
+Neurotechnology Specialist
+Bioinformatics Specialist
+Computational Biology Researcher
+Medical Imaging Specialist
+Biomedical Signal Processing Engineer
+Healthcare AI Engineer
+Digital Health Specialist
+Medical Robotics Engineer
+Surgical Robotics Engineer
+Wearable Technology Engineer
+Biosensor Engineer
+Nanomedicine Researcher
+Drug Delivery Researcher
+Biomechanics Engineer
+Healthcare Data Scientist
+Clinical Researcher
+Regulatory Affairs Specialist
+Medical Device Quality Specialist
+Medical Device Product Developer
+Biomedical Researcher
+Healthcare Technology Consultant
+Biomedical Technical Writer
+Biomedical Entrepreneur
+
+For every career, provide:
+
+- Overview
+- What the professional does
+- Education
+- Technical skills
+- Soft skills
+- Software/tools
+- Research areas
+- Industries
+- Career pathway
+- Higher-study options
+- Project ideas
+- Internship opportunities
+- Global opportunities
+
+Use the EXISTING ILMA UI components to display this information.
+
+==================================================
+3. GLOBAL BIOMEDICAL DOMAINS
+==================================================
+
+Expand the existing Biomedical Domains section.
+
+Include:
+
+Biomedical Instrumentation
+Medical Devices
+Clinical Engineering
+Artificial Organs
+Tissue Engineering
+Regenerative Medicine
+Biomaterials
+Prosthetics & Orthotics
+Rehabilitation Engineering
+Assistive Technology
+Neural Engineering
+Neurotechnology
+Biomedical Signal Processing
+Medical Imaging
+Biomechanics
+Bioinformatics
+Computational Biology
+Genomics
+Healthcare AI
+Digital Health
+Wearable Technology
+Biosensors
+Microfluidics
+Lab-on-a-Chip
+Medical Robotics
+Surgical Robotics
+Nanomedicine
+Drug Delivery
+Cardiovascular Engineering
+Cancer Technology
+Ophthalmic Engineering
+Dental Biomedical Engineering
+Healthcare Data Science
+Biomedical Cybersecurity
+Pharmaceutical Technology
+Precision Medicine
+3D Bioprinting
+
+Each domain should include:
+
+Definition
+Applications
+Technologies
+Skills
+Careers
+Research areas
+Projects
+Future trends
+
+==================================================
+4. GLOBAL SKILL ROADMAPS
+==================================================
+
+Expand Skill Roadmaps without changing their current UI.
+
+Create pathways for:
+
+Python
+AI/ML
+Deep Learning
+MATLAB
+Medical Imaging
+Signal Processing
+Embedded Systems
+Arduino
+ESP32
+STM32
+Medical Device Design
+CAD/3D Modelling
+Biosensors
+IoT Healthcare
+Data Science
+Research Methodology
+Scientific Writing
+Clinical Research
+Medical Device Development
+Regulatory Affairs
+Healthcare Entrepreneurship
+
+Structure:
+
+BEGINNER
+↓
+INTERMEDIATE
+↓
+ADVANCED
+↓
+PROJECT
+↓
+PORTFOLIO
+↓
+INTERNSHIP
+↓
+RESEARCH
+↓
+CAREER
+
+==================================================
+5. RESEARCH HUB
+==================================================
+
+Add/expand a Research Hub using the EXISTING ILMA DESIGN.
+
+Include:
+
+- Research basics
+- Literature review
+- Finding research gaps
+- Research methodology
+- Biomedical datasets
+- Statistical analysis
+- AI in biomedical research
+- Research proposal writing
+- Scientific writing
+- Research ethics
+- Conference preparation
+- Poster preparation
+- Publication guidance
+- Patent basics
+- PhD guidance
+- Research project ideas
+
+Create a research roadmap:
+
+IDEA
+→ LITERATURE REVIEW
+→ RESEARCH GAP
+→ PROBLEM STATEMENT
+→ METHODOLOGY
+→ EXPERIMENT
+→ ANALYSIS
+→ VALIDATION
+→ PUBLICATION
+→ INNOVATION
+
+==================================================
+6. INNOVATION & PROJECT HUB
+==================================================
+
+Expand the project section.
+
+Categories:
+
+Medical Devices
+AI Healthcare
+Healthcare IoT
+Wearables
+Biosensors
+Medical Robotics
+Artificial Organs
+Rehabilitation
+Assistive Technology
+Medical Imaging
+Digital Health
+
+Classify:
+
+Beginner
+Intermediate
+Advanced
+Research-level
+
+Each project should include:
+
+Problem
+Target users
+Proposed solution
+Required skills
+Software
+Hardware
+Difficulty
+Possible research direction
+Future improvements
+
+==================================================
+7. GLOBAL HIGHER STUDIES
+==================================================
+
+Create a global Higher Studies section.
+
+Cover:
+
+Bachelor's
+Master's
+PhD
+Postdoctoral research
+Research internships
+Fellowships
+Scholarships
+Research assistantships
+
+Provide country/region filters for:
+
+India
+Germany
+USA
+UK
+Canada
+Australia
+Netherlands
+Sweden
+France
+Japan
+Singapore
+South Korea
+and other countries in the future.
+
+IMPORTANT:
+Do not make any country the primary focus.
+
+The country system must be expandable.
+
+==================================================
+8. GLOBAL OPPORTUNITIES
+==================================================
+
+Prepare the platform for:
+
+Internships
+Jobs
+Research positions
+Scholarships
+Fellowships
+Competitions
+Hackathons
+Conferences
+Workshops
+Webinars
+Mentorship
+
+Allow future filtering by:
+
+Country
+Region
+Domain
+Career
+Education level
+Remote/On-site
+Deadline
+
+==================================================
+9. GAMIFIED LEARNING
+==================================================
+
+Prepare the existing platform for future:
+
+XP
+Levels
+Badges
+Streaks
+Quizzes
+Career assessments
+Skill assessments
+Progress tracking
+Learning paths
+Certificates
+
+Do not destroy the existing UI.
+
+Use the current components and design language.
+
+==================================================
+10. GLOBAL COMMUNITY
+==================================================
+
+Prepare the architecture for a future ILMA community.
+
+Potential features:
+
+Student profiles
+Researcher profiles
+Mentor profiles
+Project showcase
+Research showcase
+Discussion
+Collaboration
+Events
+Competitions
+Mentorship
+
+Do not expose private user information publicly.
+
+==================================================
+11. INTERNATIONALIZATION
+==================================================
+
+Make the CONTENT ARCHITECTURE ready for future multilingual support.
+
+Potential languages:
+
+English
+German
+Tamil
+Hindi
+French
+Spanish
+Arabic
+and additional languages later.
+
+English remains the primary language.
+
+Do not redesign the interface.
+
+==================================================
+12. SEO
+==================================================
+
+Improve SEO without changing UI.
+
+Implement:
+
+Page titles
+Meta descriptions
+Canonical URLs
+Open Graph metadata
+Structured data where appropriate
+Sitemap
+Robots.txt
+Semantic headings
+Internal linking
+Image alt text
+Clean URLs
+
+Create SEO-friendly content around:
+
+Biomedical Engineering careers
+Biomedical Engineering domains
+Biomedical Engineering skills
+Biomedical Engineering projects
+Biomedical research
+Artificial organs
+Healthcare AI
+Medical robotics
+Medical devices
+Digital health
+Bioinformatics
+Biomedical innovation
+
+==================================================
+13. FOUNDER
+==================================================
+
+Maintain the existing Founder section and design.
+
+Founder:
+
+Aadhira Suleim A.R.
+
+Founder — ILMA Biomedical
+Biomedical Engineer
+Researcher
+M.E. Biomedical Engineering Student
+
+Do not exaggerate qualifications or achievements.
+
+==================================================
+14. PARTNERSHIPS
+==================================================
+
+Prepare a section using the existing UI for:
+
+College partnerships
+University partnerships
+Research collaborations
+Industry partnerships
+Workshops
+Career guidance
+Innovation challenges
+Mentorship
+Internships
+
+Add a professional "Partner with ILMA" enquiry form.
+
+==================================================
+15. LEGAL & TRUST
+==================================================
+
+Add/prepare:
+
+Privacy Policy
+Terms & Conditions
+Disclaimer
+Cookie Policy where applicable
+Contact
+About
+
+Clearly explain that ILMA provides educational and career guidance and does not provide medical diagnosis or treatment.
+
+==================================================
+16. FUTURE AI
+==================================================
+
+Prepare scalable architecture for:
+
+ILMA AI Career Mentor
+AI Skill Gap Analysis
+AI Learning Recommendations
+AI Project Recommendations
+AI Research Topic Suggestions
+AI Resume Guidance
+
+Do not add fake AI functionality.
+
+==================================================
+17. GLOBAL POSITIONING
+==================================================
+
+The platform should communicate:
+
+ILMA Biomedical
+
+"Learn. Innovate. Advance."
+
+"Empowering the next generation of biomedical innovators worldwide."
+
+Core journey:
+
+LEARN
+↓
+EXPLORE
+↓
+BUILD
+↓
+RESEARCH
+↓
+INNOVATE
+↓
+CONNECT
+↓
+GROW
+
+==================================================
+18. FINAL DEVELOPMENT RULE
+==================================================
+
+THE EXISTING UI/UX IS FINAL.
+
+Do not redesign it.
+
+The goal is:
+
+SAME DESIGN
++
+BETTER CONTENT
++
+MORE CAREERS
++
+MORE BIOMEDICAL DOMAINS
++
+RESEARCH HUB
++
+GLOBAL OPPORTUNITIES
++
+SKILL ROADMAPS
++
+PROJECTS
++
+GAMIFICATION FOUNDATION
++
+GLOBAL SCALABILITY
++
+SEO
++
+FUTURE AI
+
+Before completing the task, verify:
+
+- Existing pages still work
+- Existing navigation still works
+- Existing components remain intact
+- Existing branding remains intact
+- Existing responsive design remains intact
+- No existing feature has been removed
+- No broken routes
+- No broken links
+- No console errors
+- Mobile layout still works
+- Desktop layout still works
+
+DO NOT publish automatically.
+
+Show the updated application in Preview first.
+
+The final ILMA website should look like the CURRENT ILMA WEBSITE, but its content, functionality, scalability and global value should be significantly stronger.

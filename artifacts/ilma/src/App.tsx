@@ -34,6 +34,12 @@ import BlogDetailPage from '@/pages/BlogDetailPage';
 import NewsPage from '@/pages/NewsPage';
 import CompaniesPage from '@/pages/CompaniesPage';
 import ResearchHubPage from '@/pages/ResearchHubPage';
+import ProjectsPage from '@/pages/ProjectsPage';
+import HigherStudiesPage from '@/pages/HigherStudiesPage';
+import OpportunitiesPage from '@/pages/OpportunitiesPage';
+import PartnershipsPage from '@/pages/PartnershipsPage';
+import DisclaimerPage from '@/pages/DisclaimerPage';
+import CookiePolicyPage from '@/pages/CookiePolicyPage';
 import AdminPage from '@/pages/AdminPage';
 
 // REQUIRED — copy verbatim. Resolves the key from window.location.hostname so the
@@ -182,6 +188,12 @@ function Router() {
       <Route path="/news" component={NewsPage} />
       <Route path="/companies" component={CompaniesPage} />
       <Route path="/research" component={ResearchHubPage} />
+      <Route path="/projects" component={ProjectsPage} />
+      <Route path="/higher-studies" component={HigherStudiesPage} />
+      <Route path="/opportunities" component={OpportunitiesPage} />
+      <Route path="/partnerships" component={PartnershipsPage} />
+      <Route path="/disclaimer" component={DisclaimerPage} />
+      <Route path="/cookie-policy" component={CookiePolicyPage} />
       <Route path="/admin" component={AdminPage} />
       <Route component={NotFound} />
     </Switch>

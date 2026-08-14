@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Send, Loader2, AlertCircle, CheckCircle2 } from 'lucide-react';
+import { Mail, Send, Loader2, AlertCircle, CheckCircle2, Instagram } from 'lucide-react';
 import {
   Accordion,
   AccordionContent,
@@ -270,6 +270,22 @@ export default function ContactPage() {
                         className="text-lg font-semibold hover:text-primary transition-colors break-all"
                       >
                         ilmabiomedical@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-4 p-4 rounded-2xl bg-accent border border-primary/10">
+                    <div className="p-3 bg-primary text-primary-foreground rounded-xl shrink-0">
+                      <Instagram className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <p className="text-sm text-muted-foreground font-medium">Follow Us</p>
+                      <a
+                        href="https://www.instagram.com/ilma.biomedical?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-lg font-semibold hover:text-primary transition-colors break-all"
+                      >
+                        @ilma.biomedical
                       </a>
                     </div>
                   </div>

@@ -1,0 +1,434 @@
+{
+  "studyLevels": [
+    {
+      "id": "bachelors",
+      "title": "Bachelor's Degree",
+      "tagline": "The foundation (B.Sc / B.Tech / B.E)",
+      "description": "A 3-4 year undergraduate program that builds your core knowledge across biology, physics, mathematics, and engineering. In biomedical fields this is where you first touch anatomy, physiology, circuits, programming, and biomaterials. Choose a program with strong labs and project opportunities rather than one that is purely theoretical.",
+      "typicalRequirements": [
+        "Completed secondary/high school with strong grades in biology, physics, chemistry, and mathematics",
+        "Standardized entrance or aptitude tests depending on country (e.g. national engineering exams, SAT/ACT)",
+        "English proficiency (IELTS/TOEFL) if studying in a non-native language"
+      ],
+      "timeline": "Apply 8-12 months before the intake. Most northern-hemisphere universities have autumn (September/October) intakes with deadlines between December and March.",
+      "tips": [
+        "Prioritise programs that are accredited by a recognised engineering or medical body.",
+        "Get into a lab or a maker space early—hands-on projects matter more than a perfect GPA.",
+        "Keep your electives broad so you can pivot between clinical, computational, and hardware tracks later."
+      ]
+    },
+    {
+      "id": "masters",
+      "title": "Master's Degree",
+      "tagline": "Specialisation (M.Sc / M.Tech / MEng)",
+      "description": "A 1-2 year graduate program where you specialise in a sub-field such as medical imaging, tissue engineering, computational biology, or medical devices. A Master's is the standard route into advanced R&D roles and a common stepping stone to a PhD.",
+      "typicalRequirements": [
+        "A relevant Bachelor's degree with a competitive GPA",
+        "Statement of purpose describing your research or career focus",
+        "Two or three letters of recommendation",
+        "Standardised tests where required (GRE is optional at many universities now)",
+        "English proficiency test for international applicants"
+      ],
+      "timeline": "Start 12-15 months ahead. Gather recommenders and draft your statement 6 months before deadlines, which typically fall between November and March for an autumn start.",
+      "tips": [
+        "Choose thesis-based (research) over coursework-only if you plan to pursue a PhD.",
+        "Email potential supervisors before applying to research-heavy programs.",
+        "Look for programs with industry links if you want to move into medtech rather than academia."
+      ]
+    },
+    {
+      "id": "phd",
+      "title": "PhD / Doctorate",
+      "tagline": "Original research (PhD / DPhil)",
+      "description": "A 3-6 year research degree centred on producing an original contribution to knowledge, defended in a dissertation. In biomedical fields a PhD is usually funded through a stipend, research assistantship, or a fellowship. Your choice of supervisor and lab matters more than the university's overall ranking.",
+      "typicalRequirements": [
+        "A strong Bachelor's or Master's degree in a related field",
+        "Demonstrated research experience (projects, publications, or a thesis)",
+        "A research proposal or clear statement of research interests",
+        "Strong academic references, ideally from research supervisors",
+        "A supervisor willing to take you on (especially in Europe)"
+      ],
+      "timeline": "Begin 12-18 months out. Identify labs and contact professors early; many positions are filled through direct contact rather than a single deadline. Funded positions in Europe are often advertised individually year-round.",
+      "tips": [
+        "Read recent papers from any lab you approach and reference them specifically.",
+        "Ask current PhD students about supervision style and completion times.",
+        "Never accept an unfunded biomedical PhD in a country where funded positions are the norm."
+      ]
+    },
+    {
+      "id": "postdoc",
+      "title": "Postdoctoral Research",
+      "tagline": "Building an independent track record",
+      "description": "A temporary research position (typically 1-3 years) taken after a PhD to deepen expertise, publish, and build the independent profile needed for a faculty or senior industry role. Postdocs are salaried and often tied to a specific grant or project.",
+      "typicalRequirements": [
+        "A completed PhD (or submission imminent)",
+        "A publication record appropriate to your field",
+        "A research vision that complements the host lab",
+        "Sometimes a co-written fellowship application with the host"
+      ],
+      "timeline": "Start conversations 9-12 months before your PhD defence. Fellowship-funded postdocs have fixed annual deadlines, while grant-funded posts are advertised as funding becomes available.",
+      "tips": [
+        "Treat a postdoc as a strategic move, not a default—choose one that opens the doors you want next.",
+        "Negotiate authorship, project ownership, and independence expectations up front.",
+        "Consider applying for your own fellowship to gain independence from a single supervisor."
+      ]
+    },
+    {
+      "id": "research-internships",
+      "title": "Research Internships",
+      "tagline": "Short, structured lab experience",
+      "description": "Summer or semester-length placements—often 8-12 weeks—that let students work in a university or institute lab, frequently in another country. They are the single best way to test whether research suits you and to earn a strong recommendation letter.",
+      "typicalRequirements": [
+        "Current enrolment in a Bachelor's or Master's program",
+        "Coursework relevant to the host lab's work",
+        "A short motivation letter and CV",
+        "Sometimes a nomination from your home university"
+      ],
+      "timeline": "Apply 4-9 months before the placement. Structured summer programs typically open in autumn and close in winter for the following summer.",
+      "tips": [
+        "Structured programs (see funding below) handle visas and stipends—use them if eligible.",
+        "For direct internships, email professors with a specific, tailored message.",
+        "Keep a lab notebook and ask for a reference letter before you leave."
+      ]
+    },
+    {
+      "id": "fellowships",
+      "title": "Fellowships",
+      "tagline": "Merit funding that follows you",
+      "description": "Competitive awards that fund your studies or research and often come with prestige, a community, and professional development. Unlike a specific job, a fellowship is usually awarded to you as an individual, giving you freedom in how and where you use it.",
+      "typicalRequirements": [
+        "Strong academic and/or research record",
+        "A compelling personal and research statement",
+        "Leadership or community-impact evidence for many named fellowships",
+        "References who can speak to your potential"
+      ],
+      "timeline": "Many prestigious fellowships close 12-18 months before the funded period begins. Build your application over several months and seek feedback on drafts.",
+      "tips": [
+        "Match your story to the fellowship's mission—generic applications rarely win.",
+        "Start early; the strongest applications go through multiple drafts and mock interviews.",
+        "Apply to several—selection has a large element of fit and luck."
+      ]
+    },
+    {
+      "id": "scholarships",
+      "title": "Scholarships",
+      "tagline": "Reducing the cost of study",
+      "description": "Financial awards—full or partial—that cover tuition and sometimes living costs. They range from government schemes for international students to university-specific merit and need-based awards. For biomedical study abroad, scholarships are often the deciding factor in where you can afford to go.",
+      "typicalRequirements": [
+        "Academic merit and/or demonstrated financial need",
+        "An admission offer (for many university scholarships)",
+        "Essays on goals and, sometimes, on returning to serve your home region",
+        "Proof of eligibility (nationality, field, or income criteria)"
+      ],
+      "timeline": "Government scholarships often close 6-12 months before study begins and may run separately from admission. Check both the scholarship and the university deadlines.",
+      "tips": [
+        "Apply for scholarships and admission in parallel—don't wait for an offer if the scholarship allows it.",
+        "Look beyond the headline schemes: departments and foundations offer smaller, less contested awards.",
+        "Read the fine print on service or return-home obligations before accepting."
+      ]
+    },
+    {
+      "id": "research-assistantships",
+      "title": "Research Assistantships",
+      "tagline": "Getting paid to do research",
+      "description": "A funded position—common in North America—where graduate students receive a stipend and often tuition remission in exchange for working on a supervisor's funded project. Research assistantships are the primary way many students finance a Master's or PhD.",
+      "typicalRequirements": [
+        "Admission to a graduate program",
+        "A supervisor with grant funding and a matching project",
+        "Relevant technical skills (wet-lab, programming, instrumentation)",
+        "Sometimes a separate application to the department or lab"
+      ],
+      "timeline": "Assistantships are usually arranged alongside or just after graduate admission. Contact labs during the application cycle to signal your interest.",
+      "tips": [
+        "Ask directly about funding guarantees before accepting an offer.",
+        "Clarify how many years of support are committed, not just the first year.",
+        "Balance assistantship duties with your own coursework and thesis progress."
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "id": "india",
+      "name": "India",
+      "flag": "🇮🇳",
+      "overview": "India has a large and fast-growing biomedical education base, from IITs and IISc to specialised institutes like the Sree Chitra Tirunal Institute for Medical Sciences and Technology. Programs span biomedical engineering, medical device design, and computational biology, with a strong and affordable ecosystem for hands-on projects.",
+      "admissionNotes": "Undergraduate engineering admission is largely driven by national entrance exams such as JEE, while postgraduate technical admission often uses the GATE score. Research institutes and central universities run their own entrance processes for Master's and PhD study.",
+      "fundingNotes": [
+        {
+          "name": "Prime Minister's Research Fellowship (PMRF)",
+          "description": "Attractive fellowship for direct PhD and integrated students at eligible Indian institutions.",
+          "url": "https://pmrf.in/"
+        },
+        {
+          "name": "CSIR-UGC NET (JRF)",
+          "description": "National eligibility test that provides Junior Research Fellowships for science research in India.",
+          "url": "https://csirnet.nta.ac.in/"
+        }
+      ],
+      "strengths": [
+        "Affordable, high-quality technical education at IITs, IISc, and NITs",
+        "Growing medical device and health-tech startup ecosystem",
+        "Dedicated translational institutes like SCTIMST"
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "overview": "Germany combines low or no tuition at public universities with world-class engineering and a dense network of research institutes such as the Max Planck and Fraunhofer societies. Biomedical engineering, neuroengineering, and medical imaging are especially strong, and many Master's programs are taught in English.",
+      "admissionNotes": "Public universities typically charge only a small semester fee. Applications for international students often go through uni-assist. PhD positions are frequently advertised as paid research posts rather than through a central admissions round.",
+      "fundingNotes": [
+        {
+          "name": "DAAD Scholarships",
+          "description": "The German Academic Exchange Service funds international students and researchers across Master's, PhD, and research stays.",
+          "url": "https://www.daad.de/en/study-and-research-in-germany/scholarships/"
+        },
+        {
+          "name": "Deutschlandstipendium",
+          "description": "Merit-based scholarship co-funded by the government and private sponsors at participating German universities.",
+          "url": "https://www.deutschlandstipendium.de/"
+        }
+      ],
+      "strengths": [
+        "Low or no tuition at public universities",
+        "Max Planck and Fraunhofer research institutes",
+        "Many English-taught biomedical Master's programs"
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "overview": "The United States hosts many of the world's leading biomedical engineering departments and the largest concentration of research funding through agencies like the NIH and NSF. PhD programs are typically fully funded through assistantships and fellowships, and the medtech and biotech industries offer strong career pathways.",
+      "admissionNotes": "Graduate admission is holistic, weighing research experience, statements, and references. The GRE is now optional at many programs. Funded PhD offers usually include a stipend plus tuition through research or teaching assistantships.",
+      "fundingNotes": [
+        {
+          "name": "Fulbright Foreign Student Program",
+          "description": "Flagship US government exchange program funding international graduate study and research in the US.",
+          "url": "https://foreign.fulbrightonline.org/"
+        },
+        {
+          "name": "NSF Graduate Research Fellowship Program (GRFP)",
+          "description": "Prestigious fellowship supporting graduate students in STEM, including bioengineering, in the US.",
+          "url": "https://www.nsfgrfp.org/"
+        }
+      ],
+      "strengths": [
+        "Fully funded PhD programs with stipends",
+        "Large NIH and NSF research funding base",
+        "Deep biotech and medical device industry"
+      ]
+    },
+    {
+      "id": "uk",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "overview": "The UK offers shorter, intensive degrees—one-year Master's and typically three-to-four-year PhDs—at research-intensive universities. Biomedical engineering, regenerative medicine, and health data science are well developed, with strong ties to the NHS and a concentration of institutes in the 'golden triangle' of London, Oxford, and Cambridge.",
+      "admissionNotes": "Master's admission is largely based on your undergraduate transcript and references. PhD study often requires securing a supervisor and a funded studentship, frequently through a Doctoral Training Programme.",
+      "fundingNotes": [
+        {
+          "name": "Chevening Scholarships",
+          "description": "UK government global scholarship program funding one-year Master's degrees for future leaders.",
+          "url": "https://www.chevening.org/"
+        },
+        {
+          "name": "Commonwealth Scholarships",
+          "description": "Funding for students from Commonwealth countries to study Master's and PhD degrees in the UK.",
+          "url": "https://cscuk.fcdo.gov.uk/"
+        }
+      ],
+      "strengths": [
+        "Intensive one-year Master's degrees",
+        "Research-intensive universities with NHS links",
+        "Strong health data science and regenerative medicine"
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "overview": "Canada is known for high-quality, comparatively affordable education and a welcoming stance toward international students, including post-study work options. Biomedical engineering and health sciences are strong at universities like Toronto, McGill, and UBC, with graduate study commonly funded through assistantships.",
+      "admissionNotes": "Graduate admission is department-driven, and securing a supervisor is often essential for research programs. Funding typically combines assistantships, scholarships, and supervisor grants.",
+      "fundingNotes": [
+        {
+          "name": "Vanier Canada Graduate Scholarships",
+          "description": "Prestigious doctoral scholarships for both Canadian and international students studying in Canada.",
+          "url": "https://vanier.gc.ca/"
+        },
+        {
+          "name": "NSERC Scholarships and Fellowships",
+          "description": "Federal funding for graduate students and postdocs in natural sciences and engineering.",
+          "url": "https://www.nserc-crsng.gc.ca/students-etudiants/index_eng.asp"
+        }
+      ],
+      "strengths": [
+        "Affordable, high-quality graduate education",
+        "Welcoming immigration and post-study work options",
+        "Strong health sciences research funding"
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "overview": "Australia offers strong biomedical and health research at universities like Melbourne, Sydney, and Monash, with well-supported medical research institutes. The climate for international students is friendly, and research degrees are commonly funded through stipend scholarships.",
+      "admissionNotes": "Research higher degrees (Master's by research and PhD) require a suitable supervisor and often a competitive stipend scholarship. Coursework Master's programs admit primarily on academic record.",
+      "fundingNotes": [
+        {
+          "name": "Australia Awards Scholarships",
+          "description": "Australian government scholarships for students from eligible developing countries to study in Australia.",
+          "url": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships"
+        },
+        {
+          "name": "Research Training Program (RTP)",
+          "description": "Government-funded stipends and fee offsets for domestic and international research students.",
+          "url": "https://www.education.gov.au/research-block-grants/research-training-program"
+        }
+      ],
+      "strengths": [
+        "Strong medical research institutes",
+        "Stipend scholarships for research degrees",
+        "High quality of life and student support"
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "overview": "The Netherlands is a leader in English-taught education in continental Europe, with strong biomedical engineering and technical medicine programs at institutions like TU Delft, TU Eindhoven, and the University of Twente. PhDs are salaried employee positions with good working conditions.",
+      "admissionNotes": "Many Master's programs are taught entirely in English. PhD candidates are typically employees who receive a salary, pension, and holiday pay, and positions are advertised individually.",
+      "fundingNotes": [
+        {
+          "name": "Holland Scholarship",
+          "description": "Scholarship for non-EEA students starting a Bachelor's or Master's at participating Dutch institutions.",
+          "url": "https://www.studyinnl.org/finances/holland-scholarship"
+        },
+        {
+          "name": "Orange Knowledge Programme",
+          "description": "Dutch government-funded scholarships and training for professionals from eligible countries.",
+          "url": "https://www.nuffic.nl/en/subjects/orange-knowledge-programme"
+        }
+      ],
+      "strengths": [
+        "Wide range of English-taught programs",
+        "Salaried, employee-status PhD positions",
+        "Strong technical medicine and biomedical engineering"
+      ]
+    },
+    {
+      "id": "sweden",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "overview": "Sweden hosts internationally respected medical and technical universities such as Karolinska Institutet and KTH Royal Institute of Technology. Biomedical research is well funded, PhD positions are salaried, and many Master's programs are taught in English.",
+      "admissionNotes": "International Master's applications are handled through a national portal. PhD positions are paid employment and advertised individually by research groups.",
+      "fundingNotes": [
+        {
+          "name": "Swedish Institute Scholarships for Global Professionals",
+          "description": "Government scholarships covering tuition and living costs for Master's study in Sweden.",
+          "url": "https://si.se/en/apply/scholarships/"
+        },
+        {
+          "name": "Erasmus Mundus Joint Masters",
+          "description": "EU-funded joint Master's scholarships, several coordinated by Swedish universities.",
+          "url": "https://www.eacea.ec.europa.eu/scholarships/emjm-catalogue_en"
+        }
+      ],
+      "strengths": [
+        "Karolinska Institutet for medical research",
+        "Salaried PhD positions",
+        "English-taught Master's programs"
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "flag": "🇫🇷",
+      "overview": "France combines low public-university tuition with strong research through universities, grandes écoles, and institutes such as Inserm and the Institut Pasteur. Biomedical engineering, biophysics, and computational biology are well supported, and English-taught Master's programs are increasingly common.",
+      "admissionNotes": "Public universities charge modest tuition. International Master's applications may go through the Campus France platform. Doctoral study is organised through doctoral schools attached to research units.",
+      "fundingNotes": [
+        {
+          "name": "Eiffel Excellence Scholarship Programme",
+          "description": "French government scholarships for international students at Master's and PhD level.",
+          "url": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence"
+        },
+        {
+          "name": "Erasmus Mundus Joint Masters",
+          "description": "EU-funded joint Master's scholarships, many coordinated by French institutions.",
+          "url": "https://www.eacea.ec.europa.eu/scholarships/emjm-catalogue_en"
+        }
+      ],
+      "strengths": [
+        "Institut Pasteur and Inserm research networks",
+        "Low public-university tuition",
+        "Growing number of English-taught programs"
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "overview": "Japan is a leader in medical devices, robotics, and materials, with strong biomedical research at universities like the University of Tokyo, Kyoto University, and Tohoku University, plus institutes such as RIKEN. Government scholarships make fully funded study accessible to international students.",
+      "admissionNotes": "Many graduate programs offer English-taught tracks, and a research student (kenkyusei) route lets you join a lab before formal enrolment. Contacting a prospective supervisor is often expected.",
+      "fundingNotes": [
+        {
+          "name": "MEXT Scholarship",
+          "description": "Japanese government scholarship funding tuition, living costs, and travel for international students.",
+          "url": "https://www.studyinjapan.go.jp/en/planning/scholarship/"
+        },
+        {
+          "name": "RIKEN International Program Associate (IPA)",
+          "description": "Program for international PhD students to conduct research at RIKEN institutes.",
+          "url": "https://www.riken.jp/en/careers/programs/ipa/"
+        }
+      ],
+      "strengths": [
+        "World-leading medical robotics and devices",
+        "Generous government scholarships",
+        "RIKEN and top national universities"
+      ]
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "overview": "Singapore has built a concentrated, well-funded research ecosystem anchored by NUS, NTU, and the A*STAR institutes. Biomedical engineering, bioimaging, and biomedical sciences are strategic national priorities, with generous PhD scholarships and strong industry links.",
+      "admissionNotes": "Graduate admission is competitive and research-focused. Funded PhD scholarships are attractive and often include stipends well above living costs; contacting labs strengthens applications.",
+      "fundingNotes": [
+        {
+          "name": "A*STAR Graduate Scholarship",
+          "description": "PhD scholarships from Singapore's Agency for Science, Technology and Research.",
+          "url": "https://www.a-star.edu.sg/Scholarships"
+        },
+        {
+          "name": "NUS Research Scholarship",
+          "description": "Graduate research scholarships covering fees and a monthly stipend at NUS.",
+          "url": "https://nus.edu.sg/registrar/prospective-students/graduate/financial-assistance-and-scholarships"
+        }
+      ],
+      "strengths": [
+        "Concentrated, heavily funded research base",
+        "A*STAR institutes and top global universities",
+        "Generous PhD stipends and industry links"
+      ]
+    },
+    {
+      "id": "south-korea",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "overview": "South Korea invests heavily in research and hosts strong biomedical and engineering programs at KAIST, Seoul National University, and POSTECH. Biomedical imaging, bioelectronics, and biomaterials are notable strengths, and government scholarships support international students at all levels.",
+      "admissionNotes": "Graduate programs increasingly offer English-taught tracks. Admission and funding are often tied to a specific lab, so contacting professors is recommended.",
+      "fundingNotes": [
+        {
+          "name": "Global Korea Scholarship (GKS)",
+          "description": "Korean government scholarship covering tuition, living costs, and language training for international students.",
+          "url": "https://www.studyinkorea.go.kr/en/sub/gks/allnew_invite.do"
+        }
+      ],
+      "strengths": [
+        "KAIST and POSTECH for engineering research",
+        "Strong bioelectronics and imaging",
+        "Comprehensive government scholarships"
+      ]
+    }
+  ]
+}

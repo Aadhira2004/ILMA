@@ -842,5 +842,1086 @@
         "description": "Write a comprehensive review article on an emerging biomedical technology suitable for submission to a student journal."
       }
     ]
+  },
+  {
+    "id": "deep-learning",
+    "title": "Deep Learning for Medical Imaging",
+    "icon": "Layers",
+    "color": "#7C3AED",
+    "estimatedTimeline": "6–9 months",
+    "careerApplications": [
+      "AI Healthcare Engineer",
+      "Medical Imaging",
+      "Research Scientist",
+      "Computational Pathology"
+    ],
+    "beginner": {
+      "title": "Neural Network Foundations",
+      "duration": "5–7 weeks",
+      "topics": [
+        "Perceptrons, activation functions, and the forward pass",
+        "Gradient descent and backpropagation intuition",
+        "Building networks with PyTorch tensors and autograd",
+        "Loss functions and optimizers (SGD, Adam)",
+        "Training, validation, and overfitting in clinical datasets"
+      ],
+      "resources": [
+        {
+          "name": "PyTorch Official Learn the Basics Tutorial",
+          "type": "free",
+          "url": "https://pytorch.org/tutorials/beginner/basics/intro.html"
+        },
+        {
+          "name": "Dive into Deep Learning (d2l.ai)",
+          "type": "book",
+          "url": "https://d2l.ai/"
+        }
+      ],
+      "project": "Train a fully connected network to classify diabetic patients from tabular clinical measurements."
+    },
+    "intermediate": {
+      "title": "Convolutional Networks for Imaging",
+      "duration": "7–9 weeks",
+      "topics": [
+        "Convolution, pooling, and feature maps",
+        "Classic architectures (LeNet, VGG, ResNet)",
+        "Data augmentation for limited medical datasets",
+        "Transfer learning from ImageNet to radiology",
+        "Handling class imbalance in diagnostic tasks"
+      ],
+      "resources": [
+        {
+          "name": "Stanford CS231n: Convolutional Neural Networks",
+          "type": "free",
+          "url": "https://cs231n.github.io/"
+        },
+        {
+          "name": "Deep Learning by Goodfellow, Bengio, Courville",
+          "type": "book",
+          "url": "https://www.deeplearningbook.org/"
+        }
+      ],
+      "project": "Fine-tune a ResNet with transfer learning to classify chest X-rays as normal or pneumonia."
+    },
+    "advanced": {
+      "title": "Segmentation & Modern Architectures",
+      "duration": "8–12 weeks",
+      "topics": [
+        "Semantic segmentation with U-Net and nnU-Net",
+        "Vision Transformers (ViT) for medical images",
+        "3D CNNs for volumetric CT and MRI",
+        "Uncertainty estimation and model calibration",
+        "Explainability with Grad-CAM for clinical trust"
+      ],
+      "resources": [
+        {
+          "name": "MONAI (Medical Open Network for AI) Tutorials",
+          "type": "free",
+          "url": "https://docs.monai.io/en/stable/"
+        },
+        {
+          "name": "fast.ai Practical Deep Learning for Coders",
+          "type": "free",
+          "url": "https://course.fast.ai/"
+        }
+      ],
+      "project": "Build a U-Net to segment brain tumors from multi-modal MRI volumes and evaluate with the Dice coefficient."
+    },
+    "certifications": [
+      "DeepLearning.AI Deep Learning Specialization (Coursera)",
+      "TensorFlow Developer Certificate"
+    ],
+    "projects": [
+      {
+        "name": "Retinal Disease Detector",
+        "difficulty": "intermediate",
+        "description": "Classify diabetic retinopathy severity from fundus images using a transfer-learned CNN."
+      },
+      {
+        "name": "Cardiac MRI Segmentation",
+        "difficulty": "advanced",
+        "description": "Segment the left ventricle across cardiac MRI slices with a 3D U-Net and measure ejection fraction."
+      }
+    ]
+  },
+  {
+    "id": "signal-processing",
+    "title": "Biomedical Signal Processing",
+    "icon": "Activity",
+    "color": "#0EA5E9",
+    "estimatedTimeline": "4–6 months",
+    "careerApplications": [
+      "Biomedical Instrumentation",
+      "Neural Engineering",
+      "Wearable Tech",
+      "Research"
+    ],
+    "beginner": {
+      "title": "Signals & Systems Basics",
+      "duration": "4–5 weeks",
+      "topics": [
+        "Continuous vs discrete-time signals",
+        "Sampling theorem and aliasing in physiological recordings",
+        "Convolution and linear time-invariant systems",
+        "The Fourier transform and frequency spectra",
+        "Reading and plotting ECG, EEG, and EMG data in Python"
+      ],
+      "resources": [
+        {
+          "name": "The Scientist and Engineer's Guide to DSP (free book)",
+          "type": "book",
+          "url": "https://www.dspguide.com/"
+        },
+        {
+          "name": "MIT 6.003 Signals and Systems (OpenCourseWare)",
+          "type": "free",
+          "url": "https://ocw.mit.edu/courses/6-003-signals-and-systems-fall-2011/"
+        }
+      ],
+      "project": "Load an ECG record from PhysioNet and plot its time-domain waveform and frequency spectrum with SciPy."
+    },
+    "intermediate": {
+      "title": "Filtering & Feature Extraction",
+      "duration": "5–7 weeks",
+      "topics": [
+        "FIR and IIR digital filter design",
+        "Removing baseline wander and powerline noise",
+        "Wavelet transforms for non-stationary bio-signals",
+        "QRS detection with the Pan–Tompkins algorithm",
+        "Heart rate variability and time/frequency features"
+      ],
+      "resources": [
+        {
+          "name": "NeuroKit2 Documentation & Examples",
+          "type": "free",
+          "url": "https://neuropsychology.github.io/NeuroKit/"
+        },
+        {
+          "name": "Biosignal Processing (Coursera / EIT Digital)",
+          "type": "course",
+          "url": "https://www.coursera.org/learn/biosignal-processing"
+        }
+      ],
+      "project": "Implement Pan–Tompkins QRS detection and compute heart rate variability metrics from a noisy ECG."
+    },
+    "advanced": {
+      "title": "Advanced Analysis & Classification",
+      "duration": "6–9 weeks",
+      "topics": [
+        "Adaptive filtering (LMS, RLS) for artifact removal",
+        "Independent Component Analysis for EEG artifacts",
+        "Spectral estimation and time-frequency analysis",
+        "Machine learning on extracted bio-signal features",
+        "Real-time processing constraints on embedded hardware"
+      ],
+      "resources": [
+        {
+          "name": "PhysioNet Databases & WFDB Software",
+          "type": "free",
+          "url": "https://physionet.org/"
+        },
+        {
+          "name": "Biomedical Signal Processing (edX)",
+          "type": "course",
+          "url": "https://www.edx.org/learn/signal-processing"
+        }
+      ],
+      "project": "Build a pipeline that classifies EEG epochs into sleep stages using extracted spectral features and a classifier."
+    },
+    "certifications": [],
+    "projects": [
+      {
+        "name": "Arrhythmia Classifier",
+        "difficulty": "intermediate",
+        "description": "Detect and classify arrhythmias from the MIT-BIH Arrhythmia Database using extracted ECG features."
+      },
+      {
+        "name": "EMG Gesture Recognition",
+        "difficulty": "advanced",
+        "description": "Classify hand gestures from surface EMG signals to drive a prosthetic control demo."
+      }
+    ]
+  },
+  {
+    "id": "arduino",
+    "title": "Arduino for Biomedical Prototyping",
+    "icon": "CircuitBoard",
+    "color": "#22C55E",
+    "estimatedTimeline": "2–4 months",
+    "careerApplications": [
+      "Biomedical Instrumentation",
+      "Medical Device Prototyping",
+      "Wearable Tech",
+      "Research"
+    ],
+    "beginner": {
+      "title": "Getting Started with Arduino",
+      "duration": "3–4 weeks",
+      "topics": [
+        "Arduino IDE setup and the sketch structure",
+        "Digital and analog I/O",
+        "Reading sensors with the ADC",
+        "Serial communication and the Serial Monitor",
+        "Basic breadboarding and circuit safety"
+      ],
+      "resources": [
+        {
+          "name": "Arduino Official Tutorials",
+          "type": "free",
+          "url": "https://docs.arduino.cc/tutorials/"
+        },
+        {
+          "name": "Arduino Cookbook by Michael Margolis",
+          "type": "book",
+          "url": "https://www.oreilly.com/library/view/arduino-cookbook-3rd/9781491903513/"
+        }
+      ],
+      "project": "Build a body-temperature reader using an LM35 sensor and display readings over the Serial Monitor."
+    },
+    "intermediate": {
+      "title": "Interfacing Biomedical Sensors",
+      "duration": "4–5 weeks",
+      "topics": [
+        "Heart-rate sensing with the AD8232 ECG module",
+        "Pulse oximetry with the MAX30102 over I2C",
+        "Motion sensing with the MPU6050 accelerometer",
+        "Displaying data on OLED/LCD screens",
+        "Debouncing, calibration, and signal smoothing"
+      ],
+      "resources": [
+        {
+          "name": "SparkFun AD8232 Heart Rate Monitor Hookup Guide",
+          "type": "free",
+          "url": "https://learn.sparkfun.com/tutorials/ad8232-heart-rate-monitor-hookup-guide"
+        },
+        {
+          "name": "Exploring Arduino by Jeremy Blum",
+          "type": "book",
+          "url": "https://www.wiley.com/en-us/Exploring+Arduino%3A+Tools+and+Techniques+for+Engineering+Wizardry%2C+2nd+Edition-p-9781119405375"
+        }
+      ],
+      "project": "Assemble a single-lead ECG monitor with the AD8232 and plot the live waveform on the Arduino Serial Plotter."
+    },
+    "advanced": {
+      "title": "Data Logging & Connectivity",
+      "duration": "4–6 weeks",
+      "topics": [
+        "Timers and interrupts for accurate sampling",
+        "Logging to SD cards and real-time clocks",
+        "Low-power techniques for battery wearables",
+        "Bluetooth/Wi-Fi bridging to a phone or dashboard",
+        "Awareness of medical electrical safety (IEC 60601-1)"
+      ],
+      "resources": [
+        {
+          "name": "Random Nerd Tutorials — Arduino Projects",
+          "type": "free",
+          "url": "https://randomnerdtutorials.com/projects-arduino/"
+        }
+      ],
+      "project": "Create a portable, battery-powered pulse and SpO2 logger that stores readings to an SD card with timestamps."
+    },
+    "certifications": [
+      "Arduino Fundamentals Certification"
+    ],
+    "projects": [
+      {
+        "name": "Reaction-Time Tester",
+        "difficulty": "beginner",
+        "description": "Build a neuro-reflex reaction-time game to introduce human-response measurement."
+      },
+      {
+        "name": "Wearable Fall Detector",
+        "difficulty": "intermediate",
+        "description": "Use an MPU6050 with threshold logic to detect falls and trigger a buzzer alert."
+      }
+    ]
+  },
+  {
+    "id": "esp32",
+    "title": "ESP32 for Connected Health Devices",
+    "icon": "Wifi",
+    "color": "#EF4444",
+    "estimatedTimeline": "3–5 months",
+    "careerApplications": [
+      "IoT in Healthcare",
+      "Wearable Tech",
+      "Medical Device Design",
+      "Remote Patient Monitoring"
+    ],
+    "beginner": {
+      "title": "ESP32 Fundamentals",
+      "duration": "3–4 weeks",
+      "topics": [
+        "ESP32 architecture, GPIO, and dual-core basics",
+        "Programming with the Arduino core and ESP-IDF overview",
+        "ADC, PWM, and touch peripherals",
+        "Connecting to Wi-Fi and hosting a simple web server",
+        "Deep sleep and power modes for wearables"
+      ],
+      "resources": [
+        {
+          "name": "Random Nerd Tutorials — ESP32 Projects",
+          "type": "free",
+          "url": "https://randomnerdtutorials.com/projects-esp32/"
+        },
+        {
+          "name": "Espressif ESP-IDF Programming Guide",
+          "type": "free",
+          "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/"
+        }
+      ],
+      "project": "Read a body-temperature sensor and serve the live value on a local web page from the ESP32."
+    },
+    "intermediate": {
+      "title": "BLE, Sensors & Cloud",
+      "duration": "5–7 weeks",
+      "topics": [
+        "Bluetooth Low Energy GATT services for health data",
+        "Interfacing MAX30102 (SpO2/HR) and body-temp sensors",
+        "Publishing telemetry over MQTT",
+        "OLED dashboards and on-device alerts",
+        "Sending data to cloud platforms (ThingSpeak, AWS IoT)"
+      ],
+      "resources": [
+        {
+          "name": "Espressif ESP32 BLE (NimBLE) Guide",
+          "type": "free",
+          "url": "https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/bluetooth/index.html"
+        },
+        {
+          "name": "Kolban's Book on ESP32 (free)",
+          "type": "book",
+          "url": "https://leanpub.com/kolban-ESP32"
+        }
+      ],
+      "project": "Build a BLE heart-rate band that streams pulse and SpO2 to a smartphone using the standard BLE Heart Rate service."
+    },
+    "advanced": {
+      "title": "Secure, Robust Firmware",
+      "duration": "6–8 weeks",
+      "topics": [
+        "FreeRTOS tasks and queues on the ESP32",
+        "TLS-secured MQTT and device provisioning",
+        "Over-the-air (OTA) firmware updates",
+        "Edge inference with TensorFlow Lite for Microcontrollers",
+        "Reliability: watchdogs, brown-out detection, error recovery"
+      ],
+      "resources": [
+        {
+          "name": "TensorFlow Lite for Microcontrollers",
+          "type": "free",
+          "url": "https://www.tensorflow.org/lite/microcontrollers"
+        }
+      ],
+      "project": "Deploy an OTA-updatable remote patient monitor that runs on-device anomaly detection and sends encrypted MQTT alerts."
+    },
+    "certifications": [],
+    "projects": [
+      {
+        "name": "Smart Pill Reminder",
+        "difficulty": "intermediate",
+        "description": "A Wi-Fi connected pill box that logs dose times to the cloud and alerts caregivers."
+      },
+      {
+        "name": "Edge ECG Classifier",
+        "difficulty": "advanced",
+        "description": "Run a TinyML model on the ESP32 to flag abnormal ECG rhythms locally without cloud dependence."
+      }
+    ]
+  },
+  {
+    "id": "stm32",
+    "title": "STM32 & ARM Cortex-M for Medical Devices",
+    "icon": "Microchip",
+    "color": "#0891B2",
+    "estimatedTimeline": "5–8 months",
+    "careerApplications": [
+      "Medical Device Firmware Engineer",
+      "Biomedical Instrumentation",
+      "Embedded Systems",
+      "Wearable Tech"
+    ],
+    "beginner": {
+      "title": "Cortex-M & STM32 Basics",
+      "duration": "5–6 weeks",
+      "topics": [
+        "ARM Cortex-M architecture and memory map",
+        "STM32CubeIDE, HAL, and CubeMX setup",
+        "GPIO, clocks, and the SysTick timer",
+        "Reading sensors via the ADC and DMA",
+        "Debugging with ST-Link and breakpoints"
+      ],
+      "resources": [
+        {
+          "name": "STMicroelectronics STM32 Education Resources",
+          "type": "free",
+          "url": "https://www.st.com/content/st_com/en/support/learning/stm32-education.html"
+        },
+        {
+          "name": "Mastering STM32 by Carmine Noviello",
+          "type": "book",
+          "url": "https://leanpub.com/mastering-stm32-2nd"
+        }
+      ],
+      "project": "Sample an analog bio-signal via ADC + DMA on an STM32 Nucleo board and stream it over UART."
+    },
+    "intermediate": {
+      "title": "Peripherals & Communication",
+      "duration": "6–8 weeks",
+      "topics": [
+        "I2C, SPI, and UART with biomedical sensors",
+        "Timers, PWM, and precise interrupt handling",
+        "DMA-driven high-throughput data acquisition",
+        "Low-power modes for implantable/wearable designs",
+        "Introduction to FreeRTOS on Cortex-M"
+      ],
+      "resources": [
+        {
+          "name": "STM32 HAL & Low-Layer Drivers User Manual",
+          "type": "free",
+          "url": "https://www.st.com/resource/en/user_manual/dm00105879.pdf"
+        },
+        {
+          "name": "Embedded Systems with ARM Cortex-M (Valvano, book)",
+          "type": "book",
+          "url": "https://users.ece.utexas.edu/~valvano/arm/"
+        }
+      ],
+      "project": "Interface an AD8232 ECG front-end to an STM32, sample with a timer-triggered ADC, and buffer via DMA."
+    },
+    "advanced": {
+      "title": "RTOS, Safety & Signal Chains",
+      "duration": "8–12 weeks",
+      "topics": [
+        "FreeRTOS task scheduling for deterministic acquisition",
+        "Digital filtering on the ARM CMSIS-DSP library",
+        "Medical device safety standards (IEC 60601-1, IEC 62304)",
+        "Firmware reliability: watchdogs, ECC, fault handling",
+        "Secure boot and firmware integrity for medical products"
+      ],
+      "resources": [
+        {
+          "name": "Arm CMSIS-DSP Software Library",
+          "type": "free",
+          "url": "https://arm-software.github.io/CMSIS-DSP/latest/"
+        },
+        {
+          "name": "FreeRTOS Documentation & Book",
+          "type": "free",
+          "url": "https://www.freertos.org/Documentation/RTOS_book.html"
+        }
+      ],
+      "project": "Build an RTOS-based multi-channel bio-signal acquisition unit with real-time CMSIS-DSP filtering and a fault-tolerant watchdog."
+    },
+    "certifications": [
+      "Arm Accredited Engineer (AAE)"
+    ],
+    "projects": [
+      {
+        "name": "Precision Infusion Controller",
+        "difficulty": "intermediate",
+        "description": "Drive a stepper motor with timer-based control for accurate fluid delivery rates."
+      },
+      {
+        "name": "Multi-Lead ECG Acquisition Board",
+        "difficulty": "advanced",
+        "description": "Acquire and filter multiple ECG leads in real time using DMA and CMSIS-DSP on an STM32."
+      }
+    ]
+  },
+  {
+    "id": "medical-device-development",
+    "title": "Medical Device Development Lifecycle",
+    "icon": "Stethoscope",
+    "color": "#0F4C81",
+    "estimatedTimeline": "6–9 months",
+    "careerApplications": [
+      "Medical Device Design Engineer",
+      "Quality & Regulatory",
+      "Systems Engineer",
+      "R&D Engineer"
+    ],
+    "beginner": {
+      "title": "Foundations & Design Controls",
+      "duration": "5–6 weeks",
+      "topics": [
+        "The total product lifecycle of a medical device",
+        "Design controls and Design History File (DHF)",
+        "User needs, design inputs, and design outputs",
+        "Verification vs validation",
+        "Device classification concepts (Class I/II/III)"
+      ],
+      "resources": [
+        {
+          "name": "FDA Design Control Guidance for Medical Device Manufacturers",
+          "type": "free",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/design-control-guidance-medical-device-manufacturers"
+        },
+        {
+          "name": "ISO 13485 Quality Management Systems (standard overview)",
+          "type": "free",
+          "url": "https://www.iso.org/standard/59752.html"
+        }
+      ],
+      "project": "Draft a user-needs and design-inputs document for a wearable temperature monitor and trace requirements to outputs."
+    },
+    "intermediate": {
+      "title": "Risk Management & Usability",
+      "duration": "6–8 weeks",
+      "topics": [
+        "Risk management with ISO 14971 (hazards, FMEA)",
+        "Usability engineering per IEC 62366-1",
+        "Software lifecycle awareness (IEC 62304)",
+        "Biocompatibility basics (ISO 10993 overview)",
+        "Design verification testing and traceability matrices"
+      ],
+      "resources": [
+        {
+          "name": "ISO 14971 Application of Risk Management (overview)",
+          "type": "free",
+          "url": "https://www.iso.org/standard/72704.html"
+        },
+        {
+          "name": "Medical Device Design by Ogrodnik (book)",
+          "type": "book",
+          "url": "https://www.elsevier.com/books/medical-device-design/ogrodnik/978-0-12-814962-1"
+        }
+      ],
+      "project": "Perform an ISO 14971-style risk analysis and FMEA for a home-use infusion device and propose mitigations."
+    },
+    "advanced": {
+      "title": "Verification, Validation & Submission",
+      "duration": "8–12 weeks",
+      "topics": [
+        "Design verification and validation protocols",
+        "Clinical evaluation and pre-market pathways (510(k), PMA, CE/MDR)",
+        "Design transfer to manufacturing and process validation",
+        "Post-market surveillance and complaint handling",
+        "CAPA (Corrective and Preventive Action) systems"
+      ],
+      "resources": [
+        {
+          "name": "FDA Premarket Notification 510(k) Overview",
+          "type": "free",
+          "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k"
+        },
+        {
+          "name": "EU MDR Guidance (European Commission)",
+          "type": "free",
+          "url": "https://health.ec.europa.eu/medical-devices-sector_en"
+        }
+      ],
+      "project": "Assemble a mock Design History File for a Class II device, including V&V plans and a regulatory pathway rationale."
+    },
+    "certifications": [
+      "ASQ Certified Quality Engineer (CQE)",
+      "RAPS Regulatory Affairs Certification (RAC)"
+    ],
+    "projects": [
+      {
+        "name": "Traceability Matrix Build",
+        "difficulty": "intermediate",
+        "description": "Create a full requirements-to-verification traceability matrix for a sample diagnostic device."
+      },
+      {
+        "name": "Mock 510(k) Dossier",
+        "difficulty": "advanced",
+        "description": "Prepare a mock 510(k) substantial-equivalence submission comparing a device to a predicate."
+      }
+    ]
+  },
+  {
+    "id": "biosensors",
+    "title": "Biosensors & Bioinstrumentation",
+    "icon": "Radar",
+    "color": "#1AB7B0",
+    "estimatedTimeline": "5–7 months",
+    "careerApplications": [
+      "Biomedical Instrumentation",
+      "Wearable Tech",
+      "Diagnostics R&D",
+      "Point-of-Care Devices"
+    ],
+    "beginner": {
+      "title": "Sensing Principles",
+      "duration": "4–6 weeks",
+      "topics": [
+        "What is a biosensor: recognition element + transducer",
+        "Transduction types (electrochemical, optical, piezoelectric)",
+        "Bio-potentials: ECG, EEG, EMG signal origins",
+        "Sensor specifications: sensitivity, selectivity, drift",
+        "Analog front-ends and instrumentation amplifiers"
+      ],
+      "resources": [
+        {
+          "name": "Analog Devices Biosensor & Vital Signs Resources",
+          "type": "free",
+          "url": "https://www.analog.com/en/applications/markets/healthcare-pavilion-home.html"
+        },
+        {
+          "name": "Introduction to Biomedical Instrumentation (NPTEL)",
+          "type": "course",
+          "url": "https://nptel.ac.in/courses/108105062"
+        }
+      ],
+      "project": "Design an instrumentation-amplifier front-end on paper for an ECG electrode and estimate its gain and CMRR."
+    },
+    "intermediate": {
+      "title": "Signal Conditioning & Interfaces",
+      "duration": "6–8 weeks",
+      "topics": [
+        "Filtering, amplification, and noise rejection",
+        "Electrochemical glucose and lactate sensing",
+        "Optical sensing: PPG and pulse oximetry principles",
+        "ADC selection and sampling for bio-signals",
+        "Calibration, linearization, and error analysis"
+      ],
+      "resources": [
+        {
+          "name": "Texas Instruments Medical & Healthcare Application Notes",
+          "type": "free",
+          "url": "https://www.ti.com/applications/personal-electronics/medical-healthcare.html"
+        },
+        {
+          "name": "Medical Instrumentation: Application and Design by Webster (book)",
+          "type": "book",
+          "url": "https://www.wiley.com/en-us/Medical+Instrumentation%3A+Application+and+Design%2C+5th+Edition-p-9781119457336"
+        }
+      ],
+      "project": "Build a PPG-based heart-rate sensor with an optical front-end, filtering stage, and peak detection."
+    },
+    "advanced": {
+      "title": "Wearable & Point-of-Care Systems",
+      "duration": "8–10 weeks",
+      "topics": [
+        "Flexible and wearable biosensor design",
+        "Lab-on-a-chip and microfluidic diagnostics",
+        "Biocompatibility and electrode materials",
+        "Wireless bio-telemetry and power budgeting",
+        "Regulatory and reliability considerations for sensors"
+      ],
+      "resources": [
+        {
+          "name": "MIT 20.309 / Bioinstrumentation OpenCourseWare",
+          "type": "free",
+          "url": "https://ocw.mit.edu/courses/20-309-biological-engineering-ii-instrumentation-and-measurement-fall-2006/"
+        }
+      ],
+      "project": "Prototype a wearable multi-sensor patch (temperature + PPG) with wireless data transmission and calibration routines."
+    },
+    "certifications": [],
+    "projects": [
+      {
+        "name": "Continuous Glucose Monitor Model",
+        "difficulty": "intermediate",
+        "description": "Model an electrochemical glucose sensing front-end and simulate its response curve."
+      },
+      {
+        "name": "Multi-Parameter Vital Sign Patch",
+        "difficulty": "advanced",
+        "description": "Integrate PPG, temperature, and motion sensors into a single wearable with wireless telemetry."
+      }
+    ]
+  },
+  {
+    "id": "data-science",
+    "title": "Data Science for Healthcare",
+    "icon": "BarChart3",
+    "color": "#2563EB",
+    "estimatedTimeline": "5–8 months",
+    "careerApplications": [
+      "Healthcare Data Analyst",
+      "Bioinformatics",
+      "Clinical Data Scientist",
+      "Health Informatics"
+    ],
+    "beginner": {
+      "title": "Data Foundations",
+      "duration": "5–6 weeks",
+      "topics": [
+        "Python with Pandas and NumPy for tabular data",
+        "Exploratory data analysis and visualization",
+        "Descriptive statistics and distributions",
+        "Cleaning messy clinical and survey data",
+        "SQL for querying healthcare databases"
+      ],
+      "resources": [
+        {
+          "name": "Kaggle Learn (Python, Pandas, Data Visualization)",
+          "type": "free",
+          "url": "https://www.kaggle.com/learn"
+        },
+        {
+          "name": "Python for Data Analysis by Wes McKinney",
+          "type": "book",
+          "url": "https://wesmckinney.com/book/"
+        }
+      ],
+      "project": "Perform exploratory data analysis on a public health survey dataset and summarize key population trends."
+    },
+    "intermediate": {
+      "title": "Statistics & Modeling",
+      "duration": "6–8 weeks",
+      "topics": [
+        "Hypothesis testing and confidence intervals",
+        "Regression modeling and interpretation",
+        "Survival analysis (Kaplan–Meier, Cox models)",
+        "Feature engineering for clinical datasets",
+        "Reproducible analysis with notebooks and version control"
+      ],
+      "resources": [
+        {
+          "name": "OpenIntro Statistics (free textbook)",
+          "type": "book",
+          "url": "https://www.openintro.org/book/os/"
+        },
+        {
+          "name": "Data Science: Statistics and Machine Learning (Coursera/JHU)",
+          "type": "course",
+          "url": "https://www.coursera.org/specializations/data-science-statistics-machine-learning"
+        }
+      ],
+      "project": "Run a survival analysis on a public oncology dataset to compare outcomes between treatment groups."
+    },
+    "advanced": {
+      "title": "Predictive Analytics & Big Data",
+      "duration": "8–12 weeks",
+      "topics": [
+        "Machine learning pipelines with scikit-learn",
+        "Working with electronic health records (EHR) at scale",
+        "Handling imbalanced and missing clinical data",
+        "Model evaluation, fairness, and bias auditing",
+        "Communicating results to clinical stakeholders"
+      ],
+      "resources": [
+        {
+          "name": "MIT Clinical Data / MIMIC Documentation",
+          "type": "free",
+          "url": "https://mimic.mit.edu/"
+        },
+        {
+          "name": "Hands-On Machine Learning with Scikit-Learn (book)",
+          "type": "book",
+          "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781098125967/"
+        }
+      ],
+      "project": "Build and evaluate a hospital-readmission risk model on the MIMIC demo dataset, auditing it for bias."
+    },
+    "certifications": [
+      "IBM Data Science Professional Certificate",
+      "Google Data Analytics Professional Certificate"
+    ],
+    "projects": [
+      {
+        "name": "Disease Trend Dashboard",
+        "difficulty": "intermediate",
+        "description": "Build an interactive dashboard visualizing disease prevalence trends from open public-health data."
+      },
+      {
+        "name": "Length-of-Stay Predictor",
+        "difficulty": "advanced",
+        "description": "Predict hospital length of stay from admission data using an evaluated ML pipeline."
+      }
+    ]
+  },
+  {
+    "id": "clinical-research",
+    "title": "Clinical Research & Trials",
+    "icon": "ClipboardList",
+    "color": "#D946EF",
+    "estimatedTimeline": "4–6 months",
+    "careerApplications": [
+      "Clinical Research Associate",
+      "Clinical Data Manager",
+      "Biostatistics",
+      "Medical Affairs"
+    ],
+    "beginner": {
+      "title": "Clinical Research Fundamentals",
+      "duration": "4–5 weeks",
+      "topics": [
+        "Phases of clinical trials (Phase 0–IV)",
+        "Study designs: RCTs, cohort, case-control",
+        "Ethics: informed consent, IRB/IEC, Declaration of Helsinki",
+        "Good Clinical Practice (GCP) principles",
+        "Key trial documents and stakeholders"
+      ],
+      "resources": [
+        {
+          "name": "NIH Introduction to the Principles and Practice of Clinical Research",
+          "type": "free",
+          "url": "https://ocr.od.nih.gov/courses/ippcr.html"
+        },
+        {
+          "name": "ICH E6(R2) Good Clinical Practice Guideline",
+          "type": "free",
+          "url": "https://www.ich.org/page/efficacy-guidelines"
+        }
+      ],
+      "project": "Write a plain-language summary and informed-consent outline for a hypothetical device trial."
+    },
+    "intermediate": {
+      "title": "Protocol, Data & Biostatistics",
+      "duration": "5–7 weeks",
+      "topics": [
+        "Protocol design and endpoints",
+        "Randomization and blinding methods",
+        "Sample size and power calculations",
+        "Data management and Case Report Forms (CRFs)",
+        "Introduction to biostatistics for trials"
+      ],
+      "resources": [
+        {
+          "name": "ClinicalTrials.gov — Learn About Studies",
+          "type": "free",
+          "url": "https://clinicaltrials.gov/study-basics/learn-about-studies"
+        },
+        {
+          "name": "Fundamentals of Clinical Trials by Friedman et al. (book)",
+          "type": "book",
+          "url": "https://link.springer.com/book/10.1007/978-3-319-18539-2"
+        }
+      ],
+      "project": "Draft a mock protocol synopsis with primary/secondary endpoints and a justified sample-size estimate."
+    },
+    "advanced": {
+      "title": "Conduct, Monitoring & Reporting",
+      "duration": "6–8 weeks",
+      "topics": [
+        "Site monitoring and source data verification",
+        "Adverse event and safety reporting (pharmacovigilance)",
+        "Statistical analysis plans and interim analyses",
+        "Regulatory submissions and audit readiness",
+        "Reporting results and CONSORT guidelines"
+      ],
+      "resources": [
+        {
+          "name": "CONSORT Statement for Reporting Trials",
+          "type": "free",
+          "url": "https://www.consort-statement.org/"
+        },
+        {
+          "name": "TransCelerate GCP & Clinical Research Resources",
+          "type": "free",
+          "url": "https://www.transceleratebiopharmainc.com/"
+        }
+      ],
+      "project": "Prepare a mock statistical analysis plan and a CONSORT flow diagram for a completed sample trial."
+    },
+    "certifications": [
+      "ACRP Certified Clinical Research Associate (CCRA)",
+      "SOCRA Certified Clinical Research Professional (CCRP)"
+    ],
+    "projects": [
+      {
+        "name": "CRF Design Exercise",
+        "difficulty": "intermediate",
+        "description": "Design Case Report Forms and a data validation plan for a two-arm device study."
+      },
+      {
+        "name": "Trial Feasibility Report",
+        "difficulty": "advanced",
+        "description": "Produce a feasibility and site-selection report for a multi-center trial of a wearable device."
+      }
+    ]
+  },
+  {
+    "id": "regulatory-affairs",
+    "title": "Regulatory Affairs for Medical Technology",
+    "icon": "ScrollText",
+    "color": "#CA8A04",
+    "estimatedTimeline": "4–7 months",
+    "careerApplications": [
+      "Regulatory Affairs Specialist",
+      "Quality Assurance",
+      "Compliance Engineer",
+      "Medical Affairs"
+    ],
+    "beginner": {
+      "title": "Regulatory Landscape",
+      "duration": "4–5 weeks",
+      "topics": [
+        "Role of regulatory affairs in med-tech",
+        "Global regulators (FDA, EU MDR, PMDA, WHO overview)",
+        "Device classification frameworks",
+        "Quality Management Systems and ISO 13485",
+        "Essential principles of safety and performance"
+      ],
+      "resources": [
+        {
+          "name": "FDA How to Study and Market Your Device",
+          "type": "free",
+          "url": "https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance"
+        },
+        {
+          "name": "IMDRF Guidance Documents",
+          "type": "free",
+          "url": "https://www.imdrf.org/documents"
+        }
+      ],
+      "project": "Classify three example devices under both FDA and EU MDR rules and justify each classification."
+    },
+    "intermediate": {
+      "title": "Submissions & Documentation",
+      "duration": "5–7 weeks",
+      "topics": [
+        "US pathways: 510(k), De Novo, PMA",
+        "EU MDR technical documentation and CE marking",
+        "Clinical evaluation reports (CER)",
+        "Labeling, IFU, and UDI requirements",
+        "Standards and harmonized guidance mapping"
+      ],
+      "resources": [
+        {
+          "name": "European Commission Medical Devices (MDR) Portal",
+          "type": "free",
+          "url": "https://health.ec.europa.eu/medical-devices-sector_en"
+        },
+        {
+          "name": "FDA 510(k) Premarket Notification",
+          "type": "free",
+          "url": "https://www.fda.gov/medical-devices/premarket-submissions-selecting-and-preparing-correct-submission/premarket-notification-510k"
+        }
+      ],
+      "project": "Build a technical-documentation checklist mapping an example device to EU MDR Annex II requirements."
+    },
+    "advanced": {
+      "title": "Lifecycle Compliance & Vigilance",
+      "duration": "6–9 weeks",
+      "topics": [
+        "Post-market surveillance and PMCF",
+        "Vigilance reporting and field safety corrective actions",
+        "Software as a Medical Device (SaMD) regulation",
+        "AI/ML-based device regulatory considerations",
+        "Audits, inspections, and CAPA management"
+      ],
+      "resources": [
+        {
+          "name": "FDA Software as a Medical Device (SaMD) Resources",
+          "type": "free",
+          "url": "https://www.fda.gov/medical-devices/digital-health-center-excellence/software-medical-device-samd"
+        },
+        {
+          "name": "IMDRF SaMD Framework Documents",
+          "type": "free",
+          "url": "https://www.imdrf.org/documents/software-medical-device-samd"
+        }
+      ],
+      "project": "Draft a post-market surveillance plan and vigilance-reporting workflow for an AI-enabled diagnostic app."
+    },
+    "certifications": [
+      "RAPS Regulatory Affairs Certification (RAC)"
+    ],
+    "projects": [
+      {
+        "name": "Regulatory Strategy Memo",
+        "difficulty": "intermediate",
+        "description": "Write a market-entry regulatory strategy comparing US and EU pathways for a new wearable."
+      },
+      {
+        "name": "SaMD Compliance Dossier",
+        "difficulty": "advanced",
+        "description": "Assemble a compliance dossier outline for a Software as a Medical Device product."
+      }
+    ]
+  },
+  {
+    "id": "healthcare-entrepreneurship",
+    "title": "HealthTech Entrepreneurship",
+    "icon": "Rocket",
+    "color": "#F59E0B",
+    "estimatedTimeline": "4–6 months",
+    "careerApplications": [
+      "HealthTech Founder",
+      "Product Manager",
+      "Business Development",
+      "Innovation & Strategy"
+    ],
+    "beginner": {
+      "title": "Problem Discovery & Validation",
+      "duration": "4–5 weeks",
+      "topics": [
+        "Identifying unmet clinical needs (needs-finding)",
+        "Customer discovery and stakeholder interviews",
+        "Lean startup and the build-measure-learn loop",
+        "Value proposition and jobs-to-be-done",
+        "Healthcare market and reimbursement basics"
+      ],
+      "resources": [
+        {
+          "name": "Stanford Biodesign Process Overview",
+          "type": "free",
+          "url": "https://biodesign.stanford.edu/about-us/process.html"
+        },
+        {
+          "name": "The Lean Startup by Eric Ries",
+          "type": "book",
+          "url": "https://theleanstartup.com/book"
+        }
+      ],
+      "project": "Conduct 10 stakeholder interviews and write a validated problem statement for a clinical pain point."
+    },
+    "intermediate": {
+      "title": "Business Model & MVP",
+      "duration": "5–7 weeks",
+      "topics": [
+        "Business Model Canvas for health ventures",
+        "Building a minimum viable product (MVP)",
+        "Reimbursement, payers, and go-to-market in healthcare",
+        "Intellectual property basics for med-tech",
+        "Regulatory strategy at an early stage"
+      ],
+      "resources": [
+        {
+          "name": "Y Combinator Startup Library",
+          "type": "free",
+          "url": "https://www.ycombinator.com/library"
+        },
+        {
+          "name": "Strategyzer Business Model Canvas",
+          "type": "free",
+          "url": "https://www.strategyzer.com/library/the-business-model-canvas"
+        }
+      ],
+      "project": "Complete a Business Model Canvas and define an MVP scope for your validated health problem."
+    },
+    "advanced": {
+      "title": "Funding, Scaling & Impact",
+      "duration": "6–8 weeks",
+      "topics": [
+        "Fundraising: grants, angels, and venture capital",
+        "Financial modeling and unit economics",
+        "Pitching to investors and clinical partners",
+        "Scaling operations and clinical evidence generation",
+        "Measuring health outcomes and impact"
+      ],
+      "resources": [
+        {
+          "name": "WHO Health Innovation & Digital Health Resources",
+          "type": "free",
+          "url": "https://www.who.int/teams/digital-health-and-innovation"
+        },
+        {
+          "name": "MIT OpenCourseWare — Healthcare Ventures / Entrepreneurship",
+          "type": "free",
+          "url": "https://ocw.mit.edu/search/?q=healthcare%20entrepreneurship"
+        }
+      ],
+      "project": "Prepare an investor pitch deck and a simple financial model for your HealthTech venture."
+    },
+    "certifications": [],
+    "projects": [
+      {
+        "name": "Needs-Finding Portfolio",
+        "difficulty": "beginner",
+        "description": "Document a portfolio of screened clinical needs with a prioritization scoring rubric."
+      },
+      {
+        "name": "Seed-Stage Pitch Package",
+        "difficulty": "advanced",
+        "description": "Build a complete pitch deck, financial model, and regulatory roadmap for a HealthTech startup."
+      }
+    ]
   }
 ]

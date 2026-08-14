@@ -3566,5 +3566,301 @@
       "python",
       "matlab"
     ]
+  },
+  {
+    "id": "assistive-technology",
+    "name": "Assistive Technology",
+    "icon": "Accessibility",
+    "color": "#0F4C81",
+    "tagline": "Engineering independence for people with disabilities",
+    "overview": "Assistive Technology is the design and development of devices, software, and systems that help people with disabilities perform tasks that might otherwise be difficult or impossible. It spans mobility aids such as powered wheelchairs, communication devices for people with speech impairments, hearing aids, screen readers, and environmental control systems. The field blends biomedical engineering, human factors, and universal design to enhance independence, participation, and quality of life. With more than a billion people worldwide living with some form of disability, assistive technology is a globally vital and rapidly expanding domain.",
+    "coreSubjects": [
+      "Human Factors and Ergonomics",
+      "Universal Design Principles",
+      "Embedded Systems and Sensors",
+      "Rehabilitation Science",
+      "Human-Computer Interaction"
+    ],
+    "applications": [
+      "Powered Wheelchairs and Mobility Aids",
+      "Augmentative and Alternative Communication (AAC) Devices",
+      "Hearing Aids and Cochlear Implants",
+      "Screen Readers and Accessible Software",
+      "Environmental Control and Smart Home Systems"
+    ],
+    "industries": [
+      "Assistive Device Manufacturing",
+      "Rehabilitation Centers",
+      "Consumer Electronics and Software",
+      "Nonprofit and Disability Organizations",
+      "Healthcare Providers"
+    ],
+    "skillsRequired": [
+      "User-Centered Design",
+      "Embedded Firmware Development",
+      "Accessibility Standards Knowledge",
+      "Sensor Integration",
+      "Empathy and Clinical Collaboration"
+    ],
+    "careerOpportunities": [
+      "rehabilitation-engineer",
+      "biomedical-engineer",
+      "medical-device-design-engineer",
+      "wearable-technology-engineer",
+      "healthcare-technology-specialist"
+    ],
+    "futureScope": "Advances in AI, eye-tracking, brain-computer interfaces, and low-cost 3D printing are making assistive technology smarter, more personalized, and more affordable. Voice assistants, computer vision, and mobile platforms are expanding access to assistive tools worldwide, while global accessibility standards are driving inclusive design across products and services.",
+    "recommendedBooks": [
+      {
+        "title": "Assistive Technologies: Principles and Practice",
+        "author": "Albert M. Cook, Janice Miller Polgar",
+        "description": "A comprehensive reference on the principles, assessment, and application of assistive technologies."
+      },
+      {
+        "title": "An Introduction to Rehabilitation Engineering",
+        "author": "Rory A. Cooper, Hisaichi Ohnabe, Douglas A. Hobson",
+        "description": "Covers the engineering foundations of assistive and rehabilitation devices."
+      }
+    ],
+    "certifications": [
+      "Assistive Technology Professional (ATP) - RESNA",
+      "Certified Rehabilitation Engineering Technologist (CRET) - RESNA",
+      "Web Content Accessibility Guidelines (WCAG) Training"
+    ],
+    "relatedDomains": [
+      "rehabilitation-engineering",
+      "prosthetics-orthotics",
+      "wearable-healthcare-technology",
+      "brain-computer-interfaces",
+      "biomechatronics"
+    ],
+    "category": "Biomedical Engineering",
+    "roadmaps": [
+      "embedded-systems",
+      "solidworks",
+      "iot"
+    ]
+  },
+  {
+    "id": "ophthalmic-engineering",
+    "name": "Ophthalmic Engineering",
+    "icon": "Eye",
+    "color": "#1AB7B0",
+    "tagline": "Engineering vision and eye care technology",
+    "overview": "Ophthalmic Engineering applies biomedical engineering principles to the diagnosis, treatment, and correction of vision and eye disorders. It encompasses the design of diagnostic instruments such as optical coherence tomography (OCT) scanners and retinal cameras, surgical technologies including laser refractive systems and cataract phacoemulsification devices, and vision-restoring implants like intraocular lenses and retinal prostheses. Combining optics, electronics, materials science, and physiology, the field addresses the leading global causes of visual impairment. As populations age and screen-related eye strain rises worldwide, ophthalmic engineering plays a critical role in preserving and restoring sight.",
+    "coreSubjects": [
+      "Optics and Photonics",
+      "Ocular Anatomy and Physiology",
+      "Biomedical Imaging",
+      "Biomaterials for Ophthalmic Implants",
+      "Laser and Electro-Optical Systems"
+    ],
+    "applications": [
+      "Optical Coherence Tomography (OCT) and Retinal Imaging",
+      "Laser Refractive and Cataract Surgery Systems",
+      "Intraocular Lenses and Contact Lenses",
+      "Retinal Prostheses and Vision Restoration Implants",
+      "Automated Screening for Diabetic Retinopathy and Glaucoma"
+    ],
+    "industries": [
+      "Ophthalmic Device Manufacturing",
+      "Eye Hospitals and Clinics",
+      "Optics and Photonics Companies",
+      "Medical Imaging Firms",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Optical System Design",
+      "Medical Image Processing",
+      "Biomaterials Selection",
+      "Precision Instrumentation",
+      "Regulatory and Clinical Knowledge"
+    ],
+    "careerOpportunities": [
+      "medical-imaging-engineer",
+      "medical-device-design-engineer",
+      "biomedical-engineer",
+      "biomaterials-engineer",
+      "biomedical-rd-engineer"
+    ],
+    "futureScope": "Artificial intelligence is transforming ophthalmology through automated detection of retinal disease from images, expanding screening access in underserved regions. Advances in retinal prostheses, gene-therapy delivery devices, adaptive optics, and femtosecond laser surgery promise to restore and enhance vision in ways previously impossible, making this a fast-growing global frontier.",
+    "recommendedBooks": [
+      {
+        "title": "Optics of the Human Eye",
+        "author": "David A. Atchison, George Smith",
+        "description": "A rigorous treatment of the optical properties and modeling of the human eye."
+      },
+      {
+        "title": "Handbook of Visual Optics",
+        "author": "Pablo Artal",
+        "description": "A comprehensive reference on visual optics, instrumentation, and ophthalmic technology."
+      }
+    ],
+    "certifications": [
+      "Certified Ophthalmic Technician (COT) - IJCAHPO",
+      "ISO 13485 Medical Device Quality Systems Training",
+      "Optical Coherence Tomography (OCT) Certification"
+    ],
+    "relatedDomains": [
+      "medical-imaging",
+      "biomedical-implants",
+      "biomaterials",
+      "medical-device-design",
+      "diagnostic-technologies"
+    ],
+    "category": "Medical Devices",
+    "roadmaps": [
+      "medical-image-processing",
+      "matlab",
+      "solidworks"
+    ]
+  },
+  {
+    "id": "dental-biomedical-engineering",
+    "name": "Dental Biomedical Engineering",
+    "icon": "Smile",
+    "color": "#0F5C8C",
+    "tagline": "Engineering the science of oral health",
+    "overview": "Dental Biomedical Engineering applies engineering, materials science, and digital technology to the diagnosis, treatment, and restoration of oral and dental health. It covers the development of dental implants, crowns, and prosthetics, biocompatible restorative materials, and digital dentistry tools such as intraoral scanners, cone-beam computed tomography (CBCT), and computer-aided design and manufacturing (CAD/CAM) systems. The field draws on biomechanics, biomaterials, and imaging to create durable, functional, and aesthetic solutions. As digital workflows and 3D printing reshape dentistry globally, this domain is central to modern, precise, and personalized oral care.",
+    "coreSubjects": [
+      "Dental Biomaterials",
+      "Biomechanics of the Oral Cavity",
+      "CAD/CAM and Digital Dentistry",
+      "Dental Imaging and CBCT",
+      "Biocompatibility and Surface Science"
+    ],
+    "applications": [
+      "Dental Implants and Prosthetics",
+      "CAD/CAM Crowns, Bridges, and Aligners",
+      "3D-Printed Dental Models and Guides",
+      "Intraoral Scanning and CBCT Imaging",
+      "Restorative and Orthodontic Materials"
+    ],
+    "industries": [
+      "Dental Device and Materials Manufacturing",
+      "Dental Laboratories",
+      "Digital Dentistry Software Companies",
+      "Dental Clinics and Hospitals",
+      "Research Institutes"
+    ],
+    "skillsRequired": [
+      "Biomaterials Selection and Testing",
+      "CAD/CAM Design",
+      "3D Printing and Digital Workflows",
+      "Biomechanical Analysis",
+      "Dental Imaging Interpretation"
+    ],
+    "careerOpportunities": [
+      "biomaterials-engineer",
+      "medical-device-design-engineer",
+      "biomedical-manufacturing-engineer",
+      "biomedical-engineer",
+      "biomedical-rd-engineer"
+    ],
+    "futureScope": "Digital dentistry, chairside 3D printing, and AI-assisted treatment planning are accelerating the shift toward same-day, personalized dental restorations. Research into bioactive and regenerative materials, tissue-engineered teeth, and smart implants promises longer-lasting outcomes, making dental biomedical engineering a high-growth and globally relevant discipline.",
+    "recommendedBooks": [
+      {
+        "title": "Phillips' Science of Dental Materials",
+        "author": "Chiayi Shen, H. Ralph Rawls, Josephine Esquivel-Upshaw",
+        "description": "The definitive reference on the composition, properties, and clinical use of dental materials."
+      },
+      {
+        "title": "Digital Dentistry: An Introduction",
+        "author": "Radi Masri, Carl F. Driscoll",
+        "description": "An accessible guide to digital workflows, CAD/CAM, and imaging in modern dentistry."
+      }
+    ],
+    "certifications": [
+      "ISO 13485 Medical Device Quality Systems Training",
+      "Certified Dental Technician (CDT) - NBC",
+      "CAD/CAM Digital Dentistry Certification"
+    ],
+    "relatedDomains": [
+      "biomaterials",
+      "biomedical-3d-printing",
+      "biomedical-implants",
+      "medical-device-design",
+      "biomechanics"
+    ],
+    "category": "Biomedical Engineering",
+    "roadmaps": [
+      "solidworks",
+      "matlab",
+      "medical-image-processing"
+    ]
+  },
+  {
+    "id": "biomedical-cybersecurity",
+    "name": "Biomedical Cybersecurity",
+    "icon": "ShieldCheck",
+    "color": "#1AB7B0",
+    "tagline": "Protecting medical devices and patient data",
+    "overview": "Biomedical Cybersecurity focuses on protecting connected medical devices, hospital networks, and health data from cyber threats. As pacemakers, infusion pumps, imaging systems, and wearable monitors become networked, they introduce new vulnerabilities that can endanger patient safety and privacy. This domain combines cybersecurity, embedded systems, regulatory compliance, and clinical understanding to secure devices across their lifecycle. Frameworks and guidance from bodies such as the U.S. FDA, the EU Medical Device Regulation, and standards like IEC 62443 shape secure design. With healthcare among the most targeted sectors worldwide, biomedical cybersecurity is an urgent and growing global priority.",
+    "coreSubjects": [
+      "Network and Embedded Security",
+      "Cryptography and Secure Communication",
+      "Medical Device Software Engineering",
+      "Risk Assessment and Threat Modeling",
+      "Regulatory and Standards Compliance"
+    ],
+    "applications": [
+      "Securing Connected Medical Devices",
+      "Hospital Network and Infrastructure Protection",
+      "Protection of Electronic Health Records",
+      "Threat Modeling and Penetration Testing of Devices",
+      "Secure Firmware Updates and Device Lifecycle Management"
+    ],
+    "industries": [
+      "Medical Device Manufacturing",
+      "Hospitals and Health Systems",
+      "Healthcare IT and Cloud Providers",
+      "Cybersecurity Firms",
+      "Regulatory and Compliance Organizations"
+    ],
+    "skillsRequired": [
+      "Cybersecurity Fundamentals",
+      "Embedded Systems Security",
+      "Cryptography",
+      "Risk and Threat Analysis",
+      "Regulatory Compliance (FDA, MDR, IEC 62443)"
+    ],
+    "careerOpportunities": [
+      "healthcare-iot-engineer",
+      "medical-device-quality-engineer",
+      "digital-health-engineer",
+      "regulatory-affairs-specialist",
+      "healthcare-informatics-specialist"
+    ],
+    "futureScope": "As healthcare digitizes and adopts IoT, cloud, and AI, demand for professionals who can secure medical devices and health data is rising sharply worldwide. Emerging regulations mandating cybersecurity throughout the device lifecycle, along with AI-driven threat detection and zero-trust architectures, are making this one of the fastest-growing niches at the intersection of engineering, computing, and healthcare.",
+    "recommendedBooks": [
+      {
+        "title": "Do No Harm: Protecting Connected Medical Devices, Healthcare, and Data from Hackers and Adversarial Nation States",
+        "author": "Matthew Webster",
+        "description": "Explores the risks, threats, and defenses for connected medical devices and healthcare systems."
+      },
+      {
+        "title": "Medical Device Cybersecurity for Engineers and Manufacturers",
+        "author": "Axel Wirth, Christopher Gates, Jason Smith",
+        "description": "A practical guide to designing, building, and maintaining secure medical devices."
+      }
+    ],
+    "certifications": [
+      "Certified Information Systems Security Professional (CISSP) - ISC2",
+      "CompTIA Security+",
+      "GIAC Global Industrial Cyber Security Professional (GICSP)"
+    ],
+    "relatedDomains": [
+      "healthcare-iot",
+      "digital-health",
+      "health-informatics",
+      "medical-device-design",
+      "hospital-technology-management"
+    ],
+    "category": "AI & Computing",
+    "roadmaps": [
+      "iot",
+      "embedded-systems",
+      "python"
+    ]
   }
 ]

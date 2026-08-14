@@ -29,16 +29,20 @@ const NAV_LINKS = [
 
 const EXPLORE_LINKS = [
   { name: 'Career Match', href: '/career-match' },
+  { name: 'Project Hub', href: '/projects' },
+  { name: 'Research Hub', href: '/research' },
+  { name: 'Higher Studies', href: '/higher-studies' },
+  { name: 'Opportunities', href: '/opportunities' },
   { name: 'Blog', href: '/blog' },
   { name: 'Resource Library', href: '/resources' },
   { name: 'Biomedical News', href: '/news' },
   { name: 'Company Explorer', href: '/companies' },
-  { name: 'Research Hub', href: '/research' },
 ];
 
 const MORE_LINKS = [
   { name: 'About ILMA', href: '/about' },
   { name: 'Meet the Founder', href: '/founder' },
+  { name: 'Partner with ILMA', href: '/partnerships' },
   { name: 'FAQ', href: '/faq' },
   { name: 'Contact', href: '/contact' },
 ];

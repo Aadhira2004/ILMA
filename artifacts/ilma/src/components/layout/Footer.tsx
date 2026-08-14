@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { Link } from 'wouter';
-import { Mail, ArrowRight, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, ArrowRight, Loader2, CheckCircle, AlertCircle, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
@@ -158,6 +158,17 @@ export function Footer() {
               <span className="group-hover:underline underline-offset-2">ilmabiomedical@gmail.com</span>
             </a>
 
+            <a
+              href="https://www.instagram.com/ilma.biomedical?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors group w-fit"
+              aria-label="Follow ILMA on Instagram"
+            >
+              <Instagram className="h-4 w-4 text-primary shrink-0" />
+              <span className="group-hover:underline underline-offset-2">@ilma.biomedical</span>
+            </a>
+
           </div>
 
           {/* Quick Links */}
@@ -169,6 +180,9 @@ export function Footer() {
               <li><Link href="/domains"  className="text-sm text-muted-foreground hover:text-primary transition-colors">Biomedical Domains</Link></li>
               <li><Link href="/roadmaps" className="text-sm text-muted-foreground hover:text-primary transition-colors">Skill Roadmaps</Link></li>
               <li><Link href="/exams"    className="text-sm text-muted-foreground hover:text-primary transition-colors">Government Exams</Link></li>
+              <li><Link href="/projects" className="text-sm text-muted-foreground hover:text-primary transition-colors">Project Hub</Link></li>
+              <li><Link href="/higher-studies" className="text-sm text-muted-foreground hover:text-primary transition-colors">Higher Studies</Link></li>
+              <li><Link href="/opportunities"  className="text-sm text-muted-foreground hover:text-primary transition-colors">Global Opportunities</Link></li>
               <li><Link href="/founder"  className="text-sm text-muted-foreground hover:text-primary transition-colors">Meet the Founder</Link></li>
             </ul>
           </div>
@@ -180,6 +194,9 @@ export function Footer() {
               <li><Link href="/contact"        className="text-sm text-muted-foreground hover:text-primary transition-colors">Contact Us</Link></li>
               <li><Link href="/privacy-policy" className="text-sm text-muted-foreground hover:text-primary transition-colors">Privacy Policy</Link></li>
               <li><Link href="/terms"          className="text-sm text-muted-foreground hover:text-primary transition-colors">Terms of Service</Link></li>
+              <li><Link href="/disclaimer"     className="text-sm text-muted-foreground hover:text-primary transition-colors">Disclaimer</Link></li>
+              <li><Link href="/cookie-policy"  className="text-sm text-muted-foreground hover:text-primary transition-colors">Cookie Policy</Link></li>
+              <li><Link href="/partnerships"   className="text-sm text-muted-foreground hover:text-primary transition-colors">Partner with ILMA</Link></li>
               <li><Link href="/faq"            className="text-sm text-muted-foreground hover:text-primary transition-colors">FAQ</Link></li>
             </ul>
           </div>
