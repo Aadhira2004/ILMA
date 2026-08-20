@@ -278,6 +278,45 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Featured Book */}
+      <section className="py-24 bg-card border-y border-border">
+        <div className="container px-4 md:px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="max-w-3xl mx-auto rounded-2xl border border-border bg-background p-8 md:p-12 text-center shadow-sm"
+          >
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent text-primary font-medium text-sm mb-6 border border-primary/10 shadow-sm">
+              <BookOpen className="h-4 w-4" />
+              Featured Book
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-3">
+              UNDERRATED BUT HIGHLY RATED
+            </h2>
+            <p className="text-xl md:text-2xl font-medium text-primary mb-4">
+              Guiding the Rare To Remarkable
+            </p>
+            <p className="text-muted-foreground font-medium mb-6">
+              Aadhira Suleim and co-authors · Kindle Edition
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-8">
+              &ldquo;A practical roadmap for Biomedical Engineering students and aspiring professionals, covering anatomy, electronics, coding, mini-projects, internships, research, career pathways, AI, IoMT, robotics, regenerative medicine and precision healthcare.&rdquo;
+            </p>
+            <Button asChild size="lg" className="h-14 px-8 text-lg font-medium">
+              <a
+                href="https://www.amazon.com/dp/B0FPXR1C9L"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                📖 Explore the Book on Amazon
+              </a>
+            </Button>
+          </motion.div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-primary" />
