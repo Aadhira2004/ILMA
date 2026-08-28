@@ -25,6 +25,7 @@ import { Layout } from '@/components/layout/Layout';
 import { useDocumentMeta } from '@/hooks/use-document-meta';
 import { AnimatedCounter } from '@/components/shared/AnimatedCounter';
 import { Button } from '@/components/ui/button';
+import { LaunchCeremony } from '@/components/shared/LaunchCeremony';
 import careersData from '@/data/careers.json';
 import domainsData from '@/data/domains.json';
 import roadmapsData from '@/data/roadmaps.json';
@@ -89,6 +90,7 @@ export default function HomePage() {
 
   return (
     <Layout>
+      <LaunchCeremony />
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-background">
         {/* Subtle Grid Background */}
