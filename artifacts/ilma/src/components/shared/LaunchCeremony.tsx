@@ -1,7 +1,7 @@
 import { FormEvent, KeyboardEvent, useEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion';
-import { Scissors } from 'lucide-react';
+import { Play, Scissors } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import ilmaLogo from '@/assets/images/ilma-logo.png';
 
@@ -179,6 +179,13 @@ export function LaunchCeremony() {
     setStep('welcome');
   };
 
+  const handlePreviewLaunch = () => {
+    setNameInput('');
+    setVisitorName('');
+    setStep('name');
+    setStatus('visible');
+  };
+
   const handleFocusTrap = (event: KeyboardEvent<HTMLDivElement>) => {
     if (event.key !== 'Tab') return;
     const controls = Array.from(
@@ -205,30 +212,44 @@ export function LaunchCeremony() {
   };
 
   const ceremony = (
-    <AnimatePresence>
-      {status === 'checking' && (
-        <motion.div
-          key="checking-date"
-          aria-hidden="true"
-          className="fixed inset-0 z-[10000] bg-background"
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.15 }}
-        />
-      )}
-      {status === 'visible' && (
-        <motion.div
-          ref={overlayRef}
-          role="dialog"
-          aria-modal="true"
-          aria-label="ILMA launch ceremony"
-          tabIndex={-1}
-          onKeyDown={handleFocusTrap}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={transition}
-          className="fixed inset-0 z-[10000] overflow-y-auto bg-background"
+    <>
+      {import.meta.env.DEV && status === 'hidden' && (
+        <Button
+          type="button"
+          variant="outline"
+          size="sm"
+          onClick={handlePreviewLaunch}
+          className="fixed bottom-4 left-4 z-[9998] gap-2 bg-background/95 shadow-lg backdrop-blur"
         >
+          <Play className="h-4 w-4" />
+          Preview ILMA Launch Ceremony
+        </Button>
+      )}
+
+      <AnimatePresence>
+        {status === 'checking' && (
+          <motion.div
+            key="checking-date"
+            aria-hidden="true"
+            className="fixed inset-0 z-[10000] bg-background"
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.15 }}
+          />
+        )}
+        {status === 'visible' && (
+          <motion.div
+            ref={overlayRef}
+            role="dialog"
+            aria-modal="true"
+            aria-label="ILMA launch ceremony"
+            tabIndex={-1}
+            onKeyDown={handleFocusTrap}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={transition}
+            className="fixed inset-0 z-[10000] overflow-y-auto bg-background"
+          >
           <div className="relative flex min-h-[100dvh] items-center justify-center overflow-hidden px-4 py-10 md:px-6">
             <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]" />
             <div className="absolute -left-24 top-1/4 h-72 w-72 rounded-full bg-primary/15 blur-3xl" />
@@ -415,9 +436,10 @@ export function LaunchCeremony() {
               </AnimatePresence>
             </div>
           </div>
-        </motion.div>
-      )}
-    </AnimatePresence>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
   );
 
   return createPortal(ceremony, document.body);
