@@ -214,16 +214,18 @@ export function LaunchCeremony() {
   const ceremony = (
     <>
       {import.meta.env.DEV && status === 'hidden' && (
-        <Button
-          type="button"
-          variant="outline"
-          size="sm"
-          onClick={handlePreviewLaunch}
-          className="fixed bottom-4 left-4 z-[9998] gap-2 bg-background/95 shadow-lg backdrop-blur"
-        >
-          <Play className="h-4 w-4" />
-          Preview ILMA Launch Ceremony
-        </Button>
+        <div className="fixed bottom-4 left-4 z-[9998]">
+          <Button
+            type="button"
+            variant="outline"
+            size="sm"
+            onClick={handlePreviewLaunch}
+            className="gap-2 bg-background/95 shadow-lg backdrop-blur"
+          >
+            <Play className="h-4 w-4" />
+            Preview ILMA Launch Ceremony
+          </Button>
+        </div>
       )}
 
       <AnimatePresence>
