@@ -1,0 +1,4 @@
+name = "ilma"
+
+[assets]
+directory = "./artifacts/ilma/dist/public"
