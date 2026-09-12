@@ -6,7 +6,6 @@ import { ThemeProvider } from 'next-themes';
 import NotFound from '@/pages/not-found';
 import { Route, Switch, Router as WouterRouter, useLocation } from 'wouter';
 import { ClerkProvider, SignIn, SignUp, useClerk } from '@clerk/react';
-import { publishableKeyFromHost } from '@clerk/react/internal';
 import { shadcn } from '@clerk/themes';
 
 // Pages
@@ -46,10 +45,7 @@ import AdminPage from '@/pages/AdminPage';
 
 // REQUIRED — copy verbatim. Resolves the key from window.location.hostname so the
 // same build serves multiple Clerk custom domains.
-const clerkPubKey = publishableKeyFromHost(
-  window.location.hostname,
-  import.meta.env.VITE_CLERK_PUBLISHABLE_KEY,
-);
+const clerkPubKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 // REQUIRED — copy verbatim. Empty in dev, auto-set in prod.
 const clerkProxyUrl = import.meta.env.VITE_CLERK_PROXY_URL;
